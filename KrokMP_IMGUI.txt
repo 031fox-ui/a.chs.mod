@@ -1,0 +1,26 @@
+【KrokoshaCasualtiesMP】
+{v1.0.0-v4.0.1}
+LayerFinishKeepXOffset=图层完成保持X偏移
+SleepingMute=休眠静音
+ReviveFromTrader=从商人处复活
+AdditionalBrainRegen=额外脑力恢复
+LastStandAllowed=允许背水一战
+SavePlayerInventory=保存玩家物品栏
+SavePlayerPosition=保存玩家位置
+[Regex]^IP:PORT:(.+)$=IP：端口：${1}
+[Regex]^Username:(.+)$=用户名：${1}
+Copy Lobby Id=复制大厅 ID
+Run menu=运行菜单
+Enforce mod list=强制模组列表相同，不同无法进入
+Hide incompatible=隐藏不兼容的
+[Regex]^(.+)Total Players: (\d+)$=${1}总玩家人数：${2}
+Loading=加载中
+Layer=层级
+[Regex]^Wrong version! -(.+)$=版本错误！ -${1}
+Rules are default.=规则为默认值。
+[Regex]^Current Chat Keybind: (.+)$=当前聊天快捷键：${1}
+[Regex]^Press "(.+)" to chat\.\.\.$=按下“${1}”键进行聊天……
+Click to go to keybind settings.=点击前往快捷键设置
+[Regex]^Current VC Talk Keybind: (.+)$=当前语音通话快捷键：${1}
+Discord RPC Join button=Discord RPC 加入按钮
+Discord Only Ask to Join=仅限 Discord 请求加入
