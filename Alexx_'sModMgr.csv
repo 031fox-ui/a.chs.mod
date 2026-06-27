@@ -1,0 +1,26 @@
+Original,Translation
+【com.alexx_.modmgr】
+{v1.0.0-v0.1.12}
+# (.+)通用匹配$1
+# (\d+)纯数字匹配$1
+
+
+
+[U$Global]
+Mod Manager,Mod 管理器
+Alexx's Mod Manager,Alexx 的 Mod 管理器
+[Regex]^(.+) enabled$,$1 已启用
+Select All,全选
+Un Select,取消全选
+Group,分组
+Ungroup,取消分组
+[Regex]^Selected: (.+)$,已选择：$1
+ON,开启
+OFF,关闭
+Rename,重命名
+self,自己
+Cancel,取消
+Restart (apply changes),应用更改并重启
+队伍 name,分组名称
+Group name,分组名称
+OK,确定
