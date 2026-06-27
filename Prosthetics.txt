@@ -184,8 +184,8 @@ Titanium leg. It doesn't feel like just a prosthetic; it feels like an improveme
 Multi-Hacking Mod=多重骇入模块
 Intrusion suite wired into the hand. Skips lock minigames, keypads, and blood terminals — at a charge cost per hack. Always-on while powered. Small battery can't crack a blood terminal; medium can.=植入手部的入侵套件。可跳过撬锁小游戏、键盘密码和血液终端——每次骇入消耗电量。通电时常驻开启。小型电池无法破解血液终端；中型电池可以。
 Unlock=解锁
-Neuromod Box=神经模组箱
-A sealed augmentation-corp crate. Reinforced metal plating, primitive keypad lock. Holds a single neuromod  - if you can crack it open.=一个密封的增强体公司箱子。加固金属板，简易密码锁。装着一个神经模组——就看你能否撬开了。
+Neuromod Box=神经模块箱
+A sealed augmentation-corp crate. Reinforced metal plating, primitive keypad lock. Holds a single neuromod  - if you can crack it open.=一个密封的增强体公司箱子。加固金属板，简易密码锁。装着一个神经模块——就看你能否撬开了。
 Pain Blocker=疼痛阻断器
 Suppresses nerve pain signals  - all incoming pain is halved while installed.=抑制神经疼痛信号——安装后所有受到的疼痛减半。
 Ejecting this neuromod is dangerous. Expect brain flash and vomiting.=弹出此神经模块是危险的。会出现脑闪和呕吐。
