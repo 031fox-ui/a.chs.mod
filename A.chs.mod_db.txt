@@ -1,3 +1,0 @@
-Prosthetics.txt|com.HerobrinesProsthetics|v1.0.0-v0.8.8
-QoL.Unknown.txt|org.bepinex.plugins.qol_unknown|v1.0.0-v1.0.4.8
-UnknownPerformance.txt|com.kanisuko.unknownperformance|v1.0.0-v1.1.0
