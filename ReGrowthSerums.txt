@@ -1,0 +1,18 @@
+【com.dragoon_103.regrowthserums】
+{v1.0.0-v1.0.0}
+[Song]
+Eye Growth Serum=眼球再生血清
+Administer to missing eye socket to stimulate brain tissue to regrow eye tissue, WARNING: Do not use in conjunction while under effects of neuron regeneration sickness=注射至缺失的眼窝，刺激脑组织重新生长眼球组织。警告：神经快速再生症期间请勿使用。
+Limb Re-Growth Serum=肢体再生血清
+An experimental drug that rapidly converts existing tissue into new stem cell growth. Administer to a body part with a missing adjacent limb=一种实验性药物，可将现有组织快速转化为新的干细胞促生剂。注射至相邻肢体缺失的身体部位。
+An experimental drug that rapidly converts existing tissue into new stem cell growth. Administer to a body part with a missing adjacent limb, WARNING: Will result in open wounds and damage to host limb for tissue donation=一种实验性药物，可将现有组织快速转化为新的干细胞促生剂。注射至相邻肢体缺失的身体部位。警告：将造成开放性伤口，并损伤宿主肢体以获取组织捐赠。
+
+
+
+
+
+[Talk]
+Nothing to regrow here... Thankfully...,这里没什么可再生的……谢天谢地……
+Not yet... Its too damaged...,还没到时候……它损伤得太严重了……
+I... I can see!,我……我能看见了！
+Nothing left...

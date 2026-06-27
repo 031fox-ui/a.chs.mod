@@ -206,23 +206,7 @@ Ionized=辐射
 Rainy=多雨
 Unchipped=耀斑侵袭 Unchipped
 Warm=温暖？ Warm
-[Canvas/TalkText][Experiment/TalkText]
-..w=…
-..wh=…
-..wha=……
-..what'=……月
-..what's=……那
-..what's=……那日
-..what's t=……那是
-..what's th=……那是亻
-..what's tha=……那是什
-..what's that=……那是什丿
-..what's that=……那是什么
-..what's that n=……那是什么士
-..what's that no=……那是什么声
-..what's that noi=……那是什么声立
-..what's that nois=……那是什么声音
-..what's that noise=……那是什么声音.
+[Talk]
 ..what's that noise?=……那是什么声音？
 [*Container/Label]
 <b>IGT:</b>=<b>游戏时间</b>
@@ -282,7 +266,7 @@ Open Nexus=在 N 网打开
 [Regex]^(.+?) <color=ys0>\(v([\d.]+)\)</color> <color=ys1>\(v([\d.]+)\s+Nexus version\)</color>\n<size=80%><color=ys2>([^<]+)</color>  <color=ys3>Disabled</color></size>\s*$=$1 <color=ys0>(v$2)</color> <color=ys1>(N 网版本 v$3)</color>\n<size=80%><color=ys2>$4</color>  <color=ys3>已禁用</color></size>
 [Regex]^(.+?) <color=ys0>\(v([\d.]+)\)</color> <color=ys1>\(v([\d.]+)\s+Nexus version\)</color>\n<size=80%><color=ys2>([^<]+)</color>  <color=ys3>Disabled</color>  <color=ys4>Queued: Enable</color></size>\s*$=$1 <color=ys0>(v$2)</color> <color=ys1>(N 网版本 v$3)</color>\n<size=80%><color=ys2>$4</color>  <color=ys3>已禁用</color>  <color=ys4>队列：启用</color></size>
 [DescBack/Description]
-[Regex]^(.+?)\nUpdate available! click to open Nexus page$=$1\n有可用更新！点击打开 N 网页面
+[Regex]^(.+?)\nUpdate available! click to open Nexus page$=$1\n有更新！点击打开 N 网页面
 [QoL*/Text]
 Restart Game=重启游戏
 Restart Apply=应用并重启

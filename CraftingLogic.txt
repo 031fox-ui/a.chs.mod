@@ -1,0 +1,42 @@
+【com.balaur.BetterLogic】
+{v1.0.0-v1.0.5}
+[GameSetting*/Label][TitleBack/Title]
+<color=ys0>Crafting</color>: Prefer on floor=<color=ys0>制作：</color>优先使用地面上的材料
+<color=ys0>Crafting</color>: Prefer not containers=<color=ys0>制作：</color>优先不使用容器
+<color=ys0>Crafting</color>: Prefer not wearables=<color=ys0>制作：</color>优先不使用可穿戴装备
+<color=ys0>Crafting</color>: Prefer held=<color=ys0>制作：</color>优先使用手持/口含/背上的物品
+<color=ys0>Crafting</color>: Prefer higher quality=<color=ys0>制作：</color>优先使用高耐久材料
+<color=ys0>Crafting</color>: Prefer lower value=<color=ys0>制作：</color>优先使用低价值材料
+<color=ys0>Crafting</color>: Prefer lower condition=<color=ys0>制作：</color>优先使用低耐久材料
+<color=ys0>Storage (Liquid)</color>: Allow stacking into mixed=<color=ys0>液体储存：</color>允许混合倒入已有同种液体的容器
+<color=ys0>Storage (Liquid)</color>: Allow filling new bottles=<color=ys0>液体储存：</color>允许填充空瓶
+<color=ys0>Storage (Liquid)</color>: Prefer liquids unmixed=<color=ys0>液体储存：</color>优先不混合液体
+<color=ys0>Storage (Liquid)</color>: Prefer liquid stack=<color=ys0>液体储存：</color>优先液体堆叠
+<color=ys0>Storage (Liquid)</color>: Prefer low weight liquid containers=<color=ys0>液体储存：</color>优先选择满时重量/液体比最低的容器
+<color=ys0>Storage</color>: Notify where stored=<color=ys0>储存：</color>通知物品存放位置
+<color=ys0>Storage</color>: Store in containers first=<color=ys0>储存：</color>优先放入容器
+<color=ys0>Storage</color>: Prefer matched container type=<color=ys0>储存：</color>优先匹配容器类型
+<color=ys0>Storage</color>: Prefer higher container reduction=<color=ys0>储存：</color>优先选择负重减免更高的容器
+<color=ys0>Storage</color>: Prefer fuller container=<color=ys0>储存：</color>优先选择更满的容器
+<color=ys0>Storage</color>: Prefer larger containers=<color=ys0>储存：</color>优先选择更大的容器
+<color=ys0>Storage</color>: Prefer best condition container=<color=ys0>储存：</color>优先选择耐久最好的容器
+[DescBack/Description]
+Use materials on the floor before things in your inventory.=使用地面上的材料，而不是物品栏中的材料。
+Use containers, like bags, later.=稍后使用容器（如背包）。
+Use wearables, like clothing, later.=稍后使用可穿戴装备（如衣物）。
+Use materials in your hands/mouth/back before things in your inventory.=使用你手中、口中或背上的材料，而不是物品栏中的。
+Use items of lower quality, like lower hammering, later.=稍后使用低品质的物品（如锤击等级较低的）。
+Use items of higher trading value later.=稍后使用交易价值较高的物品。
+Use items with higher condition later.=稍后使用耐久较高的物品。
+Allow a pouring this liquid into a bottle that has other liquids, only if it already has some of this liquid.=仅当容器中已有该液体时，才允许将这种液体倒入含有其他液体的瓶子。
+Allow liquids to fill bottles that are empty.=允许液体填充空瓶。
+If 'Allow liquids to mix' is enabled, fill containers with the fewest different liquids.=如果启用了“允许液体混合”，则填充含有最少不同液体的容器。
+Fill containers that have the highest amount of this liquid first.=首先填充该液体含量最高的容器。
+Prefer containers that have the lowest weight to highest liquid ratio when full.=装满时，优先选择重量与液体比例最低的容器。
+Create a popup that specifies where the output of crafting recipes was placed.=创建弹窗，指明制作产物的放置位置。
+Put crafted items into containers first, rather than in hands/mouth/back.=将制作出的物品优先放入容器，而不是放在手中/口中/背上。
+When storing crafted items, choose containers specific to this item type, such as the material pouch for materials.=储存制作出的物品时，选择特定于该物品类型的容器，例如材料袋用于存放材料。
+When storing crafted items, prefer containers that have a better encumbrance reduction.=储存制作出的物品时，优先选择负重减免更好的容器。
+When storing crafted items, prefer containers that are more full.=储存制作出的物品时，优先选择更满的容器。
+When storing crafted items, prefer containers that are larger.=储存制作出的物品时，优先选择更大的容器。
+When storing crafted items, prefer containers that have higher condition.=储存制作出的物品时，优先选择耐久更高的容器。

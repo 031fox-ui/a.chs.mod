@@ -1,0 +1,14 @@
+【noah.casualtiesunknown.multiplayerspritereplacer】
+{v1.0.0-v1.2.0}
+[MSRTextRow]
+Multiplayer Sprite Replacer=多人游戏精灵图替换器
+[Regex]^Current slot: (.+)=当前槽位：$1
+[Label]
+Skin URL=皮肤 URL
+[Regex]^Keybind (.+)$=按键绑定 $1
+Verbose logging=详细日志记录
+Auto-refresh changed skins=自动刷新已更改的皮肤
+[Button/Text]
+Equip=装备
+Reload=重载
+Use URL=使用 URL

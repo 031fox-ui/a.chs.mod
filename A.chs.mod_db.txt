@@ -1,0 +1,11 @@
+Alexx_'sModMgr.txt|com.alexx_.modmgr|v1.0.0-v0.1.12
+CraftingLogic.txt|com.balaur.BetterLogic|v1.0.0-v1.0.5
+KrokMP.txt|KrokoshaCasualtiesMP|v1.0.0-v4.0.1
+KrokMP_IMGUI.txt|KrokoshaCasualtiesMP|v1.0.0-v4.0.1
+MultiplayerSpriteReplacer.txt|noah.casualtiesunknown.multiplayerspritereplacer|v1.0.0-v1.2.0
+NewFirearms.txt|com.rushellxyz.newfirearms|v1.0.0-v1.5.2
+Prosthetics.txt|com.HerobrinesProsthetics|v1.0.0-v0.8.8
+QoL.Unknown.txt|org.bepinex.plugins.qol_unknown|v1.0.0-v1.0.4.8
+ReGrowthSerums.txt|com.dragoon_103.regrowthserums|v1.0.0-v1.0.0
+ThighHighs.txt|com.rushellxyz.thighhighs|v1.0.0-v3.0.0
+UnknownPerformance.txt|com.kanisuko.unknownperformance|v1.0.0-v1.1.0
