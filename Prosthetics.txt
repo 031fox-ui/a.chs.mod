@@ -1,13 +1,16 @@
 【com.HerobrinesProsthetics】
-{v1.0.0-v0.8.8}
+{v1.0.1-v0.8.8}
 [Prosthetics*/Label]
 PROSTHETICS MOD=赛博义体 Mod
+UPDATE AVAILABLE=有新版本可用
 [Prosthetics*/Text]
 Prosthetics Mod=义体 Mod
 [Content/Prosthetics*]
 [Regex]^Prosthetics Mod\s+v([\d\w\.-]+)$=赛博义体 Mod  v${1}
 UP TO DATE=已是最新版本
+[Regex]^NEW VERSION: (.+)$=新版本：${1}
 Could not reach update server=无法连接至更新服务器
+UPDATE=更新
 [GameSetting*/Label]
 Hotbar position=热栏图标位置
 [Label]
@@ -16,11 +19,11 @@ Bottom=底部
 Left=左侧
 Right=右侧
 [GameSetting*/Label]
-Open Cybernetics Menu=打开赛博义体菜单
+Open Cybernetics Menu=打开义体编排菜单
 Toggle Flashlight=开关手电筒
 Use Attached Grappling Hook=使用已装备的抓钩
 [TitleBack/Title]
-Open Cybernetics Menu=【赛博义体】打开赛博义体菜单【默认 V】
+Open Cybernetics Menu=【赛博义体】打开义体编排菜单【默认 V】
 Toggle Flashlight=【赛博义体】开关手电筒【默认 F】
 Use Attached Grappling Hook=【赛博义体】使用已装备的抓钩【默认 H】
 [PauseMenu/Image/Text]
