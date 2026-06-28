@@ -1,5 +1,5 @@
 【com.HerobrinesProsthetics】
-{v1.0.1-v0.8.8}
+{v1.0.1-v0.8.9}
 [Prosthetics*/Label]
 PROSTHETICS MOD=赛博义体 Mod
 UPDATE AVAILABLE=有新版本可用
