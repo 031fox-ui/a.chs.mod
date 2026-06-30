@@ -1,5 +1,5 @@
 【org.bepinex.plugins.qol_unknown】
-{v1.0.0-v1.0.4.8}
+{v1.0.1-v1.0.4.8}
 [QoL_Fruit/Text]
 QoL\nSettings=QoL\n设置
 [Toggle_qol*/Label]
@@ -270,3 +270,49 @@ Open Nexus=在 N 网打开
 [QoL*/Text]
 Restart Game=重启游戏
 Restart Apply=应用并重启
+[PauseMenu/Image/Text]
+Also try CUCoreLib!=“也试试 CUCoreLib 吧！”
+Astralsounds=“星辰之声”
+You cannot retreat from this fight. Stand with pride and fight with honor.=“此战无路可退，骄傲地挺立，光荣地战斗吧。”
+When they speak, they shake the very earth.=“他们开口之时，大地也为之震颤。”
+There's really no hard limit to how long these pause menu names can be and to be quite honest I'm rather curious to see how far we can go. Adolphus W. Green (1844–1917) started as the Principal of the Groton School in 1864. By 1865, he became second assistant librarian - oh wait nevermind there' a limit.=“其实暂停菜单的名字并没有真正的硬性长度限制，老实说，我挺好奇究竟能走多远。阿道弗斯·W·格林（1844–1917）于1864年开始担任格罗顿学校校长，到1865年，他当上了第二助理图书管理员——哦等等，算了，看来还是有限制的。”
+In the silent, hidden spaces where we watch and wait, we see the artistry of all that is.=“在那寂静隐秘的角落，我们守望等待，得见万物的匠心。”
+When a being dies, a world dies.=“一灵逝去，一界随之消亡。”
+You're almost there. Just a couple more steps.=“你就快到了，再多走几步。”
+From now on you’re going to have to think. There’s a reason why we’re born with brains in our heads, not rocks.=“从现在起，你可得动脑子了。我们生来脑袋里装的是大脑而非石头，并非毫无缘由。”
+Sleep, those little slices of death. How I loathe them.=“睡眠，那一段段小小的死亡，我是何其憎恶。”
+Do questions not taste best in the absence of answers?=“问题不正是因为没有答案，才最令人回味吗？”
+To reach the antechamber.=“只为抵达前厅。”
+Those burial-clouds that lower victorious soon to devour all=“那低垂的葬云，以凯旋之姿迫近，转瞬将吞噬万物”
+Then I shall keep myself, to myself.=“那我便将自我守住，只交予自身。”
+Also try Custom Structures!=“也试试 Custom Structures 吧！”
+One learns more from defeat than victory. Therefore, fear the general that has never won a battle.=“败仗所学，胜于捷报。因此，要畏惧那未尝一败的将军。”
+We are creatures of habit.=“我们是习性的造物。”
+This shall be a story like none other before.=“这将是一个前无古人的故事。”
+To remember, to forget. To forget, to remember.=“去铭记，去遗忘。去遗忘，再去铭记。”
+Death is only the end if you think the story is about you.=“死亡只是终点，如果你以为这故事只关乎你。”
+If you bring only these quotes, then it will be bereft of the meaning and lesson. You must seek these lessons and live them.=“若你只带来这些语录，便会失了其中的意义与教诲。你须得亲自求索，并亲身践行。”
+A box without hinges, key, or lid, yet golden treasure inside is hid.=“无铰无钥也无盖，内里却藏金色宝藏。”
+Wisdom is neither a knowing nor a finding but rather a seeking.=“智慧并非已知，亦非已得，而是一场无尽的追寻。”
+Pause and hydrate. It'll help.=“歇一歇，喝口水，会好很多。”
+Never is a very, very long time.=“‘永远’，是一段很久、很久的时间。”
+Take care of yourself. You deserve it.=“照顾好自己，你值得被善待。”
+I am lost but not forever,=“我虽迷失，却非永世，”
+I am where I am meant to be.=“我正身处命定之地。”
+The gods envy us, because of our mortality. Death is what makes everything worthwhile and beautiful.=“众神因我们终有一死而嫉妒我们。正是死亡，赋予万物意义与至美。”
+but my life had plans for me.=“可我的人生对我另有安排。”
+We're all just stories in the end, so let's make ours a good one.=“到头来，我们都只不过是故事罢了。既然如此，就让我们的故事精彩一些吧。”
+To the north, a new future.=“向北方去，一片崭新的未来。”
+The price of entry to being good at something is to suck at that something.=“精通一道的入场券，便是起初在那一道上的笨拙。”
+I had planned my life's endeavor=“我曾为一生的事业精心筹谋”
+Little one.=“小家伙。”
+Imagine now unbearably, how unutterly cold the universe would be if one is all alone.=“此刻试想，那不堪忍受、无以言表的寒冷——若你孤身一人，宇宙便是如此。”
+Everything will be okay.=“一切都会没事的。”
+Remember the past, live in the present, and fear not the future, for it doesn't exist and never shall. There is only now=“铭记过往，活在当下，莫畏惧未来，因为未来并不存在，也永不存。唯有此刻。”
+Un du evarínya ono varda.=“愿精灵之光指引你。”
+Change itself is nether good nor bad, but knowledge is always useful.=“变化本身非善非恶，但知识永远有益。”
+Don't forget to eat, now...=“别忘了吃点东西，好吗……”
+...to have turned the wheel and approached genius...=“……转动了命运之轮，向天才之境靠近……”
+Don't be afraid. Jump.=“别怕，跳吧。”
+Remember to do an act of good today.=“记得今天要做一件善事。”
+Fear is a good servant, but a poor leader.=“恐惧是个好仆从，却是个糟糕的主宰。”
