@@ -1,0 +1,37 @@
+{
+  "概要": {
+    "GUID": "com.HerobrinesProsthetics",
+    "翻译版本": "v1.0.0",
+    "模组版本": "v0.8.9"
+  },
+  "Local": {
+    "qol.keybind.quick_stash.description": "快速将光标下的物品移动到可用的物品栏格子、\n装备栏或随身携带的容器中。",
+    "gamesetprosthetics_mod_UI": "［义体］打开义体编排",
+    "gamesetprosthetics_mod_flashlight": "［义体］切换手电筒",
+    "gamesetprosthetics_mod_hook": "［义体］使用抓钩",
+    "runsetwoodenstart": "我的挑战"
+  },
+  "Talk": {
+    "That tastes like poo": "这尝起来像坨屎",
+    "..what's that noise?": "..那是什么怪响？"
+  },
+  "Tutorial": {
+    "Welcome to the firearm handling course": "欢迎来到枪械操作课程",
+    "Starting off from treating gun related injuries": "从处理枪伤开始讲起",
+    "Uh oh, seems like you are bleeding really bad from your left leg.": "哎呀，看来你的左腿正在大量出血。"
+  },
+  "main": {
+    "Hotbar position": "快捷图标位置",
+    "Hotbar position (fallback)": "快捷图标位置（备用）",
+    "Bottom": "底部",
+    "Top": "顶部",
+    "Left": "左侧",
+    "Right": "右侧"
+  },
+  "[Prosthetics*/Status]": {
+    "Checking for updates…": "正在检查更新...",
+    "Press a key...": "按任意键...",
+    "UP TO DATE": "已是最新版本",
+    "UPDATE": "更新"
+  }
+}

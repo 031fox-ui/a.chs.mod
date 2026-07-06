@@ -1,0 +1,37 @@
+{
+    "概要": {
+        "GUID": "com.HerobrinesProsthetics",
+        "翻译版本": "v1.0.0",
+        "模组版本": "v0.8.9"
+    },
+    "Local": {
+        "qol.keybind.quick_stash.description": "Quickly move the item under the cursor into an available inventory slot, wearable slot, or carried container.",
+        "gamesetprosthetics_mod_UI": "Open Cybernetics Menu",
+        "gamesetprosthetics_mod_flashlight": "Toggle Flashlight",
+        "gamesetprosthetics_mod_hook": "Use Attached Grappling Hook",
+        "runsetwoodenstart": "My Challenge"
+    },
+        "Talk": {
+        "That tastes like poo": "That tastes like poo",
+        "..what's that noise?": "..what's that noise?"
+    },
+    "Tutorial": {
+        "Welcome to the firearm handling course": "Welcome to the firearm handling course",
+        "Starting off from treating gun related injuries": "Starting off from treating gun related injuries",
+        "Uh oh, seems like you are bleeding really bad from your left leg.": "Uh oh, seems like you are bleeding really bad from your left leg."
+    },
+    "main": {
+        "Hotbar position": "Hotbar position",
+        "Hotbar position (fallback)": "Hotbar position (fallback)",
+        "Bottom": "Bottom",
+        "Top": "Top",
+        "Left": "Left",
+        "Right": "Right"
+    },
+    "[Prosthetics*/Status]": {
+        "Checking for updates…": "Checking for updates…",
+        "Press a key...": "Press a key...",
+        "UP TO DATE": "UP TO DATE",
+        "UPDATE": "UPDATE"
+    }
+}
