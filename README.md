@@ -5,9 +5,9 @@
 
 直接把下载好的.dll文件放入游戏的"Casualties Unknown Demo\BepInEx\plugins"文件夹即可，从v0.0.2更新到v0.0.3你可以把plugins文件夹中的"a.chs.mod"文件夹删除。
 
-[蓝奏云下载：
+[蓝奏云下载：https://wwann.lanzout.com/iLYlz3w1zdni](https://wwann.lanzout.com/iLYlz3w1zdni)　　密码：9s44
 
-[腾讯微云下载：
+[腾讯微云下载：https://share.weiyun.com/mtOmpzmu](https://share.weiyun.com/mtOmpzmu)
 
 [GitHub直接下载（比较吃网络）：https://github.com/031fox-ui/a.chs.mod/releases/download/v0.0.3/a.chs.mod.dll](https://github.com/031fox-ui/a.chs.mod/releases/download/v0.0.3/a.chs.mod.dll)
 
