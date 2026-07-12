@@ -1,0 +1,13 @@
+Alexx_'sModMgr.ini|com.alexx_.modmgr|v1.0.0-v0.1.12
+CraftingLogic.ini|com.balaur.BetterLogic|v1.0.0-v1.0.5
+Killer Guns.ini|com.yourname.newgun/Killer|v1.0.0-v2
+KillerClothing.ini|com.rushellxyz.newclothing/killerclothing|v1.0.0-v1.6.2
+KrokMP_IMGUI.ini|KrokoshaCasualtiesMP|v1.0.0-v4.0.1
+MultiplayerSpriteReplacer.ini|noah.casualtiesunknown.multiplayerspritereplacer|v1.0.0-v1.2.0
+NewClothing.ini|com.rushellxyz.newclothing|v1.0.0-v1.6.2
+NewFirearms.ini|com.rushellxyz.newfirearms|v1.0.0-v1.5.4
+New_Gun_Loader.ini|com.yourname.newgun|v1.0.0-v2.0.1
+Prosthetics.ini|com.HerobrinesProsthetics|v1.0.0-v0.8.9
+QoL.Unknown.ini|org.bepinex.plugins.qol_unknown|v1.0.0-v1.0.4.8
+ThighHighs.ini|com.rushellxyz.thighhighs|v1.0.0-v3.0.0
+UnknownPerformance.ini|com.kanisuko.unknownperformance|v1.0.0-v1.1.0
