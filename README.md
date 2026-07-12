@@ -26,8 +26,9 @@
 
 重新获取了QoL的的原文并翻译
 
+支持本地化的模组都换成本地化注入方式
 
-支持12个被汉化模组，支持本地化的模组都换成本地化注入方式：
+支持12个被汉化模组：
 
 [Alexx_'s Mod Manager](https://www.nexusmods.com/scavprototype/mods/31)
 
