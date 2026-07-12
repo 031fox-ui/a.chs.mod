@@ -1,6 +1,8 @@
 # a.chs.mod
 一个“未知伤亡（Casualties Unknown）”的a.chs.mod多模组汉化MOD
 
+直接把下载好的.dll文件放入游戏的"Casualties Unknown Demo\BepInEx\plugins"文件夹即可，如果是v0.0.2升级到v0.0.3你可以在plugins文件夹把a.chs.mod文件夹删除，把旧语言资源删除。
+
 目前：v0.0.3 196KB
 
 [蓝奏云下载：https://wwann.lanzout.com/ickhC3w2dfbc](https://wwann.lanzout.com/ickhC3w2dfbc)　　密码：4nbm
