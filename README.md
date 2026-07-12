@@ -15,12 +15,17 @@
 你不用下载上面的ini文件😘
 
 更新日志：
+
 0.0.3版本，使用ini文件（从txt转ini又转json再转ini），添加三个API本地化注入：[CUCoreLib](https://www.nexusmods.com/scavprototype/mods/341)、[RshLib](https://www.nexusmods.com/scavprototype/mods/32)、[ScavSetLib](https://www.nexusmods.com/scavprototype/mods/338)
 
 现在本模组有4个设置
+
 根据官中校对了模组翻译
+
 使用了官中的标点符号习惯
+
 重新获取了QoL的的原文并翻译
+
 
 支持12个被汉化模组，支持本地化的模组都换成本地化注入方式：
 
