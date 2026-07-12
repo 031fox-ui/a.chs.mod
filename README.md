@@ -23,18 +23,31 @@
 重新获取了QoL的的原文并翻译
 
 支持12个被汉化模组，支持本地化的模组都换成本地化注入方式：
+
 [Alexx_'s Mod Manager](https://www.nexusmods.com/scavprototype/mods/31)
+
 [Better Crafting Logic](https://www.nexusmods.com/scavprototype/mods/344)
+
 [Killer's Guns](https://www.nexusmods.com/scavprototype/mods/68)
+
 [Killer's Clothing and Armor](https://www.nexusmods.com/scavprototype/mods/59)
+
 [Casualties Together](https://www.nexusmods.com/scavprototype/mods/67)（只有三个句子，请使用：[KrokMP Chinese Supplement - Simplified Chinese Translation](https://www.nexusmods.com/scavprototype/mods/183)）
+
 [Multiplayer Sprite Replacer](https://www.nexusmods.com/scavprototype/mods/74)
+
 [New Gun Loader (super beta)](https://www.nexusmods.com/scavprototype/mods/57)
+
 [New Clothing](https://www.nexusmods.com/scavprototype/mods/43)
+
 [New Firearms](https://www.nexusmods.com/scavprototype/mods/122)
+
 [Prosthetics](https://www.nexusmods.com/scavprototype/mods/40)
+
 [QoL Unknown](https://www.nexusmods.com/scavprototype/mods/7)
+
 [Thigh Highs](https://www.nexusmods.com/scavprototype/mods/33)
+
 [Performance Unknown](https://www.nexusmods.com/scavprototype/mods/342)
 
 
