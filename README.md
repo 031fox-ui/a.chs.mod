@@ -1,17 +1,17 @@
 # a.chs.mod
 一个“未知伤亡（Casualties Unknown）”的a.chs.mod多模组汉化MOD
 
-目前：v0.0.3撤回，神秘读取bug
+目前：v0.0.3
 
-v0.0.2：
-[GitHub直接下载（比较吃网络）：https://github.com/031fox-ui/a.chs.mod/releases/download/v0.0.2/a.chs.mod.dll](https://github.com/031fox-ui/a.chs.mod/releases/download/v0.0.2/a.chs.mod.dll)
+
+[GitHub直接下载（比较吃网络）：https://github.com/031fox-ui/a.chs.mod/releases/download/v0.0.3/a.chs.mod.dll](https://github.com/031fox-ui/a.chs.mod/releases/download/v0.0.3/a.chs.mod.dll)
 
 
 你不用下载上面的ini文件😘
 
 更新日志：
 
-0.0.3版本，使用ini文件（从txt转ini又转json再转ini），添加三个API本地化注入：[CUCoreLib](https://www.nexusmods.com/scavprototype/mods/341)、[RshLib](https://www.nexusmods.com/scavprototype/mods/32)、[ScavSetLib](https://www.nexusmods.com/scavprototype/mods/338)
+0.0.3版本，使用ini文件，添加三个API本地化注入：[CUCoreLib](https://www.nexusmods.com/scavprototype/mods/341)、[RshLib](https://www.nexusmods.com/scavprototype/mods/32)、[ScavSetLib](https://www.nexusmods.com/scavprototype/mods/338)
 
 现在本模组有4个设置：
 
