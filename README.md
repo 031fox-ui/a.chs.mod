@@ -1,10 +1,12 @@
 # a.chs.mod
 一个“未知伤亡（Casualties Unknown）”的a.chs.mod多模组汉化MOD
 
-目前：v0.0.3
-
+目前：v0.0.3 196KB
+[蓝奏云下载：https://wwann.lanzout.com/ickhC3w2dfbc　　密码：4nbm](https://wwann.lanzout.com/ickhC3w2dfbc)
 
 [GitHub直接下载（比较吃网络）：https://github.com/031fox-ui/a.chs.mod/releases/download/v0.0.3/a.chs.mod.dll](https://github.com/031fox-ui/a.chs.mod/releases/download/v0.0.3/a.chs.mod.dll)
+
+[腾讯微云下载：https://share.weiyun.com/twHPKgkM](https://share.weiyun.com/twHPKgkM)
 
 
 你不用下载上面的ini文件😘
@@ -15,6 +17,16 @@
 
 现在本模组有4个设置：
 
+是否自动从 GitHub 下载最新模组语言文件
+
+阻止 QoL Unknown 模组自带的字体 Fallback
+
+阻止 QoL Unknown 向暂停菜单句子池注入
+
+强制对 Gunsaw Genetics 使用本模组的 GunsawGenetics.ini 本地化
+
+.
+
 根据官中校对了模组翻译
 
 使用了官中的标点符号习惯
@@ -23,7 +35,7 @@
 
 支持本地化的模组都换成本地化注入方式
 
-支持12个被汉化模组：
+支持13个被汉化模组：
 
 [Alexx_'s Mod Manager](https://www.nexusmods.com/scavprototype/mods/31)
 
