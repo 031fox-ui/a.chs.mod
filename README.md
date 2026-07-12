@@ -10,7 +10,7 @@
 [腾讯微云下载：https://share.weiyun.com/twHPKgkM](https://share.weiyun.com/twHPKgkM)
 
 
-你不用下载上面的ini文件😘
+你不用下载上面的txt或ini文件😘
 
 更新日志：
 
