@@ -2,7 +2,8 @@
 一个“未知伤亡（Casualties Unknown）”的a.chs.mod多模组汉化MOD
 
 目前：v0.0.3 196KB
-[蓝奏云下载：https://wwann.lanzout.com/ickhC3w2dfbc　　密码：4nbm](https://wwann.lanzout.com/ickhC3w2dfbc)
+
+[蓝奏云下载：https://wwann.lanzout.com/ickhC3w2dfbc](https://wwann.lanzout.com/ickhC3w2dfbc)　　密码：4nbm
 
 [GitHub直接下载（比较吃网络）：https://github.com/031fox-ui/a.chs.mod/releases/download/v0.0.3/a.chs.mod.dll](https://github.com/031fox-ui/a.chs.mod/releases/download/v0.0.3/a.chs.mod.dll)
 
