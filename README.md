@@ -3,7 +3,7 @@
 
 目前：v0.0.3
 
-直接把下载好的.dll文件放入游戏的"Casualties Unknown Demo\BepInEx\plugins"文件夹即可。
+直接把下载好的.dll文件放入游戏的"Casualties Unknown Demo\BepInEx\plugins"文件夹即可，从v0.0.2更新到v0.0.3你可以把plugins文件夹中的"a.chs.mod"文件夹删除。
 
 [蓝奏云下载：
 
