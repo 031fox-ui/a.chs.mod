@@ -1,15 +1,9 @@
 # a.chs.mod
 一个“未知伤亡（Casualties Unknown）”的a.chs.mod多模组汉化MOD
 
-目前：v0.0.3
-
-直接把下载好的.dll文件放入游戏的"Casualties Unknown Demo\BepInEx\plugins"文件夹即可，从v0.0.2更新到v0.0.3你可以把plugins文件夹中的"a.chs.mod"文件夹删除。
-
-[蓝奏云下载：https://wwann.lanzout.com/iLYlz3w1zdni](https://wwann.lanzout.com/iLYlz3w1zdni)　　密码：9s44
-
-[腾讯微云下载：https://share.weiyun.com/mtOmpzmu](https://share.weiyun.com/mtOmpzmu)
-
-[GitHub直接下载（比较吃网络）：https://github.com/031fox-ui/a.chs.mod/releases/download/v0.0.3/a.chs.mod.dll](https://github.com/031fox-ui/a.chs.mod/releases/download/v0.0.3/a.chs.mod.dll)
+目前：v0.0.3撤回，神秘读取bug
+v0.0.2：
+[GitHub直接下载（比较吃网络）：https://github.com/031fox-ui/a.chs.mod/releases/download/v0.0.2/a.chs.mod.dll](https://github.com/031fox-ui/a.chs.mod/releases/download/v0.0.2/a.chs.mod.dll)
 
 
 你不用下载上面的ini文件😘
@@ -18,7 +12,7 @@
 
 0.0.3版本，使用ini文件（从txt转ini又转json再转ini），添加三个API本地化注入：[CUCoreLib](https://www.nexusmods.com/scavprototype/mods/341)、[RshLib](https://www.nexusmods.com/scavprototype/mods/32)、[ScavSetLib](https://www.nexusmods.com/scavprototype/mods/338)
 
-现在本模组有4个设置
+现在本模组有4个设置：
 
 根据官中校对了模组翻译
 
@@ -57,4 +51,4 @@
 [Performance Unknown](https://www.nexusmods.com/scavprototype/mods/342)
 
 
-对了，我也写了[Gunsaw Genetics](https://www.nexusmods.com/scavprototype/mods/324)的中文，但是v1.3，现在v1.4了就没加入模组中，后续可能会更新到v1.4。我看Gunsaw Genetics v1.4版本游戏启动后中文本地化没有加载，不知道是不是只是我的问题，于是兼容了Gunsaw Genetics，添加Gunsaw Genetics有没有加载中文本地化，如果没有就注入本模组的中文本地化，但现在我还是v1.3版本，并且没公开我写的翻译文件GunsawGenetics.ini，所以对Gunsaw Genetics没有汉化。
+对了，我也写了[Gunsaw Genetics](https://www.nexusmods.com/scavprototype/mods/324)的中文，但是v1.3，现在v1.4了就没加入模组中，后续可能会更新到v1.4。我看Gunsaw Genetics v1.4版本游戏启动后官方中文本地化zh.json没有加载，不知道是不是只是我的问题，于是兼容了Gunsaw Genetics，添加Gunsaw Genetics有没有加载中文本地化，如果没有就注入本模组的中文本地化，但现在我还是v1.3版本，并且没公开我写的翻译文件GunsawGenetics.ini，所以对Gunsaw Genetics没有汉化。
