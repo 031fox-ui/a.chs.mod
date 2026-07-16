@@ -5,11 +5,11 @@
 
 目前：v0.0.3 196KB
 
-[蓝奏云下载：https://wwann.lanzout.com/ickhC3w2dfbc](https://wwann.lanzout.com/ickhC3w2dfbc)　　密码：4nbm
+[蓝奏云下载](https://wwann.lanzout.com/ickhC3w2dfbc)　　密码：4nbm
 
-[GitHub直接下载（比较吃网络）：https://github.com/031fox-ui/a.chs.mod/releases/download/v0.0.3/a.chs.mod.dll](https://github.com/031fox-ui/a.chs.mod/releases/download/v0.0.3/a.chs.mod.dll)
+[GitHub直接下载（比较吃网络）](https://github.com/031fox-ui/a.chs.mod/releases/download/v0.0.3/a.chs.mod.dll)
 
-[腾讯微云下载：https://share.weiyun.com/twHPKgkM](https://share.weiyun.com/twHPKgkM)
+[腾讯微云下载](https://share.weiyun.com/twHPKgkM)
 
 
 你不用下载上面的txt或ini文件😘
