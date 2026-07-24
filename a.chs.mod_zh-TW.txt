@@ -1,19 +1,24 @@
-Alexx_'sMedicalBrutalism.ini|com.alexx_.medicalbrutalism|v1.0.0-v0.1.3
-Alexx_'sModMgr.ini|com.alexx_.modmgr|v1.0.0-v0.1.12
-Auto's Arsenal.ini|com.rushellxyz.newfirearms/autoarsenal|v1.0.0-v2.0
-CUZoomPlus.ini|CUZoomPlus|v1.0.0-v1.0.1
-CU_ModSettings.ini|me.danimineiro.modsettings|v1.0.0-v1.0.2.1
-CraftingLogic.ini|com.balaur.BetterLogic|v1.0.1-v1.0.5
-Killer Guns.ini|com.yourname.newgun/Killer|v1.0.0-v2
-KillerClothing.ini|com.rushellxyz.newclothing/killerclothing|v1.0.1-v1.6.2
-KrokMP.ini|KrokoshaCasualtiesMP|v1.0.0-v4.0.1
-KrokMP_IMGUI.ini|KrokoshaCasualtiesMP|v1.0.0-v4.0.1
-MultiplayerSpriteReplacer.ini|noah.casualtiesunknown.multiplayerspritereplacer|v1.0.0-v1.2.0
-NewClothing.ini|com.rushellxyz.newclothing|v1.0.0-v1.6.2
-NewFirearms.ini|com.rushellxyz.newfirearms|v1.0.1-v1.5.4
-New_Gun_Loader.ini|com.yourname.newgun|v1.0.0-v2.0.1
-OverTheTopRealism.ini|overthetoprealism.casualtiesunknown.mod|v1.0.0-v1.0.1
-Prosthetics.ini|com.HerobrinesProsthetics|v1.0.1-v0.8.9
-QoL.Unknown.ini|org.bepinex.plugins.qol_unknown|v1.0.1-v1.0.4.8
-ThighHighs.ini|com.rushellxyz.thighhighs|v1.0.0-v3.0.0
-UnknownPerformance.ini|com.kanisuko.unknownperformance|v1.0.0-v1.1.0
+AAA批发游戏汉化.ini|AAAGame|1.0.0|
+Alexx_'sMedicalBrutalism.ini|com.alexx_.medicalbrutalism|1.0.0|0.1.3
+Alexx_'sModMgr.ini|com.alexx_.modmgr|1.0.0|0.1.12
+Auto's Arsenal.ini|com.rushellxyz.newfirearms/autoarsenal|1.0.0|2.0
+CUCoreLib.ini|net.cucorelib|1.0.0|1.0.3
+CU_ModSettings.ini|me.danimineiro.modsettings|1.0.0|1.0.2.1
+CasualtyVitals.ini|CasualtyVitals|1.1.0|1.1.1
+CraftingLogic.ini|com.balaur.BetterLogic|1.0.1|1.0.5
+Extra Medicaments.ini|meds|1.0.0|0.22
+Killer Guns.ini|com.yourname.newgun/Killer|1.0.0|2
+KillerClothing.ini|com.rushellxyz.newclothing/killerclothing|1.0.1|1.6.2
+KrokMP.ini|KrokoshaCasualtiesMP|1.0.0|4.0.1
+KrokMP_IMGUI.ini|KrokoshaCasualtiesMP|1.0.0|4.0.1
+MultiplayerSpriteReplacer.ini|noah.casualtiesunknown.multiplayerspritereplacer|1.0.0|1.2.0
+NeurotraumaModikByStaili.ini|NeurotraumaModikByStaili|1.0.0|2.3.0
+NeurotraumaModikByStaili_IMGUI.ini|NeurotraumaModikByStaili|1.0.0|2.3.0
+NewClothing.ini|com.rushellxyz.newclothing|1.0.0|1.6.2
+NewFirearms.ini|com.rushellxyz.newfirearms|1.0.1|1.5.4
+New_Gun_Loader.ini|com.yourname.newgun|1.0.0|2.0.1
+OverTheTopRealism.ini|overthetoprealism.casualtiesunknown.mod|1.0.0|1.0.1
+Prosthetics.ini|com.HerobrinesProsthetics|1.0.1|0.8.9
+QoL.Unknown.ini|org.bepinex.plugins.qol_unknown|1.0.1|1.0.4.8
+ThighHighs.ini|com.rushellxyz.thighhighs|1.0.0|3.0.0
+UnknownPerformance.ini|com.kanisuko.unknownperformance|1.0.0|1.1.0
