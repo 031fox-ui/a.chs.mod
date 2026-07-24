@@ -67,4 +67,4 @@
 [Performance Unknown](https://www.nexusmods.com/scavprototype/mods/342)
 
 
-对了，我也写了[Gunsaw Genetics](https://www.nexusmods.com/scavprototype/mods/324)的中文，但是v1.3，现在v1.4了就没加入模组中，后续可能会更新到v1.4。我看Gunsaw Genetics v1.4版本游戏启动后官方中文本地化zh.json没有加载，不知道是不是只是我的问题，于是兼容了Gunsaw Genetics，添加Gunsaw Genetics有没有加载中文本地化，如果没有就注入本模组的中文本地化，但现在我还是v1.3版本，并且没公开我写的翻译文件GunsawGenetics.ini，所以对Gunsaw Genetics没有汉化。
+~~对了，我也写了[Gunsaw Genetics](https://www.nexusmods.com/scavprototype/mods/324)的中文，但是v1.3，现在v1.4了就没加入模组中，后续可能会更新到v1.4。我看Gunsaw Genetics v1.4版本游戏启动后官方中文本地化zh.json没有加载，不知道是不是只是我的问题，于是兼容了Gunsaw Genetics，添加Gunsaw Genetics有没有加载中文本地化，如果没有就注入本模组的中文本地化，但现在我还是v1.3版本，并且没公开我写的翻译文件GunsawGenetics.ini，所以对Gunsaw Genetics没有汉化。~~ 下次更新可能删除Gunsaw Genetics的兼容和设置。
