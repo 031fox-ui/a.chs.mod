@@ -13,6 +13,8 @@
 
 目前：v0.1.0  373 KB（先复制密码再点击链接 o(￣ε￣*)
 
+[N网：Multi-Mod Chinese Localization](https://www.nexusmods.com/scavprototype/mods/516)
+
 [蓝奏云下载 0.1.0](https://wwann.lanzout.com/iFnco3zyk82d)　　密码：cmzg
 
 [GitHub直接下载 0.1.0（比较吃网络）](https://github.com/031fox-ui/a.chs.mod/releases/download/v0.1.0/a.chs.mod.dll)
