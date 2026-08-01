@@ -3,7 +3,7 @@
 
 直接把下载好的.dll文件放入游戏的"Casualties Unknown Demo\BepInEx\plugins"文件夹即可。
 
-本模组会自动从「https://github.com/031fox-ui/a.chs.mod」仓库下载语言文件
+本模组会自动从「 https://github.com/031fox-ui/a.chs.mod 」仓库下载语言文件
 
 繁体中文使用 Python opencc-python-reimplemented s2tw 转换，未做校对
 
