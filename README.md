@@ -3,6 +3,12 @@
 
 直接把下载好的.dll文件放入游戏的"Casualties Unknown Demo\BepInEx\plugins"文件夹即可。
 
+本模组会自动从「https://github.com/031fox-ui/a.chs.mod」仓库下载语言文件
+
+繁体中文使用 Python opencc-python-reimplemented s2tw 转换，未做校对
+
+！有什么想汉化的模组或 文本错误欢迎联系我
+
 ！每次启动游戏，在游玩中，打开制作界面和鼠标指向物品等，第一次会小卡一下，自动建立缓存后不会小卡一下，关闭游戏后缓存清空，正在优化
 
 目前：v0.1.0  373 KB（先复制密码再点击链接 o(￣ε￣*)
