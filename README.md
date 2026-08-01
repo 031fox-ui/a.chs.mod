@@ -1,7 +1,9 @@
 # a.chs.mod
 一个“未知伤亡（Casualties Unknown）”的a.chs.mod多模组汉化
 
-直接把下载好的.dll文件放入游戏的"Casualties Unknown Demo\BepInEx\plugins"文件夹即可。把旧语言资源删除。
+直接把下载好的.dll文件放入游戏的"Casualties Unknown Demo\BepInEx\plugins"文件夹即可。
+
+！每次打开游戏，在游玩中，打开制作界面和鼠标指向物品等，第一次会小卡一下，建立缓存后不会小卡
 
 目前：v0.0.3 196KB
 
