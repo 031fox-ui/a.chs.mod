@@ -7,7 +7,7 @@
 
 [蓝奏云下载 0.0.3](https://wwann.lanzout.com/ickhC3w2dfbc)　　密码：4nbm
 
-[GitHub直接下载 0.0.3（比较吃网络）](https://github.com/031fox-ui/a.chs.mod/releases/download/v0.0.3/a.chs.mod.dll)
+[GitHub直接下载 0.1.0（比较吃网络）](https://github.com/031fox-ui/a.chs.mod/releases/download/v0.1.0/a.chs.mod.dll)
 
 [腾讯微云下载 0.0.3](https://share.weiyun.com/twHPKgkM)
 
