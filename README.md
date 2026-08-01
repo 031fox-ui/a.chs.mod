@@ -1,22 +1,22 @@
 # a.chs.mod
-一个“未知伤亡（Casualties Unknown）”的a.chs.mod多模组汉化MOD
+一个“未知伤亡（Casualties Unknown）”的a.chs.mod多模组汉化
 
-直接把下载好的.dll文件放入游戏的"Casualties Unknown Demo\BepInEx\plugins"文件夹即可，如果是v0.0.2升级到v0.0.3你可以在plugins文件夹把a.chs.mod文件夹删除，把旧语言资源删除。
+直接把下载好的.dll文件放入游戏的"Casualties Unknown Demo\BepInEx\plugins"文件夹即可。把旧语言资源删除。
 
 目前：v0.0.3 196KB
 
 [蓝奏云下载 0.0.3](https://wwann.lanzout.com/ickhC3w2dfbc)　　密码：4nbm
 
-[GitHub直接下载（比较吃网络）](https://github.com/031fox-ui/a.chs.mod/releases/download/v0.0.3/a.chs.mod.dll)
+[GitHub直接下载 0.0.3（比较吃网络）](https://github.com/031fox-ui/a.chs.mod/releases/download/v0.0.3/a.chs.mod.dll)
 
-[腾讯微云下载](https://share.weiyun.com/twHPKgkM)
+[腾讯微云下载 0.0.3](https://share.weiyun.com/twHPKgkM)
 
 
 你不用下载上面的txt或ini文件😘
 
 更新日志：
 
-0.0.3版本，使用ini文件，添加三个API本地化注入：[CUCoreLib](https://www.nexusmods.com/scavprototype/mods/341)、[RshLib](https://www.nexusmods.com/scavprototype/mods/32)、[ScavSetLib](https://www.nexusmods.com/scavprototype/mods/338)
+0.1.0版本
 
 现在本模组有4个设置：
 
@@ -26,31 +26,37 @@
 
 阻止 QoL Unknown 向暂停菜单句子池注入
 
-强制对 Gunsaw Genetics 使用本模组的 GunsawGenetics.ini 本地化
+~~强制对 Gunsaw Genetics 使用本模组的 GunsawGenetics.ini 本地化~~
 
 .
 
-根据官中校对了模组翻译
+支持22个被汉化模组（模组dll名字母排序）：
 
-使用了官中的标点符号习惯
-
-重新获取了QoL的的原文并翻译
-
-支持本地化的模组都换成本地化注入方式
-
-支持13个被汉化模组：
+[Alexx_'s Medical Brutalism](https://www.nexusmods.com/scavprototype/mods/452)
 
 [Alexx_'s Mod Manager](https://www.nexusmods.com/scavprototype/mods/31)
 
+[Auto's Arsenal](https://www.nexusmods.com/scavprototype/mods/81)
+
+[Casualty Vitals](https://www.nexusmods.com/scavprototype/mods/388)
+
 [Better Crafting Logic](https://www.nexusmods.com/scavprototype/mods/344)
+
+[Mod Settings](https://www.nexusmods.com/scavprototype/mods/333)
+
+[CUCoreLib](https://www.nexusmods.com/scavprototype/mods/341) 纯指令汉化
+
+[Extra Medicaments](https://www.nexusmods.com/scavprototype/mods/448)
 
 [Killer's Guns](https://www.nexusmods.com/scavprototype/mods/68)
 
 [Killer's Clothing and Armor](https://www.nexusmods.com/scavprototype/mods/59)
 
-[Casualties Together](https://www.nexusmods.com/scavprototype/mods/67)（只有三个句子，请使用：[KrokMP Chinese Supplement - Simplified Chinese Translation](https://www.nexusmods.com/scavprototype/mods/183)）
+[Casualties Together](https://www.nexusmods.com/scavprototype/mods/67) 纯指令汉化（有三个句子，请使用：[KrokMP Chinese Supplement - Simplified Chinese Translation](https://www.nexusmods.com/scavprototype/mods/183)）
 
 [Multiplayer Sprite Replacer](https://www.nexusmods.com/scavprototype/mods/74)
+
+[NeurotraumaModik](https://www.nexusmods.com/scavprototype/mods/440)
 
 [New Gun Loader (super beta)](https://www.nexusmods.com/scavprototype/mods/57)
 
@@ -58,13 +64,14 @@
 
 [New Firearms](https://www.nexusmods.com/scavprototype/mods/122)
 
+[Over The Top Realism](https://www.nexusmods.com/scavprototype/mods/330)
+
 [Prosthetics](https://www.nexusmods.com/scavprototype/mods/40)
 
 [QoL Unknown](https://www.nexusmods.com/scavprototype/mods/7)
 
+[Re-Growth Serums](https://www.nexusmods.com/scavprototype/mods/38) 打赢复活赛了
+
 [Thigh Highs](https://www.nexusmods.com/scavprototype/mods/33)
 
 [Performance Unknown](https://www.nexusmods.com/scavprototype/mods/342)
-
-
-~~对了，我也写了[Gunsaw Genetics](https://www.nexusmods.com/scavprototype/mods/324)的中文，但是v1.3，现在v1.4了就没加入模组中，后续可能会更新到v1.4。我看Gunsaw Genetics v1.4版本游戏启动后官方中文本地化zh.json没有加载，不知道是不是只是我的问题，于是兼容了Gunsaw Genetics，添加Gunsaw Genetics有没有加载中文本地化，如果没有就注入本模组的中文本地化，但现在我还是v1.3版本，并且没公开我写的翻译文件GunsawGenetics.ini，所以对Gunsaw Genetics没有汉化。~~ 下次更新可能删除Gunsaw Genetics的兼容和设置。
