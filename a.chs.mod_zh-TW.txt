@@ -10,7 +10,7 @@ Extra Medicaments.ini|meds|1.0.0|0.3
 Killer Guns.ini|com.yourname.newgun/Killer|1.0.0|2
 KillerClothing.ini|com.rushellxyz.newclothing/killerclothing|1.0.1|1.6.2
 KrokMP.ini|KrokoshaCasualtiesMP|1.0.0|4.0.1
-KrokMP_IMGUI.ini|KrokoshaCasualtiesMP|1.0.0|4.0.1
+KrokMP_IMGUI.ini|KrokoshaCasualtiesMP|1.0.1|4.0.1
 MultiplayerSpriteReplacer.ini|noah.casualtiesunknown.multiplayerspritereplacer|1.0.0|1.2.0
 NeurotraumaModikByStaili.ini|NeurotraumaModikByStaili|1.0.0|2.3.2
 NeurotraumaModikByStaili_IMGUI.ini|NeurotraumaModikByStaili|1.0.0|2.3.2
