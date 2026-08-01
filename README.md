@@ -5,7 +5,7 @@
 
 本模组会自动从「 https://github.com/031fox-ui/a.chs.mod 」仓库下载语言文件
 
-繁体中文使用 Python opencc-python-reimplemented s2tw 转换，未做校对
+繁体中文使用 Python opencc-python-reimplemented s2tw 转换，未做校对（繁中文件名前缀必须是“zh-TW”才能切换繁中，后续添加设置）
 
 ！有什么想汉化的模组或 文本错误欢迎联系我
 
