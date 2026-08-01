@@ -5,9 +5,9 @@
 
 ！每次打开游戏，在游玩中，打开制作界面和鼠标指向物品等，第一次会小卡一下，建立缓存后不会小卡一下，正在优化
 
-目前：v0.0.3 196KB
+目前：v0.1.0 373KB
 
-[蓝奏云下载 0.0.3](https://wwann.lanzout.com/ickhC3w2dfbc)　　密码：4nbm
+[蓝奏云下载 0.1.0](https://wwann.lanzout.com/iFnco3zyk82d)　　密码：cmzg
 
 [GitHub直接下载 0.1.0（比较吃网络）](https://github.com/031fox-ui/a.chs.mod/releases/download/v0.1.0/a.chs.mod.dll)
 
