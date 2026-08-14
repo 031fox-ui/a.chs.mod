@@ -21,7 +21,7 @@
 
 [N网：Multi-Mod Chinese Localization](https://www.nexusmods.com/scavprototype/mods/516)
 
-[蓝奏云下载 1.0.0](https://wwann.lanzout.com/iCyks42f48va)　　密码：gyoz（先复制密码再点击链接
+[蓝奏云下载 1.0.0](https://wwann.lanzout.com/i3JFT42f80hc)　　密码：238z（先复制密码再点击链接
 
 [GitHub直接下载 1.0.0（比较吃网络）](https://github.com/031fox-ui/a.chs.mod/raw/refs/heads/main/A.Multi_Mod.Chinese.Localization.dll)
 
