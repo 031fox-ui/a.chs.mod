@@ -25,6 +25,8 @@
 
 [GitHub直接下载 1.0.0（比较吃网络）](https://github.com/031fox-ui/a.chs.mod/raw/refs/heads/main/A.Multi_Mod.Chinese.Localization.dll)
 
+---
+
 更新日志：
 
 1.0.0版本
