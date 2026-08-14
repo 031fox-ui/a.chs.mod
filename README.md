@@ -11,6 +11,10 @@
 
 本模组重写了。检查更新：优先从pages托管获取更新，连接失败再从github获取更新；游戏中有github、n网、蓝奏云三个分流下载按钮跳转。
 
+！！！注意删除旧版本【a.chs.mod.dll】，和删除自动从网络下载的模组语言文件：【BepInEx\plugins\a.chs.mod】文件夹。否则有些翻译还是旧的。
+
+！！注意“阻止 QoL Unknown 模组自带的字体”设置，发现QoL的fallback可以减轻游戏计算unifont字体的性能消耗，但是字体会变成1.0倍大小，游戏默认1.3倍，默认1.3倍对于中文阅读非常友好，如果其他模组字非常多，或你想看游戏剧情，推荐保持默认，这是游戏原汁原味的卡顿、原始的字体显示。如果你想流畅些，可以前往【BepInEx\config\A.Multi_Mod.Chinese.Localization.cfg】关闭此设置。
+
 目前：1.0.0  828KB
 
 [N网：Multi-Mod Chinese Localization](https://www.nexusmods.com/scavprototype/mods/516)
