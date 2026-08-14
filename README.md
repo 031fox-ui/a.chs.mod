@@ -1,4 +1,4 @@
-# a.chs.mod
+# A.Multi-Mod.Chinese.Localization
 一个“未知伤亡（Casualties Unknown）”的a.chs.mod多模组汉化
 
 直接把下载好的.dll文件放入游戏的"Casualties Unknown Demo\BepInEx\plugins"文件夹即可。
