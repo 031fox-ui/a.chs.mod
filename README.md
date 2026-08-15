@@ -37,7 +37,7 @@
 
 使用什么语言　　默认 auto
 
-阻止 QoL Unknown 模组自带的字体 Fallback　　默认关闭
+阻止 QoL Unknown 模组自带的字体 Fallback　　默认打开
 
 阻止 QoL Unknown 向暂停菜单句子池注入　　默认关闭
 
