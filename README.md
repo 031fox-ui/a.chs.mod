@@ -1,6 +1,8 @@
 # 多模组汉化 A.Multi-Mod.Chinese.Localization
 一个“未知伤亡（Casualties Unknown）”的多模组汉化
 
+(这边有此模组提取的文本、翻译：https://github.com/031fox-ui/a.chs.mod-translations)[https://github.com/031fox-ui/a.chs.mod-translations]
+
 直接把下载好的 .dll 文件放入游戏的“Casualties Unknown Demo\BepInEx\plugins”文件夹即可。
 
 繁体中文使用 Python opencc-python-reimplemented s2tw 转换，未做校对
