@@ -13,19 +13,15 @@
 
 ---
 
-本模组重写了。
-
 检查更新：优先从 pages 托管获取更新，连接失败再从 github 获取更新；游戏中有 github、n网、蓝奏云三个分流下载按钮跳转。
-
-！！！注意删除旧版本【a.chs.mod.dll】，和删除【a.chs.mod】文件夹（与“a.chs.mod.dll”同目录，大概率第一个）。否则有些翻译还是旧的。
 
 ！！注意“阻止 QoL Unknown 模组自带的字体”设置，发现 QoL 的 fallback 可以减轻游戏计算 unifont 字体的性能消耗，但是字体会变成 1.0 倍大小，游戏默认 1.3 倍，默认 1.3 倍对于中文阅读非常友好，如果其他模组字非常多，或你想看游戏剧情，推荐保持默认，这是游戏原汁原味的卡顿、原始的字体显示。如果你想流畅些，可以前往【BepInEx\config\A.Multi_Mod.Chinese.Localization.cfg】关闭此设置。
 
-目前：1.0.0  828KB
+目前：1.0.1  852KB
 
 [N网下载：Multi-Mod Chinese Localization](https://www.nexusmods.com/scavprototype/mods/516)
 
-[蓝奏云下载](https://wwann.lanzout.com/i3JFT42f80hc)　　密码：238z（先复制密码再点击链接
+[蓝奏云下载](https://wwann.lanzout.com/iI38E46udwcd)　　密码：544i（先复制密码再点击链接
 
 [GitHub 直接下载（比较吃网络）](https://github.com/031fox-ui/a.chs.mod/raw/refs/heads/main/A.Multi_Mod.Chinese.Localization.dll)
 
@@ -33,9 +29,9 @@
 
 更新日志：
 
-1.0.0 版本
+1.0.1 版本
 
-现在本模组有 3 个设置：
+本模组有 3 个设置：
 
 使用什么语言　　默认 auto
 
@@ -45,58 +41,62 @@
 
 .
 
-支持 27 个被汉化模组（本模组内部命名字母顺序）：
+支持 29 个被汉化模组（本模组内部命名字母顺序。数字为本模组的翻译版本）：
 
-[Alexx_'s Mod Manager](https://www.nexusmods.com/scavprototype/mods/31)
+[Alexx_'s Mod Manager](https://www.nexusmods.com/scavprototype/mods/31)　1.0.0
 
-[Auto's Arsenal](https://www.nexusmods.com/scavprototype/mods/81)
+[Auto's Arsenal](https://www.nexusmods.com/scavprototype/mods/81)　1.0.0
 
-[Casualty Vitals](https://www.nexusmods.com/scavprototype/mods/388)
+[Casualty Vitals](https://www.nexusmods.com/scavprototype/mods/388)　1.0.1
 
-[CatPatch](https://www.nexusmods.com/scavprototype/mods/69)
+[CatPatch](https://www.nexusmods.com/scavprototype/mods/69)　1.0.0
 
-[Better Crafting Logic](https://www.nexusmods.com/scavprototype/mods/344)
+[Better Crafting Logic](https://www.nexusmods.com/scavprototype/mods/344)　1.0.0
 
-[CUCoreLib](https://www.nexusmods.com/scavprototype/mods/341)
+[CUCoreLib](https://www.nexusmods.com/scavprototype/mods/341)　1.0.0
 
-[Mod Settings](https://www.nexusmods.com/scavprototype/mods/333)
+[Mod Settings](https://www.nexusmods.com/scavprototype/mods/333)　1.0.0
 
-[Custom Structures](https://www.nexusmods.com/scavprototype/mods/9)
+[Custom Structures](https://www.nexusmods.com/scavprototype/mods/9)　1.0.0
 
-[extraDialogues](https://www.nexusmods.com/scavprototype/mods/432)
+[extraDialogues](https://www.nexusmods.com/scavprototype/mods/432)　1.0.0
 
-[Extra Medicaments](https://www.nexusmods.com/scavprototype/mods/448)
+[Extra Medicaments](https://www.nexusmods.com/scavprototype/mods/448)　1.0.0
 
-[Killer's Clothing and Armor](https://www.nexusmods.com/scavprototype/mods/59)
+[Killer's Clothing and Armor](https://www.nexusmods.com/scavprototype/mods/59)　1.0.0
 
-[Killer's Guns](https://www.nexusmods.com/scavprototype/mods/68)
+[Killer's Guns](https://www.nexusmods.com/scavprototype/mods/68)　1.0.0
 
-[Casualties Together](https://www.nexusmods.com/scavprototype/mods/67)（请配合此模组使用：[KrokMP Chinese Supplement - Simplified Chinese Translation](https://www.nexusmods.com/scavprototype/mods/183)）
+[Casualties Together](https://www.nexusmods.com/scavprototype/mods/67)　1.0.0　（请配合此模组使用：[KrokMP Chinese Supplement - Simplified Chinese Translation](https://www.nexusmods.com/scavprototype/mods/183)）
 
-[Alexx_'s Medical Brutalism](https://www.nexusmods.com/scavprototype/mods/452)
+[Alexx_'s Medical Brutalism](https://www.nexusmods.com/scavprototype/mods/452)　1.0.1
 
-[Multiplayer Sprite Replacer](https://www.nexusmods.com/scavprototype/mods/74)
+[Multiplayer Sprite Replacer](https://www.nexusmods.com/scavprototype/mods/74)　1.0.0
 
-[NeurotraumaModik](https://www.nexusmods.com/scavprototype/mods/440)
+[NeurotraumaModik](https://www.nexusmods.com/scavprototype/mods/440)　1.0.0
 
-[New Clothing](https://www.nexusmods.com/scavprototype/mods/43)
+[New Clothing](https://www.nexusmods.com/scavprototype/mods/43)　1.0.0
 
-[New Firearms](https://www.nexusmods.com/scavprototype/mods/122)
+[New Firearms](https://www.nexusmods.com/scavprototype/mods/122)　1.0.1
 
-[New Gun Loader (super beta)](https://www.nexusmods.com/scavprototype/mods/57)
+[New Gun Loader (super beta)](https://www.nexusmods.com/scavprototype/mods/57)　1.0.0
 
-[Over The Top Realism](https://www.nexusmods.com/scavprototype/mods/330)
+[Over The Top Realism](https://www.nexusmods.com/scavprototype/mods/330)　1.0.0
 
-[Prosthetics](https://www.nexusmods.com/scavprototype/mods/40)
+[Prosthetics](https://www.nexusmods.com/scavprototype/mods/40)　1.0.1
 
-[QoL Unknown](https://www.nexusmods.com/scavprototype/mods/7)
+[QoL Unknown](https://www.nexusmods.com/scavprototype/mods/7)　1.0.0
 
-[Re-Growth Serums](https://www.nexusmods.com/scavprototype/mods/38)
+[Re-Growth Serums](https://www.nexusmods.com/scavprototype/mods/38)　1.0.0
 
-[RshLib](https://www.nexusmods.com/scavprototype/mods/32)
+[RshLib](https://www.nexusmods.com/scavprototype/mods/32)　1.0.0
 
-[ScavSetLib](https://www.nexusmods.com/scavprototype/mods/338)
+[Say Again - hearing protection](https://www.nexusmods.com/scavprototype/mods/532)　1.0.1
 
-[Thigh Highs](https://www.nexusmods.com/scavprototype/mods/33)
+[ScavSetLib](https://www.nexusmods.com/scavprototype/mods/338)　1.0.0
 
-[Performance Unknown](https://www.nexusmods.com/scavprototype/mods/342)
+[Simple QoL](https://www.nexusmods.com/scavprototype/mods/320)　1.0.1
+
+[Thigh Highs](https://www.nexusmods.com/scavprototype/mods/33)　1.0.0
+
+[Performance Unknown](https://www.nexusmods.com/scavprototype/mods/342)　1.0.0
