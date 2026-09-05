@@ -41,7 +41,7 @@
 
 .
 
-支持 29 个被汉化模组（本模组内部命名字母顺序。数字为本模组的翻译版本）：
+支持 29 个被汉化模组（本模组内部命名字母顺序。数字为本模组的翻译版本更新）：
 
 [Alexx_'s Mod Manager](https://www.nexusmods.com/scavprototype/mods/31)　1.0.0
 
