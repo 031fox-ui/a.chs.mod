@@ -1,0 +1,28 @@
+{
+  "item": {
+    "armwarmers": "Arm warmers",
+    "armwarmersdsc": "A pair of arm warmers. Provides some insulation against the cold.",
+    "holidayhat": "Holiday hat",
+    "holidayhatdsc": "You've heard that people wear these for some kind of special occasion, though you're not sure what it's about. It's nice that you were sent with one, at least.",
+    "newclothing.boots": "Combat Boots",
+    "newclothing.bootsdsc": "A pair of heavy-duty leather boots, will last you quite a while and is fairly protective.",
+    "newclothing.cropshirt": "Crop shirt",
+    "newclothing.cropshirtdsc": "A crop shirt made to cover your thorax. Provides mild insulation and some protection",
+    "newclothing.croptshirt": "Crop T-Shirt",
+    "newclothing.croptshirtdsc": "A crop t-shirt made to cover your thorax and upper arms. Provides medium insulation and some protection",
+    "newclothing.jeans": "Jeans",
+    "newclothing.jeansdsc": "Jeans, provides protection and insulation. Have an exceptional high durability",
+    "newclothing.longshirt": "Long Sleeve Shirt",
+    "newclothing.longshirtdsc": "A long-sleeve shirt meant to cover your upper torso. Provides good insulation and some protection",
+    "newclothing.shirt": "Shirt",
+    "newclothing.shirtdsc": "A shirt made to cover your thorax and abdomen. Provides medium insulation and some protection",
+    "newclothing.shorts": "Shorts",
+    "newclothing.shortsdsc": "Shorted version of jeans, provides some protection and insulation. Have an exceptional high durability",
+    "newclothing.socks": "Socks",
+    "newclothing.socksdsc": "A pair of socks. Provides protection for yout paws. Have no effect against glass shards.",
+    "newclothing.thighhighs": "Thigh highs",
+    "newclothing.thighhighsdsc": "A pair of thigh highs. Provides protection and insulation against the cold.",
+    "newclothing.tshirt": "T-Shirt",
+    "newclothing.tshirtdsc": "A t-shirt made to cover your thorax, abdomen and upper arms. Provides good insulation and some protection"
+  }
+}

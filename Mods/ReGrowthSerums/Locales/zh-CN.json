@@ -1,0 +1,10 @@
+{
+  "item": {
+    "dragoon_103.eyegrowthserum": "眼球生长血清",
+    "dragoon_103.eyegrowthserumdsc": "对缺失的眼窝注射，刺激脑组织重新生长出眼球组织。警告：切勿在神经元再生病效果期间使用。",
+    "dragoon_103.limbgrowthserum": "肢体再生血清",
+    "dragoon_103.limbgrowthserumdsc": "一种实验性药物，可快速将现有组织转化为新的干细胞组织。对缺失相邻肢体的部位注射。",
+    "dragoon_103.jawgrowthserum": "畸形修复血清",
+    "dragoon_103.jawgrowthserumdsc": "对缺失的面部部位注射干细胞组织，以重新生长颌骨及组织。警告：再生过程中极度疼痛。"
+  }
+}

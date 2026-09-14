@@ -1,0 +1,31 @@
+{
+  "option": {
+    "gamesetPerf_Playground_Sprites": "遊樂場視覺風格",
+    "gamesetPerf_Playground_Spritesdsc": "大幅簡化遊戲精靈與世界元素。平面剪影保留外形，但將貼圖替換為純平均色；平面方塊則將一切變成純色矩形。",
+    "gamesetPerf_Playground_SpritesOff": "關閉（原生細節）",
+    "gamesetPerf_Playground_SpritesFlat Shapes": "平面剪影（遊樂場）",
+    "gamesetPerf_Playground_SpritesFlat Blocks": "平面方塊（極速）",
+    "gamesetPerf_Playground_Foliage": "禁用植被與裝飾",
+    "gamesetPerf_Playground_Foliagedsc": "完全禁用小型裝飾草、藤蔓、植被、殘骸和血跡飛濺。讓世界呈現乾淨簡約的遊樂場風格，並提升 CPU/GPU 性能。",
+    "gamesetPerf_LOS_Speed": "視線刷新間隔",
+    "gamesetPerf_LOS_Speeddsc": "控制 AI 執行視線檢測的頻率。間隔越大，人群密集區域 FPS 提升越明顯，但會有輕微視覺延遲。",
+    "gamesetPerf_LOS_SpeedEvery Frame": "每幀（高負載）",
+    "gamesetPerf_LOS_SpeedEvery 2 Frames": "每 2 幀（快速）",
+    "gamesetPerf_LOS_SpeedEvery 3 Frames": "每 3 幀（極速）",
+    "gamesetPerf_LOS_SpeedEvery 4 Frames": "每 4 幀（極限）",
+    "gamesetPerf_Particle_Cap": "濺射粒子上限",
+    "gamesetPerf_Particle_Capdsc": "限制屏幕上同時活躍的濺射、血跡和火花粒子數量上限。更低的限制可防止激烈戰鬥時 CPU/GPU 成為瓶頸。",
+    "gamesetPerf_Particle_Cap25 Particles": "25（最快）",
+    "gamesetPerf_Particle_Cap50 Particles": "50（高度優化）",
+    "gamesetPerf_Particle_Cap100 Particles": "100（均衡）",
+    "gamesetPerf_Particle_Cap200 Particles": "200（高負載）",
+    "gamesetPerf_Particle_CapUnlimited": "無限制",
+    "gamesetPerf_Physics_Quality": "2D 物理求解質量",
+    "gamesetPerf_Physics_Qualitydsc": "調整 2D 物理的求解迭代精度。更少的迭代可降低碰撞求解的 CPU 開銷，且不影響正常遊戲體驗。",
+    "gamesetPerf_Physics_QualityLow": "低（物理最快）",
+    "gamesetPerf_Physics_QualityMedium": "中（優化）",
+    "gamesetPerf_Physics_QualityHigh": "高（原生默認）",
+    "gamesetPerf_GC_Optimize": "GC 內存清掃器",
+    "gamesetPerf_GC_Optimizedsc": "優化 Unity 垃圾回收的時間片，配合自動內存清掃，讓遊戲過程完全無微卡頓。"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "item": {
+    "autoarsenal.aa12": "AA-12",
+    "autoarsenal.aa12dsc": "A fully automatic shotgun, shockingly small recoil. Uses Shotgun mags",
+    "autoarsenal.kar98k": "Karabiner 98k",
+    "autoarsenal.kar98kdsc": "A supprisingly accurate rifle, somehow still works. Uses 5.56 rounds.",
+    "autoarsenal.m1918tankgewehr": "M1918 Tankgewehr",
+    "autoarsenal.m1918tankgewehrdsc": "You dont know whats more horrifying - this or the thing it was made to destroy... Uses 13.2mm TuF rounds.",
+    "autoarsenal.mp7": "MP7",
+    "autoarsenal.mp7dsc": "Very fast firing SMG. Can fit small magazines or SMG magazines",
+    "autoarsenal.revolver": "Revolver",
+    "autoarsenal.revolverdsc": "Heavy caliber handgun. uses .357 Magnum rounds",
+    "autoarsenal.132tuf": "13.2mm TuF",
+    "autoarsenal.132tufdsc": "a round of truly unholy caliber... Can only be loaded directly",
+    "autoarsenal.357magnum": ".357 Magnum",
+    "autoarsenal.357magnumdsc": "A big handgun round. Can only be loaded directly.",
+    "autoarsenal.boxof357magnum": "Box of .357 Magnum",
+    "autoarsenal.boxof357magnumdsc": "A box made to hold .357 rounds, can hold up to 18 of them",
+    "autoarsenal.caseof132tuf": "Case of 13.2mm TuF",
+    "autoarsenal.caseof132tufdsc": "So much power in such a small package.",
+    "autoarsenal.shotgunmag": "Shotgun magazine",
+    "autoarsenal.shotgunmagdsc": "A special magazaine made to hold 32 12-Gauge rounds."
+  }
+}

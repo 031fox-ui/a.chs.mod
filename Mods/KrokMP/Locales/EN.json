@@ -1,0 +1,12 @@
+{
+  "other": {
+    "krokosha_coop_chat_keybind": "Press \"{0}\" to chat...",
+    "krokosha_coop_mmsb_lobbybadver": "Wrong version!",
+    "krokosha_coop_mmct_ipportfield": "IP:PORT",
+    "krokosha_coop_mmct_usernamefield": "Username",
+    "krokosha_coop_rule_desc_ScatterMinGroupSize": "How many people is considered as a big group.\nTo not trigger ScatterPunishDistance",
+    "krokosha_coop_mmta_credits": "Credits:",
+    "krokosha_coop_netpanel_avgping": "Average Ping: ",
+    "krokosha_coop_netpanel_title": "Multiplayer"
+  }
+}

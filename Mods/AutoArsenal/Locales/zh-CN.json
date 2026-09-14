@@ -1,0 +1,24 @@
+{
+  "item": {
+    "autoarsenal.aa12": "AA-12霰弹枪",
+    "autoarsenal.aa12dsc": "一把全自动霰弹枪，后坐力惊人地小。使用霰弹枪弹匣。",
+    "autoarsenal.kar98k": "Kar98k步枪",
+    "autoarsenal.kar98kdsc": "一支异常精准的步枪，不知为何还能用。使用5.56毫米子弹。",
+    "autoarsenal.m1918tankgewehr": "M1918反坦克步枪",
+    "autoarsenal.m1918tankgewehrdsc": "你不知道哪个更可怕——这个还是它用来摧毁的东西...使用13.2毫米TuF子弹。",
+    "autoarsenal.mp7": "MP7冲锋枪",
+    "autoarsenal.mp7dsc": "射速极快的冲锋枪。可使用手枪弹匣或冲锋枪弹匣。",
+    "autoarsenal.revolver": "左轮手枪",
+    "autoarsenal.revolverdsc": "大口径手枪。使用.357马格南子弹。",
+    "autoarsenal.132tuf": "13.2毫米TuF子弹",
+    "autoarsenal.132tufdsc": "一发真正逆天的口径...只能直接装填。",
+    "autoarsenal.357magnum": ".357马格南",
+    "autoarsenal.357magnumdsc": "一种大口径手枪子弹。只能直接装填。",
+    "autoarsenal.boxof357magnum": ".357马格南弹盒",
+    "autoarsenal.boxof357magnumdsc": "专为容纳.357子弹设计的弹盒，最多可装18发。",
+    "autoarsenal.caseof132tuf": "13.2毫米TuF弹箱",
+    "autoarsenal.caseof132tufdsc": "如此小的包装蕴含如此强大的力量。",
+    "autoarsenal.shotgunmag": "霰弹弹匣",
+    "autoarsenal.shotgunmagdsc": "一种专为容纳32发12号口径霰弹而设计的特殊弹匣。"
+  }
+}

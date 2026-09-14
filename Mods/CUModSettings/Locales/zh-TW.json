@@ -1,0 +1,8 @@
+{
+  "other": {
+    "me.danimineiro.modsettings.MOD_NAME": "模組設置",
+    "me.danimineiro.modsettings.MOD_VERSION_OUTDATED": "你安裝的 {0} 版本 [<color=#AC3232>{1}</color>] 已<color=#AC3232>過時</color>。<br>最新版本為 [<color=#6ABE30>{2}</color>]。請到 GitHub 查看新版本。",
+    "me.danimineiro.modsettings.MOD_VERSION_NEWEST": "你已安裝 {0} 的<color=#6ABE30>最新版本</color> [<color=#6ABE30>{1}</color>]。",
+    "me.danimineiro.modsettings.CHECKOUT_GITHUB": "點擊按鈕查看 <color=#8F8F8F>{0}</color> 在 {1} 上的最新發布："
+  }
+}

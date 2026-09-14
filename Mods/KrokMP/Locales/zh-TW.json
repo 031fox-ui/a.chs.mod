@@ -1,0 +1,12 @@
+{
+  "other": {
+    "krokosha_coop_chat_keybind": "按「{0}」聊天",
+    "krokosha_coop_mmsb_lobbybadver": "版本不匹配！",
+    "krokosha_coop_mmct_ipportfield": "IP：端口",
+    "krokosha_coop_mmct_usernamefield": "用戶名",
+    "krokosha_coop_rule_desc_ScatterMinGroupSize": "多少人被視為一個較大的群體\n以避免觸發ScatterPunishDistance規則\n（離開隊伍過遠的輻射懲罰）",
+    "krokosha_coop_mmta_credits": "致謝：",
+    "krokosha_coop_netpanel_avgping": "平均延遲：",
+    "krokosha_coop_netpanel_title": "多人聯機"
+  }
+}

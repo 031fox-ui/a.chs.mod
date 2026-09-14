@@ -1,0 +1,31 @@
+{
+  "option": {
+    "gamesetPerf_Playground_Sprites": "Playground Visual Style",
+    "gamesetPerf_Playground_Spritesdsc": "Absurdly simplifies game sprites and world elements. Flat Silhouette keeps shapes but strips textures into solid average colors. Flat Blocks turns everything into literal colored rectangles.",
+    "gamesetPerf_Playground_SpritesOff": "Off (Native Detail)",
+    "gamesetPerf_Playground_SpritesFlat Shapes": "Flat Silhouette (Playground)",
+    "gamesetPerf_Playground_SpritesFlat Blocks": "Flat Blocks (Extremely Fast)",
+    "gamesetPerf_Playground_Foliage": "Disable Foliage & Decor",
+    "gamesetPerf_Playground_Foliagedsc": "Completely disables small decorative grass, vines, foliage, debris, and blood splatters. Gives the world a clean, minimalist playground style and improves CPU/GPU performance.",
+    "gamesetPerf_LOS_Speed": "LOS Refresh Interval",
+    "gamesetPerf_LOS_Speeddsc": "Controls how frequently Line Of Sight checks are performed for AI. Higher intervals significantly improve FPS in crowded areas, with minor visual delay.",
+    "gamesetPerf_LOS_SpeedEvery Frame": "Every Frame (Heavy)",
+    "gamesetPerf_LOS_SpeedEvery 2 Frames": "Every 2 Frames (Fast)",
+    "gamesetPerf_LOS_SpeedEvery 3 Frames": "Every 3 Frames (Ultra)",
+    "gamesetPerf_LOS_SpeedEvery 4 Frames": "Every 4 Frames (Extreme)",
+    "gamesetPerf_Particle_Cap": "Splatter Particle Cap",
+    "gamesetPerf_Particle_Capdsc": "Limits the maximum active splatter, blood, and spark particles on the screen. Lower limits prevent CPU and GPU bottlenecking during heavy combat.",
+    "gamesetPerf_Particle_Cap25 Particles": "25 (Fastest)",
+    "gamesetPerf_Particle_Cap50 Particles": "50 (Highly Optimized)",
+    "gamesetPerf_Particle_Cap100 Particles": "100 (Balanced)",
+    "gamesetPerf_Particle_Cap200 Particles": "200 (Heavy)",
+    "gamesetPerf_Particle_CapUnlimited": "Unlimited",
+    "gamesetPerf_Physics_Quality": "Physics 2D Solver Quality",
+    "gamesetPerf_Physics_Qualitydsc": "Adjusts the solver iteration accuracy for 2D physics. Lower iterations reduce CPU overhead from collision solving without affecting normal gameplay.",
+    "gamesetPerf_Physics_QualityLow": "Low (Fastest Physics)",
+    "gamesetPerf_Physics_QualityMedium": "Medium (Optimized)",
+    "gamesetPerf_Physics_QualityHigh": "High (Native Default)",
+    "gamesetPerf_GC_Optimize": "GC Memory Sweeper",
+    "gamesetPerf_GC_Optimizedsc": "Optimizes Unity Garbage Collection time slices to keep gameplay completely micro-stutter free, combined with automated memory sweeping."
+  }
+}

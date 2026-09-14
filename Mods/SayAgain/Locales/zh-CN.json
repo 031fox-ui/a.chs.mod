@@ -1,0 +1,12 @@
+{
+  "item": {
+    "makeshiftearmuffs": "自制耳罩",
+    "makeshiftearmuffsdsc": "用绳线捆扎的树叶团，再以生化药剂浸硬定型。提供有限的听力防护。",
+    "earplugs": "耳塞",
+    "earplugsdsc": "一对能塞进耳孔（如果你找得到耳孔的话）的小泡沫耳塞。大幅降低巨大噪音造成的听力损伤。",
+    "earmuffs": "隔音耳罩",
+    "earmuffsdsc": "弹性头带上装着两个软垫耳杯。大幅降低巨大噪音造成的听力损伤，佩戴时也会闷住其他所有声音。",
+    "hearingaids": "助听器",
+    "hearingaidsdsc": "放大你残存的任何听力。需要电池才能运作。"
+  }
+}

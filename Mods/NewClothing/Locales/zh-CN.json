@@ -1,0 +1,28 @@
+{
+  "item": {
+    "armwarmers": "护臂套",
+    "armwarmersdsc": "一副护臂套。有一定保暖作用。",
+    "holidayhat": "节日帽",
+    "holidayhatdsc": "你听说人们会在某些特殊时间佩戴这些，虽然你并不清楚具体原因。但至少有人送你一件倒也挺不错。",
+    "newclothing.boots": "战斗靴",
+    "newclothing.bootsdsc": "一双重型皮革靴，耐用且防护性不错。",
+    "newclothing.cropshirt": "露脐上衣",
+    "newclothing.cropshirtdsc": "一件遮住胸腔的露脐上衣。提供轻度保温和一定的防护。",
+    "newclothing.croptshirt": "露脐T恤",
+    "newclothing.croptshirtdsc": "一件遮住胸腔和上臂的露脐T恤。提供中度保温和一定的防护。",
+    "newclothing.jeans": "牛仔裤",
+    "newclothing.jeansdsc": "牛仔裤，提供防护和保温。耐久度异常地高。",
+    "newclothing.longshirt": "长袖衬衫",
+    "newclothing.longshirtdsc": "一件遮住上身的衬衫。提供良好的保温和一定的防护。",
+    "newclothing.shirt": "衬衫",
+    "newclothing.shirtdsc": "一件遮住胸腔和腹部的衬衫。提供中度保温和一定的防护。",
+    "newclothing.shorts": "短裤",
+    "newclothing.shortsdsc": "牛仔裤的短款，提供一定的防护和保温。耐久度异常地高。",
+    "newclothing.socks": "袜子",
+    "newclothing.socksdsc": "一双袜子。为你的脚丫提供防护。对玻璃碎片毫无防御效果。",
+    "newclothing.thighhighs": "过膝袜",
+    "newclothing.thighhighsdsc": "一双过膝袜。提供防护和御寒保温。",
+    "newclothing.tshirt": "T恤",
+    "newclothing.tshirtdsc": "一件遮住胸腔、腹部和上臂的T恤。提供良好的保温和一定的防护。"
+  }
+}

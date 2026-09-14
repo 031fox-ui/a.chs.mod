@@ -1,0 +1,12 @@
+{
+  "item": {
+    "makeshiftearmuffs": "Makeshift ear muffs",
+    "makeshiftearmuffsdsc": "Wads of foliage bound with string and stiffened with biochem fluid. Offers minor hearing protection.",
+    "earplugs": "Earplugs",
+    "earplugsdsc": "A small pair of foam plugs that fit in your earholes (if you can find them). Greatly reduces hearing damage from loud noises.",
+    "earmuffs": "Ear muffs",
+    "earmuffsdsc": "Padded cups on a sprung band. Greatly reduces hearing damage from loud noises, and muffles everything else while worn.",
+    "hearingaids": "Hearing aids",
+    "hearingaidsdsc": "Amplifies whatever hearing you have left. Needs battery to function."
+  }
+}

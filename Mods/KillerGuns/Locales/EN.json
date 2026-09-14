@@ -1,0 +1,24 @@
+{
+  "item": {
+    "combatshotgun": "Combat Shotgun",
+    "combatshotgundsc": "A reliable semi automatic shotgun sworn by Security Officers on a distant Space Station. It can load more shells, but is a bit more unwieldly.",
+    "ifv2461": "IFV-2461",
+    "ifv2461dsc": "A highly advanced railgun that accelerates projectiles fast enough to pierce through most metals known to humanity. Decimates anything you point this at, but lack of exotic ammunition means recoil will be especially rough. How did this even end up here?",
+    "krammer5001": "Krammer 5001",
+    "krammer5001dsc": "A reliable semi automatic shotgun sworn by Security Officers on a distant Space Station. It's angled grip helps improve recoil control.",
+    "lectertypet": "Lecter Type-T",
+    "lectertypetdsc": "A reliable assault rifle sworn by Security Officers on a distant Space Station. It's angled grip helps improve recoil control.",
+    "lectertypef": "Lecter Type-F",
+    "lectertypefdsc": "A high-tech upgrade of the existing Lecter Type-T, not usually seen on distant Space Stations. Acts more like a railgun and packs a stronger punch, although it takes longer to fire.",
+    "m492": "M492 Smart LMG",
+    "m492dsc": "An incredibly heavy LMG sworn by Security Officers on a distant Space Station. High capacity and packs a punch, if you can hold it. The magazine appears jammed into the gun, which means it will require manual feeding. Hope you have patience to load all 100 rounds.",
+    "n1984": "N1984",
+    "n1984dsc": "A hard hitting .44 magnum pistol, seen as a status symbol by Security Officers on distant Space Stations. Has one hell of a kick, uses pistol magazines.",
+    "n2461": "N2461",
+    "n2461dsc": "A honest to god handheld railgun, the 'modern' handcannon. It'll kill most anything you point it at, but the recoil is intense. Suffers from slow rate of fire and is not friendly to sensitive ears.",
+    "p91": "P91",
+    "p91dsc": "A simple use once and toss away machine pistol. Insanely inaccurate, Uses pistol magazines.",
+    "sentinel": "Sentinel",
+    "sentineldsc": "A high-capacity semi automatic shotgun with an internal revolving magazine sworn by Security Officers on a distant Space Station. It's internal revolving magazine can load 24 shells, but the turning mechanism is a bit slow."
+  }
+}
