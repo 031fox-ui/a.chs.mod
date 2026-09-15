@@ -6,7 +6,7 @@ internal static class CustomStructuresTr
         ("Spawns a structure at your cursor, player, or world middle.", "【自定义结构】在光标、玩家或世界中心生成一个建筑。"),
         ("Teleports to the nearest generated instance of a structure.", "【自定义结构】传送到最近的一个已生成建筑实例。"),
         ("Enables or disables custom structure generation.", "【自定义结构】启用或禁用自定义建筑生成。"),
-        ("Reloads structure .txt files without restarting.", "【自定义结构】无需重启即可重新加载建筑 .txt 文件。"),
+        ("Reloads structure and custom layer files without restarting.", "【自定义结构】无需重启即可重新加载建筑与自定义层级文件。"),
         ("Sets a multiplier for all structure spawn rates. Fractional results become probabilities.", "【自定义结构】设置所有建筑生成率的倍率，小数结果按概率处理。"),
         ("Dispatches a MoreStructures signal ID to listeners.", "【自定义结构】向监听器派发一个 MoreStructures 信号 ID。"),
         ("Prints maxWeight/maxWeightPerItem for known non-liquid container prefabs.", "【自定义结构】打印已知非液体容器预制体的 maxWeight/maxWeightPerItem。"),
@@ -27,7 +27,7 @@ internal static class CustomStructuresTr
         ("Spawned '{0}' at {1} ({2})", "已在 {1}（{2}）生成「{0}」"),
         ("Teleported to nearest '{0}' at {1} ({2:F1}m away).", "已传送到最近的「{0}」，位于 {1}（距离 {2:F1} 米）。"),
         ("More Structures set to: {0}. (Changes apply on next generation/restart)", "更多结构已设为：{0}。（下次生成/重启后生效）"),
-        ("Reloaded {0} structures from disk.", "已从磁盘重新加载 {0} 个建筑。"),
+        ("Reloaded {0} structures and {1} World layer files from disk.", "已从磁盘重新加载 {0} 个建筑和 {1} 个世界层级文件。"),
         ("Structure spawn multiplier set to {0:F2}x. (e.g., 16 spawns -> ~{1} spawns, changes apply on next generation)", "建筑生成倍率已设为 {0:F2}x。（例如：16 次生成 → 约 {1} 次，下次生成时生效）"),
         ("Signal '{0}' dispatched to {1} listener(s).", "信号「{0}」已派发给 {1} 个监听器。"),
         ("dumpcontainercaps complete. found={0}, missing={1}", "dumpcontainercaps 完成。找到={0}，缺失={1}"),
@@ -36,12 +36,30 @@ internal static class CustomStructuresTr
         ("Catalog cache loaded: {0} entries. Scroll down or refresh for more.", "目录缓存已加载：{0} 个条目。向下滚动或刷新查看更多。"),
         ("Catalog cache loaded: {0} entries.", "目录缓存已加载：{0} 个条目。"),
     };
+    public static readonly (string En, string Zh)[] Alerts =
+    {
+        ("Structure sync failed. Rejoin the host before continuing.", "结构同步失败。请重新加入主机后再继续。"),
+        ("The host is not running.", "主机未在运行。"),
+        ("The host world is not ready.", "主机的世界尚未就绪。"),
+        ("Structure ID does not match its definition.", "结构 ID 与其定义不匹配。"),
+        ("The host could not spawn the structure. See host log.", "主机无法生成该结构。请查看主机日志。"),
+        ("Host has sv_cheats or client commands disabled.", "主机已禁用 sv_cheats 或客户端命令。"),
+        ("Invalid More Structures spawn payload.", "无效的 More Structures 生成数据。"),
+        ("More Structures command accepted.", "More Structures 命令已接受。"),
+        ("More Structures command denied.", "More Structures 命令被拒绝。"),
+    };
+    public static readonly (string En, string Zh)[] AlertFormats =
+    {
+        ("Host spawned '{0}'.", "主机已生成「{0}」。"),
+        ("Host could not register structure '{0}'.", "主机无法注册结构「{0}」。"),
+    };
     public static readonly (string En, string Zh)[] Literals =
     {
         ("Refreshing community catalog...", "正在刷新社区目录..."),
         ("Searching...", "正在搜索..."),
         ("No cached matches yet. Search will keep loading more.", "暂无缓存匹配，搜索将继续加载更多。"),
         ("No entries found. Refresh catalog or adjust search.", "未找到条目，请刷新目录或调整搜索。"),
+        ("No matches in the loaded catalog pages. Refine or clear the search to browse farther.", "已加载的目录页中没有匹配项。请细化或清空搜索以继续浏览。"),
         (" Scroll down for more.", " 向下滚动查看更多。"),
         ("Loading more community structures...", "正在加载更多社区结构..."),
         ("\n<color=grey>By ", "\n<color=grey>作者 "),
@@ -50,6 +68,7 @@ internal static class CustomStructuresTr
         ("Disable", "禁用"),
         ("Enable", "启用"),
         ("Community browser ready.", "社区浏览器已就绪。"),
+        ("Search name:, author:, id:, score>=, installed:, enabled:", "搜索 name:、author:、id:、score>=、installed:、enabled:"),
         ("Structure ID cannot be empty.", "建筑 ID 不能为空。"),
         ("A structure download/install is already running.", "已有建筑下载/安装正在进行。"),
         ("Another structure disable operation is already running.", "已有建筑禁用操作正在进行。"),
@@ -64,7 +83,6 @@ internal static class CustomStructuresTr
         ("Remote catalog source updated to: ", "远程目录源已更新为："),
         ("Untitled", "未命名"),
         ("Anonymous", "匿名"),
-        ("Installed", "已安装"),
         ("Structure Browser", "结构浏览器"),
         ("Could not send host spawn request for '", "无法发送主机生成请求：'"),
         ("Structure browser failed to open for refresh. ", "建筑浏览器无法打开以进行刷新。"),
@@ -83,6 +101,28 @@ internal static class CustomStructuresTr
         ("Generating Custom Structures.. \n {0} ({1}/{2})\n\n", "正在生成自定义结构.. \n {0}（{1}/{2}）\n\n"),
         ("checking host", "正在检查主机"),
         ("host structures", "主机结构"),
+        ("Custom Layer {0}", "自定义层级 {0}"),
+        ("\n\nProperties: ", "\n\n属性："),
+    };
+    public static readonly (string En, string Zh)[] CrystalPropertyNames =
+    {
+        ("Irradiated", "辐射"),
+        ("Fragile", "脆弱"),
+        ("Gravity", "重力扭曲"),
+        ("Electric", "电击"),
+        ("Burning", "燃烧"),
+        ("Temperature", "温度"),
+        ("Septic", "感染"),
+        ("Unstable", "不稳定"),
+        ("Mimic", "拟态"),
+        ("Teleport", "位置错乱"),
+        ("Dripping", "融化"),
+        ("Kinetic", "动能"),
+        ("EMP", "电磁脉冲"),
+        ("Blinding", "强光"),
+        ("Metamorphic", "蜕变"),
+        ("Healing", "治疗"),
+        ("Shy", "怯生"),
     };
     public static readonly (string En, string Zh)[] Settings =
     {
