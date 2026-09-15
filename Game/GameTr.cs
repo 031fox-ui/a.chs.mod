@@ -283,7 +283,7 @@ internal static class GameTr
         ("<color=\"red\">After parsing a value an unexpected character was encountered: {0}. Path '{1}', line {2}, position {3}.", "<color=\"red\">解析数值后遇到意外字符：「{0}」。路径「{1}」，第 {2} 行第 {3} 列。"),
         ("<color=\"red\">Unexpected character encountered while parsing value: {0}. Path '{1}', line {2}, position {3}.", "<color=\"red\">解析数值时遇到意外字符：「{0}」。路径「{1}」，第 {2} 行第 {3} 列。"),
         ("<color=\"red\">Unexpected end when deserializing object. Path '{0}', line {1}, position {2}.", "<color=\"red\">反序列化对象时意外结束。路径「{0}」，第 {1} 行第 {2} 列。"),
-        ("<color=yellow>Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect; {0}</color>", "<color=yellow>精灵平铺显示可能不正确，因为所用的精灵不是以完整矩形（Full Rect）生成的。要解决此问题，请将精灵的网格类型（Mesh Type）改为完整矩形（Full Rect）。{0}</color>"),
+        ("<color=yellow>Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect; {0}</color>", "<color=yellow>精灵平铺显示可能不正确，因为所用的精灵不是以完整矩形（Full Rect）生成的。\n要解决此问题，请将精灵的网格类型（Mesh Type）改为完整矩形（Full Rect）。{0}</color>"),
         ("This is a beta build ({0}); Things are subject to change. (Demo)", "这是 Beta 构建（{0}）；内容可能随时变化。（Demo）"),
         ("This is a beta build ({0}); Things are subject to change.", "这是 Beta 构建（{0}）；内容可能随时变化。"),
         ("Skipped playing track by {0} seconds.", "已跳过曲目 {0} 秒。"),

@@ -141,7 +141,7 @@ internal static class CUCoreLibTr
         ("Method '{0}' calls BuildingEntityRegistry.{1}(). Only basic building registration is supported during strict content reload.", "方法「{0}」调用了 BuildingEntityRegistry.{1}()。严格内容重载期间仅支持基础建筑注册。"),
         ("Method '{0}' is not strict content-only: it calls ModOptionsRegistry.{1}(). Mod options are excluded from strict content reload.", "方法「{0}」不是严格内容专用 : 它调用了 ModOptionsRegistry.{1}()。严格内容重载排除模组选项。"),
         ("Method '{0}' is not strict content-only: it calls SaveRegistry.{1}(). Save providers are excluded from strict content reload.", "方法「{0}」不是严格内容专用 : 它调用了 SaveRegistry.{1}()。严格内容重载排除存档提供器。"),
-        ("Method '{0}' is not strict content-only: it calls {1}.{2}(). Status and moodle registration are excluded from strict content reload.", "方法「{0}」不是严格内容专用 : 它调用了 {1}.{2}()。严格内容重载排除状态与情绪注册。"),
+        ("Method '{0}' is not strict content-only: it calls {1}.{2}(). Status and moodle registration are excluded from strict content reload.", "方法「{0}」不是严格内容专用 : 它调用了 {1}.{2}()。严格内容重载排除状态与状态图标注册。"),
         ("Method '{0}' is not strict content-only: it calls multiplayer registration/setup code. Multiplayer hooks are excluded from strict content reload.", "方法「{0}」不是严格内容专用 : 它调用了多人游戏注册/设置代码。严格内容重载排除多人游戏钩子。"),
         ("Method '{0}' is not strict content-only: it calls TileRegistry.{1}(). Tile registration is excluded from strict content reload.", "方法「{0}」不是严格内容专用 : 它调用了 TileRegistry.{1}()。严格内容重载排除地块注册。"),
         ("Method '{0}' is not strict content-only: it calls StructureRegistry.{1}(). Structure registration is excluded from strict content reload.", "方法「{0}」不是严格内容专用 : 它调用了 StructureRegistry.{1}()。严格内容重载排除结构注册。"),

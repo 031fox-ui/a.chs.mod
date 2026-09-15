@@ -24,5 +24,10 @@ internal static class NewFirearmsTrTw
         ("[NewFirearms] Replace recipe at {0} for {1}", "[NewFirearms] 在位置 {0} 將配方替換為 {1}"),
         ("[NewFirearms] Added recipe at {0} for {1}", "[NewFirearms] 在位置 {0} 添加配方 : {1}"),
         ("<color=red>[NewFirearms] Unable to patch recipes! No replacment left.; {0}", "<color=red>[NewFirearms] 無法修補配方！無可用替換資源。; {0}"),
+        ("<color=yellow>[GunMinigame] Target magazine doesnt implement IMinigameMag!; {0}", "<color=yellow>[GunMinigame] 目標彈匣未實現 IMinigameMag！; {0}"),
+        ("<color=yellow>[GunMinigame] Expected item doesnt have a AmmoScript :tourniqet:; {0}", "<color=yellow>[GunMinigame] 目標物品沒有 AmmoScript :tourniqet:; {0}"),
+        ("<color=yellow>[GunMinigame-NewFirearms] Expected item doesnt have a RshMag :tourniqet:; {0}", "<color=yellow>[GunMinigame-NewFirearms] 目標物品沒有 RshMag :tourniqet:; {0}"),
+        ("<color=yellow>[NewFirearms] Magazine {0} doesnt have a ammo fillup for {1}; {2}", "<color=yellow>[NewFirearms] 彈匣 {0} 沒有適用於 {1} 的彈藥裝填 ; {2}"),
+        ("<color=red>[NewFirearms] Gunsaw Genetics integration failed! Send a bug report.; {0}", "<color=red>[NewFirearms] 與 Gunsaw Genetics 的集成失敗！請提交錯誤報告。; {0}"),
     };
 }

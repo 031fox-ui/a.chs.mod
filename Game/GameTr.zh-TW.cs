@@ -283,7 +283,7 @@ internal static class GameTrTw
         ("<color=\"red\">After parsing a value an unexpected character was encountered: {0}. Path '{1}', line {2}, position {3}.", "<color=\"red\">解析數值後遇到意外字符：「{0}」。路徑「{1}」，第 {2} 行第 {3} 列。"),
         ("<color=\"red\">Unexpected character encountered while parsing value: {0}. Path '{1}', line {2}, position {3}.", "<color=\"red\">解析數值時遇到意外字符：「{0}」。路徑「{1}」，第 {2} 行第 {3} 列。"),
         ("<color=\"red\">Unexpected end when deserializing object. Path '{0}', line {1}, position {2}.", "<color=\"red\">反序列化對象時意外結束。路徑「{0}」，第 {1} 行第 {2} 列。"),
-        ("<color=yellow>Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect; {0}</color>", "<color=yellow>精靈平鋪顯示可能不正確，因為所用的精靈不是以完整矩形（Full Rect）生成的。要解決此問題，請將精靈的網格類型（Mesh Type）改為完整矩形（Full Rect）。{0}</color>"),
+        ("<color=yellow>Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect; {0}</color>", "<color=yellow>精靈平鋪顯示可能不正確，因為所用的精靈不是以完整矩形（Full Rect）生成的。\n要解決此問題，請將精靈的網格類型（Mesh Type）改為完整矩形（Full Rect）。{0}</color>"),
         ("This is a beta build ({0}); Things are subject to change. (Demo)", "這是 Beta 構建（{0}）；內容可能隨時變化。（Demo）"),
         ("This is a beta build ({0}); Things are subject to change.", "這是 Beta 構建（{0}）；內容可能隨時變化。"),
         ("Skipped playing track by {0} seconds.", "已跳過曲目 {0} 秒。"),

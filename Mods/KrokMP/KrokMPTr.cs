@@ -194,6 +194,8 @@ internal static class KrokMPTr
         ("Cheats disabled. Server rule 'sv_cheats' is disabled", "作弊已禁用：服务器规则「sv_cheats」已禁用"),
         ("Cheats disabled. Server rule 'AllowClientCheatCommands' is disabled", "作弊已禁用：服务器规则「AllowClientCheatCommands」已禁用"),
         ("Announcing GoBackToMainMenu.", "正在广播返回主菜单。"),
+        ("LOADING SAVE FROM DIRECTORY: ", "正在从目录加载存档 : "),
+        ("Attempting to load a multiplayer save.", "正在尝试加载多人联机存档。"),
     };
     public static readonly (string En, string Zh)[] LogFormats =
     {
@@ -202,7 +204,7 @@ internal static class KrokMPTr
         ("Failed to teleport: {0}", "传送失败 : {0}"),
         ("Failed to teleport: {0} {1}", "传送失败 : {0} {1}"),
         ("Gave {0} {1} strength experience.", "给予 {0} {1} 点力量经验。"),
-        ("Gave {0} {1} resilience experience.", "给予 {0} {1} 点抗性经验。"),
+        ("Gave {0} {1} resilience experience.", "给予 {0} {1} 点韧性经验。"),
         ("Gave {0} {1} intelligence experience.", "给予 {0} {1} 点智力经验。"),
         ("Gave the player {0} strength experience.", "已给予玩家 {0} 点力量经验。"),
         ("Gave the player {0} resilience experience.", "已给予玩家 {0} 点韧性经验。"),
@@ -288,6 +290,14 @@ internal static class KrokMPTr
         ("{0} is not a valid limb!", "{0} 不是有效的部位！"),
         ("Cheats disabled. {0}", "作弊已禁用 : {0}"),
         ("SAVING TO FILE: {0}", "正在保存到文件 : {0}"),
+        ("LOADING SAVE FROM DIRECTORY: {0}", "正在从目录加载存档 : {0}"),
+        ("LoadGame_MultiplayerPatch: Mismatching mod version! file:{0} current: {1}", "LoadGame_MultiplayerPatch : 模组版本不匹配！文件 :{0} 当前 : {1}"),
+        ("LoadGame_MultiplayerPatch: Mismatching game version! file:{0} current: {1}", "LoadGame_MultiplayerPatch : 游戏版本不匹配！文件 :{0} 当前 : {1}"),
+        ("LoadGame_MultiplayerPatch: SAVE FILE NOT FOUND FOR {0}", "LoadGame_MultiplayerPatch : 找不到要加载的存档文件 : {0}"),
+        ("LoadGame_MultiplayerPatch: COULD NOT FIND PLAYER TO LOAD: {0}", "LoadGame_MultiplayerPatch : 找不到要加载的玩家 : {0}"),
+        ("LoadGame_MultiplayerPatch: READING {0}:\nPATH: {1}\n{2}", "LoadGame_MultiplayerPatch : 正在读取 {0} :\n路径 : {1}\n{2}"),
+        ("LoadGame_MultiplayerPatch: READING PLAYERS\n{0}", "LoadGame_MultiplayerPatch : 正在读取玩家数据\n{0}"),
+        ("LoadGame_MultiplayerPatch: READING\n{0}", "LoadGame_MultiplayerPatch : 正在读取\n{0}"),
         ("Steamworks initialized!\n{0} - {1}", "Steamworks 已初始化！\n{0} - {1}"),
         ("FAILED TO INIT STEAM:\n{0}", "Steam 初始化失败 : \n{0}"),
         ("OnLobbyEnter failed! response: {0}", "加入大厅失败！响应 : {0}"),
