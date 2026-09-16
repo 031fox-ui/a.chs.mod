@@ -18,7 +18,7 @@
 | :---------- | :----------------------------------------------------------------------------------------------------------- | :--------- |
 | **N 网**（推荐） | [Multi-Mod Chinese Localization](https://www.nexusmods.com/scavprototype/mods/516)                           | Nexus Mods |
 | **GitHub**  | [直接下载](https://github.com/031fox-ui/a.chs.mod/releases/latest/download/A.Multi_Mod.Chinese.Localization.dll) | 比较吃网络      |
-| **蓝奏云**     | [蓝奏云下载](https://wwann.lanzout.com/iI38E46udwcd)                                                              | 密码：544i    |
+| **蓝奏云**     | [蓝奏云下载](https://wwann.lanzout.com/iHfmV48on3qj)                                                              | 密码：g6hk    |
 
 ## 安装
 
