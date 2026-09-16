@@ -1,36 +1,77 @@
 # 多模组汉化 A.Multi-Mod.Chinese.Localization
 
-一个“未知伤亡（Casualties Unknown）”的多模组汉化 —— 把游戏本体与各大模组的界面、文本、台词译成中文。
-翻译**直接编译进插件**，模组没装则零注入、零影响。
+一个“未知伤亡（Casualties Unknown）”的多模组汉化
 
-> **当前版本 1.0.1**（852 KB）· 已汉化 **29** 个模组 + 游戏本体
+> **当前版本 1.0.2**（1159 KB）· 已汉化 **31** 个模组 + 游戏本体
 
 > 🤖 **本仓库由 AI 协助维护**：提交由 AI 生成、内容经人工确认。译文或文本问题照常反馈即可。
 
-[下载](#下载) · [安装](#安装) · [文本与翻译](#文本与翻译) · [更新检查](#更新检查) · [注意事项](#注意事项) · [已知问题](#已知问题) · [更新日志](#更新日志) · [设置项](#设置项) · [支持的模组](#支持的模组)
+[下载](#下载) · [安装](#安装) · [支持的模组](#支持的模组) · [文本与翻译](#文本与翻译) · [注意事项](#注意事项) · [已知问题](#已知问题) · [更新日志](#更新日志) · [设置项](#设置项)
 
----
+## ！有什么想汉化的模组或文本错误，欢迎联系我。
+
+***
 
 ## 下载
 
-| 渠道 | 链接 | 备注 |
-| :-- | :-- | :-- |
-| **N 网**（推荐） | [Multi-Mod Chinese Localization](https://www.nexusmods.com/scavprototype/mods/516) | Nexus Mods |
-| **GitHub** | [直接下载（最新 Release）](https://github.com/031fox-ui/a.chs.mod/releases/latest/download/A.Multi_Mod.Chinese.Localization.dll) | 比较吃网络 |
-| **蓝奏云** | [蓝奏云下载](https://wwann.lanzout.com/iI38E46udwcd) | 密码：544i（先复制密码再点击链接） |
+| 渠道          | 链接                                                                                                                       | 备注                  |
+| :---------- | :----------------------------------------------------------------------------------------------------------------------- | :------------------ |
+| **N 网**（推荐） | [Multi-Mod Chinese Localization](https://www.nexusmods.com/scavprototype/mods/516)                                       | Nexus Mods          |
+| **GitHub**  | [直接下载（最新 Release）](https://github.com/031fox-ui/a.chs.mod/releases/latest/download/A.Multi_Mod.Chinese.Localization.dll) | 比较吃网络               |
+| **蓝奏云**     | [蓝奏云下载](https://wwann.lanzout.com/iI38E46udwcd)                                                                          | 密码：544i（先复制密码再点击链接） |
 
 ## 安装
 
 把下载好的 `.dll` 文件放入游戏的 `Casualties Unknown Demo\BepInEx\plugins` 文件夹即可。
 
+## 支持的模组
+
+支持 **31** 个被汉化模组（下表按模组名称 A–Z 排序；右列数字为该模组翻译的版本更新）。
+
+| 汉化模组                                                                               | 翻译版本     |
+| :--------------------------------------------------------------------------------- | :------- |
+| [Alexx\_'s Medical Brutalism](https://www.nexusmods.com/scavprototype/mods/452)    | 1.0.2    |
+| [Alexx\_'s Mod Manager](https://www.nexusmods.com/scavprototype/mods/31)           | 1.0.0    |
+| [Auto's Arsenal](https://www.nexusmods.com/scavprototype/mods/81)                  | 1.0.0    |
+| [Better Crafting Logic](https://www.nexusmods.com/scavprototype/mods/344)          | 1.0.0    |
+| [Casualties Together](https://www.nexusmods.com/scavprototype/mods/67)             | 1.0.2    |
+| [Casualty Vitals](https://www.nexusmods.com/scavprototype/mods/388)                | 1.0.1    |
+| [CatPatch](https://www.nexusmods.com/scavprototype/mods/69)                        | 1.0.0    |
+| [CUCoreLib](https://www.nexusmods.com/scavprototype/mods/341)                      | 1.0.2    |
+| [Custom Structures](https://www.nexusmods.com/scavprototype/mods/9)                | 1.0.2    |
+| [extraDialogues](https://www.nexusmods.com/scavprototype/mods/432)                 | 1.0.0    |
+| [Extra Medicaments](https://www.nexusmods.com/scavprototype/mods/448)              | 1.0.0    |
+| [Gunsaw Genetics](https://www.nexusmods.com/scavprototype/mods/324)                | 1.0.2 新增 |
+| [Killer's Clothing and Armor](https://www.nexusmods.com/scavprototype/mods/59)     | 1.0.0    |
+| [Killer's Guns](https://www.nexusmods.com/scavprototype/mods/68)                   | 1.0.0    |
+| [Mod Settings](https://www.nexusmods.com/scavprototype/mods/333)                   | 1.0.0    |
+| [Multiplayer Sprite Replacer](https://www.nexusmods.com/scavprototype/mods/74)     | 1.0.0    |
+| [NeurotraumaModik](https://www.nexusmods.com/scavprototype/mods/440)               | 1.0.0    |
+| [New Clothing](https://www.nexusmods.com/scavprototype/mods/43)                    | 1.0.0    |
+| [New Descents](https://www.nexusmods.com/scavprototype/mods/662)                   | 1.0.2 新增 |
+| [New Firearms](https://www.nexusmods.com/scavprototype/mods/122)                   | 1.0.2    |
+| [New Gun Loader (super beta)](https://www.nexusmods.com/scavprototype/mods/57)     | 1.0.0    |
+| [Over The Top Realism](https://www.nexusmods.com/scavprototype/mods/330)           | 1.0.0    |
+| [Performance Unknown](https://www.nexusmods.com/scavprototype/mods/342)            | 1.0.0    |
+| [Prosthetics](https://www.nexusmods.com/scavprototype/mods/40)                     | 1.0.1    |
+| [QoL Unknown](https://www.nexusmods.com/scavprototype/mods/7)                      | 1.0.0    |
+| [Re-Growth Serums](https://www.nexusmods.com/scavprototype/mods/38)                | 1.0.0    |
+| [RshLib](https://www.nexusmods.com/scavprototype/mods/32)                          | 1.0.0    |
+| [Say Again - hearing protection](https://www.nexusmods.com/scavprototype/mods/532) | 1.0.1    |
+| [ScavSetLib](https://www.nexusmods.com/scavprototype/mods/338)                     | 1.0.0    |
+| [Simple QoL](https://www.nexusmods.com/scavprototype/mods/320)                     | 1.0.2    |
+| [Thigh Highs](https://www.nexusmods.com/scavprototype/mods/33)                     | 1.0.0    |
+
+> **Casualties Together（KrokMP）** 建议配合使用：[KrokMP Chinese Supplement - Simplified Chinese Translation](https://www.nexusmods.com/scavprototype/mods/183)
+
 ## 文本与翻译
 
 模组提取出来的**原文 / 译文对照**就在本仓库里，按目录分：
 
-| 范围 | 目录 | 内容 |
-| :-- | :-- | :-- |
-| **游戏本体** | [`Game/`](https://github.com/031fox-ui/a.chs.mod/tree/main/Game) | 游戏自带文本、台词、界面 |
-| **各模组** | [`Mods/<模组>/`](https://github.com/031fox-ui/a.chs.mod/tree/main/Mods) | 每个模组一个目录，见下方结构 |
+| 范围       | 目录                                                                    | 内容             |
+| :------- | :-------------------------------------------------------------------- | :------------- |
+| **游戏本体** | [`Game/`](https://github.com/031fox-ui/a.chs.mod/tree/main/Game)      | 游戏自带文本、台词、界面   |
+| **各模组**  | [`Mods/<模组>/`](https://github.com/031fox-ui/a.chs.mod/tree/main/Mods) | 每个模组一个目录，见下方结构 |
 
 单个模组目录的结构（以 Say Again 为例）：
 
@@ -45,12 +86,6 @@ Mods/SayAgain/
 ```
 
 繁体中文使用 Python `opencc-python-reimplemented` 的 s2tw 转换，**未做校对**。
-
-！有什么想汉化的模组或文本错误，欢迎联系我。
-
-## 更新检查
-
-优先从 Pages 托管获取更新，连接失败再从 GitHub 获取更新；游戏中有 GitHub、N 网、蓝奏云三个分流下载按钮跳转。
 
 ## 注意事项
 
@@ -69,68 +104,23 @@ Mods/SayAgain/
 
 ## 已知问题
 
-**下次更新修复：**
-
-- **Simple QoL**：有少量错误翻译。
-- **Medical Brutalism**：向控制台打印的这 3 条漏翻了：
-
-| 模组原文 | 译文 |
-| :-- | :-- |
-| Кнопка добавлена в меню (X=…, Y=…, W=…, H=…) | 菜单按钮已添加（X=…, Y=…, W=…, H=…） |
-| Панель меню не найдена. | 未找到菜单面板。 |
-| Не найдена эталонная кнопка Radio/TutorialRadio. | 未找到参考按钮 Radio/TutorialRadio。 |
+暂无。
 
 ## 更新日志
 
-| 版本 | 内容 |
-| :-- | :-- |
-| **1.0.1** | 尝试修复多人联机中控制台自动补全不显示“玩家名字”和“@c 等”的问题。自己能正常显示，没测试别人名字是否显示 |
-| 更早 | 见 [Releases](https://github.com/031fox-ui/a.chs.mod/releases) |
+| 版本        | 内容                                                                                                                                                                                                                            |
+| :-------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1.0.2** | **新增 2 个模组汉化**：Gunsaw Genetics、New Descents；适配 Custom Structures v1.2.3、CUCoreLib v1.0.6 新文本；更新 KrokMP、Medical Brutalism、New Firearms、Simple QoL 翻译；统一术语（moodle→状态图标、抗性→韧性等）；修复 Simple QoL 误译与 Medical Brutalism 的 3 条俄语控制台漏翻 |
+| **1.0.1** | 尝试修复多人联机中控制台自动补全不显示“玩家名字”和“@c 等”的问题。自己能正常显示，没测试别人名字是否显示                                                                                                                                                                       |
+| 更早        | 见 [Releases](https://github.com/031fox-ui/a.chs.mod/releases)                                                                                                                                                                 |
 
 ## 设置项
 
 本模组有 3 个设置（配置文件：`BepInEx\config\A.Multi_Mod.Chinese.Localization.cfg`）：
 
-| 设置 | 默认值 |
-| :-- | :-- |
-| 使用什么语言 | `auto` |
-| 阻止 QoL Unknown 模组自带的字体 Fallback | 打开 |
-| 阻止 QoL Unknown 向暂停菜单句子池注入 | 关闭 |
+| 设置                              | 默认值    |
+| :------------------------------ | :----- |
+| 使用什么语言                          | `auto` |
+| 阻止 QoL Unknown 模组自带的字体 Fallback | 打开     |
+| 阻止 QoL Unknown 向暂停菜单句子池注入       | 关闭     |
 
-## 支持的模组
-
-支持 **29** 个被汉化模组（本模组内部按字母顺序命名；右列数字为该模组翻译的版本更新）。
-
-| 汉化模组 | 翻译版本 |
-| :-- | :-- |
-| [Alexx_'s Mod Manager](https://www.nexusmods.com/scavprototype/mods/31) | 1.0.0 |
-| [Auto's Arsenal](https://www.nexusmods.com/scavprototype/mods/81) | 1.0.0 |
-| [Casualty Vitals](https://www.nexusmods.com/scavprototype/mods/388) | 1.0.1 |
-| [CatPatch](https://www.nexusmods.com/scavprototype/mods/69) | 1.0.0 |
-| [Better Crafting Logic](https://www.nexusmods.com/scavprototype/mods/344) | 1.0.0 |
-| [CUCoreLib](https://www.nexusmods.com/scavprototype/mods/341) | 1.0.0 |
-| [Mod Settings](https://www.nexusmods.com/scavprototype/mods/333) | 1.0.0 |
-| [Custom Structures](https://www.nexusmods.com/scavprototype/mods/9) | 1.0.0 |
-| [extraDialogues](https://www.nexusmods.com/scavprototype/mods/432) | 1.0.0 |
-| [Extra Medicaments](https://www.nexusmods.com/scavprototype/mods/448) | 1.0.0 |
-| [Killer's Clothing and Armor](https://www.nexusmods.com/scavprototype/mods/59) | 1.0.0 |
-| [Killer's Guns](https://www.nexusmods.com/scavprototype/mods/68) | 1.0.0 |
-| [Casualties Together](https://www.nexusmods.com/scavprototype/mods/67) | 1.0.0 |
-| [Alexx_'s Medical Brutalism](https://www.nexusmods.com/scavprototype/mods/452) | 1.0.1 |
-| [Multiplayer Sprite Replacer](https://www.nexusmods.com/scavprototype/mods/74) | 1.0.0 |
-| [NeurotraumaModik](https://www.nexusmods.com/scavprototype/mods/440) | 1.0.0 |
-| [New Clothing](https://www.nexusmods.com/scavprototype/mods/43) | 1.0.0 |
-| [New Firearms](https://www.nexusmods.com/scavprototype/mods/122) | 1.0.1 |
-| [New Gun Loader (super beta)](https://www.nexusmods.com/scavprototype/mods/57) | 1.0.0 |
-| [Over The Top Realism](https://www.nexusmods.com/scavprototype/mods/330) | 1.0.0 |
-| [Prosthetics](https://www.nexusmods.com/scavprototype/mods/40) | 1.0.1 |
-| [QoL Unknown](https://www.nexusmods.com/scavprototype/mods/7) | 1.0.0 |
-| [Re-Growth Serums](https://www.nexusmods.com/scavprototype/mods/38) | 1.0.0 |
-| [RshLib](https://www.nexusmods.com/scavprototype/mods/32) | 1.0.0 |
-| [Say Again - hearing protection](https://www.nexusmods.com/scavprototype/mods/532) | 1.0.1 |
-| [ScavSetLib](https://www.nexusmods.com/scavprototype/mods/338) | 1.0.0 |
-| [Simple QoL](https://www.nexusmods.com/scavprototype/mods/320) | 1.0.1 |
-| [Thigh Highs](https://www.nexusmods.com/scavprototype/mods/33) | 1.0.0 |
-| [Performance Unknown](https://www.nexusmods.com/scavprototype/mods/342) | 1.0.0 |
-
-> **Casualties Together（KrokMP）** 建议配合使用：[KrokMP Chinese Supplement - Simplified Chinese Translation](https://www.nexusmods.com/scavprototype/mods/183)
