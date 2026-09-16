@@ -6,6 +6,9 @@
 
 > 🤖 **本仓库由 AI 协助维护**：提交由 AI 生成、内容经人工确认。译文或文本问题照常反馈即可。
 
+> [!NOTE]
+> 本汉化为个人制作，非官方翻译。
+
 [下载](#下载) · [安装](#安装) · [支持的模组](#支持的模组) · [文本与翻译](#文本与翻译) · [注意事项](#注意事项) · [已知问题](#已知问题) · [更新日志](#更新日志) · [设置项](#设置项)
 
 ## ！有什么想汉化的模组或文本错误，欢迎联系我。
@@ -63,6 +66,8 @@
 | [Thigh Highs](https://www.nexusmods.com/scavprototype/mods/33)                     | 1.0.0    |
 
 > **Casualties Together（KrokMP）** 建议配合使用：[KrokMP Chinese Supplement - Simplified Chinese Translation](https://www.nexusmods.com/scavprototype/mods/183)
+
+> **Gunsaw Genetics** 只汉化硬编码部分 —— 该模组自带上万条本地化文本（含官方中文，但中文进度落后于英文），本汉化只处理其自带语言文件里**没有**的文本，避免重复翻译。
 
 ## 文本与翻译
 
