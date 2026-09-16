@@ -18,7 +18,7 @@
 | :---------- | :----------------------------------------------------------------------------------------------------------------------- | :------------------ |
 | **N 网**（推荐） | [Multi-Mod Chinese Localization](https://www.nexusmods.com/scavprototype/mods/516)                                       | Nexus Mods          |
 | **GitHub**  | [直接下载（最新 Release）](https://github.com/031fox-ui/a.chs.mod/releases/latest/download/A.Multi_Mod.Chinese.Localization.dll) | 比较吃网络               |
-| **蓝奏云**     | [蓝奏云下载](https://wwann.lanzout.com/iI38E46udwcd)                                                                          | 密码：544i（先复制密码再点击链接） |
+| **蓝奏云**     | [蓝奏云下载](https://wwann.lanzout.com/iI38E46udwcd)                                                                          | 密码：544i |
 
 ## 安装
 
@@ -53,7 +53,7 @@
 | [New Gun Loader (super beta)](https://www.nexusmods.com/scavprototype/mods/57)     | 1.0.0    |
 | [Over The Top Realism](https://www.nexusmods.com/scavprototype/mods/330)           | 1.0.0    |
 | [Performance Unknown](https://www.nexusmods.com/scavprototype/mods/342)            | 1.0.0    |
-| [Prosthetics](https://www.nexusmods.com/scavprototype/mods/40)                     | 1.0.1    |
+| [Prosthetics](https://www.nexusmods.com/scavprototype/mods/40)                     | 1.0.2    |
 | [QoL Unknown](https://www.nexusmods.com/scavprototype/mods/7)                      | 1.0.0    |
 | [Re-Growth Serums](https://www.nexusmods.com/scavprototype/mods/38)                | 1.0.0    |
 | [RshLib](https://www.nexusmods.com/scavprototype/mods/32)                          | 1.0.0    |
@@ -110,7 +110,7 @@ Mods/SayAgain/
 
 | 版本        | 内容                                                                                                                                                                                                                            |
 | :-------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1.0.2** | **新增 2 个模组汉化**：Gunsaw Genetics、New Descents；适配 Custom Structures v1.2.3、CUCoreLib v1.0.6 新文本；更新 KrokMP、Medical Brutalism、New Firearms、Simple QoL 翻译；统一术语（moodle→状态图标、抗性→韧性等）；修复 Simple QoL 误译与 Medical Brutalism 的 3 条俄语控制台漏翻 |
+| **1.0.2** | **新增 2 个模组汉化**：Gunsaw Genetics、New Descents；适配 Custom Structures v1.2.3、CUCoreLib v1.0.6 新文本；更新 KrokMP、Medical Brutalism、New Firearms、Prosthetics、Simple QoL 翻译；统一术语（moodle→状态图标、抗性→韧性等）；修复 Simple QoL 误译与 Medical Brutalism 的 3 条俄语控制台漏翻；修复 New Descents 建筑描述（上古壁行者部件、格林藤）未翻译的问题 |
 | **1.0.1** | 尝试修复多人联机中控制台自动补全不显示“玩家名字”和“@c 等”的问题。自己能正常显示，没测试别人名字是否显示                                                                                                                                                                       |
 | 更早        | 见 [Releases](https://github.com/031fox-ui/a.chs.mod/releases)                                                                                                                                                                 |
 
