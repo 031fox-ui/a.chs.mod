@@ -8,5 +8,12 @@
     "earmuffsdsc": "Padded cups on a sprung band. Greatly reduces hearing damage from loud noises, and muffles everything else while worn.",
     "hearingaids": "Hearing aids",
     "hearingaidsdsc": "Amplifies whatever hearing you have left. Needs battery to function."
+  },
+  "moodle": {
+    "hearingprotected": "Ear Protection",
+    "hearingaideddesc": "Hearing is amplified; hearing loss somewhat negated.",
+    "hearingprotecteddesc1": "Hearing lightly protected. Some noise damage reduced.",
+    "hearingprotecteddesc2": "Hearing decently protected. Noise damage reduced.",
+    "hearingprotecteddesc3": "Hearing well protected. Noise damage significantly reduced."
   }
 }
