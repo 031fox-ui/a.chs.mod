@@ -373,6 +373,29 @@ internal static class KrokMPTrTw
         ("Orsoniks - Developer of Casualties: Unknown", "Orsoniks - 《未知傷亡》開發者"),
         ("...and the rest of bug reporters, suggestions and regular players", "...以及其餘的 bug 報告者、建議者和普通玩家"),
     };
+    public static readonly (string En, string Zh)[] WindowTitleSuffixes =
+    {
+        ("Multiplayer", "多人聯機"),
+        ("Multiplied", "倍增"),
+        ("Co-op", "合作聯機"),
+        ("bluetooth support", "藍牙支持"),
+        ("communism", "共產主義"),
+        ("Manyplayer", "多人玩家"),
+        ("Die with friends", "和朋友一起死"),
+        ("death in poverty", "死於貧困"),
+        ("overdose with friends !!!", "和朋友一起用藥過量！！！"),
+        ("fentanyl with friends !!!", "和朋友一起芬太尼！！！"),
+        ("yipeee!!!  *falls off a cliff*", "好耶！！！*掉下懸崖*"),
+        ("furry suffering", "福瑞受苦"),
+        ("Just add multiplayer", "只需加入多人聯機"),
+        ("Krokosha's Multiplayer mod", "Krokosha 的多人聯機模組"),
+        ("PEAK for masochists", "受虐狂特供版 PEAK"),
+        ("PEAK, but you go down", "PEAK，但你一路向下"),
+        ("thats a weird terraria", "這泰拉瑞亞有點怪"),
+        ("Now with MULTIPLAYER", "現在支持多人聯機"),
+        ("The SALAD", "沙拉"),
+        ("Cooperation behavioral research", "合作行為研究"),
+    };
     public static readonly (string En, string Zh)[] Commands =
     {
         ("MP", "【MP】"),
