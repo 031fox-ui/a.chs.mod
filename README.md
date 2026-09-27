@@ -4,16 +4,16 @@
 
 > **当前版本 1.1.0**（1383 KB）· 已汉化 **34** 个模组 + 游戏本体
 
-> 🤖 **本仓库由 AI 协助维护**：提交由 AI 生成、内容经人工确认。译文或文本问题照常反馈即可。
+> **本仓库有 AI 协助**：AI 接管提交、Release。
 
 > [!NOTE]
 > 本汉化为个人制作，非官方翻译。
 >
-> 本人早已不寻找模组汉化，你有什么模组想叫我汉化请直接向我提出，最好带链接；Ｎ网不常检查，无法及时回复。
+> 　　本人早已不寻找模组汉化，你有什么模组想叫我汉化请直接向我提出，最好带链接；Ｎ网不常检查，无法及时回复。
 >
-> 可能一周一更，周末更新。
+> 　　可能一周一更，周末更新。
 
-[下载](#下载) · [安装](#安装) · [支持的模组](#支持的模组) · [文本与翻译](#文本与翻译) · [注意事项](#注意事项) · [已知问题](#已知问题) · [更新日志](#更新日志) · [设置项](#设置项)
+[下载](#下载) · [安装](#安装) · [支持的模组](#支持的模组) · [设置项](#设置项) · [文本与翻译](#文本与翻译) · [注意事项](#注意事项) · [已知问题](#已知问题) · [更新日志](#更新日志)
 
 ## ！有什么想汉化的模组或文本错误，欢迎联系我
 
@@ -34,9 +34,6 @@
 ## 支持的模组
 
 支持 **34** 个被汉化模组（下表按模组名称 A–Z 排序）。**模组版本** 为汉化时使用的版本；**翻译版本** 为本汉化模组一侧的更新版本，包括只修复了 bug 无更新翻译等。
-
-> [!NOTE]
-> `Casualties XL` 与 `Casualties Consumed` 两行的链接是**永久占位**——这两个模组不在 N 网发布，没有可跳转的页面，汉化照常提供。
 
 | 汉化模组                                                                           | 模组版本       | 翻译版本   |
 | :--------------------------------------------------------------------------------- | :------------- | :--------- |
@@ -75,9 +72,29 @@
 | [Simple QoL](https://www.nexusmods.com/scavprototype/mods/320)                     | 13             | 1.1.0      |
 | [Thigh Highs](https://www.nexusmods.com/scavprototype/mods/33)                     | —              | 1.1.0      |
 
-> **Casualties Together（KrokMP）** 建议配合使用：[KrokMP Chinese Supplement - Simplified Chinese Translation](https://www.nexusmods.com/scavprototype/mods/183)
+> **[Casualties Together](https://www.nexusmods.com/scavprototype/mods/67)** 建议配合使用：[KrokMP Chinese Supplement - Simplified Chinese Translation](https://www.nexusmods.com/scavprototype/mods/183)
 
-> **Gunsaw Genetics** 只汉化硬编码部分。
+> **[Gunsaw Genetics](https://www.nexusmods.com/scavprototype/mods/324)** 只汉化硬编码部分。
+
+## 设置项
+
+配置文件：`BepInEx\config\A.Multi_Mod.Chinese.Localization.cfg`
+
+### [General] 通用设置
+
+| 设置 | 默认值 |
+| :--- | :--- |
+| 使用什么语言 | `auto` |
+| 阻止 QoL Unknown 模组自带的字体 Fallback | 打开 |
+| 阻止 QoL Unknown 向暂停菜单句子池注入 | 关闭 |
+| 翻译 KrokMP 改写后的窗口标题梗后缀 | 打开 |
+
+### [Mods] 各模组汉化开关
+
+**每一个被汉化的模组都有一个独立开关，默认全部开启。**　可独立控制关闭哪个模组的翻译。
+
+- **修改后需重启游戏生效**（与语言设置同约定；启动时确定一次）。
+- 关闭某个模组只影响“翻译”。非翻译功能照常：QoL 兼容修正（`BlockQolFallback`/`BlockQoLPauseMenu`）与 CatPatch 的高分屏界面缩放都不受这些开关控制。
 
 ## 文本与翻译
 
@@ -108,14 +125,12 @@ Mods/SayAgain/
 
 发现 QoL 的 fallback 可以减轻游戏计算 unifont 字体的性能消耗，但是字体会变成 1.0 倍大小，游戏默认 1.3 倍——默认 1.3 倍对于中文阅读非常友好。如果其他模组字非常多，或你想看游戏剧情，推荐保持默认，这是游戏原汁原味的卡顿、原始的字体显示。
 
-如果你想流畅些，可以前往 `BepInEx\config\A.Multi_Mod.Chinese.Localization.cfg` 关闭此设置。
-
-> 此设置仅在你安装了 [QoL Unknown](https://www.nexusmods.com/scavprototype/mods/7) 时才存在。
+如果你想流畅些，可以前往 `BepInEx\config\A.Multi_Mod.Chinese.Localization.cfg` 关闭此设置。如果你安装了 [QoL Unknown](https://www.nexusmods.com/scavprototype/mods/7) 的话。
 
 <details>
 <summary>旧记录：第一次打开制作界面 / 鼠标指向物品时会小卡一下（点击展开）</summary>
 
-~~！每次启动游戏，在游玩中，打开制作界面和鼠标指向物品等，第一次会小卡一下，自动建立缓存后不会小卡一下，关闭游戏后缓存清空，~~ 正在优化　8月3日：我还以为是模组优化问题，结果去掉模组加载器也是这样：打开制作界面和鼠标指向物品等第一次显示文字也会卡顿。。。切换英文完全没这个卡顿，原来是游戏代码问题啊。 fallback 字体 unifont 问题，实际上在游戏中显示任何 fallback 字体都会卡顿，纯拼设备性能了
+~~！每次启动游戏，在游玩中，打开制作界面和鼠标指向物品等，第一次会小卡一下，自动建立缓存后不会小卡一下，关闭游戏后缓存清空~~　8月3日：我还以为是模组优化问题，结果去掉模组加载器也是这样：打开制作界面和鼠标指向物品等第一次显示文字也会卡顿。。。切换英文完全没这个卡顿，原来是游戏代码问题啊。 fallback 字体 unifont 问题，实际上在游戏中显示任何 fallback 字体都会卡顿，纯拼设备性能了
 
 </details>
 
@@ -127,30 +142,7 @@ Mods/SayAgain/
 
 | 版本        | 内容                                                                                                                                                                                                                                        |
 | :-------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1.1.0** | **新增 3 个模组汉化**：Casualties Consumed、Casualties XL、Pi's Food Overhaul。**重大更新：每个模组的汉化都有独立开关**（cfg `[Mods]` 段共 35 项，默认全开）——不想要哪个模组的汉化就单独关掉，它完全按原文显示且运行时零开销，其它模组与游戏本体不受影响（见下方[设置项](#设置项)）。适配 Prosthetics v1.0.4（外科手术机、温度稳定器、焊接护目镜等）、Medical Brutalism v4.4.9、Casualty Vitals v1.5.3、Custom Structures v1.2.4、New Firearms v1.6.4、New Descents v1.0.3.2、Say Again v0.1.1；统一术语（废弃燃料、棕菌盖、地菱树、辐照、耀斑侵袭、医疗面板等）；修复 QoL Unknown 的下载失败提示漏翻、Prosthetics 多条漏翻与误译；新增 KrokMP 窗口标题梗后缀翻译（开关默认开）；适配 Casualties Together（KrokMP）v4.1.2——该版把日志前缀由 `KrokMP: ` 改名为 `MP: `，已做两代前缀兼容（否则控制台日志会集体停止翻译），并补齐新增的诊断日志、24 位赞助者致谢与 `dumplobbysearch` 命令描述；另修复 KrokMP 3 条放错表而从未生效的条目 |
-| **1.0.2** | **新增 2 个模组汉化**：Gunsaw Genetics、New Descents；适配 Custom Structures v1.2.3、CUCoreLib v1.0.6 新文本；更新 KrokMP、Medical Brutalism、New Firearms、Prosthetics、Simple QoL 翻译；统一术语（moodle→状态图标、抗性→韧性等）；修复 Simple QoL 误译与 Medical Brutalism 的 3 条俄语控制台漏翻 |
+| **1.1.0** | **新增 3 个模组汉化**：Casualties Consumed、Casualties XL、Pi's Food Overhaul。**重大更新：每个模组的汉化都有独立开关**（见上方[设置项](#设置项)）。更新翻译 Casualties Together（KrokMP）v4.1.2、Prosthetics v1.0.4、Medical Brutalism v4.4.9、Casualty Vitals v1.5.3、Custom Structures v1.2.4、New Firearms v1.6.4、New Descents v1.0.3.2、Say Again v0.1.1；统一术语（废弃燃料、棕菌盖、地菱树等）；添加 QoL Unknown 的下载失败提示漏翻；新增 KrokMP 窗口标题梗后缀翻译（开关默认开） |
+| **1.0.2** | **新增 2 个模组汉化**：Gunsaw Genetics、New Descents；更新翻译 Custom Structures v1.2.3、CUCoreLib v1.0.6、KrokMP、Medical Brutalism、New Firearms、Prosthetics、Simple QoL；统一术语（moodle→状态图标、抗性→韧性等）；修复 Simple QoL 误译与 Medical Brutalism 的 3 条俄语控制台漏翻 |
 | **1.0.1** | 尝试修复多人联机中控制台自动补全不显示“玩家名字”和“@c 等”的问题。自己能正常显示，没测试别人名字是否显示                                                                                                                                                                                   |
 | 更早        | 见 [Releases](https://github.com/031fox-ui/a.chs.mod/releases)                                                                                                                                                                             |
-
-## 设置项
-
-配置文件：`BepInEx\config\A.Multi_Mod.Chinese.Localization.cfg`
-
-### [General] 通用设置
-
-| 设置 | 默认值 |
-| :--- | :--- |
-| 使用什么语言 | `auto` |
-| 阻止 QoL Unknown 模组自带的字体 Fallback | 打开 |
-| 阻止 QoL Unknown 向暂停菜单句子池注入 | 关闭 |
-| 翻译 KrokMP 改写后的窗口标题梗后缀 | 打开 |
-
-### [Mods] 各模组汉化开关
-
-**每一个被汉化的模组都有一个独立开关，默认全部开启。** 把某个模组对应的值改成 `false`，该模组就完全按原文显示（本汉化对它不注册任何翻译、不注入字典、不挂任何补丁），其它模组与游戏本体不受影响。
-
-- 键名 = 模组名（如 `KrokMP`、`SimpleQoL`、`CatPatch`），共 **35** 项：对应 [支持的模组](#支持的模组) 表的 34 个模组，外加从 New Firearms 拆出的独立插件 `GunMinigame`（同包分发，故未单列一行）；其中 `CUCoreLib`/`RshLib`/`ScavSetLib` 三个是前置库。
-- **修改后需重启游戏生效**（与语言设置同约定；启动时确定一次）。
-- 典型用途：某个模组的汉化与它的其它汉化补丁冲突、或你想对照英文原文检查某个模组时，单独关掉它即可。
-- 关闭某个模组只影响"翻译"。非翻译功能照常：QoL 兼容修正（`BlockQolFallback`/`BlockQoLPauseMenu`）与 CatPatch 的高分屏界面缩放都不受这些开关控制。
-
