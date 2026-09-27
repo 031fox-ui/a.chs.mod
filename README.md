@@ -38,7 +38,7 @@
 | [Auto's Arsenal](https://www.nexusmods.com/scavprototype/mods/81)                  | 2.1.1          | 1.1.0      |
 | [Better Crafting Logic](https://www.nexusmods.com/scavprototype/mods/344)          | 1.0.4          | 1.1.0      |
 | [Casualties Consumed](https://example.com/)                                        | 1.3.0.0        | 1.1.0 新增 |
-| [Casualties Together](https://www.nexusmods.com/scavprototype/mods/67)             | 4.0.1.0        | 1.1.0      |
+| [Casualties Together](https://www.nexusmods.com/scavprototype/mods/67)             | 4.1.2          | 1.1.0      |
 | [Casualties XL](https://example.com/)                                              | experimental-1 | 1.1.0 新增 |
 | [Casualty Vitals](https://www.nexusmods.com/scavprototype/mods/388)                | 1.5.3          | 1.1.0      |
 | [CatPatch](https://www.nexusmods.com/scavprototype/mods/69)                        | 1.0.4          | 1.1.0      |
