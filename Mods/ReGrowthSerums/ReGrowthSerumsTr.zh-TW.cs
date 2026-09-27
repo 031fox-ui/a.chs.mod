@@ -10,8 +10,8 @@ internal static class ReGrowthSerumsTrTw
         ("Don't think this will work on my eyes...", "我覺得這對我的眼睛不會起作用..."),
         ("I think my face is just fine enough", "我覺得我的臉已經夠好了"),
     };
-    public static readonly (string En, string Zh)[] Logs =
+    public static readonly (string En, string Zh)[] LogFormats =
     {
-        ("Loaded Re-Growth Serums (v1.7.2)", "已加載 Re-Growth Serums（再生血清）（v1.7.2）"),
+        ("Loaded Re-Growth Serums (v{0})", "已加載 Re-Growth Serums（再生血清）（v{0}）"),
     };
 }

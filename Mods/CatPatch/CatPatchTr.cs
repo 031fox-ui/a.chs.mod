@@ -284,7 +284,7 @@ internal static class CatPatchTr
         ("Oil pipe", "废液管"),
         ("Glass shards", "玻璃碎片"),
         ("Rad barrel", "辐射桶"),
-        ("Spent fuel", "乏燃料"),
+        ("Spent fuel", "废弃燃料"),
         (" wants to hug.", " 想拥抱你。"),
         (" wants to kiss.", " 想亲吻你。"),
         (" to accept, or ", " 接受、按 "),

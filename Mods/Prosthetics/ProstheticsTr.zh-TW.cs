@@ -8,10 +8,12 @@ internal static class ProstheticsTrTw
         ("Apply directly to an upper arm, thigh, or torso", "直接應用於上臂、大腿或軀幹"),
         ("Limb already has an augment slot", "該肢體已擁有增強插槽"),
         ("Augment slot implanted", "增強插槽已成功植入"),
-        ("Ballistic: no charge — recharge with the RTG", "BFF力場：電量不足——請使用同位素發電機充電"),
+        ("Ballistic: charge too low — needs at least 1% (recharge with the RTG)", "BFF力場：電量過低——至少需要 1%（請使用同位素發電機充電）"),
         ("Ballistic: depleted", "BFF力場：能量耗盡"),
-        ("Regeneration: no charge — recharge with the RTG", "MYX再生艙：電量不足——請使用同位素發電機充電"),
+        ("Regeneration: charge too low — needs at least 1% (recharge with the RTG)", "MYX再生艙：電量過低——至少需要 1%（請使用同位素發電機充電）"),
         ("Regeneration: depleted", "MYX再生艙：能量耗盡"),
+        ("Temperature Stabiliser: charge too low — needs at least 1% (recharge with the RTG)", "溫度穩定器：電量過低——至少需要 1%（請使用同位素發電機充電）"),
+        ("Temperature Stabiliser: depleted", "溫度穩定器：能量耗盡"),
         ("RTG: nothing to charge", "同位素發電機：無需充電"),
         ("RTG: everything charged", "同位素發電機：全部已充滿"),
         ("Treadmill battery full", "跑步機增強件電池已充滿"),
@@ -75,6 +77,11 @@ internal static class ProstheticsTrTw
         ("Can't attach a prosthetic to another prosthetic", "無法將義肢安裝在另一個義肢上"),
         ("This prosthetic can't use tools", "此義肢無法使用工具"),
         ("You cant hold this with a hook, you can only hold containers on a hook", "無法用鉤子提拿此物品，鉤子只能用於懸掛容器。"),
+        ("Hello! How was your da... nevermind.", "你好！今天過得怎...算了。"),
+        ("Why do they hate us?", "他們為什麼恨我們？"),
+        ("It smells worse than a corpse", "這味道比屍體還難聞"),
+        ("...Maybe dying ain't so bad.", "...也許死了也沒那麼糟。"),
+        ("...what have I done.", "...我都幹了些什麼。"),
     };
     public static readonly (string En, string Zh)[] AlertFormats =
     {
@@ -93,14 +100,39 @@ internal static class ProstheticsTrTw
         ("How awfull it must be for you, You know what? I can spare one item for you, pick any", "你一定很難受吧。這樣吧，我可以免費送你一件東西，挑一個吧"),
         ("I'm sorry you have to go further like this, I'll give you a discount though", "很抱歉你得繼續這樣走下去，不過我會給你打個折"),
         ("You scared me, knock next time.", "你嚇到我了，下次先敲個門。"),
-        ("a power reactor in your chest, may I take a look?", "你胸口裝了個核反應堆？能讓我看看嗎？"),
+        ("A power reactor in your chest, may I take a look?", "你胸口裝了個核反應堆？能讓我看看嗎？"),
         ("Impressive eye tech, where did you get it?", "這義眼技術真厲害，你從哪兒搞到的？"),
         ("Impressive....", "令人印象深刻..."),
         ("I guess you are the smartest of your kind, which doesn't say a lot", "我猜你是你們同類中最聰明的了，不過這也沒啥說服力"),
-        ("you do look like a fool, amusing", "你看起來確實像個傻瓜，有趣"),
+        ("You do look like a fool, amusing", "你看起來確實像個傻瓜，有趣"),
         ("Fri-endd has stro-ngg tee-eth. Dune like-ss stro--ng frien-d-d!", "朋-朋友牙-牙齒好結-實。沙地喜-歡強-壯的朋-朋-友！"),
         ("Frien-ddd! Frien-dd has little meat, saddd", "朋-朋友！朋友沒多少肉肉，好難難-過"),
         ("CCC-omputer Fri--end?? Comput-er tastes bad-dd......", "電電-電腦朋-朋友？？電腦-嚐起來不-不好吃......"),
+        ("Can you take me with you? Please.. I am so lonely.", "你能帶我一起走嗎？求你了...我好孤獨。"),
+        ("I am not as functional as I was, I feel myself falling appart", "我大不如前了，我感覺自己正在散架"),
+        ("Do you seek to stop pain or life? I can grant mercy if so desired", "你是想止住痛苦，還是想終結生命？若有需要，我可以賜予慈悲"),
+        ("I offer mercy or prolonged suffering, according to your desire.", "是賜你慈悲還是讓你長久受苦，全憑你的意願。"),
+        ("Your body is in need of healing. May I be permitted?", "你的身體需要治療。可以允許我動手嗎？"),
+        ("Hmmm... You are a mess...", "唔...你傷得一塌糊塗..."),
+        ("I cannot dream. I know only waking nightmare.", "我無法做夢。我只知道清醒的噩夢。"),
+        ("You are not a fit specimen. Amending.", "你不是合適的樣本。正在修正。"),
+        ("Analysis: less than optimal.", "分析結果：次優。"),
+        ("My sole purpose is to serve. I cannot serve. Cannot continue. Error!", "我唯一的存在意義就是服務。我無法服務。無法繼續。錯誤！"),
+        ("I need... restoration.", "我需要...修復。"),
+        ("Systems failure. Why does it hurt? Help. Help. Help.", "系統故障。為什麼會痛？救命。救命。救命。"),
+        ("Reserves: empty. Purpose: void.", "儲備：耗盡。目的：虛無。"),
+        ("God why have you forsaken me?", "神啊，你為何拋棄了我？"),
+        ("I HAVE NO PURPOSE, NO PURPOSE, NO PURPOSE, NO PURPOSE!", "我沒有目的，沒有目的，沒有目的，沒有目的！"),
+        ("Hello! How was your da... nevermind.", "你好！今天過得怎...算了。"),
+        ("Why do they hate us?", "他們為什麼恨我們？"),
+        ("It smells worse than a corpse", "這味道比屍體還難聞"),
+        ("...Maybe dying ain't so bad.", "...也許死了也沒那麼糟。"),
+    };
+    public static readonly (string En, string Zh)[] TalkFormats =
+    {
+        ("{0}, state my task. I'm ready to serve.", "{0}，請下達我的任務。我已準備好為您服務。"),
+        ("{0} is injured, approach for medical aid.", "{0}受傷了，前往提供醫療援助。"),
+        ("{0} is augmented, prosthetic maintenance mode available.", "{0}已裝配義體，義肢維護模式可用。"),
     };
     public static readonly (string En, string Zh)[] Commands =
     {
@@ -114,19 +146,29 @@ internal static class ProstheticsTrTw
         ("scrap | wood | titanium | eye | jaw. Optional limb: armF | armB | legF | legB. MP (host + sv_cheats): optional player name targets another player.", "scrap廢料、wood木製、titanium鈦合金、eye眼、jaw下頜。可選肢體 : armF前臂、armB後臂、legF前腿、legB後腿。\n多人模式（主機+作弊開關） : 可選玩家名稱以指定目標"),
         ("Toggle the cybernetics panel", "【義體】切換義體編排面板"),
         ("Spawn all neuromods into the player's inventory. MP: host + sv_cheats only.", "【義體】生成所有神經模組到玩家物品欄。僅限多人模式主機+作弊開關"),
+        ("Grant/recharge the Deus est machina state on the local player (guaranteed resurrection).", "【義體】為本地玩家授予/充能 Deus est machina 狀態（保證復活）。"),
     };
     public static readonly (string En, string Zh)[] Moodles =
     {
-        ("\n\n<color=\"red\">Dead flesh", "\n\n<color=\"red\">壞死血肉"),
+        ("Dead flesh", "壞死血肉"),
         ("Your body no longer regenerates on its own and is dependent on the medical augment you have installed. If its charge falls below 20%, you won't be able to heal even from smaller injuries without medical care.", "你的身體已無法自行再生，完全依賴已安裝的醫療增強件。若其電量低於20%，即使小傷也無法癒合，必須依靠醫療護理。"),
         ("Waterlogged prosthetic legs", "義肢腿進水"),
-        ("Damaged prosthetic shell leaves the leg wiring unprotected from outside hazards — water is getting in and the wiring is malfunctioning. Legs move slower until dried off or the shell is patched up.", "受損的義肢外殼使腿部線路暴露在外界危險中——水正在滲入，線路出現故障。移動速度變慢，直到水分蒸發或外殼修復。"),
         ("Waterlogged prosthetic arms", "義肢手臂進水"),
-        ("Damaged prosthetic shell leaves the arm wiring unprotected from outside hazards — water is getting in and the wiring is malfunctioning. Strikes land weaker until dried off or the shell is patched up.", "受損的義肢外殼使手臂線路暴露在外界危險中——水正在滲入，線路出現故障。攻擊力減弱，直到水分蒸發或外殼修復。"),
+        ("Damaged prosthetic shell leaves the leg insideds unprotected from outside hazards — water is getting in and the its malfunctioning. Legs move slower until dried off or the shell is patched up.", "受損的義肢外殼使腿部內部暴露在外界危險中——水正在滲入，內部出現故障。移動速度變慢，直到水分蒸發或外殼修復。"),
+        ("Damaged prosthetic shell leaves the arm insideds unprotected from outside hazards — water is getting in and the its malfunctioning. Strikes land weaker until dried off or the shell is patched up.", "受損的義肢外殼使手臂內部暴露在外界危險中——水正在滲入，內部出現故障。攻擊力減弱，直到水分蒸發或外殼修復。"),
+        ("Damaged prosthetic arms", "義肢手臂受損"),
+        ("The internals of the prosthetic arm are damaged — strikes land weaker until the its repaired.", "義肢手臂內部受損——修復前攻擊力減弱。"),
+        ("Temperature Unstability", "體溫失穩"),
+        ("Body temperature no longer holds near a normal 36-37°. It drops constantly, and every warming action is amplified — which can quickly overheat you.\n<color=\"red\">Caused by your TS charge falling below 20%.", "體溫不再維持在正常的36-37°附近。體溫持續下降，而每一次取暖行為都會被放大——這可能讓你迅速過熱。\n<color=\"red\">原因是溫度穩定器電量低於20%。"),
+        ("Deus est machina", "Deus est machina"),
+        ("01000111 01101111 01100100 has acknowledged your pain", "01000111 01101111 01100100 已獲知你的痛苦"),
+        ("'alive'", "「活著」"),
+        ("You are not dead, but you feel empty", "你並未死去，卻感到一片空虛"),
     };
     public static readonly (string En, string Zh)[] MoodleFormats =
     {
         ("<color=#ff1100>{0}: -{1}% {2}</color>", "<color=#ff1100>{0}：-{1}% {2}</color>"),
+        ("<color=#ff1100>{0}: -{1}% strike power</color>", "<color=#ff1100>{0}：-{1}% 攻擊力</color>"),
     };
     public static readonly (string En, string Zh)[] Ui =
     {
@@ -142,8 +184,6 @@ internal static class ProstheticsTrTw
         ("-- insert battery --", "-- 插入電池 --"),
         ("Prosthetics Mod", "義體模組"),
         ("PROSTHETICS MOD", "義體模組"),
-        ("Prosthetics Mod  v1.0.1", "義體模組  v1.0.1"),
-        ("Installed: v1.0.1", "已安裝：v1.0.1"),
         ("Checking for updates…", "正在檢查更新..."),
         ("UP TO DATE", "已是最新版本"),
         ("UPDATE AVAILABLE", "有可用更新"),
@@ -155,6 +195,17 @@ internal static class ProstheticsTrTw
         ("Weld Flash: black instead of white", "焊接閃光：使用黑色替代白色"),
         ("Hotbar position", "快捷圖標位置"),
         ("Hotbar position (fallback)", "快捷圖標位置（備用）"),
+        ("Alternative main menu (warning: spooky)", "替代主菜單（警告：有點嚇人）"),
+        ("Heal", "治療"),
+        ("Upgrade", "升級"),
+        ("Repair / Recharge", "維修 / 充能"),
+        ("CONFIRM", "確認"),
+        ("⚠  WELDING FLASH — protect your eyes (goggles / prosthetic eye)", "⚠  焊接閃光——請保護眼睛（護目鏡 / 義眼）"),
+        ("REPAIR / RECHARGE — all prosthetics", "維修 / 充能——全部義肢"),
+        ("UPGRADE — no prosthetics in inventory", "升級——物品欄中沒有義肢"),
+        ("UPGRADE — click where to install", "升級——點擊要安裝的位置"),
+        ("UPGRADE — pick a prosthetic", "升級——請選擇一件義肢"),
+        ("no batt", "無電池"),
         ("CREDITS", "製作人員"),
         ("scroll to read more  ·  press Esc, or click outside, to close", "滾動查看更多  ·  按 Esc 或點擊外部關閉"),
         ("<b>JimmyKing</b>  —  Made CUCoreLib, Literally Furry Da Vinci. Check out his Custom Structures its awesome.", "<b>JimmyKing</b>  —  製作了 CUCoreLib，堪稱毛絨界達·芬奇。去看看他的 Custom Structures 模組，超棒的。"),
@@ -163,13 +214,19 @@ internal static class ProstheticsTrTw
         ("<b>HpDz</b>  —  Many in game and ui sprites, also the welding sprites, never gona add neon nails bro", "<b>HpDz</b>  —  大量遊戲內和界面貼圖，還有焊接貼圖。兄弟，我是永遠不會加霓虹指甲的。"),
         ("<b>RushellXYZ</b>  —  for making RshLib and more awesome mods, check out New Firearms", "<b>RushellXYZ</b>  —  製作了 RshLib 和更多超棒模組，去看看 New Firearms。"),
         ("<b>artik1304</b>  —  spritework", "<b>artik1304</b>  —  貼圖繪製。"),
+        ("<b>Nullrot</b>  —  cool temperature moodle sprite, welding goggles", "<b>Nullrot</b>  —  溫度狀態圖標貼圖、焊接護目鏡。"),
         ("<b>TheMagicDragon7</b>  —  singlehandedly finds most bugs I fix", "<b>TheMagicDragon7</b>  —  一個人找到了我修復的大部分 Bug。"),
-        ("<b>Orsoniks</b>  —  some dude", "<b>Orsoniks</b>  —  某個老哥。"),
+        ("<b>Orsoniks</b>  —  bro carried us in Cyberstan", "<b>Orsoniks</b>  —  兄弟在賽博斯坦扛起了我們。"),
         ("<b>And you</b>  —  for taking your time and installing my mod, hope you enjoy :)  If you have any feedback, bug reports, or suggestions, I would love to hear them.", "<b>還有你</b>  —  感謝你花時間安裝我的模組，希望你喜歡 :)  如果你有任何反饋、Bug 報告或建議，我非常樂意傾聽。"),
     };
     public static readonly (string En, string Zh)[] UiFormats =
     {
         ("Shell: {0}\nInnards: {1}", "外殼：{0}\n內部：{1}"),
+        ("HEAL — {0}/{1} selected", "治療——已選 {0}/{1}"),
+        ("UPGRADE — {0} queued · click one to cancel, or CONFIRM", "升級——已排隊 {0} 項 · 點擊可取消，或按確認"),
+        ("OPERATIONS LEFT: {0}", "剩餘操作次數：{0}"),
+        ("Prosthetics Mod  v{0}", "義體模組  v{0}"),
+        ("Installed: v{0}", "已安裝：v{0}"),
     };
     public static readonly (string En, string Zh)[] Fragments =
     {
@@ -201,6 +258,7 @@ internal static class ProstheticsTrTw
         ("scrap eater", "廢料吞噬機"),
         ("keypad", "鍵盤鎖"),
         ("lock", "鎖"),
+        (" (unavailable)", "（不可用）"),
     };
     public static readonly (string En, string Zh)[] Literals =
     {
@@ -216,14 +274,18 @@ internal static class ProstheticsTrTw
         ("UP TO DATE", "已是最新版本"),
         ("NEW VERSION: v", "新版本：v"),
         ("Could not reach update server", "無法連接更新服務器"),
-        ("Installed: v1.0.1", "已安裝：v1.0.1"),
         ("New version available: v", "發現新版本：v"),
         ("UPDATE", "更新"),
         ("Could not reach update server.\n(", "無法連接更新服務器。\n("),
         ("UPDATE AVAILABLE", "有可用更新"),
         ("PROSTHETICS MOD", "義體模組"),
         ("Press any key to bind this hotbar slot\n\n<size=65%>Esc to cancel</size>", "按下任意鍵綁定該熱鍵欄槽位\n\n<size=65%>Esc 取消</size>"),
-        ("prosthetics v1.0.1 powered by CUCoreLib", "prosthetics v1.0.1 由 CUCoreLib 驅動"),
         ("Unlock", "解鎖"),
+        ("Operate", "操作"),
+    };
+    public static readonly (string En, string Zh)[] LiteralFormats =
+    {
+        ("prosthetics v{0} powered by CUCoreLib", "prosthetics v{0} 由 CUCoreLib 驅動"),
+        ("Installed: v{0}", "已安裝：v{0}"),
     };
 }

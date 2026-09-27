@@ -2,7 +2,7 @@ internal static class NewDescentsTrTw
 {
     public static readonly (string En, string Zh)[] Logs =
     {
-        ("Loaded New Descents (v1.0.3.1)", "New Descents 已加載（v1.0.3.1）"),
+        ("Loaded New Descents (v1.0.3.2)", "New Descents 已加載（v1.0.3.2）"),
         ("Layer index must be an integer (0, 1, 5, etc).", "地層索引必須是整數（0、1、5 等）。"),
     };
     public static readonly (string En, string Zh)[] LogFormats =

@@ -20,6 +20,7 @@ internal static class CustomStructuresTr
         ("Structure browser refresh requested.", "已请求刷新结构浏览器。"),
         ("Structure browser opened.", "结构浏览器已打开。"),
         ("Structure browser closed.", "结构浏览器已关闭。"),
+        ("Structure browser failed to open.", "结构浏览器无法打开。"),
     };
     public static readonly (string En, string Zh)[] LogFormats =
     {
@@ -86,7 +87,6 @@ internal static class CustomStructuresTr
         ("Structure Browser", "结构浏览器"),
         ("Could not send host spawn request for '", "无法发送主机生成请求：'"),
         ("Structure browser failed to open for refresh. ", "建筑浏览器无法打开以进行刷新。"),
-        ("Structure browser closed or failed to open. ", "建筑浏览器已关闭或无法打开。"),
         ("Disabling '", "正在禁用 '"),
         ("Installing '", "正在安装 '"),
         ("No local downloaded files were found for '", "未找到 ' 的本地下载文件："),
@@ -95,11 +95,9 @@ internal static class CustomStructuresTr
         ("Objects {0}", "物体 {0}"),
         ("Items {0}", "物品 {0}"),
         ("<size=12><color=grey>Global Structure Multiplier ({0}, {1}/chunk)</color></size>", "<size=12><color=grey>全局结构倍率 ({0}, {1}/chunk)</color></size>"),
-        ("Generating Custom Structures.. \n Acquiring data (", "正在生成自定义结构.. \n 正在获取数据（"),
-        (")\n\n", "）\n\n"),
-        ("Generating Custom Structures.. \n Generating {0} ({1}/{2})\n\n", "正在生成自定义结构.. \n 正在生成 {0}（{1}/{2}）\n\n"),
-        ("Generating Custom Structures.. \n {0} ({1}/{2})\n\n", "正在生成自定义结构.. \n {0}（{1}/{2}）\n\n"),
-        ("checking host", "正在检查主机"),
+        ("Generating Custom Structures.. \n Placing {0} ({1}/{2})\n{3} {4}%\n\n \n \n", "正在生成自定义结构.. \n 正在放置 {0}（{1}/{2}）\n{3} {4}%\n\n \n \n"),
+        ("Generating Custom Structures.. \n Host is placing {0} ({1}/{2})\n{3} {4}%\n\n \n \n", "正在生成自定义结构.. \n 主机正在放置 {0}（{1}/{2}）\n{3} {4}%\n\n \n \n"),
+        ("Generating Custom Structures.. \n Waiting for host data ", "正在生成自定义结构.. \n 正在等待主机数据 "),
         ("host structures", "主机结构"),
         ("Custom Layer {0}", "自定义层级 {0}"),
         ("\n\nProperties: ", "\n\n属性："),
