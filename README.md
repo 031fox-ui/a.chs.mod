@@ -2,7 +2,7 @@
 
 一个“未知伤亡（Casualties Unknown）”的多模组汉化
 
-> **当前版本 1.1.0**（1378 KB）· 已汉化 **34** 个模组 + 游戏本体
+> **当前版本 1.1.0**（1383 KB）· 已汉化 **34** 个模组 + 游戏本体
 
 > 🤖 **本仓库由 AI 协助维护**：提交由 AI 生成、内容经人工确认。译文或文本问题照常反馈即可。
 
@@ -118,7 +118,7 @@ Mods/SayAgain/
 
 | 版本        | 内容                                                                                                                                                                                                                                        |
 | :-------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1.1.0** | **新增 3 个模组汉化**：Casualties Consumed、Casualties XL、Pi's Food Overhaul。**重大更新：每个模组的汉化都有独立开关**（cfg `[Mods]` 段共 35 项，默认全开）——不想要哪个模组的汉化就单独关掉，它完全按原文显示且运行时零开销，其它模组与游戏本体不受影响（见下方[设置项](#设置项)）。适配 Prosthetics v1.0.4（外科手术机、温度稳定器、焊接护目镜等）、Medical Brutalism v4.4.9、Casualty Vitals v1.5.3、Custom Structures v1.2.4、New Firearms v1.6.4、New Descents v1.0.3.2、Say Again v0.1.1；统一术语（废弃燃料、棕菌盖、地菱树、辐照、耀斑侵袭、医疗面板等）；修复 QoL Unknown 的下载失败提示漏翻、Prosthetics 多条漏翻与误译；新增 KrokMP 窗口标题梗后缀翻译（开关默认开） |
+| **1.1.0** | **新增 3 个模组汉化**：Casualties Consumed、Casualties XL、Pi's Food Overhaul。**重大更新：每个模组的汉化都有独立开关**（cfg `[Mods]` 段共 35 项，默认全开）——不想要哪个模组的汉化就单独关掉，它完全按原文显示且运行时零开销，其它模组与游戏本体不受影响（见下方[设置项](#设置项)）。适配 Prosthetics v1.0.4（外科手术机、温度稳定器、焊接护目镜等）、Medical Brutalism v4.4.9、Casualty Vitals v1.5.3、Custom Structures v1.2.4、New Firearms v1.6.4、New Descents v1.0.3.2、Say Again v0.1.1；统一术语（废弃燃料、棕菌盖、地菱树、辐照、耀斑侵袭、医疗面板等）；修复 QoL Unknown 的下载失败提示漏翻、Prosthetics 多条漏翻与误译；新增 KrokMP 窗口标题梗后缀翻译（开关默认开）；适配 Casualties Together（KrokMP）v4.1.2——该版把日志前缀由 `KrokMP: ` 改名为 `MP: `，已做两代前缀兼容（否则控制台日志会集体停止翻译），并补齐新增的诊断日志、24 位赞助者致谢与 `dumplobbysearch` 命令描述；另修复 KrokMP 3 条放错表而从未生效的条目 |
 | **1.0.2** | **新增 2 个模组汉化**：Gunsaw Genetics、New Descents；适配 Custom Structures v1.2.3、CUCoreLib v1.0.6 新文本；更新 KrokMP、Medical Brutalism、New Firearms、Prosthetics、Simple QoL 翻译；统一术语（moodle→状态图标、抗性→韧性等）；修复 Simple QoL 误译与 Medical Brutalism 的 3 条俄语控制台漏翻 |
 | **1.0.1** | 尝试修复多人联机中控制台自动补全不显示“玩家名字”和“@c 等”的问题。自己能正常显示，没测试别人名字是否显示                                                                                                                                                                                   |
 | 更早        | 见 [Releases](https://github.com/031fox-ui/a.chs.mod/releases)                                                                                                                                                                             |
