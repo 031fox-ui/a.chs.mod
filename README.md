@@ -72,7 +72,7 @@
 
 > **[Casualties Together](https://www.nexusmods.com/scavprototype/mods/67)** 建议配合使用：[KrokMP Chinese Supplement - Simplified Chinese Translation](https://www.nexusmods.com/scavprototype/mods/183)
 
-> **[Gunsaw Genetics](https://www.nexusmods.com/scavprototype/mods/324)** 只汉化硬编码部分。
+> **[Gunsaw Genetics](https://www.nexusmods.com/scavprototype/mods/324)** 只汉化硬编码部分。Gunsaw Genetics 的 <ins>*1.9.0*</ins> 完整中文翻译推荐和[「Gunsaw Genetics - Chinese Translation」](https://www.nexusmods.com/scavprototype/mods/677)一起食用
 
 ## 设置项
 
