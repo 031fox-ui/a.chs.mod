@@ -85,6 +85,14 @@
     "gamesetgunsaw_unlock_velvetdsc": "Manually unlock Velvet without meeting its normal requirement.",
     "gamesetgunsaw_unlock_voyager": "Unlock Voyager",
     "gamesetgunsaw_unlock_voyagerdsc": "Manually unlock Voyager without meeting its normal requirement.",
+    "gamesetgunsaw_albinoclassicstart": "Albino: Classic Start",
+    "gamesetgunsaw_albinoclassicstartdsc": "New Albino characters start with guaranteed one-eye loss and a random splinted leg fracture, like before, instead of rolling random starting wounds. Only affects new characters. Off by default.",
+    "gamesetgunsaw_orange_handstepback": "Orange: Hand Step Back",
+    "gamesetgunsaw_orange_handstepbackdsc": "Cycles backward one hand slot, instead of forward through all four.",
+    "gamesetgunsaw_orange_showhandlabels": "Orange: Show Hand Labels",
+    "gamesetgunsaw_orange_showhandlabelsdsc": "Shows which hand (Main/Secondary/Tertiary/Quaternary) is holding each item in the currently-held-item display.",
+    "gamesetgunsaw_readingprogress": "Reading Progress Bar",
+    "gamesetgunsaw_readingprogressdsc": "Shows a progress bar at the bottom of the screen while reading long notes and E-PDAs. Page breaks are marked on the bar.",
     "SNAP IT OFF": "SNAP IT OFF"
   }
 }

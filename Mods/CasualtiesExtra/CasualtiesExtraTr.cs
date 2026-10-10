@@ -2,7 +2,7 @@ internal static class CasualtiesExtraTr
 {
     public static readonly (string En, string Zh)[] Ui =
     {
-        ("Milder/Stream Safe (Hides+disables extra-NSFW options)", "温和／直播安全模式（隐藏并禁用额外的 NSFW 选项）"),
+        ("Milder/Stream Safe (Hides+disables extra-NSFW options)", "温和/直播安全模式（隐藏并禁用额外的 NSFW 选项）"),
         ("Gameplay Tweaks", "玩法调整"),
         ("Speech Options", "语音选项"),
         ("Adjustments for how speaking is affected by weight and brainrot.", "调整体重与脑腐对说话方式的影响。"),

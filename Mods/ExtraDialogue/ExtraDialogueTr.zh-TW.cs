@@ -20,7 +20,7 @@ internal static class ExtraDialogueTrTw
         ("What's that over there?", "那邊是什麼？"),
         ("Deeper I go.", "越走越深。"),
         ("I thought this would be different.", "我本以為這裡會不一樣。"),
-        ("Trader up there told me about this one.", "上面那個倖存者跟我說過這層。"),
+        ("Trader up there told me about this one.", "上面那個商人跟我說過這層。"),
         ("How many of those are there?", "那種東西有多少個？"),
         ("So many layers.", "這麼多地層。"),
         ("Did I hear something...?", "我是不是聽到了什麼...？"),

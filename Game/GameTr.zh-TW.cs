@@ -124,7 +124,7 @@ internal static class GameTrTw
         ("If true, displays the alert in the center of the screen.", "若為 true，在屏幕中央顯示提示。"),
         ("The text make the character speak.", "角色要說的話。"),
         ("The speed to set the timescale to.", "時間縮放的倍率。"),
-        ("(Default: 300) the height of the console log window", "（默認 : 300）控制檯日誌窗口的高度"),
+        ("(Default: 300) the height of the console log window", "（默認：300）控制檯日誌窗口的高度"),
         ("Which part of the console to color", "要設置顏色的控制檯部分"),
         ("Hex color code", "#十六進制顏色代碼"),
         ("The skill to affect", "要影響的技能"),
@@ -239,7 +239,7 @@ internal static class GameTrTw
         ("Floodfilled {0} at {1}.", "已在 {1} 填充了 {0}。"),
         ("Instantiated {0} different plushies at player.", "已在玩家位置生成了 {0} 種不同的毛絨玩具。"),
         ("Playing sound \"{0}\"", "正在播放音效「{0}」"),
-        ("text: \"{0}\"\nsprite: \"{1}\"\n font: \"{2}\"", "文本 : 「{0}」\n精靈 : 「{1}」\n字體 : 「{2}」"),
+        ("text: \"{0}\"\nsprite: \"{1}\"\n font: \"{2}\"", "文本：「{0}」\n精靈：「{1}」\n字體：「{2}」"),
         ("<color=orange>Invalid command \"{0}\"</color>", "<color=orange>無效命令「{0}」</color>"),
         ("<color=orange>Invalid command \"{0}\"", "<color=orange>無效命令「{0}」"),
         ("Could not find entity \"{0}\".", "找不到實體「{0}」。"),
@@ -284,15 +284,15 @@ internal static class GameTrTw
         ("<color=\"red\">Unexpected character encountered while parsing value: {0}. Path '{1}', line {2}, position {3}.", "<color=\"red\">解析數值時遇到意外字符：「{0}」。路徑「{1}」，第 {2} 行第 {3} 列。"),
         ("<color=\"red\">Unexpected end when deserializing object. Path '{0}', line {1}, position {2}.", "<color=\"red\">反序列化對象時意外結束。路徑「{0}」，第 {1} 行第 {2} 列。"),
         ("<color=yellow>Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect; {0}</color>", "<color=yellow>精靈平鋪顯示可能不正確，因為所用的精靈不是以完整矩形（Full Rect）生成的。\n要解決此問題，請將精靈的網格類型（Mesh Type）改為完整矩形（Full Rect）。{0}</color>"),
-        ("This is a beta build ({0}); Things are subject to change. (Demo)", "這是 Beta 構建（{0}）；內容可能隨時變化。（Demo）"),
-        ("This is a beta build ({0}); Things are subject to change.", "這是 Beta 構建（{0}）；內容可能隨時變化。"),
+        ("This is a beta build ({0}); Things are subject to change. (Demo)", "這是 Beta 測試版（{0}）；內容隨時可能變更。（試玩版）"),
+        ("This is a beta build ({0}); Things are subject to change.", "這是 Beta 測試版（{0}）；內容隨時可能變更。"),
         ("Skipped playing track by {0} seconds.", "已跳過曲目 {0} 秒。"),
         ("\"{0}\" is not a valid music action!", "“{0}”不是有效的音樂操作！"),
     };
     public static readonly (string En, string Zh)[] Shells =
     {
         ("Placeholder", "輸入命令（輸入「help」查看命令列表）"),
-        ("CmdFailed", "<color=orange>命令「{0}」失敗 : {1}</color>"),
+        ("CmdFailed", "<color=orange>命令「{0}」失敗：{1}</color>"),
     };
     public static readonly (string En, string Zh)[] Warnings =
     {
@@ -303,11 +303,18 @@ internal static class GameTrTw
         ("<color=\"red\">Invalid!", "<color=\"red\">無效！"),
         ("Something went wrong while loading the locale. Did you miss a comma?", "加載語言文件時出錯。是不是漏了個逗號？"),
     };
+    public static readonly (string En, string Zh)[] BetaBuildModded =
+    {
+        ("This is a modded beta build ({0}); Things are subject to change. (Demo)", "這是修改過的 Beta 測試版（{0}）；內容隨時可能變更。（試玩版）"),
+        ("This is a modded beta build ({0}); Things are subject to change.", "這是修改過的 Beta 測試版（{0}）；內容隨時可能變更。"),
+        ("This is a modded beta build ({0}); (Modified) (MP V{1})", "這是修改過的 Beta 測試版（{0}）；（已修改）（MP V{1}）"),
+        ("This is a beta build ({0}); (Modified) (MP V{1})", "這是 Beta 測試版（{0}）；（已修改）（MP V{1}）"),
+    };
     public static readonly (string En, string Zh)[] Credits =
     {
         ("A game by Orsoniks<size=80%>\n<i>hi! thank you for playing and supporting this project of mine.\nit started out as a small vent game around mid-2024 and it is amazing to see how far it has gotten since, with so many eyes looking at it.\ni hope it can mean to you as much as it does to me!!", "由 Orsoniks 製作的遊戲<size=80%>\n<i>嗨！感謝你遊玩並支持我的這個項目。\n它始於 2024 年年中一個用於宣洩情緒的小遊戲，看到它如今走到這一步、被這麼多人關注，真的非常驚人。\n希望它對你而言，也能像對我一樣意義非凡！！"),
         ("With non-pixel art by WickFlix<size=80%>\n<i>\rI found out about the game right at the start of 2025 and quickly felt enraptured by the atmosphere and themes, and ended up making tons of fanart in the community as an outlet for my appreciation of the project. Somewhere along the way I offered to help with art assets, and I've been working together with Moffee since! Seeing the game take shape and being there to help it along has been lovely, and I hope to carry on doing it <3", "非像素美術：WickFlix<size=80%>\n<i>\r我在 2025 年初發現了這款遊戲，很快就被它的氛圍和主題深深吸引，於是在社區裡畫了大量同人圖，作為我對這個項目喜愛的表達。後來我主動提出幫忙製作美術素材，從那時起就一直和 Moffee 合作！看著遊戲逐漸成形並參與其中，是一段非常美好的經歷，希望我能繼續下去 <3"),
         ("With menu art by Gatotacato<size=80%>\n<i>", "菜單美術：Gatotacato<size=80%>\n<i>"),
-        ("Published by Oro Interactive:\n<size=80%>Sam De Boeck - Founder & CEO \r\nHans Haave - Chief Publishing Officer\r\nStijn Deschuyteneer - Head of Communication\r\nDaniel Lyozov - Head of Scouting & BD\r\nThea Bjerregaard - Senior Producer", "由 Oro Interactive 發行：\n<size=80%>Sam De Boeck - 創始人兼首席執行官 \r\nHans Haave - 首席出版官\r\nStijn Deschuyteneer - 傳播主管\r\nDaniel Lyozov - 偵察與業務拓展主管\r\nThea Bjerregaard - 高級製作人"),
+        ("Published by Oro Interactive:\n<size=80%>Sam De Boeck - Founder & CEO \r\nHans Haave - Chief Publishing Officer\r\nStijn Deschuyteneer - Head of Communication\r\nDaniel Lyozov - Head of Scouting & BD\r\nThea Bjerregaard - Senior Producer", "由 Oro Interactive 發行：\n<size=80%>Sam De Boeck — 創始人兼首席執行官 \r\nHans Haave — 首席出版官\r\nStijn Deschuyteneer — 傳播主管\r\nDaniel Lyozov — 偵察與業務拓展主管\r\nThea Bjerregaard — 高級製作人"),
     };
 }

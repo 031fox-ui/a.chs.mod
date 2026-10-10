@@ -1,0 +1,12 @@
+{
+  "other": {
+    "casualtiestogether_chat_keybind": "Press \"{0}\" to chat...",
+    "casualtiestogether_mmsb_lobbybadver": "Wrong version!",
+    "casualtiestogether_mmct_ipportfield": "IP:PORT",
+    "casualtiestogether_mmct_usernamefield": "Username",
+    "casualtiestogether_rule_desc_ScatterMinGroupSize": "How many people is considered as a big group.\nTo not trigger ScatterPunishDistance",
+    "casualtiestogether_mmta_credits": "Credits:",
+    "casualtiestogether_netpanel_avgping": "Average Ping: ",
+    "casualtiestogether_netpanel_title": "Multiplayer"
+  }
+}

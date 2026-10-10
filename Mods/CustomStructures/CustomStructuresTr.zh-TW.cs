@@ -25,10 +25,10 @@ internal static class CustomStructuresTrTw
     {
         ("Requested host spawn for '{0}' at {1} ({2})", "已請求主機在 {1}（{2}）生成「{0}」"),
         ("Spawned '{0}' at {1} ({2})", "已在 {1}（{2}）生成「{0}」"),
-        ("Teleported to nearest '{0}' at {1} ({2:F1}m away).", "已傳送到最近的「{0}」，位於 {1}（距離 {2:F1} 米）。"),
+        ("Teleported to nearest '{0}' at {1} ({2}m away).", "已傳送到最近的「{0}」，位於 {1}（距離 {2} 米）。"),
         ("More Structures set to: {0}. (Changes apply on next generation/restart)", "更多結構已設為：{0}。（下次生成/重啟後生效）"),
         ("Reloaded {0} structures and {1} World layer files from disk.", "已從磁盤重新加載 {0} 個建築和 {1} 個世界層級文件。"),
-        ("Structure spawn multiplier set to {0:F2}x. (e.g., 16 spawns -> ~{1} spawns, changes apply on next generation)", "建築生成倍率已設為 {0:F2}x。（例如：16 次生成 → 約 {1} 次，下次生成時生效）"),
+        ("Structure spawn multiplier set to {0}x. (e.g., 16 spawns -> ~{1} spawns, changes apply on next generation)", "建築生成倍率已設為 {0}x。（例如：16 次生成 → 約 {1} 次，下次生成時生效）"),
         ("Signal '{0}' dispatched to {1} listener(s).", "信號「{0}」已派發給 {1} 個監聽器。"),
         ("dumpcontainercaps complete. found={0}, missing={1}", "dumpcontainercaps 完成。找到={0}，缺失={1}"),
         ("Disabled '{0}' by removing {1} file(s). Loaded structures: {2}.", "已通過移除 {1} 個文件禁用「{0}」。已加載建築：{2}。"),

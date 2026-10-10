@@ -85,6 +85,14 @@
     "gamesetgunsaw_unlock_velvetdsc": "無需滿足正常條件，直接解鎖 Velvet。",
     "gamesetgunsaw_unlock_voyager": "解鎖 Voyager",
     "gamesetgunsaw_unlock_voyagerdsc": "無需滿足正常條件，直接解鎖 Voyager。",
+    "gamesetgunsaw_albinoclassicstart": "Albino 經典開局",
+    "gamesetgunsaw_albinoclassicstartdsc": "新 Albino 角色使用原始開局（必定失去一隻眼睛，外加一處隨機的腿部夾板骨折），而非隨機抽取初始傷勢。僅影響新角色。默認關閉。",
+    "gamesetgunsaw_orange_handstepback": "Orange：手部後退",
+    "gamesetgunsaw_orange_handstepbackdsc": "用於向後循環一個手部槽位的按鍵（僅限 Orange）。",
+    "gamesetgunsaw_orange_showhandlabels": "Orange：顯示手部標籤",
+    "gamesetgunsaw_orange_showhandlabelsdsc": "在當前手持物品顯示中，標明每件物品由哪隻手（主手/副手/第三隻手/第四隻手）持有。",
+    "gamesetgunsaw_readingprogress": "閱讀進度條",
+    "gamesetgunsaw_readingprogressdsc": "閱讀長筆記與電子 PDA 時，在屏幕底部顯示進度條。進度條上會標出分頁位置。",
     "SNAP IT OFF": "掰斷它"
   }
 }

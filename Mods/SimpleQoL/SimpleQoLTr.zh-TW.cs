@@ -43,6 +43,8 @@ internal static class SimpleQoLTrTw
         ("gameseteqpworkouttimerothersdsc", "在其他玩家頭頂顯示其鍛鍊預計時間。不影響你自己的計時。"),
         ("gameseteqpcontainercapacityhint", "容器容量提示"),
         ("gameseteqpcontainercapacityhintdsc", "在容量一行顯示超重數值，並用紅框標出拿走後即可裝下的最輕物品。僅為顯示提示，不會移動物品。"),
+        ("gameseteqprapidhandcrank", "手搖快速充電"),
+        ("gameseteqprapidhandcrankdsc", "手搖充電更快，並保留 50% 體力。"),
     };
     public static readonly (string En, string Zh)[] WorkoutFragments =
     {

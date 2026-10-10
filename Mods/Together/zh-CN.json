@@ -1,0 +1,12 @@
+{
+  "other": {
+    "casualtiestogether_chat_keybind": "按「{0}」聊天",
+    "casualtiestogether_mmsb_lobbybadver": "版本不匹配！",
+    "casualtiestogether_mmct_ipportfield": "IP：端口",
+    "casualtiestogether_mmct_usernamefield": "用户名",
+    "casualtiestogether_rule_desc_ScatterMinGroupSize": "多少人被视为一个较大的群体\n以避免触发ScatterPunishDistance规则\n（离开队伍过远的辐射惩罚）",
+    "casualtiestogether_mmta_credits": "致谢：",
+    "casualtiestogether_netpanel_avgping": "平均延迟：",
+    "casualtiestogether_netpanel_title": "多人联机"
+  }
+}

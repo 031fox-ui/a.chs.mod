@@ -21,12 +21,7 @@ internal static class RshLibTrTw
         ("Error occured during applying player components.\n{0}\n{1}\nLoading will continue. Make a bug report to RshLib.", "應用玩家組件時發生錯誤。\n{0}\n{1}\n將繼續加載。請向 RshLib 提交錯誤報告。"),
         ("Error occured during applying world state.\n{0}\n{1}\nMake a bug report to RshLib.", "應用世界狀態時發生錯誤。\n{0}\n{1}\n請向 RshLib 提交錯誤報告。"),
         ("GlobalItems already contain {0}, so it will be overrided", "GlobalItems 已包含 {0}，因此它將被覆蓋"),
-        ("[RshLib] RshLib 3.1.1, KrokMP: {0}", "[RshLib] RshLib 3.1.1，KrokMP : {0}"),
-        ("<color=red>[RshLib] ! GAME VERSION MISMATCH, Expected: 7.0.1, Current: {0}, Loading will continue; {1}", "<color=red>[RshLib] ！遊戲版本不匹配，預期 : 7.0.1，當前 : {0}，將繼續加載；{1}"),
-    };
-    public static readonly (string En, string Zh)[] UiFormats =
-    {
-        ("This is a modded beta build ({0}); Things are subject to change. (Demo)", "這是模組化 Beta 測試版（{0}）；內容可能隨時變化。（Demo）"),
-        ("This is a modded beta build ({0}); Things are subject to change.", "這是模組化 Beta 測試版（{0}）；內容可能隨時變化。"),
+        ("[RshLib] RshLib 3.1.1, KrokMP: {0}", "[RshLib] RshLib 3.1.1，KrokMP：{0}"),
+        ("<color=red>[RshLib] ! GAME VERSION MISMATCH, Expected: 7.0.1, Current: {0}, Loading will continue; {1}", "<color=red>[RshLib] ！遊戲版本不匹配，預期：7.0.1，當前：{0}，將繼續加載；{1}"),
     };
 }

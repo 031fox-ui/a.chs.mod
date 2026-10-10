@@ -141,9 +141,9 @@ internal static class ProstheticsTrTw
     };
     public static readonly (string En, string Zh)[] CommandDescs =
     {
-        ("Prosthetics debug tool. Args: scrap|wood|titanium  - amputate limbs and install that kind. eye  - set bothEyesGone and equip two fully-charged prosthetic eyes. jaw  - set disfigured and equip the copper jaw. No arg  - strip all prosthetics. MP (host + sv_cheats): optional last arg targets another player by name.", "【義體】義體調試工具。參數 : scrap|wood|titanium - 截肢並安裝對應義肢。eye - 標記雙眼缺失並裝備兩枚滿電義眼。\njaw - 標記毀容並裝備銅下頜。無參數 - 移除所有義肢。多人模式（主機+作弊開關） : 可選最後一個參數指定目標玩家名稱"),
+        ("Prosthetics debug tool. Args: scrap|wood|titanium  - amputate limbs and install that kind. eye  - set bothEyesGone and equip two fully-charged prosthetic eyes. jaw  - set disfigured and equip the copper jaw. No arg  - strip all prosthetics. MP (host + sv_cheats): optional last arg targets another player by name.", "【義體】義體調試工具。參數：scrap|wood|titanium - 截肢並安裝對應義肢。eye - 標記雙眼缺失並裝備兩枚滿電義眼。\njaw - 標記毀容並裝備銅下頜。無參數 - 移除所有義肢。多人模式（主機+作弊開關）：可選最後一個參數指定目標玩家名稱"),
         ("kind [limb] [player]", "種類 [肢體] [玩家]"),
-        ("scrap | wood | titanium | eye | jaw. Optional limb: armF | armB | legF | legB. MP (host + sv_cheats): optional player name targets another player.", "scrap廢料、wood木製、titanium鈦合金、eye眼、jaw下頜。可選肢體 : armF前臂、armB後臂、legF前腿、legB後腿。\n多人模式（主機+作弊開關） : 可選玩家名稱以指定目標"),
+        ("scrap | wood | titanium | eye | jaw. Optional limb: armF | armB | legF | legB. MP (host + sv_cheats): optional player name targets another player.", "scrap廢料、wood木製、titanium鈦合金、eye眼、jaw下頜。可選肢體：armF前臂、armB後臂、legF前腿、legB後腿。\n多人模式（主機+作弊開關）：可選玩家名稱以指定目標"),
         ("Toggle the cybernetics panel", "【義體】切換義體編排面板"),
         ("Spawn all neuromods into the player's inventory. MP: host + sv_cheats only.", "【義體】生成所有神經模組到玩家物品欄。僅限多人模式主機+作弊開關"),
         ("Grant/recharge the Deus est machina state on the local player (guaranteed resurrection).", "【義體】為本地玩家授予/充能 Deus est machina 狀態（保證復活）。"),

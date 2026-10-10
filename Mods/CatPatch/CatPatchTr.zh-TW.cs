@@ -60,11 +60,11 @@ internal static class CatPatchTrTw
     public static readonly (string En, string Zh)[] Literals =
     {
         ("Checking for CatPatch updates...", "正在檢查 CatPatch 更新..."),
-        ("Downloading CatPatch {0}...", "正在下載 CatPatch {0}..."),
-        ("CatPatch {0} is available :)", "CatPatch {0} 有新版本可用 :)"),
+        ("Downloading CatPatch ", "正在下載 CatPatch "),
+        (" is available :)", " 有新版本可用 :)"),
         ("CatPatch is up to date.", "CatPatch 已是最新版本。"),
         ("CatPatch update check unavailable. :( all my hard work", "無法檢查 CatPatch 更新。:( 我所有的辛苦"),
-        ("CatPatch update downloaded. Click Apply & Quit to replace the DLL after the game closes.", "CatPatch 更新已下載。點擊“應用＆退出”，遊戲關閉後將替換 DLL。"),
+        ("CatPatch update downloaded. Click Apply & Quit to replace the DLL after the game closes.", "CatPatch 更新已下載。點擊「應用＆退出」，遊戲關閉後將替換 DLL。"),
         ("CatPatch update downloaded. Close the game, then extract the BepInEx folder from the zip into your game folder.", "CatPatch 更新已下載。關閉遊戲，然後把壓縮包裡的 BepInEx 文件夾解壓到你的遊戲目錄。"),
         ("CatPatch update download failed.", "CatPatch 更新下載失敗。"),
         ("Automatic replacement only supports direct CatPatch.dll downloads.", "自動替換僅支持直接下載 CatPatch.dll 的方式。"),
@@ -72,7 +72,6 @@ internal static class CatPatchTrTw
         ("CatPatch update helper started. Quitting game...", "CatPatch 更新助手已啟動。正在退出遊戲..."),
         ("Failed to start CatPatch update helper. All my hard work :(", "無法啟動 CatPatch 更新助手。我所有的辛苦 :("),
         ("CatPatch Update Available", "CatPatch 更新可用"),
-        ("CatPatch {0} is available. You currently have {1}.", "CatPatch {0} 有新版本可用。你當前版本為 {1}。"),
         ("Changelog", "更新日誌"),
         ("Downloaded to:", "已下載到："),
         ("Download", "下載"),
@@ -90,11 +89,10 @@ internal static class CatPatchTrTw
         ("Show sprays", "顯示噴漆"),
         ("Updates", "更新"),
         ("Check Now for Update", "立即檢查更新"),
-        ("Installed: 1.0.4", "已安裝：1.0.4"),
         ("Latest: ", "最新版本："),
         ("Error: {0}", "錯誤：{0}"),
         ("Suggest a feature, join the discord", "提建議？加入 Discord"),
-        ("Host settings moved. Open server and click Host Moderation on the left.\n\n\nDEFAULT KEYBINDS:\n\nH: Hug\nG: Spray\nI: Inspect Spray", "“主機設置”已移動。打開服務器，點擊左側的“主機管理”。\n\n\n默認按鍵：\n\nH：擁抱\nG：噴漆\nI：檢查噴漆"),
+        ("Host settings moved. Open server and click Host Moderation on the left.\n\n\nDEFAULT KEYBINDS:\n\nH: Hug\nG: Spray\nI: Inspect Spray", "「主機設置」已移動位置。創建房間，點擊左側的「主機管理」。\n\n\n默認按鍵：\n\nH：擁抱\nG：噴漆\nI：檢查噴漆"),
         ("Host Moderation", "主機管理"),
         ("Sections", "欄目"),
         ("Player Actions", "玩家操作"),
@@ -138,7 +136,7 @@ internal static class CatPatchTrTw
         ("Export a setup or paste one here to import it.", "導出配置或在此粘貼以導入。"),
         ("Elder thornbacks", "長老棘背獸"),
         ("Tp To You", "傳送到你"),
-        ("Tp To Them", "傳送到Ta"),
+        ("Tp To Them", "傳送到 Ta"),
         ("Heal/Revive", "治療/復活"),
         ("Kill", "殺死"),
         ("Knock Out", "擊暈"),
@@ -184,7 +182,7 @@ internal static class CatPatchTrTw
         ("Trap amount", "陷阱數量"),
         ("Dogpile Sleep", "疊羅漢睡眠"),
         ("Piggyback Throw", "揹人拋擲"),
-        ("Meow's final challenge", "Meow 的終極挑戰"),
+        ("Meow's final challenge", "Meow 的終極挑戰（MFC）"),
         ("  |  ping ", "  |  延遲 "),
         (" (ping ", "（延遲 "),
         ("chat: ", "聊天："),
@@ -409,6 +407,11 @@ internal static class CatPatchTrTw
         ("Uh- what rule did we violate with this?", "呃—我們這樣違反了哪條規則？"),
         ("Haha, you okay?", "哈哈，你還好嗎？"),
         ("My heart is gonna jump out of my chest...", "我的心要從胸口跳出來了..."),
+    };
+    public static readonly (string En, string Zh)[] LiteralFormats =
+    {
+        ("Installed: {0}", "已安裝：{0}"),
+        (" is available. You currently have {0}.", " 有新版本可用。你當前版本為 {0}。"),
     };
     public static readonly (string En, string Zh)[] Talks =
     {
