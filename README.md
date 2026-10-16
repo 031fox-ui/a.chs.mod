@@ -72,7 +72,7 @@
 | [Simple QoL](https://www.nexusmods.com/scavprototype/mods/320)                         | 15               | 1.2.4      |
 | [Thigh Highs](https://www.nexusmods.com/scavprototype/mods/33)                         | —                | 1.1.0      |
 
-> **[Casualties Together](https://www.nexusmods.com/scavprototype/mods/67)** 建议配合使用：[KrokMP Chinese Supplement - Simplified Chinese Translation](https://www.nexusmods.com/scavprototype/mods/183)（此模组还未适配最新版。10月16日）
+> **[Casualties Together](https://www.nexusmods.com/scavprototype/mods/67)** 建议配合使用：[KrokMP Chinese Supplement - Simplified Chinese Translation](https://www.nexusmods.com/scavprototype/mods/183)（10月16日，后续会内置中文）
 
 > **[Gunsaw Genetics](https://www.nexusmods.com/scavprototype/mods/324)** 只汉化硬编码部分。Gunsaw Genetics 的 <ins>*2.0.0*</ins> 完整中文翻译推荐和[「Gunsaw Genetics - Chinese Translation」](https://www.nexusmods.com/scavprototype/mods/677)一起食用
 
