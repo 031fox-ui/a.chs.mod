@@ -64,8 +64,7 @@ internal static class NeurotraumaTrTw
     public static readonly (string En, string Zh)[] Literals =
     {
         ("<b><color=#FFCC66>Update available</color>  <color=#9FB4C7>(Обновление)</color></b>", "<b><color=#FFCC66>發現新版本</color></b>"),
-        (" is available.</color>", " 可用。</color>"),
-        (" — доступна новая версия.)</color>", " 的新版本可用。）</color>"),
+        ("</b> is available.</color>", "</b> 已可更新。</color>"),
         ("<b><color=#FFFFFF>Update now?</color>  <color=#9FB4C7>(Обновить сейчас?)</color></b>", "<b><color=#FFFFFF>立即更新？</color></b>"),
         ("<color=#D0D0D0>Later (Позже)</color>", "<color=#D0D0D0>稍後</color>"),
         ("<color=#CDE8B5>Yes (Да)</color>", "<color=#CDE8B5>是</color>"),

@@ -62,7 +62,13 @@
     "makeshiftbonesawdsc": "一把粗糙的臨時自制骨鋸。勉強能把工作搞定。\n\n<color=\"red\">可在醫療面板中使用以截除任何肢體，即使沒有受到感染或損傷。",
     "plasticfork": "塑料叉子",
     "plasticforkdsc": "我是說，把你自己或者你朋友的眼珠子戳出來，好騰出位置來裝上那個超酷的義眼，這聽起來很有趣對吧？一次性使用。\n\n<color=\"red\">在醫療面板中將其拖動到頭部以移除生物眼睛。\n<color=\"green\">也可以在不損壞已安裝義眼的情況下撬出義眼。",
-    "rippeddressingdsc": "一條幹淨的繃帶布。在物品欄中使用時，每次使用能吸收25點潮溼度。可使用10次。也可用作傷口的正規敷料。"
+    "rippeddressingdsc": "一條幹淨的繃帶布。在物品欄中使用時，每次使用能吸收25點潮溼度。可使用10次。也可用作傷口的正規敷料。",
+    "pandora_box": "潘多拉的盒子",
+    "pandora_boxdsc": "一個材質不明的密封聖匣，找醫療僕從瞭解更多信息。<color=\"red\"> 需要 100ml 神經連接體才能打開",
+    "cerebral_extractor": "腦髓提取器",
+    "cerebral_extractordsc": "一種通過腦髓濾器提取記憶與技能的工具，可能會敲裂頭骨。通過眼窩對大腦仍然活躍的個體使用，滿容後會將腦髓湯轉化為神經連接體\n\n<color=\"red\">容量 100 毫升，100ml 腦髓湯 -> 100ml 神經連接體",
+    "relic_brainchip": "遺物人格芯片",
+    "relic_brainchipdsc": "感覺年代久遠卻又科技先進，與頭顱上的芯片插槽不匹配。\n\n<color=\"red\">任何野外手術都無法安置它。我需要能把它直接植入我大腦的人幫忙"
   },
   "building": {
     "neuromod_box": "神經模組箱",
@@ -70,7 +76,9 @@
     "augment_box": "增強件箱",
     "augment_boxdsc": "一個密封的增強公司物資箱。配有加固金屬外板與原始的密碼鎖。裡面裝有一枚單獨的增強件——解鎖或破解鍵盤鎖即可安全開啟。\n\n<color=\"red\">易爆：強行撬開會引爆箱子，造成爆炸。",
     "surgery_machine": "醫療僕從",
-    "surgery_machinedsc": "一臺自主醫療僕從。與它互動，它會無痛地為你治療、裝配增強件或進行維修。\n\n<color=\"red\">它會讓你昏迷、完成手術，然後你醒來時已被治癒。它的電力只夠進行有限次數的操作。"
+    "surgery_machinedsc": "一臺自主醫療僕從。與它互動，它會無痛地為你治療、裝配增強件或進行維修。\n\n<color=\"red\">它會讓你昏迷、完成手術，然後你醒來時已被治癒。它的電力只夠進行有限次數的操作。",
+    "pandora_capsule": "潘多拉艙",
+    "pandora_capsuledsc": "一個密封的艙體。你看不懂上面的符號，但它們像是在警告。\n\n<color=\"red\">看起來很危險"
   },
   "other": {
     "weldingMinigameGuide": "在線上任意位置按下並沿其拖動，無論朝哪個方向——偏移軌道會額外消耗電量。",
@@ -85,6 +93,12 @@
     "gamesetprosthetics_mod_UI": "【義體】打開義體編排",
     "gamesetprosthetics_mod_flashlight": "【義體】切換手電筒",
     "gamesetprosthetics_mod_hook": "【義體】使用已安裝的抓鉤",
-    "Prosthetics Mod": "義體模組"
+    "Prosthetics Mod": "義體模組",
+    "cerebralsoup": "腦髓湯",
+    "cerebralsoupdsc": "一團溫熱的灰色漿液，由渲染的神經組織構成。尚帶餘溫。那團漿糊裡裝著記憶與技能，卻沒有人格——想到自己可能落得同樣下場，真是可怕。",
+    "neuralconnectomes": "神經連接體",
+    "neuralconnectomesdsc": "它是什麼？嘛，這既是個簡單的問題——同時又是個複雜的問題。它就是未來——就在今天。更重要的是……我們的過去。就在今天。—— Alex Yu",
+    "unknownobject": "某個東西...",
+    "unknownobjectdsc": "你看不清這是什麼，也不知道它是做什麼的。"
   }
 }

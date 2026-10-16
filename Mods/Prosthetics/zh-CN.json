@@ -117,7 +117,19 @@
 
     "plasticforkdsc": "我是说，把你自己或者你朋友的眼珠子戳出来，好腾出位置来装上那个超酷的义眼，这听起来很有趣对吧？一次性使用。\n\n<color=\"red\">在医疗面板中将其拖动到头部以移除生物眼睛。\n<color=\"green\">也可以在不损坏已安装义眼的情况下撬出义眼。",
 
-    "rippeddressingdsc": "一条干净的绷带布。在物品栏中使用时，每次使用能吸收25点潮湿度。可使用10次。也可用作伤口的正规敷料。"
+    "rippeddressingdsc": "一条干净的绷带布。在物品栏中使用时，每次使用能吸收25点潮湿度。可使用10次。也可用作伤口的正规敷料。",
+
+    "pandora_box": "潘多拉的盒子",
+
+    "pandora_boxdsc": "一个材质不明的密封圣匣，找医疗仆从了解更多信息。<color=\"red\"> 需要 100ml 神经连接体才能打开",
+
+    "cerebral_extractor": "脑髓提取器",
+
+    "cerebral_extractordsc": "一种通过脑髓滤器提取记忆与技能的工具，可能会敲裂头骨。通过眼窝对大脑仍然活跃的个体使用，满容后会将脑髓汤转化为神经连接体\n\n<color=\"red\">容量 100 毫升，100ml 脑髓汤 -> 100ml 神经连接体",
+
+    "relic_brainchip": "遗物人格芯片",
+
+    "relic_brainchipdsc": "感觉年代久远却又科技先进，与头颅上的芯片插槽不匹配。\n\n<color=\"red\">任何野外手术都无法安置它。我需要能把它直接植入我大脑的人帮忙"
 
   },
   "building": {
@@ -130,7 +142,11 @@
 
     "surgery_machine": "医疗仆从",
 
-    "surgery_machinedsc": "一台自主医疗仆从。与它互动，它会无痛地为你治疗、装配增强件或进行维修。\n\n<color=\"red\">它会让你昏迷、完成手术，然后你醒来时已被治愈。它的电力只够进行有限次数的操作。"
+    "surgery_machinedsc": "一台自主医疗仆从。与它互动，它会无痛地为你治疗、装配增强件或进行维修。\n\n<color=\"red\">它会让你昏迷、完成手术，然后你醒来时已被治愈。它的电力只够进行有限次数的操作。",
+
+    "pandora_capsule": "潘多拉舱",
+
+    "pandora_capsuledsc": "一个密封的舱体。你看不懂上面的符号，但它们像是在警告。\n\n<color=\"red\">看起来很危险"
 
   },
   "other": {
@@ -157,7 +173,19 @@
 
     "gamesetprosthetics_mod_hook": "【义体】使用已安装的抓钩",
 
-    "Prosthetics Mod": "义体模组"
+    "Prosthetics Mod": "义体模组",
+
+    "cerebralsoup": "脑髓汤",
+
+    "cerebralsoupdsc": "一团温热的灰色浆液，由渲染的神经组织构成。尚带余温。那团浆糊里装着记忆与技能，却没有人格——想到自己可能落得同样下场，真是可怕。",
+
+    "neuralconnectomes": "神经连接体",
+
+    "neuralconnectomesdsc": "它是什么？嘛，这既是个简单的问题——同时又是个复杂的问题。它就是未来——就在今天。更重要的是……我们的过去。就在今天。—— Alex Yu",
+
+    "unknownobject": "某个东西...",
+
+    "unknownobjectdsc": "你看不清这是什么，也不知道它是做什么的。"
 
   }
 }

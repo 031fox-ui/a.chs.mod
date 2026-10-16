@@ -1332,7 +1332,7 @@ internal static class GunsawGeneticsTrTw
         ("- Mood swings harder in every direction (150% more impactful, both positive and negative.)", "— 心情在各個方向上的波動都更劇烈（影響程度 +150%，正面和負面皆然。）"),
         ("- Trader reputation on first meeting reflects your current mood. Milky traders will ignore this and try to take advantage of you regardless.", "— 首次見面時的商人好感度會反映你當前的心情。Milky 商人會無視這一點，無論如何都會試圖佔你便宜。"),
         ("- Hugging traders has a stronger effect on reputation", "— 擁抱商人對好感度的影響更強"),
-        ("- Letting Dunes bite you gives a bigger reputation boost", "— 讓 Dune 咬你能獲得更高的好感度加成"),
+        ("- Letting Dunes bite you gives a bigger reputation boost", "— 讓 Dunes 咬你能獲得更高的好感度加成"),
         ("- Bone fractures and dislocations heal twice as fast", "— 骨折和脫臼的癒合速度加倍"),
         ("- Recently injured limbs take reduced damage for a short time afterward", "— 近期受傷的肢體會在之後一小段時間內受到的傷害降低"),
         ("<b>Baron Changes:</b>", "<b>Baron 改動：</b>"),

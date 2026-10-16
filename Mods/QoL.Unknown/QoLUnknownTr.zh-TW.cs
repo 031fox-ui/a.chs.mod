@@ -61,6 +61,10 @@ internal static class QoLUnknownTrTw
         ("qol.input.quickstashdsc", "把光標下的物品快速放入可用的物品欄格子、穿戴欄或隨身攜帶的容器中。"),
         ("qol.input.inventoryinteraction", "【QoL】物品欄交互輔助鍵"),
         ("qol.input.inventoryinteractiondsc", "拖拽物品時按住此鍵，可交換容器或將兼容的工具和電池放入容器。"),
+        ("qol.game.besttoolefficiency", "按效率選用最佳工具"),
+        ("qol.game.besttoolefficiencydsc", "製作時選用效率最高的工具，而非找到的第一件。"),
+        ("qol.game.etomophobia", "嘔吐恐懼症"),
+        ("qol.game.etomophobiadsc", "屏蔽嘔吐與嘔血的畫面、粒子與文字，屬性損失仍然保留。"),
     };
     public static readonly (string En, string Zh)[] ModuleDefs =
     {
@@ -94,6 +98,10 @@ internal static class QoLUnknownTrTw
         ("qol_timerdsc", "在暫停菜單中添加計時器。"),
         ("qol_autosave", "自動保存"),
         ("qol_autosavedsc", "定期自動保存遊戲。【３分鐘保存一次】"),
+        ("qol_game_animal_attack_assist", "攻擊輔助"),
+        ("qol_game_animal_attack_assistdsc", "對近戰攻擊做盒形檢測，並把揮擊重新瞄準附近的動物。"),
+        ("qol_inv_stacking", "容器堆疊"),
+        ("qol_inv_stackingdsc", "把容器中的重複物品歸為一組。懸停可查看每件物品及其狀態。"),
     };
     public static readonly (string En, string Zh)[] LangNames =
     {
@@ -316,6 +324,7 @@ internal static class QoLUnknownTrTw
         ("string action", "文本 操作"),
         ("string sound", "文本 音效"),
         ("float volume", "浮點 音量"),
+        ("name or guid", "名稱或 GUID"),
         ("bool disable", "真假"),
     };
     public static readonly (string En, string Zh)[] CommandDescs =
@@ -334,6 +343,9 @@ internal static class QoLUnknownTrTw
         ("True to set all to 0%, False to set to default", "設為 true 將所有倍率設為 0%，設為 false 恢復默認"),
         ("Displays the current world seed.", "【QoL】顯示當前世界種子。"),
         ("!! NOT RECOMMENDED !!. Instantly saves the game and exits to the main menu as per vanilla. Loading the save will put you at the beginning of the current layer.", "【QoL 表示】！！不推薦！！立即保存遊戲並按原版行為返回主菜單。讀取存檔會讓你回到當前地層的起點。"),
+        ("Open the Nexus Mods page for an installed mod. Usage: nexus <name or guid>", "【QoL】打開已安裝模組的 Nexus 模組頁面。用法：nexus <名稱或 GUID>"),
+        ("Installed mod name or BepInEx plugin GUID", "已安裝的模組名稱或 BepInEx 插件 GUID"),
+        ("change/list/remove/clear", "change/list/remove/clear（更改/列表/移除/清空）"),
     };
     public static readonly (string En, string Zh)[] Ui =
     {
@@ -461,6 +473,13 @@ internal static class QoLUnknownTrTw
         ("Parched of water!", "口渴難耐！"),
         ("Feeling very thirsty", "非常口渴"),
         ("Feeling a bit thirsty", "有點口渴"),
+        ("Search settings...", "搜索設置…"),
+        ("No settings match this search.", "沒有匹配此搜索的設置。"),
+        ("Click to load, right click to save current list as preset", "點擊載入，右鍵把當前列表存為預設"),
+        ("Fully restarts the game, enabling/disabling the toggled mods. Click on this to apply your changes.", "完全重啟遊戲，並啟用/禁用已切換的模組。點擊此處應用更改。"),
+        ("Fully restarts the game without changing any mods", "完全重啟遊戲，但不更改任何模組"),
+        ("Packs loose items into the lightest containers. Hold Shift to also sort hands and mouth.", "把散落物品裝進最輕的容器。按住 Shift 可同時整理手部和口部。"),
+        ("Sort", "整理"),
     };
     public static readonly (string En, string Zh)[] Talks =
     {
@@ -558,6 +577,9 @@ internal static class QoLUnknownTrTw
         ("A limb is {0} infected! ({1}% infection)", "一個肢體正在{0}感染！（感染 {1}%）"),
         ("{0} limbs are {1} infected! ({2}% infection)", "{0} 個肢體正在{1}感染！（感染 {2}%）"),
         ("State rule error: {0}", "狀態規則錯誤：{0}"),
+        ("Mod Presets {0}", "模組預設 {0}"),
+        ("Click to load, right click to save current list as preset\nSaved: {0} enabled / {1} mods", "點擊載入，右鍵把當前列表存為預設\n已保存：啟用 {0} / 共 {1} 個模組"),
+        ("Slot {0}", "存檔 {0}"),
     };
     public static readonly (string En, string Zh)[] ModRowFragments =
     {
@@ -626,6 +648,10 @@ internal static class QoLUnknownTrTw
     public static readonly (string En, string Zh)[] TooltipFragments =
     {
         ("Update available! click to open Nexus page", "有新版本可用！點擊打開Ｎ網頁面"),
+    };
+    public static readonly (string En, string Zh)[] PlayButtonLabel =
+    {
+        ("Play", "播放"),
     };
     public static readonly (string En, string Zh)[] DepthUnit =
     {

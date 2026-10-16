@@ -1,0 +1,17 @@
+{
+  "item": {},
+  "building": {
+    "moreamputation.beartrap.activated": "You could try to break the trap to free your limb. Be careful of shrapnel, though..."
+  },
+  "moodle": {},
+  "other": {
+    "moreamputation.removebeartrap": "Remove bear trap",
+    "moreamputation.removebeartrapdsc": "Try to disarm the bear trap by hand",
+    "moreamputation.removebeartrapguide": "Slowly pry the jaws out. The trap will resist you, don't pull too quickly or you'll lose your grip. Severe mistakes may further damage the limb.\nGloves may make it easier to open the trap faster."
+  },
+  "log": {},
+  "command": {},
+  "option": {},
+  "liquid": {},
+  "title": {}
+}

@@ -89,6 +89,9 @@ internal static class CUCoreLibTrTw
         ("no locale entries were registered in your mods. Nothing was written as such :(", "你的模組沒有註冊任何本地化條目。因此沒有寫入任何內容 :("),
         ("Host type was null.", "宿主類型為空。"),
         ("The bug report description has an opening quote but no closing quote. Usage: bug-report [\"description text\"] [bool screenshot] [severity]", "bug 報告描述有起始引號但沒有結束引號。用法：bug-report [\"描述文本\"] [是否截圖] [嚴重度]"),
+        ("Set custom status field.", "已設置自定義狀態字段。"),
+        ("ERROR: missing status field.", "錯誤：缺少狀態字段。"),
+        ("ERROR: could not reach the host to set the custom status field.", "錯誤：無法連接主機以設置自定義狀態字段。"),
     };
     public static readonly (string En, string Zh)[] LogFormats =
     {
@@ -121,8 +124,9 @@ internal static class CUCoreLibTrTw
         ("<color=#FFA500>CUCoreLib update available! {0} -> {1}</color>", "<color=#FFA500>CUCoreLib 有可用更新！{0} -> {1}</color>"),
         ("CUCoreLib is up to date! Current: {0}, Latest: {1}", "CUCoreLib 已是最新版本！當前：{0}，最新：{1}"),
         ("Mod <color=#{0}>{1}</color> is out of date! (Version {2} -> Version {3})", "模組 <color=#{0}>{1}</color> 已過期！（版本 {2} → 版本 {3}）"),
-        ("Set player body field \"{0}\" to \"{1}\".", "已設置玩家身體字段「{0}」為「{1}」。"),
-        ("Set \"{0}\" field \"{1}\" to \"{2}\".", "已設置「{0}」的字段「{1}」為「{2}」。"),
+        ("Set custom status field \"{0}\" to \"{1}\" on {2} target(s).", "已對 {2} 個目標設置自定義狀態字段「{0}」為「{1}」。"),
+        ("ERROR: no custom status field \"{0}\" found on the target(s).", "錯誤：目標上未找到自定義狀態字段「{0}」。"),
+        ("ERROR: no target player found for \"{0}\".", "錯誤：未找到目標玩家「{0}」。"),
         ("Status field \"{0}\" is ambiguous. Use StatusType.Field to choose one.", "狀態字段「{0}」存在歧義。請使用 StatusType.Field 指定其一。"),
         ("Blocked during flexible hot reload: {0} called {1}.", "靈活熱重載期間被阻止：{0} 調用了 {1}。"),
         ("Blocked during flexible hot reload: {0} called {1}. {2}", "靈活熱重載期間被阻止：{0} 調用了 {1}。{2}"),

@@ -82,6 +82,37 @@ internal static class ProstheticsTr
         ("It smells worse than a corpse", "这味道比尸体还难闻"),
         ("...Maybe dying ain't so bad.", "...也许死了也没那么糟。"),
         ("...what have I done.", "...我都干了些什么。"),
+        ("The reservoir is full.", "储液仓已满。"),
+        ("There's nothing refined in the reservoir.", "储液仓里还没有提炼出东西。"),
+        ("The reservoir is already refined.", "储液仓已经提炼过了。"),
+        ("The reservoir has refined.", "储液仓已提炼完成。"),
+        ("Nothing here to extract from.", "这里没有可提取的东西。"),
+        ("There's nothing left in this one.", "这个里面已经什么都不剩了。"),
+        ("Too far to reach.", "太远了，够不到。"),
+        ("It has to go into the head.", "必须放进头部才行。"),
+        ("The prosthetic eye is in the way.", "义眼挡着路了。"),
+        ("Extraction interrupted.", "提取已中断。"),
+        ("You put the probe in yourself.", "你把探针插进了自己。"),
+        ("Click to go through with it.", "点击即可照做。"),
+        ("You lower it.", "你把它放低了。"),
+        ("Schematic acquired: Cerebral Extractor", "已获得配方：脑髓提取器"),
+        ("Nothing else will go into it.", "别的液体装不进它。"),
+        ("The reliquary opens.", "圣匣开启了。"),
+        ("The reliquary falls silent and crumbles.", "圣匣沉寂下来，随即崩解。"),
+        ("Did you hear? Something big is coming.", "听见了吗？有个大家伙要来了。"),
+        ("Everything in this cave heard that.", "这洞里的一切都听见了。"),
+        ("THAT was loud.", "真够响的。"),
+        ("Something heard that.", "有什么东西听见了。"),
+        ("The prions are cured.", "朊病毒已被治愈。"),
+        ("Intelligence degraded.", "智力下降了。"),
+        ("The machine god keeps what you know.", "机械之神收走了你所知的一切。"),
+        ("Only one can be seated.", "只能安放一件。"),
+        ("It is already seated.", "它已经安放好了。"),
+        ("Scan interrupted.", "扫描已中断。"),
+        ("prion <stage 0-3> [player]", "prion <阶段 0-3> [玩家]"),
+        ("Prions cleared.", "朊病毒已清除。"),
+        ("This command is host-only in multiplayer.", "该命令在多人联机中仅限主机使用。"),
+        ("Cheats are disabled on this server (sv_cheats / AllowClientCheatCommands).", "该服务器已禁用作弊（sv_cheats / AllowClientCheatCommands）。"),
     };
     public static readonly (string En, string Zh)[] AlertFormats =
     {
@@ -91,6 +122,8 @@ internal static class ProstheticsTr
         ("Can't wear {0} with two prosthetic {1}.", "无法在安装了两只义肢{1}的情况下穿戴{0}。"),
         ("Recipe scanned: {0}", "已扫描配方：{0}"),
         ("Identified: {0} (no recipe in the database)", "已识别：{0}（数据库中无配方）"),
+        ("The machine god stirs. {0} more.", "机械之神骚动起来。还差 {0} 次。"),
+        ("Prion stage {0}.", "朊病毒阶段 {0}。"),
     };
     public static readonly (string En, string Zh)[] Talks =
     {
@@ -127,6 +160,22 @@ internal static class ProstheticsTr
         ("Why do they hate us?", "他们为什么恨我们？"),
         ("It smells worse than a corpse", "这味道比尸体还难闻"),
         ("...Maybe dying ain't so bad.", "...也许死了也没那么糟。"),
+        ("It's uncharged... maybe if I try using it deeper it will work.", "还没充上电...也许到更深处再用就能行了。"),
+        ("Something not exactly alive is calling to me in the jungle.", "丛林里有种不算活着的东西在呼唤我。"),
+        ("I can feel something calling to me.... am I alone here?", "我能感觉到有什么在呼唤我....这里只有我一个人吗？"),
+        ("I hear a big structure nearby, I should check it out.", "我听到附近有座大型建筑，该去查探一番。"),
+        ("...", "..."),
+        ("Mutant is dead as the Machine Spirit wills it", "机械之神意欲如此，此变异体已死"),
+        ("Good", "很好"),
+        ("A cleaner world is a better world", "更洁净的世界，才是更好的世界"),
+        ("Mutant kind deserves no salvation", "变异种不配得到救赎"),
+        ("As long as I live all mutants will die", "只要我活着，所有变异体都得死"),
+        ("Filth", "渣滓"),
+        ("i am not weak", "我不弱"),
+        ("i will not give up", "我不会放弃"),
+        ("I will defy mutant instict", "我要违抗变异本能"),
+        ("this weak body will not break me", "这具虚弱的身体打不倒我"),
+        ("I will cease my existance when I will be the last mutant alive", "当最后一个变异体也死去时，我也将不复存在"),
     };
     public static readonly (string En, string Zh)[] TalkFormats =
     {
@@ -138,15 +187,21 @@ internal static class ProstheticsTr
     {
         ("kind", "种类"),
         ("limb", "肢体"),
+        ("int stage", "整数 阶段"),
+        ("string player", "字符串 玩家"),
     };
     public static readonly (string En, string Zh)[] CommandDescs =
     {
-        ("Prosthetics debug tool. Args: scrap|wood|titanium  - amputate limbs and install that kind. eye  - set bothEyesGone and equip two fully-charged prosthetic eyes. jaw  - set disfigured and equip the copper jaw. No arg  - strip all prosthetics. MP (host + sv_cheats): optional last arg targets another player by name.", "【义体】义体调试工具。参数：scrap|wood|titanium - 截肢并安装对应义肢。eye - 标记双眼缺失并装备两枚满电义眼。\njaw - 标记毁容并装备铜下颌。无参数 - 移除所有义肢。多人模式（主机+作弊开关）：可选最后一个参数指定目标玩家名称"),
+        ("Prosthetics debug tool. Args: scrap|wood|titanium  - amputate limbs and install that kind. eye  - set bothEyesGone and equip two fully-charged prosthetic eyes. jaw  - set disfigured and equip the copper jaw. torso  - open all 3 torso implant slots with RTG (charged large battery), Regeneration and AGX-Field. No arg  - strip all prosthetics. MP (host + sv_cheats): optional last arg targets another player by name.", "【义体】义体调试工具。参数：scrap|wood|titanium - 截肢并安装对应义肢。eye - 标记双眼缺失并装备两枚满电义眼。\njaw - 标记毁容并装备铜下颌。torso - 打开全部3个躯干强化槽（RTG充能大型电池、再生、AGX力场）。无参数 - 移除所有义肢。多人模式（主机+作弊开关）：可选最后一个参数指定目标玩家名称"),
         ("kind [limb] [player]", "种类 [肢体] [玩家]"),
-        ("scrap | wood | titanium | eye | jaw. Optional limb: armF | armB | legF | legB. MP (host + sv_cheats): optional player name targets another player.", "scrap废料、wood木制、titanium钛合金、eye眼、jaw下颌。可选肢体：armF前臂、armB后臂、legF前腿、legB后腿。\n多人模式（主机+作弊开关）：可选玩家名称以指定目标"),
+        ("scrap | wood | titanium | eye | jaw | torso. Optional limb: armF | armB | legF | legB. MP (host + sv_cheats): optional player name targets another player.", "scrap废料、wood木制、titanium钛合金、eye眼、jaw下颌、torso躯干。可选肢体：armF前臂、armB后臂、legF前腿、legB后腿。\n多人模式（主机+作弊开关）：可选玩家名称以指定目标"),
         ("Toggle the cybernetics panel", "【义体】切换义体编排面板"),
         ("Spawn all neuromods into the player's inventory. MP: host + sv_cheats only.", "【义体】生成所有神经模组到玩家物品栏。仅限多人模式主机+作弊开关"),
-        ("Grant/recharge the Deus est machina state on the local player (guaranteed resurrection).", "【义体】为本地玩家授予/充能 Deus est machina 状态（保证复活）。"),
+        ("Grant/recharge the Deus est machina state (guaranteed resurrection). Optionally targets a player.", "【义体】授予/充能 Deus est machina 状态（保证复活）。可指定目标玩家。"),
+        ("Player to target (multiplayer host only; defaults to you)", "目标玩家（仅限多人联机主机；默认为自己）"),
+        ("Sets prion disease to a stage (0 cures, 1 early, 2 advanced, 3 severe). Optionally targets a player.", "【义体】将朊病毒病症设为指定阶段（0 治愈，1 早期，2 晚期，3 危重）。可指定目标玩家。"),
+        ("0 cures, 1 early, 2 advanced, 3 severe", "0 治愈，1 早期，2 晚期，3 危重"),
+        ("Dump a Resources prefab's sprites to PNG + info.txt (default: dropcapsule). Usage: dumpsprite [resourceName]", "【义体·开发】导出 Resources 预制体的贴图为 PNG + info.txt（默认：dropcapsule）。用法：dumpsprite [资源名]"),
     };
     public static readonly (string En, string Zh)[] Moodles =
     {
@@ -164,6 +219,12 @@ internal static class ProstheticsTr
         ("01000111 01101111 01100100 has acknowledged your pain", "01000111 01101111 01100100 已获知你的痛苦"),
         ("'alive'", "「活着」"),
         ("You are not dead, but you feel empty", "你并未死去，却感到一片空虚"),
+        ("Prion Disease - Early", "朊病毒病症 - 早期"),
+        ("Prion Disease - Advanced", "朊病毒病症 - 晚期"),
+        ("Prion Disease - Severe", "朊病毒病症 - 危重"),
+        ("Your brain is becoming lighter", "你的大脑正在变得轻飘"),
+        ("The damage is spreading. Your hands fail you.", "损伤正在扩散。双手不听使唤了。"),
+        ("Your brain is disolving completely. It degrades fast, your hands are shaking, and your memory is getting erased.", "你的大脑正在彻底溶解。它迅速退化，双手不停颤抖，记忆也正在被抹去。"),
     };
     public static readonly (string En, string Zh)[] MoodleFormats =
     {
@@ -206,6 +267,13 @@ internal static class ProstheticsTr
         ("UPGRADE — click where to install", "升级——点击要安装的位置"),
         ("UPGRADE — pick a prosthetic", "升级——请选择一件义肢"),
         ("no batt", "无电池"),
+        ("SCAN", "扫描"),
+        ("SCAN — place an item in the scanner", "扫描——把物品放入扫描仪"),
+        ("SCAN — press SCAN", "扫描——请按扫描按钮"),
+        ("SCAN — scanning…", "扫描——正在扫描…"),
+        ("Click an item to place it", "点击物品以安放"),
+        ("Enter your number.", "输入你的编号。"),
+        ("Enter your leader's number.", "输入你队长的编号。"),
         ("CREDITS", "制作人员"),
         ("scroll to read more  ·  press Esc, or click outside, to close", "滚动查看更多  ·  按 Esc 或点击外部关闭"),
         ("<b>JimmyKing</b>  —  Made CUCoreLib, Literally Furry Da Vinci. Check out his Custom Structures its awesome.", "<b>JimmyKing</b>  —  制作了 CUCoreLib，堪称毛绒界达·芬奇。去看看他的 Custom Structures 模组，超棒的。"),
@@ -227,6 +295,8 @@ internal static class ProstheticsTr
         ("OPERATIONS LEFT: {0}", "剩余操作次数：{0}"),
         ("Prosthetics Mod  v{0}", "义体模组  v{0}"),
         ("Installed: v{0}", "已安装：v{0}"),
+        ("<color=#7a7a7a>Charge {0}/{1} - dormant, it might stir deeper ({2} more loop{3})</color>", "<color=#7a7a7a>充能 {0}/{1} - 休眠中，深处似有异动（还需 {2} 轮循环{3}）</color>"),
+        ("<color=#07ded7>Charge {0}/{1} - it hums faintly</color>", "<color=#07ded7>充能 {0}/{1} - 微微嗡鸣</color>"),
     };
     public static readonly (string En, string Zh)[] Fragments =
     {
@@ -259,6 +329,9 @@ internal static class ProstheticsTr
         ("keypad", "键盘锁"),
         ("lock", "锁"),
         (" (unavailable)", "（不可用）"),
+        ("\nIdentified", "\n已识别"),
+        ("\n<color=#4cff66>Recipe scanned</color>", "\n<color=#4cff66>配方已扫描</color>"),
+        ("Insight: ", "洞察："),
     };
     public static readonly (string En, string Zh)[] Literals =
     {

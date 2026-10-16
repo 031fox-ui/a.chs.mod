@@ -35,6 +35,7 @@ internal static class CustomStructuresTrTw
         ("Showing {0} of {1} loaded structure(s).{2}", "正在顯示已加載的 {0}/{1} 個建築。{2}"),
         ("Catalog cache loaded: {0} entries. Scroll down or refresh for more.", "目錄緩存已加載：{0} 個條目。向下滾動或刷新查看更多。"),
         ("Catalog cache loaded: {0} entries.", "目錄緩存已加載：{0} 個條目。"),
+        ("Catalog search matched {0} structure(s).", "目錄搜索匹配到 {0} 個結構。"),
     };
     public static readonly (string En, string Zh)[] Alerts =
     {
@@ -100,6 +101,14 @@ internal static class CustomStructuresTrTw
         ("host structures", "主機結構"),
         ("Custom Layer {0}", "自定義層級 {0}"),
         ("\n\nProperties: ", "\n\n屬性："),
+        ("Searching all published structures...", "正在搜索所有已發佈的結構..."),
+        ("A catalog search is already running.", "目錄搜索已在進行中。"),
+        ("Nothing to search the catalog for.", "沒有可用於搜索目錄的內容。"),
+        ("Catalog search found no additional matches.", "目錄搜索未找到更多匹配。"),
+        ("Catalog search needs the default Firebase source.", "目錄搜索需要默認的 Firebase 數據源。"),
+        ("Catalog search parse failed: ", "目錄搜索解析失敗："),
+        ("Catalog search failed: ", "目錄搜索失敗："),
+        ("Search", "搜索"),
     };
     public static readonly (string En, string Zh)[] CrystalPropertyNames =
     {

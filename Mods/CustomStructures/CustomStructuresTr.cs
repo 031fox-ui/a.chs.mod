@@ -36,6 +36,7 @@ internal static class CustomStructuresTr
         ("Showing {0} of {1} loaded structure(s).{2}", "正在显示已加载的 {0}/{1} 个建筑。{2}"),
         ("Catalog cache loaded: {0} entries. Scroll down or refresh for more.", "目录缓存已加载：{0} 个条目。向下滚动或刷新查看更多。"),
         ("Catalog cache loaded: {0} entries.", "目录缓存已加载：{0} 个条目。"),
+        ("Catalog search matched {0} structure(s).", "目录搜索匹配到 {0} 个结构。"),
     };
     public static readonly (string En, string Zh)[] Alerts =
     {
@@ -101,6 +102,14 @@ internal static class CustomStructuresTr
         ("host structures", "主机结构"),
         ("Custom Layer {0}", "自定义层级 {0}"),
         ("\n\nProperties: ", "\n\n属性："),
+        ("Searching all published structures...", "正在搜索所有已发布的结构..."),
+        ("A catalog search is already running.", "目录搜索已在进行中。"),
+        ("Nothing to search the catalog for.", "没有可用于搜索目录的内容。"),
+        ("Catalog search found no additional matches.", "目录搜索未找到更多匹配。"),
+        ("Catalog search needs the default Firebase source.", "目录搜索需要默认的 Firebase 数据源。"),
+        ("Catalog search parse failed: ", "目录搜索解析失败："),
+        ("Catalog search failed: ", "目录搜索失败："),
+        ("Search", "搜索"),
     };
     public static readonly (string En, string Zh)[] CrystalPropertyNames =
     {

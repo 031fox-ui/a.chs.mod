@@ -1,0 +1,17 @@
+{
+  "item": {},
+  "building": {
+    "moreamputation.beartrap.activated": "你可以試著破壞夾子來抽出肢體。不過要當心碎片..."
+  },
+  "moodle": {},
+  "other": {
+    "moreamputation.removebeartrap": "拆除捕熊夾",
+    "moreamputation.removebeartrapdsc": "徒手嘗試解除捕熊夾",
+    "moreamputation.removebeartrapguide": "慢慢把夾口撬開。夾子會跟你較勁，別拉太快，否則會脫手。嚴重失誤可能進一步損傷肢體。\n戴手套能讓你更快地打開夾子。"
+  },
+  "log": {},
+  "command": {},
+  "option": {},
+  "liquid": {},
+  "title": {}
+}

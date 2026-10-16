@@ -62,7 +62,19 @@
     "makeshiftbonesawdsc": "A crude improvised bone saw. Gets the job done, barely.\n\n<color=\"red\">Can be used in the health panel to amputate any limb, even without infection or damage.",
     "plasticfork": "Plastic Fork",
     "plasticforkdsc": "I mean, it would be funny to poke an eye out from your friend or yourself to make space for the cool prosthetic eye, right? One use.\n\n<color=\"red\">Drag onto your head in the health panel to remove a biological eye.\n<color=\"green\">Also pries out an installed prosthetic eye without breaking it.",
-    "rippeddressingdsc": "A strip of clean bandage cloth. Absorbs 25 wetness per use when used from inventory. 10 uses. Also works as a proper dressing on wounds."
+    "rippeddressingdsc": "A strip of clean bandage cloth. Absorbs 25 wetness per use when used from inventory. 10 uses. Also works as a proper dressing on wounds.",
+
+    "pandora_box": "Το κουτί της Πανδώρας",
+
+    "pandora_boxdsc": "A sealed reliquary of unknown material, seek a servitor for more information.<color=\"red\"> 100ml of Neural Connectomes required to open",
+
+    "cerebral_extractor": "Cerebral Extractor",
+
+    "cerebral_extractordsc": "A tool of extraction of memories and skills via cerebral filter, may crack a skull, apply through the eye socket to a individual who's brains are still active, when reached full capacity will transform cerebral soup into neural conectonomes\n\n<color=\"red\">Holds 100 mL, 100ml cerebral -> 100ml neural conectonomes",
+
+    "relic_brainchip": "Relic Personalitychip",
+
+    "relic_brainchipdsc": "Feels ancient but technologically advanced, does not fit the chip slots in your head.\n\n<color=\"red\">No field surgery will seat this. I need help from someone who can implant it directly into my brain"
   },
   "building": {
     "neuromod_box": "Neuromod Box",
@@ -70,7 +82,11 @@
     "augment_box": "Augment Box",
     "augment_boxdsc": "A sealed augmentation-corp crate. Reinforced metal plating, primitive keypad lock. Holds a single augment — unlock or hack the keypad to open it safely.\n\n<color=\"red\">Volatile: forcing it open instead risks detonating the crate in a blast.",
     "surgery_machine": "Medical Servitor",
-    "surgery_machinedsc": "An autonomous surgery servitor. Interact and it will heal, augment or repair you — painlessly. \n\n<color=\"red\">It knocks you out, works, and you wake up mended. It has power for a limited number of operations."
+    "surgery_machinedsc": "An autonomous surgery servitor. Interact and it will heal, augment or repair you — painlessly. \n\n<color=\"red\">It knocks you out, works, and you wake up mended. It has power for a limited number of operations.",
+
+    "pandora_capsule": "Pandora Capsule",
+
+    "pandora_capsuledsc": "A sealed capsule. You dont understand the symbols on it, but they seem like a warning.\n\n<color=\"red\">Looks dangerous"
   },
   "other": {
     "weldingMinigameGuide": "Press anywhere on the line and drag along it, either way around  - stray off and you burn extra charge.",
@@ -85,6 +101,18 @@
     "gamesetprosthetics_mod_UI": "Open Cybernetics Menu",
     "gamesetprosthetics_mod_flashlight": "Toggle Flashlight",
     "gamesetprosthetics_mod_hook": "Use Attached Grappling Hook",
-    "Prosthetics Mod": "Prosthetics Mod"
+    "Prosthetics Mod": "Prosthetics Mod",
+
+    "cerebralsoup": "Cerebral Soup",
+
+    "cerebralsoupdsc": "A tepid grey slurry of rendered neural tissue. Still faintly warm. That mush contains memories,skills all without personality, horrible to think that you may end up the same.",
+
+    "neuralconnectomes": "Neural Connectomes",
+
+    "neuralconnectomesdsc": "What is it?  Well, it's both an easy answer - and a complicated one at the same time. It is the future - today. And more importantly... our past. Today.  — Alex Yu",
+
+    "unknownobject": "Something...",
+
+    "unknownobjectdsc": "You can't quite make out what this is or what it does."
   }
 }

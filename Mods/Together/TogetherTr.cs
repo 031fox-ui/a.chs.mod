@@ -55,7 +55,7 @@ internal static class TogetherTr
         ("MP - Send a bug report.", "【MP】发送错误报告。"),
         ("MP - Disconnect from server or shutdown server.", "【MP】断开与服务器的连接或关闭服务器。"),
         ("MP dev - set game window resolution", "【MP 开发】设置游戏窗口分辨率"),
-        ("MP - dump all fields of a body (for easy health desync debugging)", "【MP】转储身体的所有字段（用于生命值不同步调试）"),
+        ("MP - dump all fields of a body (for health desync debugging)", "【MP】转储身体的所有字段（用于生命值不同步调试）"),
         ("MP - give an item to a player", "【MP】给予玩家一件物品"),
         ("MP - Despawn a specific object.", "【MP】移除指定物体。"),
         ("MP - Print object info.", "【MP】打印物体信息。"),
@@ -209,6 +209,8 @@ internal static class TogetherTr
         ("Steam is not loaded!", "Steam 尚未加载！"),
         ("STEAM: IsInitialized is false!", "STEAM：IsInitialized 为 false！"),
         ("Invalid Server name.", "服务器名称无效。"),
+        ("rgblights True", "RGB 灯光：已开启"),
+        ("rgblights False", "RGB 灯光：已关闭"),
     };
     public static readonly (string En, string Zh)[] LogFormats =
     {
@@ -327,8 +329,6 @@ internal static class TogetherTr
         ("Lang: Failed to get {0} translation for \"{1}\"", "语言：未找到 {0} 翻译：「{1}」"),
         ("Lang: Failed to get {0} translation for \"{1}\" -> OG: \"{2}\"", "语言：未找到 {0} 翻译：「{1}」 -> 原文：「{2}」"),
         ("SCENE CHANGE: Is In World,  Layer: {0}", "场景切换：进入世界，层级：{0}"),
-        ("rgblights {0}", "RGB 灯光：{0}"),
-        ("Earthquake active: {0}", "地震已激活：{0}"),
         ("{0}.mute_vc = {1}", "已设置 {0} 的语音静音：{1}"),
         ("{0}.mute_tc = {1}", "已设置 {0} 的聊天静音：{1}"),
         ("Gamemode \"{0}\" was not found.", "未找到游戏模式「{0}」。"),
@@ -358,8 +358,8 @@ internal static class TogetherTr
         ("<color=yellow>MP WARN: ", "<color=yellow>MP 警告："),
         ("Status ERROR: ", "状态错误："),
         ("Status: ", "状态："),
-        ("<color=red>LiteEntitySystem ERROR: ", "<color=red>LiteEntitySystem 错误："),
-        ("<color=yellow>LiteEntitySystem WARN: ", "<color=yellow>LiteEntitySystem 警告："),
+        ("<color=red>LES ERROR: ", "<color=red>LES 错误："),
+        ("<color=yellow>LES WARN: ", "<color=yellow>LES 警告："),
         ("Multiplayer ERROR: ", "多人联机错误："),
         ("Multiplayer: ", "多人联机："),
         ("[<color=red>SERVER</color>] ", "[<color=red>服务器</color>] "),

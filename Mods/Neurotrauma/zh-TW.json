@@ -145,6 +145,8 @@
     "halluc.whisper.8": "它們已經進來了",
     "item.blood.blood_type": "血型：{0}",
     "panel.blood_type": "你是 {0} 血型",
+    "panel.mood": "情緒",
+    "panel.mood.desc": "原生情緒。情緒低落會累積幻覺，進而發展為精神病。",
     "panel.tab.me": "我",
     "panel.tab.team": "團隊",
     "panel.title.me": "症狀",

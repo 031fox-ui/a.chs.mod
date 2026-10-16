@@ -55,7 +55,7 @@ internal static class TogetherTrTw
         ("MP - Send a bug report.", "【MP】發送錯誤報告。"),
         ("MP - Disconnect from server or shutdown server.", "【MP】斷開與服務器的連接或關閉服務器。"),
         ("MP dev - set game window resolution", "【MP 開發】設置遊戲窗口分辨率"),
-        ("MP - dump all fields of a body (for easy health desync debugging)", "【MP】轉儲身體的所有字段（用於生命值不同步調試）"),
+        ("MP - dump all fields of a body (for health desync debugging)", "【MP】轉儲身體的所有字段（用於生命值不同步調試）"),
         ("MP - give an item to a player", "【MP】給予玩家一件物品"),
         ("MP - Despawn a specific object.", "【MP】移除指定物體。"),
         ("MP - Print object info.", "【MP】打印物體信息。"),
@@ -209,6 +209,8 @@ internal static class TogetherTrTw
         ("Steam is not loaded!", "Steam 尚未加載！"),
         ("STEAM: IsInitialized is false!", "STEAM：IsInitialized 為 false！"),
         ("Invalid Server name.", "服務器名稱無效。"),
+        ("rgblights True", "RGB 燈光：已開啟"),
+        ("rgblights False", "RGB 燈光：已關閉"),
     };
     public static readonly (string En, string Zh)[] LogFormats =
     {
@@ -327,8 +329,6 @@ internal static class TogetherTrTw
         ("Lang: Failed to get {0} translation for \"{1}\"", "語言：未找到 {0} 翻譯：「{1}」"),
         ("Lang: Failed to get {0} translation for \"{1}\" -> OG: \"{2}\"", "語言：未找到 {0} 翻譯：「{1}」 -> 原文：「{2}」"),
         ("SCENE CHANGE: Is In World,  Layer: {0}", "場景切換：進入世界，層級：{0}"),
-        ("rgblights {0}", "RGB 燈光：{0}"),
-        ("Earthquake active: {0}", "地震已激活：{0}"),
         ("{0}.mute_vc = {1}", "已設置 {0} 的語音靜音：{1}"),
         ("{0}.mute_tc = {1}", "已設置 {0} 的聊天靜音：{1}"),
         ("Gamemode \"{0}\" was not found.", "未找到遊戲模式「{0}」。"),
@@ -358,8 +358,8 @@ internal static class TogetherTrTw
         ("<color=yellow>MP WARN: ", "<color=yellow>MP 警告："),
         ("Status ERROR: ", "狀態錯誤："),
         ("Status: ", "狀態："),
-        ("<color=red>LiteEntitySystem ERROR: ", "<color=red>LiteEntitySystem 錯誤："),
-        ("<color=yellow>LiteEntitySystem WARN: ", "<color=yellow>LiteEntitySystem 警告："),
+        ("<color=red>LES ERROR: ", "<color=red>LES 錯誤："),
+        ("<color=yellow>LES WARN: ", "<color=yellow>LES 警告："),
         ("Multiplayer ERROR: ", "多人聯機錯誤："),
         ("Multiplayer: ", "多人聯機："),
         ("[<color=red>SERVER</color>] ", "[<color=red>服務器</color>] "),
