@@ -1700,10 +1700,10 @@
         "Firmware v2.0, huh.",
         "...So that's what's on here.",
         "At least they got my height right.",
-        "Paper... might be able to rip this for bandages.",
-        "Could use this as kindling if it gets freezing.",
-        "They couldn't even leave me a pen.",
-        "Guess I'm stuck carrying this clipboard.",
+        "Screen's low power... at least the battery won't die today.",
+        "E-ink display... barely readable in this dim light.",
+        "They couldn't even leave me a stylus.",
+        "Guess I'm stuck carrying this tablet.",
         "...Right. Moving on."
       ],
       "psychology_weapon_jam_sorrow": [
@@ -2321,6 +2321,55 @@
         "Just tell me about the goods, not about me...",
         "...I know what it looks like."
       ],
+      "psychology_scar_trader_shame_head": [
+        "Don't stare at my face...",
+        "Stop looking at my eye...",
+        "I should have covered my face...",
+        "...I know what it looks like."
+      ],
+      "psychology_scar_trader_shame_body": [
+        "Don't stare at me...",
+        "I should have covered these up...",
+        "Just tell me about the goods, not about me...",
+        "...I know what it looks like."
+      ],
+      "psychology_dune_friendly_bite": [
+        "Ow... but fair is fair.",
+        "Flesh for goods... we have a deal.",
+        "At least it was a clean bite.",
+        "Take what you need, just give me the supplies."
+      ],
+      "psychology_despair_warning_early": [
+        "Everything feels so heavy...",
+        "I don't know if my legs want to keep moving.",
+        "Just... give me a second.",
+        "Why is it so hard to breathe down here?",
+        "...Tired."
+      ],
+      "psychology_despair_warning_mid": [
+        "Why do I even try to bandage this...",
+        "I'm just so tired. Deep down tired.",
+        "I don't think there's any sun left up there.",
+        "Nobody is looking for me anymore.",
+        "It doesn't hurt as much when you stop caring."
+      ],
+      "psychology_despair_warning_late": [
+        "I'm almost at the end of my rope...",
+        "The dark feels almost soft now.",
+        "I can't carry this anymore...",
+        "...It's almost over."
+      ],
+      "psychology_terminal_suicide": [
+        "...I can't do this anymore. I'm sorry.",
+        "Please... just let it be quiet.",
+        "No more caves. No more hurts.",
+        "It's too heavy... I'm letting go.",
+        "I wanted to see the sky again... just once.",
+        "Tell the surface... tell them I tried.",
+        "The dark isn't so scary when you stop fighting it.",
+        "...I'm tired. So tired.",
+        "...Goodbye."
+      ],
       "psychology_vision_restored": [
         "I can see... the light is back.",
         "My eyes... God, I can actually see again.",
@@ -2495,6 +2544,14 @@
         "Ngh... drag it... just drag it...",
         "Can barely limp like this... need a splint."
       ],
+      "depressionDeny": [
+        "I don't need that.",
+        "I'm not touching that stuff.",
+        "My head's clear enough. Keep it away.",
+        "Put that back. I'm fine.",
+        "*shakes head*.",
+        "No. Leave it."
+      ],
       "cui_drunk_low": [
         "Ooh... head's buzzing a bit.",
         "Chest is warm. Nice.",
@@ -2662,24 +2719,6 @@
         "I'll rip right through this damn door!",
         "Tense... ready to break someone's neck!",
         "Feel like I could tear steel in half!"
-      ],
-      "psychology_dune_friendly_bite": [
-        "Ow... but fair is fair.",
-        "Flesh for goods... we have a deal.",
-        "At least it was a clean bite.",
-        "Take what you need, just give me the supplies."
-      ],
-      "psychology_scar_trader_shame_body": [
-        "Don't stare at me...",
-        "I should have covered these up...",
-        "Just tell me about the goods, not about me...",
-        "...I know what it looks like."
-      ],
-      "psychology_scar_trader_shame_head": [
-        "Don't stare at my face...",
-        "Stop looking at my eye...",
-        "I should have covered my face...",
-        "...I know what it looks like."
       ]
     },
     {
@@ -3959,7 +3998,7 @@
       ],
       "psychology_dossier_reaction": [
         "A personnel dossier. It's quite detailed.",
-        "My designations and metrics recorded on paper. How intriguing.",
+        "My designations and metrics recorded on this screen. How intriguing.",
         "The scientists seem to have documented my behavioral profile extensively.",
         "Clinical observations of my performance. How patronizing.",
         "They really got it down to a T.",
@@ -4541,6 +4580,52 @@
         "Inspect the wares, not my physical damage.",
         "...I am well aware of how it appears."
       ],
+      "psychology_scar_trader_shame_head": [
+        "Cease staring at my face.",
+        "Inspect the wares, not my facial scars.",
+        "I should have concealed my injuries...",
+        "...I am well aware of how it appears."
+      ],
+      "psychology_scar_trader_shame_body": [
+        "Cease staring at my scars.",
+        "I should have concealed my injuries...",
+        "Inspect the wares, not my physical damage.",
+        "...I am well aware of how it appears."
+      ],
+      "psychology_dune_friendly_bite": [
+        "Ghhh... I hope you cleaned your mouth beforehand. Move on.",
+        "Ngh... No time to meddle, what do you have?",
+        "Tad painful... hnn... Let's just get it over with.",
+        "Quite the unconventional barter..."
+      ],
+      "psychology_despair_warning_early": [
+        "...Tired. So tired.",
+        "My hands... won't cooperate.",
+        "Just a minute. Need to catch my breath.",
+        "The stairs feel steeper every time.",
+        "...Tch. Keep moving."
+      ],
+      "psychology_despair_warning_mid": [
+        "Why am I still patching this up?",
+        "Nothing down here gets better.",
+        "Pointless. All of it.",
+        "I don't think anyone is coming.",
+        "...Exhausting."
+      ],
+      "psychology_despair_warning_late": [
+        "Can't keep this up anymore.",
+        "No more fight left in me.",
+        "I'm done running.",
+        "...Let it end."
+      ],
+      "psychology_terminal_suicide": [
+        "...I've reached my limit.",
+        "No more bandages. No more running.",
+        "It's quiet down here. Finally.",
+        "Don't look for me.",
+        "I'm tired of holding on.",
+        "...Goodbye."
+      ],
       "psychology_vision_restored": [
         "Sight restored... the dark has receded.",
         "My vision is clear again. A profound relief.",
@@ -4734,6 +4819,14 @@
         "I will not permit this! Step back!",
         "Leave me alone! Hands off!"
       ],
+      "depressionDeny": [
+        "I have no need for psychiatric suppression.",
+        "Keep that chemical sludge away from me.",
+        "My faculties are fully intact, thank you.",
+        "Unnecessary. Put it away.",
+        "I am not ingesting that.",
+        "I am in complete control of my faculties."
+      ],
       "cui_drunk_low": [
         "Mmh... a subtle cerebral buzz. Not entirely unpleasant.",
         "A pleasant warmth radiating through my chest.",
@@ -4914,24 +5007,6 @@
         "I will rip whoever defies me into pieces!",
         "My muscles locked in violent tension. Like a pair of springs waiting to snap.",
         "I possess enough brute force to tear wrought iron asunder!"
-      ],
-      "psychology_dune_friendly_bite": [
-        "Ghhh... I hope you cleaned your mouth beforehand. Move on.",
-        "Ngh... No time to meddle, what do you have?",
-        "Pain registered... hnn... Let's just get it over with.",
-        "An unconventional barter, but efficient."
-      ],
-      "psychology_scar_trader_shame_body": [
-        "Cease staring at my scars.",
-        "I should have concealed my injuries...",
-        "Inspect the wares, not my physical damage.",
-        "...I am well aware of how it appears."
-      ],
-      "psychology_scar_trader_shame_head": [
-        "Cease staring at my face.",
-        "Inspect the wares, not my facial scars.",
-        "I should have concealed my injuries...",
-        "...I am well aware of how it appears."
       ]
     },
     {
@@ -6079,11 +6154,11 @@
       ],
       "psychology_dossier_reaction": [
         "Pa-per? Fun-ny letters!...",
-        "Look like Du-ne on pa-per?! Why?!",
+        "Look like Du-ne on th-thing?! Why?!",
         "Words... Du-ne no read hu-man letters...",
         "Shi-ny card... Du-ne keep in bag.",
         "Hu-man draw bug on card? Look like Du-ne...",
-        "Dune sniff pa-per... smell like lab...",
+        "Dune sniff ob-ject... smell like lab...",
         "Du-ne no under-stand well..."
       ],
       "psychology_weapon_jam_sorrow": [
@@ -6649,6 +6724,52 @@
         "Look at wares, no look at Dune...",
         "...Dune know it look bad."
       ],
+      "psychology_scar_trader_shame_head": [
+        "No stare at Du-ne face...",
+        "Look at wares, no look at Dune face...",
+        "Should hide ruined face...",
+        "...Dune know it look bad."
+      ],
+      "psychology_scar_trader_shame_body": [
+        "No stare at Du-ne cuts...",
+        "Should hide scarred skin...",
+        "Look at wares, no look at Dune...",
+        "...Dune know it look bad."
+      ],
+      "psychology_dune_friendly_bite": [
+        "Du-ne nibble! Tasty trade!",
+        "Good meat, good trade! Du-ne happy!",
+        "Du-ne be gentle! See? Fair trade!",
+        "Du-ne give little bite to fr-iend!, Du-ne take goods!"
+      ],
+      "psychology_despair_warning_early": [
+        "Paws feel like lead... stones too tall today.",
+        "Du-ne just... slow down a little.",
+        "Cold dirt... Du-ne want to sit for a minute.",
+        "*whimpers softly* Heavy paws..."
+      ],
+      "psychology_despair_warning_mid": [
+        "Why cave never end? Du-ne tired of fixing paws...",
+        "Du-ne want to just curl up and not get up...",
+        "No food taste good anymore. Just sand.",
+        "Stone is so cold... but Du-ne not shivering anymore."
+      ],
+      "psychology_despair_warning_late": [
+        "Cave is winning... Du-ne can feel it...",
+        "Du-ne eyes getting very, very sleepy...",
+        "Friend go on... Du-ne too heavy to follow...",
+        "...Du-ne so tired..."
+      ],
+      "psychology_terminal_suicide": [
+        "Du-ne tired... Du-ne want sleep forever...",
+        "Dark cave win... Du-ne go night-night...",
+        "No more hurt Du-ne... sleep now...",
+        "Cold stone... warm sleep... Du-ne ready...",
+        "Du-ne close eyes now... sweet dreams...",
+        "No more teeth, no more stones... good night...",
+        "Friend be okay without Du-ne... bye bye...",
+        "*whimpering softly* Bye bye, cave..."
+      ],
       "psychology_vision_restored": [
         "Du-ne see again! Light back!",
         "Eyes work! Yay! See colors!",
@@ -6856,6 +6977,14 @@
         "Dune saw friend! Where friend poof to...?",
         "Empty pod... only air..."
       ],
+      "depressionDeny": [
+        "No! Du-ne head fine!",
+        "Bad drink! Keep a-way!",
+        "Du-ne no want bad juice!",
+        "Head no fuzzy! Put down!",
+        "Du-ne think okay! No drink!",
+        "No wipe Du-ne head!"
+      ],
       "cui_drunk_low": [
         "Ooh... Du-ne he-ad feel buz-zy like ba-by bug.",
         "Tummy wa-rm... nice dri-nk.",
@@ -7029,24 +7158,6 @@
         "Dune sma-sh through with big cla-ws!",
         "Du-ne will rip he-ad off!",
         "Du-ne tear any-thing in half!"
-      ],
-      "psychology_dune_friendly_bite": [
-        "Du-ne nibble! Tasty trade!",
-        "Good meat, good trade! Du-ne happy!",
-        "Du-ne be gentle! See? Fair trade!",
-        "Du-ne give little bite to fr-iend!, Du-ne take goods!"
-      ],
-      "psychology_scar_trader_shame_body": [
-        "No stare at Du-ne cuts...",
-        "Should hide scarred skin...",
-        "Look at wares, no look at Dune...",
-        "...Dune know it look bad."
-      ],
-      "psychology_scar_trader_shame_head": [
-        "No stare at Du-ne face...",
-        "Look at wares, no look at Dune face...",
-        "Should hide ruined face...",
-        "...Dune know it look bad."
       ]
     }
   ],
@@ -7110,6 +7221,7 @@
   },
   "ui": {
     "psychology_title_mindwiped": "Hollow",
+    "psychology_title_panic_tremor": "On Edge",
     "psychology_title_panic_mild": "Anxious",
     "psychology_title_panic_moderate": "Panicked",
     "psychology_title_panic_severe": "Full Panic",
@@ -7220,6 +7332,12 @@
     "psychology_wv_desc_corpse_calloused": "• Used to dead bodies; barely registers them.",
     "psychology_wv_desc_corpse_repulsed": "• Sickened by the stench and presence of the dead.",
     "psychology_wv_desc_trap_crawling": "• Hair standing on end from nearby traps.",
+    "psychology_wv_desc_medical_lockout": "• Refusing medical care.",
+    "psychology_wv_desc_selfharm_risk": "• Impulsive self-harm possible.",
+    "psychology_wv_desc_suicide_risk": "• Your mind is overflowing with thoughts of the dead.",
+    "psychology_wv_desc_terminal_despair": "• Terminal Resignation: Giving up on survival...",
+    "psychology_endscreen_deceased_suicide": "SUCCUMBED TO DESPAIR",
+    "psychology_endscreen_mental_suicide": "TERMINAL RESIGNATION",
     "psychology_dossier_item_name": "Clinical Intake Dossier",
     "psychology_dossier_item_desc": "Preliminary neuro-psychiatric assessment document and telemetry baseline. Drag to center to examine.",
     "psychology_dossier_doc_title": "CLINICAL INTAKE EVALUATION",
@@ -7290,6 +7408,8 @@
     "psychology_dossier_arch_fragile": "Fragile",
     "psychology_dossier_arch_coldblooded": "Cold-Blooded",
     "psychology_dossier_arch_detached": "Detached",
+    "psychology_dossier_arch_thrill": "Thrill-Seeker",
+    "psychology_dossier_arch_cautious": "Risk-Averse",
     "psychology_dossier_sec_desensitized": "Corpse-Numbed",
     "psychology_dossier_sec_sensitized": "Trauma-Sensitized",
     "psychology_dossier_sec_crisis": "In Crisis",
@@ -7332,6 +7452,63 @@
     "mindwipe_moodle_rekindled_severe": "Not an empty vessel...",
     "mindwipe_moodle_rekindled_mild": "It hurts",
     "mindwipe_moodle_rekindled_name": "Empty",
-    "psychology_title_mindwiped_rekindled": "Empty (Rekindled Dread)"
+    "psychology_title_mindwiped_rekindled": "Empty (Rekindled Dread)",
+    "psychology_menu_title": "CASUALTY PSYCHOLOGY",
+    "psychology_menu_tab_options": "Options",
+    "psychology_menu_tab_traits": "Traits",
+    "psychology_menu_tab_conditions": "Conditions",
+    "psychology_menu_close_hint": "Click outside or press Esc to close",
+    "psychology_menu_reset_options": "Reset Options",
+    "psychology_menu_reset_traits": "Reset Traits",
+    "psychology_menu_reset_conditions": "Reset Conditions",
+    "psychology_menu_sec_visuals": "Visual & Audio Effects",
+    "psychology_menu_sec_mechanics": "Gameplay & Mechanics",
+    "psychology_menu_sec_dialogue": "Dialogue & Remarks",
+    "psychology_menu_sec_vitals": "Starting Vitals & Psychology",
+    "psychology_menu_sec_conditions": "Psychological Conditions",
+    "psychology_menu_sec_trait_rules": "Trait Roll Rules (Up to 3 Forced Traits)",
+    "psychology_menu_sec_traits": "Character Traits",
+    "psychology_menu_fill_random": "Fill Empty Slots with Random Traits",
+    "psychology_menu_fill_random_desc": "When off, only traits explicitly set to Mild, Moderate, or Severe will be active.",
+    "psychology_menu_opt_screen_fx": "Screen Effects",
+    "psychology_menu_opt_screen_fx_desc": "Mod shaders, vignette, and blur. Vanilla and other mods' screen effects are unaffected.",
+    "psychology_menu_opt_brownian": "Brownian Noise",
+    "psychology_menu_opt_brownian_desc": "Low-frequency background tension drone during acute anxiety.",
+    "psychology_menu_opt_heartbeat": "Heartbeat & Breathing",
+    "psychology_menu_opt_heartbeat_desc": "Audible heartbeat and breathing when agitated.",
+    "psychology_menu_opt_tinnitus": "Tinnitus Ringing",
+    "psychology_menu_opt_tinnitus_desc": "Ear ringing from cranial trauma and blast shocks.",
+    "psychology_menu_opt_typoglycemia": "Text Scrambling",
+    "psychology_menu_opt_typoglycemia_desc": "Scrambles internal letters on text readouts when brain damaged.",
+    "psychology_menu_opt_hobble": "Limping Distress",
+    "psychology_menu_opt_hobble_desc": "Mental wear and frustration when walking on broken legs.",
+    "psychology_menu_opt_selfharm": "Self-Harm",
+    "psychology_menu_opt_selfharm_desc": "Self-directed injury actions during severe psychological crisis.",
+    "psychology_menu_opt_mindclean": "Mindclean Reactions",
+    "psychology_menu_opt_mindclean_desc": "Headache, nausea, and amnesia side effects from neuro-scrub.",
+    "psychology_menu_opt_terminal": "Terminal Despair",
+    "psychology_menu_opt_terminal_desc": "Suicide minigame trigger after protracted misery below -75 mood.",
+    "psychology_menu_opt_despair_delay": "Despair Decay Delay",
+    "psychology_menu_opt_despair_delay_desc": "Seconds of safety before terminal despair begins fading.",
+    "psychology_menu_opt_apparel": "Apparel Remarks",
+    "psychology_menu_opt_apparel_desc": "Comments when equipping clothing or armor.",
+    "psychology_menu_opt_apparel_swap": "Gear Swap Annoyance",
+    "psychology_menu_opt_apparel_swap_desc": "Complaints when swapping gear repeatedly.",
+    "psychology_menu_opt_dialogue_courtesy": "Dialogue Courtesy",
+    "psychology_menu_opt_dialogue_courtesy_desc": "Wait for active speech bubbles to finish before speaking.",
+    "psychology_menu_opt_streamer": "Detect recording software",
+    "psychology_menu_opt_streamer_desc": "Detects if OBS/Streamlabs is open, allowing the sawian to comment on it.",
+    "psychology_menu_starting_trauma": "Starting Trauma",
+    "psychology_menu_starting_trauma_desc": "Initial psychological trauma level (0 to 80).",
+    "psychology_menu_starting_mood": "Starting Mood Offset",
+    "psychology_menu_starting_mood_desc": "Initial valence shift (-80 = bleak, 0 = normal, +60 = upbeat).",
+    "psychology_menu_starting_brain": "Starting Brain Health",
+    "psychology_menu_starting_brain_desc": "Initial brain health percentage (lower values trigger cranial trauma tiers).",
+    "psychology_menu_tab_credits": "Credits",
+    "psychology_menu_sec_credits_team": "Writing & Artwork",
+    "psychology_menu_sec_credits_framework": "Core Architecture",
+    "psychology_menu_sec_credits_addons": "Supported Addons & Collaborations",
+    "psychology_menu_credits_quote": "\"We suffer more often in imagination than in reality.\"",
+    "psychology_menu_credits_quote_author": "- Seneca"
   }
 }

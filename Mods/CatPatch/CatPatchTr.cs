@@ -23,6 +23,7 @@ internal static class CatPatchTr
         ("Some clients did not acknowledge your spray. They may not have CatPatch installed or updated.", "部分客户端未确认你的喷漆。他们可能没有安装或更新 CatPatch。"),
         ("Spray failed to upload.", "喷漆上传失败。"),
         ("Spray failed: backend unreachable. Check DNS, VPN, firewall, or internet.", "喷漆失败：无法连接后端。请检查 DNS、VPN、防火墙或网络。"),
+        ("Spray failed to send to host. See the log for details.", "喷漆发送到主机失败。详见日志。"),
         ("Spray does not have local or downloaded GIF data.", "该喷漆没有本地或已下载的 GIF 数据。"),
         ("No spray selected.", "未选择喷漆。"),
         ("The source spray file is empty.", "源喷漆文件为空。"),
@@ -47,15 +48,65 @@ internal static class CatPatchTr
     {
         ("CatPatch is loaded!", "CatPatch 已加载！"),
         ("CatPatch Host Moderation is only available in a world for the multiplayer host or in singleplayer.", "CatPatch 主机管理仅在多人主机所在的世界或单人模式中可用。"),
+        ("Conditional commands are available only to the multiplayer host.", "只有多人游戏的主机才能使用条件命令。"),
+        ("Conditional commands may nest at most 8 levels.", "条件命令最多嵌套 8 层。"),
+        ("Item checks support only = and != (present or absent).", "物品检查只支持 = 和 !=（存在或不存在）。"),
+        ("Player selectors require multiplayer; use a fixed position for singleplayer tile checks.", "玩家选择器需要多人游戏；单人请改用固定坐标做地块检查。"),
+        ("Tile position is outside the world.", "地块坐标超出世界范围。"),
+        ("Tile value must be a block ID from 0 to 65535.", "地块值必须是 0 到 65535 之间的方块 ID。"),
+        ("@t needs a player target; a fixed tile position has no player target.", "@t 需要玩家目标；固定地块坐标没有对应的玩家目标。"),
+        ("Body value is not a finite number.", "身体字段的值不是有限数字。"),
+        ("Boolean fields require true or false.", "布尔字段只能是 true 或 false。"),
+        ("Boolean, text and enum checks support only = and !=.", "布尔、文本和枚举检查只支持 = 和 !=。"),
+        ("Branch commands need matching double quotes separated by spaces.", "分支命令需要成对的英文双引号，并用空格分隔。"),
+        ("Cannot compare a null Body value.", "无法比较为空的 Body 值。"),
+        ("Numeric comparisons require a finite number (use a decimal point).", "数值比较需要有限数字（请带小数点）。"),
+        ("Unknown comparison operator.", "未知的比较运算符。"),
+        ("Unknown operator. Use = != < <= > >=.", "未知运算符。请使用 = != < <= > >=。"),
+        ("Use one command per branch (no semicolons or newlines).", "每个分支只能写一条命令（不要用分号或换行）。"),
+        ("else needs a command.", "else 后面需要跟一条命令。"),
     };
     public static readonly (string En, string Zh)[] LogFormats =
     {
         ("No players matched {0}.", "没有玩家匹配 {0}。"),
         ("Could not act on players matching {0}.", "无法对匹配 {0} 的玩家执行操作。"),
+        ("No spawned players matched {0}.", "没有已生成的玩家匹配 {0}。"),
+        ("Unknown branch command: {0}", "未知的分支命令：{0}"),
+        ("Unknown or unsupported Body field/property: {0}", "未知或不支持的 Body 字段／属性：{0}"),
     };
     public static readonly (string En, string Zh)[] CommandDescs =
     {
         ("Opens or closes the CatPatch Host Moderation menu.", "【CatPatch】打开或关闭 CatPatch 主机管理菜单。"),
+        ("Host conditional command. if <tile|item|bodyfield> <operator> <value> <player selector|x,y> \"then command\" [else \"else command\"]", "【CatPatch】主机条件命令。if <tile|item|bodyfield> <operator> <value> <player selector|x,y> \"then command\" [else \"else command\"]"),
+    };
+    public static readonly (string En, string Zh)[] CommandArgs =
+    {
+        ("check", "检查对象"),
+        ("operator", "运算符"),
+        ("value", "值"),
+        ("player or position", "玩家或坐标"),
+        ("then", "成立时命令"),
+        ("else", "否则命令"),
+        ("tile, item, or a public Body field/property", "地块、物品，或 Body 的公开字段／属性"),
+        ("= != < <= > >=", "= != < <= > >="),
+        ("value to compare", "要比较的值"),
+        ("player selector or tile world position", "玩家选择器，或地块的世界坐标"),
+        ("quoted command; @t is the player being checked", "带引号的命令；@t 代表被检查的玩家"),
+        ("optional quoted command", "（可选）带引号的命令"),
+    };
+    public static readonly (string En, string Zh)[] FrameworkErrors =
+    {
+        ("The operation has timed out.", "操作超时。"),
+        ("The operation has timed out", "操作超时"),
+        ("The request timed out.", "请求超时。"),
+        ("The request timed out", "请求超时"),
+        ("Timeout", "连接超时"),
+        ("Name or service not known", "无法解析主机名"),
+        ("No such host is known.", "无法解析该主机名。"),
+        ("Unable to connect to the remote server.", "无法连接到远程服务器。"),
+        ("The remote server returned an error: (404) Not Found.", "远程服务器返回错误：(404) 未找到。"),
+        ("The remote server returned an error: (403) Forbidden.", "远程服务器返回错误：(403) 禁止访问。"),
+        ("Automatic replacement only supports direct CatPatch.dll downloads.", "自动替换仅支持直接下载 CatPatch.dll 的方式。"),
     };
     public static readonly (string En, string Zh)[] Literals =
     {
@@ -72,6 +123,7 @@ internal static class CatPatchTr
         ("CatPatch update helper started. Quitting game...", "CatPatch 更新助手已启动。正在退出游戏..."),
         ("Failed to start CatPatch update helper. All my hard work :(", "无法启动 CatPatch 更新助手。我所有的辛苦 :("),
         ("CatPatch Update Available", "CatPatch 更新可用"),
+        ("Command Guide", "命令指南"),
         ("Changelog", "更新日志"),
         ("Downloaded to:", "已下载到："),
         ("Download", "下载"),
@@ -87,6 +139,7 @@ internal static class CatPatchTr
         ("CatPatch Client Settings", "CatPatch 客户端设置"),
         ("Client Preferences", "客户端偏好"),
         ("Show sprays", "显示喷漆"),
+        ("Spray selector size: ", "喷漆选择器尺寸："),
         ("Updates", "更新"),
         ("Check Now for Update", "立即检查更新"),
         ("Latest: ", "最新版本："),
@@ -148,6 +201,7 @@ internal static class CatPatchTr
         ("Stub toe", "绊脚趾"),
         ("Fling", "抛飞"),
         ("Last Stand", "背水一战"),
+        ("Transfer Host", "转移主机"),
         ("Kick, Ban, Admin", "踢出、封禁、管理员"),
         ("Admin", "管理员"),
         ("Unadmin", "取消管理员"),
@@ -191,6 +245,7 @@ internal static class CatPatchTr
         ("ok", "正常"),
         ("Host only action.", "仅主机操作。"),
         ("Host only.", "仅主机。"),
+        ("Action failed: ", "操作失败："),
         ("Host cannot kick themselves.", "主机不能踢自己。"),
         ("Kicked by host.", "已被主机踢出。"),
         ("Kicked ", "已踢出 "),

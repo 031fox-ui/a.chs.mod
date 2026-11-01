@@ -40,12 +40,12 @@
 | [Auto's Arsenal](https://www.nexusmods.com/scavprototype/mods/81)                      | 2.1.1            | 1.1.0      |
 | [Better Crafting Logic](https://www.nexusmods.com/scavprototype/mods/344)              | 1.0.4            | 1.1.0      |
 | [Casualties Consumed](https://example.com/)                                            | 1.3.0.0          | 1.2.4      |
-| [Casualties Together](https://www.nexusmods.com/scavprototype/mods/67)                 | 5.0.2            | 1.2.5      |
+| [Casualties Together](https://www.nexusmods.com/scavprototype/mods/67)                 | 5.1.5            | 1.2.5      |
 | [Casualties XL](https://example.com/)                                                  | experimental-1   | 1.1.0      |
-| [Casualty Psychology](https://www.nexusmods.com/scavprototype/mods/730)                | 0.4.13           | 1.2.5      |
+| [Casualty Psychology](https://www.nexusmods.com/scavprototype/mods/730)                | 0.6.2            | 1.2.5      |
 | [Casualty Vitals](https://www.nexusmods.com/scavprototype/mods/388)                    | 1.5.4            | 1.2.4      |
-| [CatPatch](https://www.nexusmods.com/scavprototype/mods/69)                            | 1.0.6            | 1.2.5      |
-| [CUCoreLib](https://www.nexusmods.com/scavprototype/mods/341)                          | 1.0.6.1          | 1.2.5      |
+| [CatPatch](https://www.nexusmods.com/scavprototype/mods/69)                            | 1.0.7            | 1.2.5      |
+| [CUCoreLib](https://www.nexusmods.com/scavprototype/mods/341)                          | 1.0.7.1          | 1.2.5      |
 | [More Amputation](https://www.nexusmods.com/scavprototype/mods/407)                 | 0.4.2            | 1.2.5 新增   |
 | [Custom Structures](https://www.nexusmods.com/scavprototype/mods/9)                    | 1.2.5            | 1.2.5      |
 | [extraDialogues](https://www.nexusmods.com/scavprototype/mods/432)                     | 1.0.1            | 1.2.4      |
@@ -57,14 +57,14 @@
 | [Multiplayer Sprite Replacer](https://www.nexusmods.com/scavprototype/mods/74)         | 1.2.0            | 1.1.0      |
 | [NeurotraumaModik](https://www.nexusmods.com/scavprototype/mods/440)                   | 2.4.1            | 1.2.5      |
 | [New Clothing](https://www.nexusmods.com/scavprototype/mods/43)                        | 1.6.3            | 1.1.0      |
-| [New Descents](https://www.nexusmods.com/scavprototype/mods/662)                       | 1.0.3.2          | 1.1.0      |
+| [New Descents](https://www.nexusmods.com/scavprototype/mods/662)                       | 1.0.4.1          | 1.2.5      |
 | [New Firearms](https://www.nexusmods.com/scavprototype/mods/122)                       | 1.6.5            | 1.2.5      |
 | [New Gun Loader (super beta)](https://www.nexusmods.com/scavprototype/mods/57)         | 2.0.1            | 1.1.0      |
 | [Over The Top Realism](https://www.nexusmods.com/scavprototype/mods/330)               | 1.0.1            | 1.1.0      |
 | [Performance Unknown](https://www.nexusmods.com/scavprototype/mods/342)                | 1.1.0            | 1.1.0      |
 | [Pi's Food Overhaul](https://www.nexusmods.com/scavprototype/mods/560)                 | 1.2              | 1.2.5      |
-| [Prosthetics](https://www.nexusmods.com/scavprototype/mods/40)                         | 1.0.5            | 1.2.5      |
-| [QoL Unknown](https://www.nexusmods.com/scavprototype/mods/7)                          | 1.0.5.0          | 1.2.5      |
+| [Prosthetics](https://www.nexusmods.com/scavprototype/mods/40)                         | 1.0.6            | 1.2.5      |
+| [QoL Unknown](https://www.nexusmods.com/scavprototype/mods/7)                          | 1.0.5.2          | 1.2.5      |
 | [Re-Growth Serums](https://www.nexusmods.com/scavprototype/mods/38)                    | 1.7.2            | 1.1.0      |
 | [RshLib](https://www.nexusmods.com/scavprototype/mods/32)                              | 3.1.1            | 1.2.4      |
 | [Say Again - hearing protection](https://www.nexusmods.com/scavprototype/mods/532)     | 0.1.1            | 1.1.0      |

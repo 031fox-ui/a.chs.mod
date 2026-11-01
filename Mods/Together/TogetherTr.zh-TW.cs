@@ -174,8 +174,8 @@ internal static class TogetherTrTw
         ("GameLobbyJoinRequested: Nah, Already in a game.", "收到加入大廳請求：當前已在遊戲中，無法加入。"),
         ("### STARTING GAME ###", "### 正在開始遊戲 ###"),
         ("### STARTING GAME (RECEIVED ANNOUNCEMENT FROM SERVER) ###", "### 正在開始遊戲（已收到服務器通知）###"),
-        ("Host is starting the tutorial.", "主機正在開始教程。"),
-        ("Host is starting game.", "主機正在開始遊戲。"),
+        ("Host is starting the tutorial.", "主機正在啟動教程。"),
+        ("Host is starting game.", "主機正在啟動遊戲。"),
         ("Received announcement to go to main menu.", "已收到返回主菜單的廣播。"),
         ("GenerateWorld_SeedAnnounce, received worldgen seed.", "已收到世界生成種子。"),
         ("Received RegenerateWorld announcement.", "已收到重新生成世界廣播。"),
@@ -211,6 +211,17 @@ internal static class TogetherTrTw
         ("Invalid Server name.", "服務器名稱無效。"),
         ("rgblights True", "RGB 燈光：已開啟"),
         ("rgblights False", "RGB 燈光：已關閉"),
+    };
+    public static readonly (string En, string Zh)[] Alerts =
+    {
+        ("Can't craft: missing ingredients", "無法制作：缺少材料"),
+        ("Can't craft: out of reach", "無法制作：距離太遠"),
+        ("Can't craft: that item was just used", "無法制作：該物品剛被使用過"),
+        ("Can't craft: unconscious", "無法制作：你處於昏迷狀態"),
+        ("Can't craft: unknown recipe", "無法制作：未知配方"),
+        ("Can't craft: the result could not be made", "無法制作：成品無法生成"),
+        ("Can't craft: ingredient still syncing", "無法制作：材料仍在同步中"),
+        ("Can't craft", "無法制作"),
     };
     public static readonly (string En, string Zh)[] LogFormats =
     {
@@ -377,6 +388,7 @@ internal static class TogetherTrTw
         ("Todd - external mod \"ChangeSkin\", C:T ds Staff", "Todd - 外部模組“ChangeSkin”，C:T ds 員工"),
         ("ItsVoidSK - playtester, some sprites", "ItsVoidSK - 測試玩家、部分精靈"),
         ("dawn - TimeManipulation patch", "dawn - 時間操控補丁"),
+        ("VtLoader - Bug fixes", "VtLoader - 錯誤修復"),
         ("Jilu-tin - playtester", "Jilu-tin - 測試玩家"),
         ("NyaruQwQ - playtester", "NyaruQwQ - 測試玩家"),
         ("X0men0X - playtester", "X0men0X - 測試玩家"),

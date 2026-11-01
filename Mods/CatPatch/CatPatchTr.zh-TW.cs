@@ -23,6 +23,7 @@ internal static class CatPatchTrTw
         ("Some clients did not acknowledge your spray. They may not have CatPatch installed or updated.", "部分客戶端未確認你的噴漆。他們可能沒有安裝或更新 CatPatch。"),
         ("Spray failed to upload.", "噴漆上傳失敗。"),
         ("Spray failed: backend unreachable. Check DNS, VPN, firewall, or internet.", "噴漆失敗：無法連接後端。請檢查 DNS、VPN、防火牆或網絡。"),
+        ("Spray failed to send to host. See the log for details.", "噴漆發送到主機失敗。詳見日誌。"),
         ("Spray does not have local or downloaded GIF data.", "該噴漆沒有本地或已下載的 GIF 數據。"),
         ("No spray selected.", "未選擇噴漆。"),
         ("The source spray file is empty.", "源噴漆文件為空。"),
@@ -47,15 +48,65 @@ internal static class CatPatchTrTw
     {
         ("CatPatch is loaded!", "CatPatch 已加載！"),
         ("CatPatch Host Moderation is only available in a world for the multiplayer host or in singleplayer.", "CatPatch 主機管理僅在多人主機所在的世界或單人模式中可用。"),
+        ("Conditional commands are available only to the multiplayer host.", "只有多人遊戲的主機才能使用條件命令。"),
+        ("Conditional commands may nest at most 8 levels.", "條件命令最多嵌套 8 層。"),
+        ("Item checks support only = and != (present or absent).", "物品檢查只支持 = 和 !=（存在或不存在）。"),
+        ("Player selectors require multiplayer; use a fixed position for singleplayer tile checks.", "玩家選擇器需要多人遊戲；單人請改用固定座標做地塊檢查。"),
+        ("Tile position is outside the world.", "地塊座標超出世界範圍。"),
+        ("Tile value must be a block ID from 0 to 65535.", "地塊值必須是 0 到 65535 之間的方塊 ID。"),
+        ("@t needs a player target; a fixed tile position has no player target.", "@t 需要玩家目標；固定地塊座標沒有對應的玩家目標。"),
+        ("Body value is not a finite number.", "身體字段的值不是有限數字。"),
+        ("Boolean fields require true or false.", "布爾字段只能是 true 或 false。"),
+        ("Boolean, text and enum checks support only = and !=.", "布爾、文本和枚舉檢查只支持 = 和 !=。"),
+        ("Branch commands need matching double quotes separated by spaces.", "分支命令需要成對的英文雙引號，並用空格分隔。"),
+        ("Cannot compare a null Body value.", "無法比較為空的 Body 值。"),
+        ("Numeric comparisons require a finite number (use a decimal point).", "數值比較需要有限數字（請帶小數點）。"),
+        ("Unknown comparison operator.", "未知的比較運算符。"),
+        ("Unknown operator. Use = != < <= > >=.", "未知運算符。請使用 = != < <= > >=。"),
+        ("Use one command per branch (no semicolons or newlines).", "每個分支只能寫一條命令（不要用分號或換行）。"),
+        ("else needs a command.", "else 後面需要跟一條命令。"),
     };
     public static readonly (string En, string Zh)[] LogFormats =
     {
         ("No players matched {0}.", "沒有玩家匹配 {0}。"),
         ("Could not act on players matching {0}.", "無法對匹配 {0} 的玩家執行操作。"),
+        ("No spawned players matched {0}.", "沒有已生成的玩家匹配 {0}。"),
+        ("Unknown branch command: {0}", "未知的分支命令：{0}"),
+        ("Unknown or unsupported Body field/property: {0}", "未知或不支持的 Body 字段／屬性：{0}"),
     };
     public static readonly (string En, string Zh)[] CommandDescs =
     {
         ("Opens or closes the CatPatch Host Moderation menu.", "【CatPatch】打開或關閉 CatPatch 主機管理菜單。"),
+        ("Host conditional command. if <tile|item|bodyfield> <operator> <value> <player selector|x,y> \"then command\" [else \"else command\"]", "【CatPatch】主機條件命令。if <tile|item|bodyfield> <operator> <value> <player selector|x,y> \"then command\" [else \"else command\"]"),
+    };
+    public static readonly (string En, string Zh)[] CommandArgs =
+    {
+        ("check", "檢查對象"),
+        ("operator", "運算符"),
+        ("value", "值"),
+        ("player or position", "玩家或座標"),
+        ("then", "成立時命令"),
+        ("else", "否則命令"),
+        ("tile, item, or a public Body field/property", "地塊、物品，或 Body 的公開字段／屬性"),
+        ("= != < <= > >=", "= != < <= > >="),
+        ("value to compare", "要比較的值"),
+        ("player selector or tile world position", "玩家選擇器，或地塊的世界座標"),
+        ("quoted command; @t is the player being checked", "帶引號的命令；@t 代表被檢查的玩家"),
+        ("optional quoted command", "（可選）帶引號的命令"),
+    };
+    public static readonly (string En, string Zh)[] FrameworkErrors =
+    {
+        ("The operation has timed out.", "操作超時。"),
+        ("The operation has timed out", "操作超時"),
+        ("The request timed out.", "請求超時。"),
+        ("The request timed out", "請求超時"),
+        ("Timeout", "連接超時"),
+        ("Name or service not known", "無法解析主機名"),
+        ("No such host is known.", "無法解析該主機名。"),
+        ("Unable to connect to the remote server.", "無法連接到遠程服務器。"),
+        ("The remote server returned an error: (404) Not Found.", "遠程服務器返回錯誤：(404) 未找到。"),
+        ("The remote server returned an error: (403) Forbidden.", "遠程服務器返回錯誤：(403) 禁止訪問。"),
+        ("Automatic replacement only supports direct CatPatch.dll downloads.", "自動替換僅支持直接下載 CatPatch.dll 的方式。"),
     };
     public static readonly (string En, string Zh)[] Literals =
     {
@@ -72,6 +123,7 @@ internal static class CatPatchTrTw
         ("CatPatch update helper started. Quitting game...", "CatPatch 更新助手已啟動。正在退出遊戲..."),
         ("Failed to start CatPatch update helper. All my hard work :(", "無法啟動 CatPatch 更新助手。我所有的辛苦 :("),
         ("CatPatch Update Available", "CatPatch 更新可用"),
+        ("Command Guide", "命令指南"),
         ("Changelog", "更新日誌"),
         ("Downloaded to:", "已下載到："),
         ("Download", "下載"),
@@ -87,6 +139,7 @@ internal static class CatPatchTrTw
         ("CatPatch Client Settings", "CatPatch 客戶端設置"),
         ("Client Preferences", "客戶端偏好"),
         ("Show sprays", "顯示噴漆"),
+        ("Spray selector size: ", "噴漆選擇器尺寸："),
         ("Updates", "更新"),
         ("Check Now for Update", "立即檢查更新"),
         ("Latest: ", "最新版本："),
@@ -148,6 +201,7 @@ internal static class CatPatchTrTw
         ("Stub toe", "絆腳趾"),
         ("Fling", "拋飛"),
         ("Last Stand", "背水一戰"),
+        ("Transfer Host", "轉移主機"),
         ("Kick, Ban, Admin", "踢出、封禁、管理員"),
         ("Admin", "管理員"),
         ("Unadmin", "取消管理員"),
@@ -191,6 +245,7 @@ internal static class CatPatchTrTw
         ("ok", "正常"),
         ("Host only action.", "僅主機操作。"),
         ("Host only.", "僅主機。"),
+        ("Action failed: ", "操作失敗："),
         ("Host cannot kick themselves.", "主機不能踢自己。"),
         ("Kicked by host.", "已被主機踢出。"),
         ("Kicked ", "已踢出 "),

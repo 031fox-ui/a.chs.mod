@@ -174,8 +174,8 @@ internal static class TogetherTr
         ("GameLobbyJoinRequested: Nah, Already in a game.", "收到加入大厅请求：当前已在游戏中，无法加入。"),
         ("### STARTING GAME ###", "### 正在开始游戏 ###"),
         ("### STARTING GAME (RECEIVED ANNOUNCEMENT FROM SERVER) ###", "### 正在开始游戏（已收到服务器通知）###"),
-        ("Host is starting the tutorial.", "主机正在开始教程。"),
-        ("Host is starting game.", "主机正在开始游戏。"),
+        ("Host is starting the tutorial.", "主机正在启动教程。"),
+        ("Host is starting game.", "主机正在启动游戏。"),
         ("Received announcement to go to main menu.", "已收到返回主菜单的广播。"),
         ("GenerateWorld_SeedAnnounce, received worldgen seed.", "已收到世界生成种子。"),
         ("Received RegenerateWorld announcement.", "已收到重新生成世界广播。"),
@@ -211,6 +211,17 @@ internal static class TogetherTr
         ("Invalid Server name.", "服务器名称无效。"),
         ("rgblights True", "RGB 灯光：已开启"),
         ("rgblights False", "RGB 灯光：已关闭"),
+    };
+    public static readonly (string En, string Zh)[] Alerts =
+    {
+        ("Can't craft: missing ingredients", "无法制作：缺少材料"),
+        ("Can't craft: out of reach", "无法制作：距离太远"),
+        ("Can't craft: that item was just used", "无法制作：该物品刚被使用过"),
+        ("Can't craft: unconscious", "无法制作：你处于昏迷状态"),
+        ("Can't craft: unknown recipe", "无法制作：未知配方"),
+        ("Can't craft: the result could not be made", "无法制作：成品无法生成"),
+        ("Can't craft: ingredient still syncing", "无法制作：材料仍在同步中"),
+        ("Can't craft", "无法制作"),
     };
     public static readonly (string En, string Zh)[] LogFormats =
     {
@@ -377,6 +388,7 @@ internal static class TogetherTr
         ("Todd - external mod \"ChangeSkin\", C:T ds Staff", "Todd - 外部模组“ChangeSkin”，C:T ds 员工"),
         ("ItsVoidSK - playtester, some sprites", "ItsVoidSK - 测试玩家、部分精灵"),
         ("dawn - TimeManipulation patch", "dawn - 时间操控补丁"),
+        ("VtLoader - Bug fixes", "VtLoader - 错误修复"),
         ("Jilu-tin - playtester", "Jilu-tin - 测试玩家"),
         ("NyaruQwQ - playtester", "NyaruQwQ - 测试玩家"),
         ("X0men0X - playtester", "X0men0X - 测试玩家"),

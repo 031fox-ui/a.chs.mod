@@ -11,12 +11,17 @@ internal static class NewDescentsTrTw
         ("Going to layer index {0} ({1}).", "正在前往地層索引 {0}（{1}）。"),
         ("Layer index {0} is outside the loaded range 0-{1}.", "地層索引 {0} 超出已加載範圍 0-{1}。"),
     };
+    public static readonly (string En, string Zh)[] Ui =
+    {
+        ("Play", "開始"),
+    };
     public static readonly (string En, string Zh)[] LayerTitles =
     {
         ("Toxic Caverns", "劇毒洞窟"),
     };
     public static readonly (string En, string Zh)[] Fragments =
     {
+        ("<color=green>Toxic ", "<color=green>劇毒 "),
         ("<color=green>Toxic</color> ", "<color=green>劇毒</color> "),
     };
 }

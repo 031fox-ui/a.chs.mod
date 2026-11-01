@@ -65,6 +65,10 @@ internal static class QoLUnknownTrTw
         ("qol.game.besttoolefficiencydsc", "製作時選用效率最高的工具，而非找到的第一件。"),
         ("qol.game.etomophobia", "嘔吐恐懼症"),
         ("qol.game.etomophobiadsc", "屏蔽嘔吐與嘔血的畫面、粒子與文字，屬性損失仍然保留。"),
+        ("qol.game.additionalrecipes", "額外配方選項"),
+        ("qol.game.additionalrecipesdsc", "在製作菜單中顯示收藏與未製作配方按鈕。"),
+        ("qol.game.containerscroll", "容器滾輪"),
+        ("qol.game.containerscrolldsc", "為容器添加滾輪支持。"),
     };
     public static readonly (string En, string Zh)[] ModuleDefs =
     {
@@ -102,6 +106,10 @@ internal static class QoLUnknownTrTw
         ("qol_game_animal_attack_assistdsc", "對近戰攻擊做盒形檢測，並把揮擊重新瞄準附近的動物。"),
         ("qol_inv_stacking", "容器堆疊"),
         ("qol_inv_stackingdsc", "把容器中的重複物品歸為一組。懸停可查看每件物品及其狀態。"),
+        ("qol_ui_ctrlitemlabels", "Ctrl 物品標籤"),
+        ("qol_ui_ctrlitemlabelsdsc", "按住 Ctrl 時物品標籤保持穩定，附近顯示數量由 16 提升到 64。"),
+        ("qol_craft_uncrafted", "額外配方選項"),
+        ("qol_craft_uncrafteddsc", "在製作菜單中顯示收藏與未製作配方按鈕。"),
     };
     public static readonly (string En, string Zh)[] LangNames =
     {
@@ -112,6 +120,7 @@ internal static class QoLUnknownTrTw
         ("de-DE", "德語"),
         ("fi-FI", "芬蘭語"),
         ("fr-FR", "法語"),
+        ("hu-HU", "匈牙利語"),
         ("id-ID", "印尼語"),
         ("it-IT", "意大利語"),
         ("ja-JP", "日語"),
@@ -282,6 +291,10 @@ internal static class QoLUnknownTrTw
         ("Client Connect clicked!", "客戶端連接已點擊！"),
         ("No active world on host.", "主機上沒有活躍的世界。"),
         ("Discord Presence editor unavailable: canvas not found.", "Discord 狀態編輯器不可用：找不到畫布。"),
+        ("Autocraft cancelled. An already-sent craft may still finish.", "自動製作已取消。已經發出的製作請求仍可能完成。"),
+        ("Autocraft stopped waiting for the host's answer.", "自動製作已停止：等待房主回應超時。"),
+        ("Autocraft stopped waiting for the previous craft's answer.", "自動製作已停止：等待上一次製作的回應超時。"),
+        ("Autocraft stopped: ingredients never became ready.", "自動製作已停止：材料始終未就緒。"),
     };
     public static readonly (string En, string Zh)[] Logs =
     {
@@ -316,6 +329,9 @@ internal static class QoLUnknownTrTw
         ("Stick Press:", "搖桿按下："),
         ("Special:", "特殊："),
         ("Valid actions: ", "有效動作："),
+        ("Cleared all custom binds.", "已清除所有自定義按鍵綁定。"),
+        ("No command binds active.", "當前沒有生效的命令按鍵綁定。"),
+        ("No custom commands found.", "未找到自定義命令。"),
     };
     public static readonly (string En, string Zh)[] Commands =
     {
@@ -346,6 +362,12 @@ internal static class QoLUnknownTrTw
         ("Open the Nexus Mods page for an installed mod. Usage: nexus <name or guid>", "【QoL】打開已安裝模組的 Nexus 模組頁面。用法：nexus <名稱或 GUID>"),
         ("Installed mod name or BepInEx plugin GUID", "已安裝的模組名稱或 BepInEx 插件 GUID"),
         ("change/list/remove/clear", "change/list/remove/clear（更改/列表/移除/清空）"),
+        ("Manages custom command binds, by either adding/removing/listing them.", "管理自定義命令按鍵綁定，可添加／移除／列出綁定。"),
+        ("Lists the custom commands you added with addcustomcommand.", "列出你用 addcustomcommand 添加的自定義命令。"),
+        ("Mod name or BepInEx plugin GUID", "模組名稱或 BepInEx 插件 GUID"),
+        ("(if adding) Commands to run, separated by ; and spaces replaced by _", "（添加時）要執行的命令，用 ; 分隔，空格用 _ 代替"),
+        ("(if adding/removing) Keyboard button to bind", "（添加／移除時）要綁定的鍵盤按鍵"),
+        ("keycode", "按鍵碼"),
     };
     public static readonly (string En, string Zh)[] Ui =
     {
@@ -353,7 +375,6 @@ internal static class QoLUnknownTrTw
         ("Seed", "種子"),
         ("Locked", "已鎖定"),
         ("Mods", "模組"),
-        ("Play", "播放"),
         ("Edit", "編輯"),
         ("Close", "關閉"),
         ("Reset", "重置"),
@@ -480,6 +501,24 @@ internal static class QoLUnknownTrTw
         ("Fully restarts the game without changing any mods", "完全重啟遊戲，但不更改任何模組"),
         ("Packs loose items into the lightest containers. Hold Shift to also sort hands and mouth.", "把散落物品裝進最輕的容器。按住 Shift 可同時整理手部和口部。"),
         ("Sort", "整理"),
+        ("Load Save", "讀取存檔"),
+        ("Click and type to rename this slot.", "點擊並輸入以重命名此槽位。"),
+        ("Click to activate mods.", "點擊以啟用模組。"),
+        ("Save", "保存"),
+        ("Load", "讀取"),
+        ("Delete", "刪除"),
+        ("Click to bookmark this recipe.", "點擊收藏此配方。"),
+        ("Click to unbookmark this recipe.", "點擊取消收藏此配方。"),
+        ("Bookmarked recipes appear at the top of the list.", "已收藏的配方會顯示在列表頂部。"),
+        ("Click to bookmark this recipe. Bookmarked recipes appear at the top of the list.", "點擊收藏此配方。已收藏的配方會顯示在列表頂部。"),
+        ("Click to unbookmark this recipe. Bookmarked recipes appear at the top of the list.", "點擊取消收藏此配方。已收藏的配方會顯示在列表頂部。"),
+        ("Continue vanilla run", "繼續原版存檔"),
+        ("Resume the run the game itself last saved.", "繼續遊戲本體最近一次保存的存檔。"),
+        ("Return to the run settings.", "返回開局設置。"),
+        ("Bookmark", "收藏"),
+        ("Rename", "重命名"),
+        ("Uncrafted only", "僅未製作"),
+        ("Displays only items that have not been crafted before.", "只顯示此前從未製作過的物品。"),
     };
     public static readonly (string En, string Zh)[] Talks =
     {
@@ -648,6 +687,30 @@ internal static class QoLUnknownTrTw
     public static readonly (string En, string Zh)[] TooltipFragments =
     {
         ("Update available! click to open Nexus page", "有新版本可用！點擊打開Ｎ網頁面"),
+    };
+    public static readonly (string En, string Zh)[] FavTooltipFragments =
+    {
+        ("Click to unbookmark this recipe.", "點擊取消收藏此配方。"),
+        ("Click to bookmark this recipe.", "點擊收藏此配方。"),
+        (" Bookmarked recipes appear at the top of the list.", " 已收藏的配方會顯示在列表頂部。"),
+    };
+    public static readonly (string En, string Zh)[] SaveSlotFragments =
+    {
+        ("m Deep", " 米深"),
+        ("m deep", " 米深"),
+        (" Deep", " 深"),
+        (" run time", " 遊戲時長"),
+        ("<color=grey>Empty</color>", "<color=grey>空</color>"),
+        (">Corrupt ", ">已損壞 "),
+        (">Unknown ", ">未知 "),
+        ("Unknown<", "未知<"),
+        ("Corrupt<", "已損壞<"),
+        ("SAVE SLOTS", "存檔槽位"),
+    };
+    public static readonly (string En, string Zh)[] SaveSlotNames =
+    {
+        ("Slot ", "存檔 "),
+        ("Autosave", "自動存檔"),
     };
     public static readonly (string En, string Zh)[] PlayButtonLabel =
     {
