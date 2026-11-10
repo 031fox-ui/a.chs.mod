@@ -1,0 +1,13 @@
+# ============================================================
+# 行尾策略（2026-11-10）：文本统一 LF，由主仓库 Aastart 导出时生成
+# ============================================================
+# 本仓库只放翻译源（*Tr.cs / EN.json / zh-CN.json / zh-TW.json）与 README，
+# 没有二进制。统一 LF 后，导出（Python 写文件用 newline='\n'）与索引完全一致，
+# 不再出现「内容相同却显示已修改」的幽灵 diff。
+* text=auto eol=lf
+
+*.cs     text eol=lf
+*.md     text eol=lf
+*.json   text eol=lf
+*.txt    text eol=lf
+.gitattributes text eol=lf
