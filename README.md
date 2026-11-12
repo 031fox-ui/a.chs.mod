@@ -48,7 +48,7 @@
 | [CatPatch](https://www.nexusmods.com/scavprototype/mods/69)                        | 1.1.0          | 1.2.7    |
 | [Crafting Tweaks](https://www.nexusmods.com/scavprototype/mods/370)                | 0.3.4          | 1.2.7 新增 |
 | [CUCoreLib](https://www.nexusmods.com/scavprototype/mods/341)                      | 1.1            | 1.2.7    |
-| [More Amputation](https://www.nexusmods.com/scavprototype/mods/407)                | 0.4.2          | 1.2.5 新增 |
+| [More Amputation](https://www.nexusmods.com/scavprototype/mods/407)                | 0.4.2          | 1.2.5    |
 | [Custom Structures](https://www.nexusmods.com/scavprototype/mods/9)                | 1.3.0          | 1.2.7    |
 | [extraDialogues](https://www.nexusmods.com/scavprototype/mods/432)                 | 1.0.1          | 1.2.7    |
 | [Extra Medicaments](https://www.nexusmods.com/scavprototype/mods/448)              | 0.3            | 1.1.0    |
