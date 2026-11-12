@@ -22,12 +22,14 @@
 | 渠道          | 链接                                                                                                           | 备注         |
 | :---------- | :----------------------------------------------------------------------------------------------------------- | :--------- |
 | **N 网**（推荐） | [Multi-Mod Chinese Localization](https://www.nexusmods.com/scavprototype/mods/516)                           | Nexus Mods |
-| **GitHub**  | [直接下载](https://github.com/031fox-ui/a.chs.mod/releases/latest/download/Mods.Chinese.Translation.zip) | 比较吃网络      |
-| **蓝奏云**     | [蓝奏云下载](https://wwann.lanzout.com/i6czL4fq6j7i)                                                              | 密码：2wcv    |
+| **GitHub**  | [直接下载](https://github.com/031fox-ui/a.chs.mod/releases/latest/download/Mods.Chinese.Translation.dll) | 比较吃网络      |
+| **蓝奏云**     | [蓝奏云下载](https://wwann.lanzout.com/irwyq4fq6uqd)                                                              | 密码：9urs    |
 
 ## 安装
 
-解压后把里面的 `多模组汉化.dll` 放入游戏的 `Casualties Unknown\BepInEx\plugins` 文件夹即可（试玩版同理，换对应目录）。
+把下载好的 `.dll` 放入游戏的 `Casualties Unknown\BepInEx\plugins` 文件夹即可（试玩版同理，换对应目录）。
+
+> GitHub 下载到的文件名是 `Mods.Chinese.Translation.dll`，N 网包内是 `多模组汉化.dll`，两者内容完全相同，放哪个都行；**但不要同时放两个**（同名插件会被重复加载）。
 
 ## 支持的模组
 
