@@ -36,6 +36,7 @@ internal static class CustomStructuresTrTw
         ("Catalog cache loaded: {0} entries. Scroll down or refresh for more.", "目錄緩存已加載：{0} 個條目。向下滾動或刷新查看更多。"),
         ("Catalog cache loaded: {0} entries.", "目錄緩存已加載：{0} 個條目。"),
         ("Catalog search matched {0} structure(s).", "目錄搜索匹配到 {0} 個結構。"),
+        ("Installed '{0}' as '{1}'. Loaded structures: {2}.", "已安裝「{0}」為「{1}」。已加載建築：{2}。"),
     };
     public static readonly (string En, string Zh)[] Alerts =
     {
@@ -109,31 +110,39 @@ internal static class CustomStructuresTrTw
         ("Catalog search parse failed: ", "目錄搜索解析失敗："),
         ("Catalog search failed: ", "目錄搜索失敗："),
         ("Search", "搜索"),
+        ("Download failed for '", "下載失敗：'"),
+        ("Could not parse structure '", "無法解析結構 '"),
+        ("Structure '", "結構 '"),
+        ("' has no code payload.", "' 沒有代碼載荷。"),
+        ("Failed writing '", "寫入失敗：'"),
+        ("': ", "'："),
     };
     public static readonly (string En, string Zh)[] CrystalPropertyNames =
     {
         ("Irradiated", "輻射"),
-        ("Fragile", "脆弱"),
-        ("Gravity", "重力扭曲"),
-        ("Electric", "電擊"),
-        ("Burning", "燃燒"),
-        ("Temperature", "溫度"),
-        ("Septic", "感染"),
+        ("Fragile", "易碎"),
+        ("Gravity", "引力異常"),
+        ("Electric", "電湧"),
+        ("Burning", "灼燃"),
+        ("Temperature", "溫度異常"),
+        ("Septic", "腐瘴"),
         ("Unstable", "不穩定"),
-        ("Mimic", "擬態"),
-        ("Teleport", "位置錯亂"),
-        ("Dripping", "融化"),
-        ("Kinetic", "動能"),
+        ("Mimic", "惡怨寄宿"),
+        ("Teleport", "傳送"),
+        ("Dripping", "滲液"),
+        ("Kinetic", "彈射"),
         ("EMP", "電磁脈衝"),
-        ("Blinding", "強光"),
-        ("Metamorphic", "蛻變"),
-        ("Healing", "治療"),
-        ("Shy", "怯生"),
+        ("Blinding", "光幕"),
+        ("Metamorphic", "造物"),
+        ("Healing", "治癒"),
+        ("Shy", "詭詐"),
     };
     public static readonly (string En, string Zh)[] Settings =
     {
-        ("Enable custom structures", "啟用自定義結構"),
-        ("Whether to enable the Custom Structures mod during world generation. Requires a new game/layer to be loaded to take effect.", "是否在世界生成期間啟用自定義結構模組。需要加載新遊戲/新層級才能生效。"),
+        ("morestructures.enabled", "啟用自定義結構"),
+        ("morestructures.enableddsc", "是否在世界生成期間啟用自定義結構模組。需要加載新遊戲/新層級才能生效。"),
+        ("morestructures.hideMenuButton", "隱藏主菜單的結構瀏覽器按鈕"),
+        ("morestructures.hideMenuButtondsc", "從主菜單背景中移除自適應的結構瀏覽器按鈕。如果該按鈕擋住了其他菜單界面的點擊，這個選項會很有用。"),
     };
     public static readonly (string En, string Zh)[] Ui =
     {

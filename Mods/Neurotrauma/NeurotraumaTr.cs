@@ -1,13 +1,13 @@
-using A.Multi_Mod.Chinese.Localization.Core;
-namespace A.Multi_Mod.Chinese.Localization.Mods.Neurotrauma;
+using Mods.Chinese.Translation.Core;
+namespace Mods.Chinese.Translation.Mods.Neurotrauma;
 internal static class NeurotraumaTr
 {
     public static readonly (string En, string Zh)[] Commands =
     {
-        ("Neurotrauma: list afflictions on target. Usage: nt_list [player].", "【神经创伤】列出目标身上的症状。用法：nt_list [玩家名]"),
-        ("Neurotrauma: add affliction severity. Usage: nt_add <id> [amount=50] [player] [#limb].", "【神经创伤】增加症状严重度。用法：nt_add <ID> [数值=50] [玩家名] [肢体]"),
-        ("Neurotrauma: set affliction severity. Usage: nt_set <id> <amount> [player] [#limb].", "【神经创伤】设置症状严重度。用法：nt_set <ID> <数值> [玩家名] [肢体]"),
-        ("Neurotrauma: clear affliction(s). Usage: nt_clear [id] [player] [#limb].", "【神经创伤】清除症状。用法：nt_clear [ID] [玩家名] [肢体]"),
+        ("Neurotrauma: list afflictions on target. Usage: nt_list [player].", "【神经创伤】列出目标身上的病症。用法：nt_list [玩家名]"),
+        ("Neurotrauma: add affliction severity. Usage: nt_add <id> [amount=50] [player] [#limb].", "【神经创伤】增加病症严重度。用法：nt_add <ID> [amount=50] [玩家名] [#limb]"),
+        ("Neurotrauma: set affliction severity. Usage: nt_set <id> <amount> [player] [#limb].", "【神经创伤】设置病症严重度。用法：nt_set <ID> <amount> [玩家名] [#limb]"),
+        ("Neurotrauma: clear affliction(s). Usage: nt_clear [id] [player] [#limb].", "【神经创伤】清除病症。用法：nt_clear [ID] [玩家名] [#limb]"),
         ("Neurotrauma: print target/netid diagnostics. Usage: nt_diag [player].", "【神经创伤】打印目标/网络ID诊断信息。用法：nt_diag [玩家名]"),
         ("Neurotrauma: list body parts (limb indices) of the target. Usage: nt_limbs [player].", "【神经创伤】列出目标的身体部位（肢体索引）。用法：nt_limbs [玩家名]"),
         ("Neurotrauma: show or set your blood type. Usage: nt_bloodtype [A+|B+|O+|AB+|…|random].", "【神经创伤】显示或设置血型。用法：nt_bloodtype [A+|B+|O+|AB+|…|random]"),
@@ -15,12 +15,12 @@ internal static class NeurotraumaTr
         ("amount", "数值"),
         ("type", "类型"),
         ("#limb", "#肢体"),
-        ("optional MP player name", "（可选）多人玩家名称"),
-        ("optional MP player name or @a", "（可选）多人玩家名称或 @a"),
+        ("optional MP player name", "（可选）联机玩家名"),
+        ("optional MP player name or @a", "（可选）联机玩家名或 @a"),
         ("0..100, default 50", "0..100（默认 50）"),
         ("0..100", "0..100"),
-        ("affliction id", "症状ID"),
-        ("affliction id (omit to clear all)", "症状ID（省略以清除全部）"),
+        ("affliction id", "病症ID"),
+        ("affliction id (omit to clear all)", "病症ID（省略以清除全部）"),
         ("optional body part: #sel, #head, #lower, #lhand, #lfoot, #<index>...", "（可选）身体部位：#sel选定、#head头、#lower下身、#lhand左手、#lfoot左脚、#<索引>..."),
         ("optional body part", "（可选）身体部位"),
         ("blood type (A+, O-, …) or random; omit to print current", "血型（A+、O- 等）或 random；省略以显示当前血型"),
@@ -33,8 +33,8 @@ internal static class NeurotraumaTr
         ("No affliction state.", "没有病症状态。"),
         ("No living players.", "没有存活的玩家。"),
         ("Player/body not found.", "未找到玩家/身体。"),
-        ("usage: nt_add <id> [amount=50] [player] [#limb]", "用法：nt_add <id> [数值=50] [玩家] [#肢体]"),
-        ("usage: nt_set <id> <amount> [player] [#limb]", "用法：nt_set <id> <数值> [玩家] [#肢体]"),
+        ("usage: nt_add <id> [amount=50] [player] [#limb]", "用法：nt_add <id> [amount=50] [玩家] [#肢体]"),
+        ("usage: nt_set <id> <amount> [player] [#limb]", "用法：nt_set <id> <amount> [玩家] [#肢体]"),
         ("amount must be a number.", "数值必须是数字。"),
         ("no limbs on body", "身体上没有肢体"),
         ("empty limb token", "空的肢体标记"),
@@ -60,7 +60,7 @@ internal static class NeurotraumaTr
     };
     public static readonly (string En, string Zh)[] Ui =
     {
-        ("Open the mod page on Nexus Mods", "在Ｎ网上打开模组页面"),
+        ("Open the mod page on Nexus Mods", "在 Nexus Mods 上打开模组页面"),
         ("Open the mod releases page on GitHub", "打开 GitHub 上的模组发布页面"),
     };
     public static readonly (string En, string Zh)[] Literals =

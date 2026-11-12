@@ -1,10 +1,10 @@
-using A.Multi_Mod.Chinese.Localization.Core;
-namespace A.Multi_Mod.Chinese.Localization.Mods.MultiplayerSpriteReplacer;
+using Mods.Chinese.Translation.Core;
+namespace Mods.Chinese.Translation.Mods.MultiplayerSpriteReplacer;
 internal static class MultiplayerSpriteReplacerTr
 {
     public static readonly (string En, string Zh)[] Commands =
     {
-        ("Multiplayer Sprite Replacer controls.", "【多人皮肤替换器】多人皮肤替换器控制命令。"),
+        ("Multiplayer Sprite Replacer controls.", "【多人皮肤替换器】控制命令。"),
         ("action", "操作"),
         ("value", "值"),
         ("slot, player, or setting value", "槽位、玩家或设置值"),

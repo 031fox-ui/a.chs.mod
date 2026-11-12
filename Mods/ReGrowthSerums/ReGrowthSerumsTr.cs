@@ -12,6 +12,6 @@ internal static class ReGrowthSerumsTr
     };
     public static readonly (string En, string Zh)[] LogFormats =
     {
-        ("Loaded Re-Growth Serums (v{0})", "已加载 Re-Growth Serums（再生血清）（v{0}）"),
+        ("Loaded Re-Growth Serums (v{0})", "已加载 Re-Growth Serums（v{0}）"),
     };
 }

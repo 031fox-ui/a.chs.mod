@@ -1,5 +1,5 @@
-using A.Multi_Mod.Chinese.Localization.Core;
-namespace A.Multi_Mod.Chinese.Localization.Mods.ExtraDialogue;
+using Mods.Chinese.Translation.Core;
+namespace Mods.Chinese.Translation.Mods.ExtraDialogue;
 internal static class ExtraDialogueTr
 {
     public static readonly (string En, string Zh)[] Talks =
@@ -22,7 +22,7 @@ internal static class ExtraDialogueTr
         ("What's that over there?", "那边是什么？"),
         ("Deeper I go.", "越走越深。"),
         ("I thought this would be different.", "我本以为这里会不一样。"),
-        ("Trader up there told me about this one.", "上面那个商人跟我说过这层。"),
+        ("Trader up there told me about this one.", "上面那个幸存者跟我说过这层。"),
         ("How many of those are there?", "那种东西有多少个？"),
         ("So many layers.", "这么多地层。"),
         ("Did I hear something...?", "我是不是听到了什么...？"),
@@ -67,7 +67,7 @@ internal static class ExtraDialogueTr
         ("Wasteland 3 Happy", "废土3 快乐"),
         ("Did I hear something? Hopefully nothing to worry about...", "我是不是听到了什么？希望没什么好担心的..."),
         ("Is it just me, or did it get a bit cooler?", "是我的错觉吗，还是这里变凉快了？"),
-        ("Are those geofruits!?", "那些是地生果吗！？"),
+        ("Are those geofruits!?", "那些是地菱果吗！？"),
         ("Oh... great... plants everywhere...", "哦...真好...到处都是植物..."),
         ("I can hear so many... things... everywhere...", "我能听到好多...东西...到处都是..."),
         ("I'm... I'm scared.", "我...我好害怕。"),
@@ -86,20 +86,20 @@ internal static class ExtraDialogueTr
         ("Is this even going to work..?", "这真的会有用吗...？"),
         ("misclick?", "点错了？"),
         ("?", "？"),
-        ("This does not taste good-", "这尝起来不对劲-"),
+        ("This does not taste good-", "这尝着不怎么样-"),
         ("what.", "啥。"),
         ("Why did I-", "我为什么要-"),
         ("I shouldn't be drinking random pills.", "我不该乱吃药片的。"),
         ("I might be stupid.", "我可能是个傻子。"),
-        ("...What?", "...啥？"),
-        ("this does not taste good", "这尝起来不对劲"),
+        ("...What?", "...啊？你说什么？"),
+        ("this does not taste good", "这尝着不怎么样"),
         ("Mh.. I shouldn't be taking this right now", "嗯...我现在不该吃这个"),
         ("But it refused.", "但它拒绝了。"),
         ("Was that just a bad dream..?", "那只是一场噩梦吗...？"),
         ("Despite all odds!", "尽管困难重重！"),
         ("Holy shit, nobody is going to believe me.", "卧槽，没人会相信我的。"),
         ("Just keep on traveling on!", "继续前行就好！"),
-        ("I REFUSE to die in this cave", "我 绝 不 接 受 死在这个洞里"),
+        ("I REFUSE to die in this cave", "我 绝 不 会 死在这个洞里"),
         ("Hahahahaha! I'm still alive!", "哈哈哈哈！我还活着！"),
         ("I'm still here..? I'M STILL HERE!!", "我还在这...？我 还 在 这 里 ！！"),
         ("Didn't expect anything else from myself.", "我没指望自己还能有别的表现。"),
@@ -130,7 +130,7 @@ internal static class ExtraDialogueTr
         ("Nothing to worry about.", "没什么好担心的。"),
         ("I thought it would be closer", "我本以为它会更近的"),
         ("I really need to hurry.", "我真的得抓紧了。"),
-        ("Oh that's bad", "哦，那糟了"),
+        ("Oh that's bad", "哦，那可不妙"),
         ("Is that going to...", "那会不会..."),
         ("Maybe I could just wait a little.. and....", "也许我可以再等一会儿...然后..."),
     };

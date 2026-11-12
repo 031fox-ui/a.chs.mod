@@ -6,7 +6,7 @@ internal static class CUCoreLibTrTw
         ("Spawns a vanilla prefab or CUCoreLib-registered item/building.", "【CUCoreLib】生成原版預設物體或 CUCoreLib 註冊的物品/建築。"),
         ("Places a vanilla or CUCoreLib-registered tile at the chosen block position.", "【CUCoreLib】在指定位置放置原版或 CUCoreLib 註冊的物塊。"),
         ("Sends a diagnostic bug report with debug logs. Thanks!", "【CUCoreLib】發送帶調試日誌的診斷性 bug 報告。感謝！"),
-        ("Writes or updates CUCoreLib generated locale data. WARNING: Overrides generated keys in the target file", "【CUCoreLib】寫入或更新 CUCoreLib 生成的本地化數據。警告: 會覆蓋目標文件中由本庫生成的鍵"),
+        ("Writes or updates CUCoreLib generated locale data. WARNING: Overrides generated keys in the target file", "【CUCoreLib】寫入或更新 CUCoreLib 生成的本地化數據。警告：會覆蓋目標文件中由本庫生成的鍵"),
         ("Prints the loaded BepInEx plugin list to the in-game console and Unity log.", "【CUCoreLib】將已加載的 BepInEx 插件列表打印到遊戲內控制檯和 BepInEx 日誌。"),
         ("Strictly reloads item/liquid/recipe/locale content from a rebuilt mod DLL.", "【CUCoreLib】從重新構建的模組 DLL 嚴格重載物品/液體/配方/本地化內容。"),
         ("Enables automatic hot reloading after detecting a loaded mod DLL file change.", "【CUCoreLib】檢測到已加載模組 DLL 文件變化後啟用自動熱重載。"),
@@ -47,7 +47,7 @@ internal static class CUCoreLibTrTw
         ("true to enable watch mode for that DLL, false to disable it.", "true 啟用該 DLL 的監視模式，false 禁用它。"),
         ("add, remove, list, clear, show, or hide.", "add添加、remove移除、list列出、clear清除、show顯示、hide隱藏。"),
         ("Reflected static field to watch, such as Namespace.Plugin.healthRate.", "要監視的反射靜態字段，例如 Namespace.Plugin.healthRate。"),
-        ("Optional description in quotation marks \"\". Optional, but highly recommended.", "（可選）用引號包裹的描述文本。可選，但強烈推薦。"),
+        ("Optional description in quotation marks \"\". Optional, but highly recommended.", "用引號包裹的描述文本。強烈建議填寫。"),
         ("True/false. Captures the current game screen if true. Optional.", "true/false。為 true 時截取當前遊戲畫面。可選。"),
         ("low/medium/high/critical. Optional.", "low、medium、high、critical。（可選）"),
     };
@@ -170,6 +170,7 @@ internal static class CUCoreLibTrTw
         ("Cleared {0} building registrations owned by '{1}'.", "已清除「{1}」擁有的 {0} 個建築註冊。"),
         ("Cleared {0} liquid registrations owned by '{1}'.", "已清除「{1}」擁有的 {0} 個液體註冊。"),
         ("Cleared {0} liquid tile registrations owned by '{1}'.", "已清除「{1}」擁有的 {0} 個液體物塊註冊。"),
+        ("Error occured during loading the save.\n{0}", "加載存檔時出錯。\n{0}"),
     };
     public static readonly (string En, string Zh)[] UiFormats =
     {

@@ -4,14 +4,14 @@ internal static class CasualtiesExtraTr
     {
         ("Milder/Stream Safe (Hides+disables extra-NSFW options)", "温和/直播安全模式（隐藏并禁用额外的 NSFW 选项）"),
         ("Gameplay Tweaks", "玩法调整"),
-        ("Speech Options", "语音选项"),
+        ("Speech Options", "说话选项"),
         ("Adjustments for how speaking is affected by weight and brainrot.", "调整体重与脑腐对说话方式的影响。"),
         ("Bloating Options", "胀气选项"),
         ("Misc Options", "杂项选项"),
         ("Food Weight Gain Multiplier", "食物增重倍率"),
         ("Food Crate Spawn Rate", "食物箱生成率"),
         ("Weight Movement Penalty", "体重移动惩罚"),
-        ("Weight Stamina Penalty", "体重耐力惩罚"),
+        ("Weight Stamina Penalty", "体重体力惩罚"),
         ("Cardiovascular Protection", "心血管保护"),
         ("Overheat Protection", "过热保护"),
         ("Overfilled Sickness Protection", "过饱致病保护"),
@@ -24,7 +24,7 @@ internal static class CasualtiesExtraTr
         ("Feeder Plants", "喂食植物"),
         ("Feeder Plants Spawn on All Floors", "喂食植物生成于所有楼层"),
         ("Weight Limits Minimum Happiness", "体重限制最低心情"),
-        ("Weight Limits Maximum Consciousness", "体重限制最高意识"),
+        ("Weight Limits Maximum Consciousness", "体重限制最高意识清醒度"),
         ("Eating Happiness Bonus", "进食心情加成"),
         ("Weight Stage-related Dialogue", "体重阶段相关台词"),
         ("Blobspeech Stuttering", "肉团语结巴"),
@@ -86,7 +86,7 @@ internal static class CasualtiesExtraTr
     public static readonly (string En, string Zh)[] CommandDescs =
     {
         ("Sets a variable in the C:XL data class.", "【XL】设置 C:XL 数据类中的变量。"),
-        ("The field you want to set", "你想设置的字段"),
-        ("Value to set the field to", "要写入该字段的值"),
+        ("The field you want to set", "要设置的字段"),
+        ("Value to set the field to", "要设置的值"),
     };
 }

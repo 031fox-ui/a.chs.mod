@@ -2553,172 +2553,178 @@
         "No. Leave it."
       ],
       "cui_drunk_low": [
-        "Ooh... head's buzzing a bit.",
-        "Chest is warm. Nice.",
-        "Feeling a little looser...",
-        "Heh... that's taking the edge off.",
-        "Head feels light and relaxed."
+        "Ooh... Du-ne he-ad feel buz-zy like ba-by bug.",
+        "Tummy wa-rm... nice dri-nk.",
+        "Du-ne feel loose... legs si-lly.",
+        "Hehe... took bad feel aw-ay from Du-ne.",
+        "He-ad feel lig-ht like... air!"
       ],
       "cui_drunk_slurred": [
-        "W-wait... floor is swaying under my feet.",
-        "Why're there two of everything..?",
-        "Hic! ...Whoa, hold on a second.",
-        "Legs are like rubber... can't walk straight.",
-        "Everything's tilted... heh."
+        "W-wait... cave floor rocking like boat!",
+        "Why two rock now...? Blink blink...",
+        "*hic!* ...Whoa, hold on rock!",
+        "Legs soft like jelly... can't walk straight!",
+        "Everything crooked... hehe...",
+        "*Semi-incoherent warbling* Du-ne go weee!"
       ],
       "cui_drunk_wasted": [
-        "I am SO fucking plastered...",
-        "Hahaha... can't feel my face at all.",
-        "Floor feels really nice right now...",
-        "Room is SPINNING... whoa.",
-        "Urrgh... drank way too much..."
+        "Du-ne so crazy! Wheeee!",
+        "Hahaha... can't feel face! Numb snout!",
+        "Dirt flo-or so cozy... want sleep on rocks...",
+        "Room spin li-ke big top! Whoa-a!",
+        "Urrgh... drank too much fun-ny water...",
+        "Du-ne feel silly! Silly!"
       ],
       "cui_hangover": [
-        "Ughhh... mouth tastes like dry ash.",
-        "My HEAD... holy fuck.",
-        "Never drinking that rotgut again...",
-        "Turn off the light, it BURNS.",
-        "Throbbing... everything throbs..."
+        "Ughhh... mouth dry like dust...",
+        "Du-ne HEAD... ouch ouch ouch...",
+        "Never drink bad water again... promise...",
+        "Put out light! Light burn Du-ne eyes!",
+        "Hurt... whole head hurty...",
+        "*really long groan*"
       ],
       "cui_hangover_headache": [
-        "Pounding in my skull like a jackhammer.",
-        "QUIET... please, just shut up.",
-        "Drilling right behind my eyeballs...",
-        "Brain feels like it's swelling up."
+        "Big hammer pounding inside Du-ne skull!",
+        "QUIET... please stop talking so loud...",
+        "Sharp th-ing poking behind eyes...",
+        "Brain feel too big for head... ache bad...",
+        "*holding head* Du-ne want re-st..."
       ],
       "cui_hangover_nausea": [
-        "Urp... stomach's doing backflips.",
-        "Bluugh... don't make me move...",
-        "Oh god, bile... *gag*",
-        "I'm gonna puke... hold on..."
+        "Urp... tummy flipping upside down...",
+        "Bluugh... don't push Dune... want lie down...",
+        "Sour juice in mouth... *gags*",
+        "Du-ne throw up...",
+        "*chittering* Du-ne feel VERY emp-ty..."
       ],
       "collars_wear_shock": [
-        "Ugh... I feel the pins digging into my throat, one wrong move and I'm toast...",
-        "Cold metal biting my neck... hear that buzzing?",
-        "N-no sudden moves... don't shock me, please.",
-        "Tightly clamped. I can barely swallow...",
-        "Cold prongs poking my neck... please don't zap me.",
-        "It's humming right in my ear... high-pitched whine."
+        "Zap needles poke Dune neck! Buzzing loud!",
+        "Cold metal bit-ing throat... scary buzz noise...",
+        "No jump... no run... no zap Du-ne please...",
+        "Ti-ght band on neck... hard to swallow foo-d...",
+        "Humm-ing in ears... buzzy metal..."
       ],
       "collars_wear_explosive": [
-        "B-bomb strapped to my neck... holy fuck.",
-        "Hear that ticking? One click and my head's GONE.",
-        "Don't trip... don't run... just keep breathing.",
-        "Hear that faint ticking? Bomb's right on my neck.",
-        "Oh god, don't go off... please don't go off."
+        "Please no go boom... Dune nice saw-ian...",
+        "BOMB on neck! Du-ne neck have big boom!",
+        "Hear tick tick tick? One boom and head gone!",
+        "Don't trip on rocks... walk slow... breathe...",
+        "Tick tick on neck... *whimpering*"
       ],
       "collars_wear_healthcare": [
-        "Cold needle poked right against my neck...",
-        "Smells like antiseptic... ready to jab in.",
-        "Heavy injector on my throat. Better not kill me.",
-        "One twitch and that sharp needle's gonna stab...",
-        "Box on my neck... hope that stuff inside is medicine."
+        "Cold needle poke at Du-ne neck...",
+        "Smell like lab medi-cine... sharp pokey...",
+        "Hea-vy box on throat. Hope go-od juice inside...",
+        "Don't twit-ch or sharp needle jab neck!",
+        "Thing on neck... give Dune good medicine?"
       ],
       "collars_wear_plain": [
-        "Can't get this damn latch off...",
-        "Pinching my neck... Hate this thing.",
-        "Heavy iron band... It's choking me.",
-        "Locked on tight."
+        "Du-ne can't pr-y lock off ne-ck...",
+        "Pinch Du-ne neck! Hate iron band!",
+        "Heavy iron ring... chokes Dune...",
+        "Won't budge..."
       ],
       "collars_shocked_pain": [
-        "GAHH! FUCK! My neck!",
-        "Can't... breathe! NERVES ON FIRE!",
-        "Agghh! Everything's LOCKED UP!",
-        "Sparks... teeth rattling... FUCK!",
-        "STOP! Turn it off! GAAAHH!"
+        "GAAAH! DU-NE NECK BURNING!",
+        "Can't bre-athe! Whole bo-dy shak-ing!",
+        "AAGHH! DU-NE NECK HURT!",
+        "AGGHHH! OWW!",
+        "STOP ZAPPING DUNE! PLEASE! GAAHH!"
       ],
       "collars_wear_refusal_depressed": [
-        "Go ahead, clamp it on. Whatever.",
-        "Just another cage. Doesn't even matter.",
-        "Lock it shut. I don't care anymore.",
-        "Nothing matters anyway. Put it on.",
-        "Do whatever you want with me."
+        "Put on ne-ck... what-ever... Du-ne no care.",
+        "Just another ca-ge for Du-ne... doesn't mat-ter.",
+        "Du-ne too tir-ed to fi-ght.",
+        "Nothing mat-ters any-way...",
+        "Do what-ever... Dune just lie here."
       ],
       "collars_trader_embarrassment": [
-        "Stop STARING at my neck...",
-        "Th-they're looking right at the lock... fuck.",
-        "P-please don't stare at me...",
-        "I feel so humiliated... just do the trade.",
-        "Can't look them in the eyes like this...",
-        "Don't say a word about the collar... please."
+        "Stop STAR-ING at Du-ne neck...",
+        "Look-ing rig-ht at lock... *whine*",
+        "Please no sta-re at Dune...",
+        "Dune fee-l like pet bug... just trade items...",
+        "Can't look in ey-es... so shy...",
+        "No lau-gh at col-lar... please..."
       ],
       "collars_trader_masochist": [
-        "N-ngh... let them look.",
-        "Heart's beating against the tight strap... hnn.",
-        "O-oh... staring right at the lock, huh?",
-        "Tight band choking me... kind of a rush, honestly.",
-        "Tch... like looking at the collar? Go ahead.",
-        "Ngh... pulse pounding right under the metal."
+        "Look all you want! Dune neck strong!",
+        "Tight iron pin-ch a lit-tle... Du-ne don't care! Tough saw-ian!",
+        "Stare at collar? Yeah, Dune wear hea-vy metal! Mean bug!",
+        "Band squee-ze hard... but Du-ne can ta-ke it!",
+        "Think coll-ar hurt Du-ne? Ha! Shell too hard!",
+        "Dune wear big iron ring! Dune stron-ger than lit-tle collar!"
       ],
       "subex_smoke_cravings": [
-        "Fuck, I need a cigarette.",
-        "Hands won't stop twitching... need a drag.",
-        "I'd kill for a smoke right now.",
-        "Fingers shaking... need nicotine.",
-        "Got a light? God, I need a puff."
+        "Need smoky stick... want smoke!",
+        "Du-ne claws twit-ching hard... ne-ed puff...",
+        "Du-ne trade shiny rocks for smo-ke right now...",
+        "Fingers sha-ke... want warm smo-ke...",
+        "Got fire spark? Dune ne-ed little puff..."
       ],
       "subex_smoke_calm": [
-        "Puff... nerves settling right down.",
-        "Warm ember... much better.",
-        "Hands are steady again.",
-        "Quiet for a minute... nice drag.",
-        "Smoke in my lungs... clears the head."
+        "Puff... ahh... shakes go a-way.",
+        "Warm gl-ow stick... much bet-ter...",
+        "Claws steady now.",
+        "Quiet ca-ve... nice smoky tas-te.",
+        "Warm smo-ke in chest... he-ad feel good."
       ],
       "subex_trip_wonder": [
-        "Whoa... look at the rust breathing...",
-        "Colors... everywhere in the dark.",
-        "The pipes are humming a song... hear it?",
-        "Everything is glowing so bright...",
-        "Floor looks like water ripples."
+        "Whoa... ca-ve breath-ing like sleep-ing bug...",
+        "Pretty colors dancing in dark! Shiny!",
+        "Wind sing-ing mu-sic! Hear it, friend?",
+        "Everything glow-ing like shiny beet-les...",
+        "Floor look like water waves!"
       ],
       "subex_trip_dissociation": [
-        "Can't feel my hands... are they mine?",
-        "Watching myself walk from the ceiling...",
-        "Floating... numb all over.",
-        "Where... where did my body go..?",
-        "Nothing feels real right now."
+        "Can't fee-l claws... are these Du-ne claws?",
+        "Du-ne seeing self wa-lk from high up in cave!...",
+        "Float-ing in air... nu-mb all ov-er...",
+        "Where bug body go...? Du-ne ghost...?",
+        "Nothing re-al right now... all dre-am... heh..."
       ],
       "subex_dmt_breakthrough": [
-        "The walls... they just dissolved.",
-        "No more bunker... just pure light.",
-        "I'm out of the hole... finally.",
-        "Everything's connected... so still...",
-        "Blinding light... no more pain."
+        "Walls mel-ted away... gone!",
+        "No more da-rk cave... just big bright light!",
+        "Du-ne out of deep pit... finally free...",
+        "All bugs, all ro-cks, all one thing... so quiet...",
+        "Bri-ght wa-rm light... no more hurt..."
       ],
       "subex_mdma_rolling": [
-        "Chest is so warm... tingling all over.",
-        "Clenching my jaw... feels intense.",
-        "Everything is so SOFT...",
-        "The freeze is completely gone.",
-        "Mmm... whole body's buzzing."
+        "Chest so wa-rm! Tingles every-where!",
+        "Teeth clack-ing! Clen-ch jaw hard!",
+        "Everything so SOFT... rock feel like pill-ow...",
+        "No more shiv-ering... warm li-ke fire!",
+        "Mmm... whole body buzzing happy...",
+        "*happy chittering*"
       ],
       "subex_cannabinoid_chill": [
-        "Pain's dulling down... nice.",
-        "Head feels like a balloon.",
-        "Moving so slow... don't care.",
-        "Holy shit, I am STARVING.",
-        "Breathing nice and easy for once."
+        "Hurts went sleepy... nice...",
+        "Head float like balloon...",
+        "Walk slow slow... don't care at all...",
+        "DUNE SO HUNGRY! Oughhh...",
+        "Breathing nice and slow... happy bug...",
+        "Du-ne feel go-od..."
       ],
       "subex_sedated_heavy": [
-        "Eyelids like lead... so heavy...",
-        "Can't lift my boots off the floor.",
-        "Head's full of cotton...",
-        "Drifting off... too tired...",
-        "Just... need to lay down..."
+        "Du-ne eyes hea-vy like ro-cks... so sleepy...",
+        "Du-ne no hold hea-vy stu-ff...",
+        "Head stuff-ed with big met-al...",
+        "Drift-ing off... sleep com-ing...",
+        "Du-ne... must li-e down in di-rt..."
       ],
       "subex_benzo_withdrawal": [
-        "Sh-shaking all over... can't stop!",
-        "Heart is pounding out of my CHEST!",
-        "Cold sweat... please, where are the pills?!",
-        "Nerves feel like live wires!",
-        "Losing my mind... NEED the meds!"
+        "Du-ne shak-ing all over! Can't stop sha-kes!",
+        "Heart hammering on ribs! BOOM BOOM BOOM!",
+        "Du-ne sweat-ing... where little pills?!",
+        "Du-ne fe-el like ticks bit-ing inside!",
+        "Los-ing mind! DUNE NE-ED MEDI-CINE!"
       ],
       "subex_steroid_rage": [
-        "Get the FUCK out of my way!",
-        "Blood pounding in my ears!",
-        "I'll rip right through this damn door!",
-        "Tense... ready to break someone's neck!",
-        "Feel like I could tear steel in half!"
+        "GET OUT OF DUNE WAY! GRRRR!",
+        "*extremely angry hissing*",
+        "Dune sma-sh through with big cla-ws!",
+        "Du-ne will rip he-ad off!",
+        "Du-ne tear any-thing in half!"
       ]
     },
     {
@@ -4826,187 +4832,6 @@
         "Unnecessary. Put it away.",
         "I am not ingesting that.",
         "I am in complete control of my faculties."
-      ],
-      "cui_drunk_low": [
-        "Mmh... a subtle cerebral buzz. Not entirely unpleasant.",
-        "A pleasant warmth radiating through my chest.",
-        "Inhibitions slightly mitigated... manageable.",
-        "Heh... that takes the edge off nicely.",
-        "Mind is relaxed. A rare indulgence.",
-        "Appears I've taken a depressant."
-      ],
-      "cui_drunk_slurred": [
-        "W-wait... the cavern floor is listing to starboard.",
-        "Double vision... there are two of you. Peculiar...",
-        "*hic* ...Tch. Uncouth reflex. Pardon me.",
-        "My paws feel remarkably unresponsive... navigating in zig-zags.",
-        "The ceiling is tilted at a twenty-degree angle... heh.",
-        "Mmmm... I feel warmer than usual... *hic*"
-      ],
-      "cui_drunk_wasted": [
-        "I am utterly and thoroughly intoxicated... splendid.",
-        "Hahaha... I cannot feel my snout whatsoever.",
-        "The cold floor makes for an exceptionally comfortable mattress...",
-        "The entire chamber is revolving... fascinating...",
-        "Urrgh... my ethanol intake was grossly miscalculated...",
-        "Four of you... Hah. Overly redundant today.",
-        "...carry the three, add the two... huh...",
-        "Sir Isaac Newton, you damn apple loving bastard."
-      ],
-      "cui_hangover": [
-        "Ughhh... palate tastes like parched ash and sulfur.",
-        "My skull... is in excruciating agony.",
-        "I swear to never consume that wretched brew again...",
-        "Extinguish that light source immediately, it scorches my retinas.",
-        "My head is throbbing... every pulse of my heart is sheer torture.",
-        "I feel beyond sickened from the inside. *groan*"
-      ],
-      "cui_hangover_headache": [
-        "It feels like a pneumatic drill vibrating against my cranium.",
-        "Silence... I demand absolute silence, please.",
-        "There's an excruciating pressure drilling right behind my ocular sockets...",
-        "Feels as though my cerebral tissue is swelling against my skull.",
-        "I feel as if my head is about to detonate... splendid."
-      ],
-      "cui_hangover_nausea": [
-        "Urp... I'm having rather violent contractions in my gut.",
-        "Bluugh... do not force me into motion...",
-        "Ugh... disgusting... *gags*",
-        "I am going to regurgitate...",
-        "Better stand clear... this is unnaceptable..."
-      ],
-      "collars_wear_shock": [
-        "There's electrodes pressed firmly against my jugular. A single misstep might be lethal.",
-        "Cold conductive prongs biting into my throat... just my luck.",
-        "Why did I put this on again?...",
-        "Clamped on tight... Swallowing has become slightly difficult.",
-        "I can hear the coil whine emenating from this thing."
-      ],
-      "collars_wear_explosive": [
-        "An explosive charge secured to my vertebrae. How delightful.",
-        "That clicking... The detonation will decapitate me instantly.",
-        "Don't jostle the trigger now.",
-        "This feels utterly barbaric.",
-        "Do not malfunction... I demand you do not malfunction."
-      ],
-      "collars_wear_healthcare": [
-        "Automated injector pressed to my carotid. *sigh*",
-        "There is quite the pungent smell of medicine emanating from it.",
-        "A heavy spring around my throat. Let us hope the payload is benign.",
-        "Sharp stylus positioned against my neck. How reassuring.",
-        "A medical collar. How ironic."
-      ],
-      "collars_wear_plain": [
-        "The locking mechanism is tamper-resistant. Infuriating.",
-        "Chafing against the base of my throat. How humiliating of a restraint.",
-        "Solid collar. Restricts my movement needlessly.",
-        "Locked securely. I cannot pry the latch easily."
-      ],
-      "collars_shocked_pain": [
-        "AAGH! What the devils? What was that for?!",
-        "Cannot... breathe! My damn throath's closing up!",
-        "Ghhk! My damn jaw locked tight!",
-        "it's searing my flesh! STOP THIS!",
-        "CUT IT OUT! GAAAHK!"
-      ],
-      "collars_wear_refusal_depressed": [
-        "Clamp it shut if you must. It changes nothing.",
-        "Merely another physical restraint in an endless dungeon. Proceed.",
-        "Fasten it then. My compliance is immaterial.",
-        "I have no motivation to resist. Do as you please.",
-        "Lock it on. Nothing in this abyss warrants objection.",
-        "Are you just trying to insult me?"
-      ],
-      "collars_trader_embarrassment": [
-        "Cease scrutinizing my collar immediately.",
-        "Their gaze is fixed directly upon the latch... utterly humiliating.",
-        "Look at the wares, not my neck, you rude peasant.",
-        "Conduct the exchange swiftly. I will not endure your lingering stare.",
-        "I refuse to acknowledge your condescending gaze.",
-        "Utter a single remark regarding this band and I will sever your vocal cords.",
-        "Not a single word of this out of your mouth."
-      ],
-      "collars_trader_masochist": [
-        "Stare all you want. The pressure merely keeps me alert.",
-        "A tight band around my throat... hardly enough to rattle me.",
-        "Go on, look at the lock. I find the discomfort rather bracing.",
-        "Tch. Let them stare. A little pain never killed anyone.",
-        "The pulse against the iron is a reminder that I am still standing.",
-        "You think this collar bothers me? Think again."
-      ],
-      "subex_smoke_cravings": [
-        "Damn it all, I need a cigarette.",
-        "My paws refuse to cease trembling... I require a drag.",
-        "I would commit atrocities for some tobacco at this moment.",
-        "My claws twitching... nicotine deficit is irritatingly noticeable.",
-        "Do you possess an ignition source? I require a puff immediately."
-      ],
-      "subex_smoke_calm": [
-        "*exhales* Ah... neural agitation subsiding. Relaxing.",
-        "A glowing ember... significantly improved.",
-        "My paws are steady once more.",
-        "A fleeting moment of tranquility... what an exquisite drag.",
-        "Warm smoke filling my lungs... at least it clears my cognitive dissonance."
-      ],
-      "subex_trip_wonder": [
-        "Fascinating... the patterns in this cave feel... complex yet deliberate...",
-        "Prismatic fractals... cascading through the pitch dark. Beautiful.",
-        "The wind is whistling by in quite the harmonic pitch... extraordinary.",
-        "Bioluminescence radiating from every surface. I feel enlightened.",
-        "The gravel behaves like ripples upon a liquid surface. How intricate."
-      ],
-      "subex_trip_dissociation": [
-        "I cannot perceive my paws... are these limbs truly mine or a fiction of my mind?",
-        "I can observe my own locomotion from an elevated perspective above...",
-        "Suspended in space, floating off...",
-        "Where... where did my physical form dissolve to...?",
-        "Consensual reality has decoupled entirely it seems.",
-        "Deprived of all sensorial input, yet in my own machinations."
-      ],
-      "subex_dmt_breakthrough": [
-        "The physical barriers have completely dissolved into pure intangible geometry.",
-        "No more caverns... an infinite nexus of brilliant light and infinite expanse.",
-        "Liberated from the cave... transcendent throught.",
-        "All threads of the cosmos interwoven... profound stillness...",
-        "Blinding luminescence... the suffering has ceased.",
-        "A mere abstraction of reality, collapsed within finite geometry."
-      ],
-      "subex_mdma_rolling": [
-        "An overwhelming surge of warmth radiating through my chest.",
-        "Bruxism... clenching my mandibles with incredible intensity... ow.",
-        "Every surface is astonishingly soft to the touch...",
-        "The damp cold has vanished completely.",
-        "Mmm... electric vibrations coursing across my entire form.",
-        "My entire being is overwhelmed..."
-      ],
-      "subex_cannabinoid_chill": [
-        "The physical aches are dulling into distant background noise... pleasant.",
-        "My cranium feels buoyant as a balloon.",
-        "My locomotion has been drastically reduced... yet I find to not care.",
-        "An insatiable appetite has gripped me. I require sustenance immediately... Well, later.",
-        "Respiration is remarkably smooth and tranquil for once.",
-        "About time I relax."
-      ],
-      "subex_sedated_heavy": [
-        "Eyelids weighted like lead slabs... drowsy...",
-        "Cannot compel my paws to lift off.",
-        "My thoughts feel engulfed in cotton...",
-        "Drifting into unconsciousness... an insurmountable fatigue...",
-        "Must... collapse onto the floor..."
-      ],
-      "subex_benzo_withdrawal": [
-        "Tremors convulsing through every fiber... I cannot halt it!",
-        "My heart is thrashing violently against my ribcage! Agh!",
-        "Drenched in cold perspiration... where are the capsules?!",
-        "My nerve endings are profoundly searing!",
-        "My cognition is severely degrading... I require the medication immediately!"
-      ],
-      "subex_steroid_rage": [
-        "Get the FUCK out of my path!",
-        "it feels like a damn torrent of blood in my ears!",
-        "I will rip whoever defies me into pieces!",
-        "My muscles locked in violent tension. Like a pair of springs waiting to snap.",
-        "I possess enough brute force to tear wrought iron asunder!"
       ]
     },
     {
@@ -6984,180 +6809,6 @@
         "Head no fuzzy! Put down!",
         "Du-ne think okay! No drink!",
         "No wipe Du-ne head!"
-      ],
-      "cui_drunk_low": [
-        "Ooh... Du-ne he-ad feel buz-zy like ba-by bug.",
-        "Tummy wa-rm... nice dri-nk.",
-        "Du-ne feel loose... legs si-lly.",
-        "Hehe... took bad feel aw-ay from Du-ne.",
-        "He-ad feel lig-ht like... air!"
-      ],
-      "cui_drunk_slurred": [
-        "W-wait... cave floor rocking like boat!",
-        "Why two rock now...? Blink blink...",
-        "*hic!* ...Whoa, hold on rock!",
-        "Legs soft like jelly... can't walk straight!",
-        "Everything crooked... hehe...",
-        "*Semi-incoherent warbling* Du-ne go weee!"
-      ],
-      "cui_drunk_wasted": [
-        "Du-ne so crazy! Wheeee!",
-        "Hahaha... can't feel face! Numb snout!",
-        "Dirt flo-or so cozy... want sleep on rocks...",
-        "Room spin li-ke big top! Whoa-a!",
-        "Urrgh... drank too much fun-ny water...",
-        "Du-ne feel silly! Silly!"
-      ],
-      "cui_hangover": [
-        "Ughhh... mouth dry like dust...",
-        "Du-ne HEAD... ouch ouch ouch...",
-        "Never drink bad water again... promise...",
-        "Put out light! Light burn Du-ne eyes!",
-        "Hurt... whole head hurty...",
-        "*really long groan*"
-      ],
-      "cui_hangover_headache": [
-        "Big hammer pounding inside Du-ne skull!",
-        "QUIET... please stop talking so loud...",
-        "Sharp th-ing poking behind eyes...",
-        "Brain feel too big for head... ache bad...",
-        "*holding head* Du-ne want re-st..."
-      ],
-      "cui_hangover_nausea": [
-        "Urp... tummy flipping upside down...",
-        "Bluugh... don't push Dune... want lie down...",
-        "Sour juice in mouth... *gags*",
-        "Du-ne throw up...",
-        "*chittering* Du-ne feel VERY emp-ty..."
-      ],
-      "collars_wear_shock": [
-        "Zap needles poke Dune neck! Buzzing loud!",
-        "Cold metal bit-ing throat... scary buzz noise...",
-        "No jump... no run... no zap Du-ne please...",
-        "Ti-ght band on neck... hard to swallow foo-d...",
-        "Humm-ing in ears... buzzy metal..."
-      ],
-      "collars_wear_explosive": [
-        "Please no go boom... Dune nice saw-ian...",
-        "BOMB on neck! Du-ne neck have big boom!",
-        "Hear tick tick tick? One boom and head gone!",
-        "Don't trip on rocks... walk slow... breathe...",
-        "Tick tick on neck... *whimpering*"
-      ],
-      "collars_wear_healthcare": [
-        "Cold needle poke at Du-ne neck...",
-        "Smell like lab medi-cine... sharp pokey...",
-        "Hea-vy box on throat. Hope go-od juice inside...",
-        "Don't twit-ch or sharp needle jab neck!",
-        "Thing on neck... give Dune good medicine?"
-      ],
-      "collars_wear_plain": [
-        "Du-ne can't pr-y lock off ne-ck...",
-        "Pinch Du-ne neck! Hate iron band!",
-        "Heavy iron ring... chokes Dune...",
-        "Won't budge..."
-      ],
-      "collars_shocked_pain": [
-        "GAAAH! DU-NE NECK BURNING!",
-        "Can't bre-athe! Whole bo-dy shak-ing!",
-        "AAGHH! DU-NE NECK HURT!",
-        "AGGHHH! OWW!",
-        "STOP ZAPPING DUNE! PLEASE! GAAHH!"
-      ],
-      "collars_wear_refusal_depressed": [
-        "Put on ne-ck... what-ever... Du-ne no care.",
-        "Just another ca-ge for Du-ne... doesn't mat-ter.",
-        "Du-ne too tir-ed to fi-ght.",
-        "Nothing mat-ters any-way...",
-        "Do what-ever... Dune just lie here."
-      ],
-      "collars_trader_embarrassment": [
-        "Stop STAR-ING at Du-ne neck...",
-        "Look-ing rig-ht at lock... *whine*",
-        "Please no sta-re at Dune...",
-        "Dune fee-l like pet bug... just trade items...",
-        "Can't look in ey-es... so shy...",
-        "No lau-gh at col-lar... please..."
-      ],
-      "collars_trader_masochist": [
-        "Look all you want! Dune neck strong!",
-        "Tight iron pin-ch a lit-tle... Du-ne don't care! Tough saw-ian!",
-        "Stare at collar? Yeah, Dune wear hea-vy metal! Mean bug!",
-        "Band squee-ze hard... but Du-ne can ta-ke it!",
-        "Think coll-ar hurt Du-ne? Ha! Shell too hard!",
-        "Dune wear big iron ring! Dune stron-ger than lit-tle collar!"
-      ],
-      "subex_smoke_cravings": [
-        "Need smoky stick... want smoke!",
-        "Du-ne claws twit-ching hard... ne-ed puff...",
-        "Du-ne trade shiny rocks for smo-ke right now...",
-        "Fingers sha-ke... want warm smo-ke...",
-        "Got fire spark? Dune ne-ed little puff..."
-      ],
-      "subex_smoke_calm": [
-        "Puff... ahh... shakes go a-way.",
-        "Warm gl-ow stick... much bet-ter...",
-        "Claws steady now.",
-        "Quiet ca-ve... nice smoky tas-te.",
-        "Warm smo-ke in chest... he-ad feel good."
-      ],
-      "subex_trip_wonder": [
-        "Whoa... ca-ve breath-ing like sleep-ing bug...",
-        "Pretty colors dancing in dark! Shiny!",
-        "Wind sing-ing mu-sic! Hear it, friend?",
-        "Everything glow-ing like shiny beet-les...",
-        "Floor look like water waves!"
-      ],
-      "subex_trip_dissociation": [
-        "Can't fee-l claws... are these Du-ne claws?",
-        "Du-ne seeing self wa-lk from high up in cave!...",
-        "Float-ing in air... nu-mb all ov-er...",
-        "Where bug body go...? Du-ne ghost...?",
-        "Nothing re-al right now... all dre-am... heh..."
-      ],
-      "subex_dmt_breakthrough": [
-        "Walls mel-ted away... gone!",
-        "No more da-rk cave... just big bright light!",
-        "Du-ne out of deep pit... finally free...",
-        "All bugs, all ro-cks, all one thing... so quiet...",
-        "Bri-ght wa-rm light... no more hurt..."
-      ],
-      "subex_mdma_rolling": [
-        "Chest so wa-rm! Tingles every-where!",
-        "Teeth clack-ing! Clen-ch jaw hard!",
-        "Everything so SOFT... rock feel like pill-ow...",
-        "No more shiv-ering... warm li-ke fire!",
-        "Mmm... whole body buzzing happy...",
-        "*happy chittering*"
-      ],
-      "subex_cannabinoid_chill": [
-        "Hurts went sleepy... nice...",
-        "Head float like balloon...",
-        "Walk slow slow... don't care at all...",
-        "DUNE SO HUNGRY! Oughhh...",
-        "Breathing nice and slow... happy bug...",
-        "Du-ne feel go-od..."
-      ],
-      "subex_sedated_heavy": [
-        "Du-ne eyes hea-vy like ro-cks... so sleepy...",
-        "Du-ne no hold hea-vy stu-ff...",
-        "Head stuff-ed with big met-al...",
-        "Drift-ing off... sleep com-ing...",
-        "Du-ne... must li-e down in di-rt..."
-      ],
-      "subex_benzo_withdrawal": [
-        "Du-ne shak-ing all over! Can't stop sha-kes!",
-        "Heart hammering on ribs! BOOM BOOM BOOM!",
-        "Du-ne sweat-ing... where little pills?!",
-        "Du-ne fe-el like ticks bit-ing inside!",
-        "Los-ing mind! DUNE NE-ED MEDI-CINE!"
-      ],
-      "subex_steroid_rage": [
-        "GET OUT OF DUNE WAY! GRRRR!",
-        "*extremely angry hissing*",
-        "Dune sma-sh through with big cla-ws!",
-        "Du-ne will rip he-ad off!",
-        "Du-ne tear any-thing in half!"
       ]
     }
   ],
@@ -7341,7 +6992,7 @@
     "psychology_dossier_item_name": "Clinical Intake Dossier",
     "psychology_dossier_item_desc": "Preliminary neuro-psychiatric assessment document and telemetry baseline. Drag to center to examine.",
     "psychology_dossier_doc_title": "CLINICAL INTAKE EVALUATION",
-    "psychology_dossier_doc_specimen": "SUBJECT #{0} | FIRMWARE: v2.0{1} | HT: {2}cm | AGE: {3}y",
+    "psychology_dossier_doc_specimen": "SUBJECT #{0}-{1} | FIRMWARE: v2.0{2} | HT: {3}cm | AGE: {4}y",
     "psychology_dossier_doc_calibration": "CALIBRATION: {0}",
     "psychology_dossier_calib_stand": "STANDARDIZED (MoE +/-0.00)",
     "psychology_dossier_calib_prelim": "PRELIMINARY (MoE +/-{0:0.00})",
@@ -7509,6 +7160,126 @@
     "psychology_menu_sec_credits_framework": "Core Architecture",
     "psychology_menu_sec_credits_addons": "Supported Addons & Collaborations",
     "psychology_menu_credits_quote": "\"We suffer more often in imagination than in reality.\"",
-    "psychology_menu_credits_quote_author": "- Seneca"
+    "psychology_menu_credits_quote_author": "- Seneca",
+    "psychology_menu_opt_screen_intensity": "Screen Effect Intensity",
+    "psychology_menu_opt_screen_intensity_desc": "Strength of psychological screen shaders.",
+    "psychology_menu_opt_flashbacks": "Auditory Flashbacks",
+    "psychology_menu_opt_flashbacks_desc": "Phantom turret beeps, mine clicks, and blasts at high trauma.",
+    "psychology_menu_opt_panic": "Panic Attacks",
+    "psychology_menu_opt_panic_desc": "Tremors, hyperventilation, and food refusal during panic.",
+    "psychology_menu_opt_panic_severity": "Panic Severity Multiplier",
+    "psychology_menu_opt_panic_severity_desc": "Tremor and camera shake strength during panic.",
+    "psychology_menu_opt_dossier": "Spawn Starting Dossier",
+    "psychology_menu_opt_dossier_desc": "Spawn the clinical intake e-ink tablet in the lifepod.",
+    "psychology_menu_opt_sandbox_dossier": "Prevent Dossier in Sandbox",
+    "psychology_menu_opt_sandbox_dossier_desc": "Do not spawn the clinical dossier when loading into sandbox mode.",
+    "psychology_menu_opt_caspsy_dialogue": "Dynamic Dialogue",
+    "psychology_menu_opt_caspsy_dialogue_desc": "Enable scripted conversations, strain encounters, and trader banter.",
+    "psychology_menu_opt_plushie": "Plushie Grounding",
+    "psychology_menu_opt_plushie_desc": "Holding or carrying plushies lowers trauma and calms panic.",
+    "psychology_menu_opt_mindwipe": "Mindwipe Revamp",
+    "psychology_menu_opt_mindwipe_desc": "Breakdown stages, coma, and temporary muteness from mindwipe.",
+    "psychology_menu_opt_dialogue_freq": "Dialogue Frequency",
+    "psychology_menu_opt_dialogue_freq_desc": "Spontaneous speech frequency (0 = silent).",
+    "psychology_menu_sec_language": "Language & Localization",
+    "psychology_menu_opt_language": "Language",
+    "psychology_menu_opt_language_desc": "Active translation language. 'Auto' matches the game's current language.",
+    "psychology_menu_lang_auto": "Auto",
+    "psychology_menu_reset_defaults": "Reset Defaults",
+    "psychology_menu_badge_custom_rules": "CUSTOM RUN RULES",
+    "psychology_menu_badge_host_rules": "HOST RULES ACTIVE",
+    "psychology_menu_btn_on": "ON",
+    "psychology_menu_btn_off": "OFF",
+    "psychology_menu_btn_rnd": "RND",
+    "psychology_menu_btn_bias": "BIAS",
+    "psychology_menu_btn_mld": "MLD",
+    "psychology_menu_btn_mod": "MOD",
+    "psychology_menu_btn_sev": "SEV",
+    "psychology_menu_btn_natural": "NATURAL",
+    "psychology_menu_btn_start": "START",
+    "psychology_menu_sec_trait_rules_format": "TRAIT ROLL RULES ({0} / 3 FORCED)",
+    "psychology_menu_incompatible_with": "Incompatible with {0}",
+    "psychology_menu_conflicts_with": "Conflicts with {0}",
+    "psychology_trait_resilience": "Resilience",
+    "psychology_trait_resilience_desc": "Recovers faster from injury and trauma.",
+    "psychology_trait_impulsivity": "Impulsivity",
+    "psychology_trait_impulsivity_desc": "Reacts quickly and startles easily.",
+    "psychology_trait_aggression": "Aggression",
+    "psychology_trait_aggression_desc": "Lashes out under threat rather than freezing.",
+    "psychology_trait_empathy": "Empathy",
+    "psychology_trait_empathy_desc": "Strongly affected by companions and traders.",
+    "psychology_trait_sensation_seeking": "Sensation Seeking",
+    "psychology_trait_sensation_seeking_desc": "Thrives on danger and adrenaline rushes.",
+    "psychology_trait_attachment": "Attachment Tendency",
+    "psychology_trait_attachment_desc": "Relies on companions and dreads isolation.",
+    "psychology_trait_pain_sensitivity": "Pain Sensitivity",
+    "psychology_trait_pain_sensitivity_desc": "Takes more pain and shock from injuries.",
+    "psychology_trait_masochism": "Masochism",
+    "psychology_trait_masochism_desc": "Draws comfort and relief from physical pain.",
+    "psychology_trait_neuroticism": "Neuroticism",
+    "psychology_trait_neuroticism_desc": "Panics more easily and prone to nightmares.",
+    "psychology_trait_optimism": "Optimism",
+    "psychology_trait_optimism_desc": "Expects favorable outcomes and bounces back.",
+    "psychology_trait_pessimism": "Pessimism",
+    "psychology_trait_pessimism_desc": "Expects the worst; rarely shocked by disaster.",
+    "psychology_trait_fatalism": "Fatalism",
+    "psychology_trait_fatalism_desc": "Accepts inevitable death; hard to panic, low drive.",
+    "psychology_trait_cynicism": "Cynicism",
+    "psychology_trait_cynicism_desc": "Distrusts others and resists betrayal shock.",
+    "psychology_trait_nihilism": "Nihilism",
+    "psychology_trait_nihilism_desc": "Indifferent to corpses and death; low motivation.",
+    "psychology_trait_stoicism": "Stoicism",
+    "psychology_trait_stoicism_desc": "Suppresses emotion and keeps steady composure.",
+    "psychology_menu_credits_title": "CASUALTY PSYCHOLOGY",
+    "psychology_menu_credits_subtitle": "Affective simulation & character profiling for Casualties Unknown",
+    "psychology_menu_credits_sec_concept": "ORIGINAL CONCEPT",
+    "psychology_menu_credits_sec_writing": "WRITING & ARTWORK",
+    "psychology_menu_credits_sec_architecture": "CORE ARCHITECTURE",
+    "psychology_menu_credits_role_concept": "Original Idea & Concept",
+    "psychology_menu_credits_role_art": "Writing & Artwork",
+    "psychology_menu_credits_role_writing": "Writing",
+    "psychology_menu_credits_role_header_art": "Header & Thumbnail Art",
+    "psychology_menu_credits_role_cucore": "CUCoreLib",
+    "psychology_menu_credits_role_mp": "Multiplayer Framework",
+    "psychology_menu_credits_role_cui": "Casualties: Under the Influence",
+    "psychology_menu_credits_role_collars": "Collars: Unknown",
+    "psychology_menu_credits_role_subex": "Substances: Expanded",
+    "psychology_trait_strength_basal": "Basal",
+    "psychology_trait_strength_mild": "Mild",
+    "psychology_trait_strength_moderate": "Moderate",
+    "psychology_trait_strength_severe": "Severe",
+    "psychology_trait_strength_acute": "Acute",
+    "psychology_trait_strength_tenacious": "Tenacious",
+    "psychology_trait_none_basal": "None (Basal Standard)",
+    "psychology_dossier_specimen_basal": "BASAL SPECIMEN",
+    "psychology_dossier_traits_basal_sandbox": "Basal Disposition (Standard Baseline)",
+    "psychology_dossier_metric_basal": "Basal (1.00 +/-0.00)",
+    "psychology_dossier_memory_basal": "Basal",
+    "psychology_dossier_mem_default": "Recorded episode",
+    "psychology_dossier_mem_cell_confinement": "Confinement in holding cell",
+    "psychology_dossier_mem_lab_pos": "Memory of the holding cells",
+    "psychology_dossier_mem_lab_neg": "Flash of detention wing scans",
+    "psychology_dossier_mem_trap_evaded": "Narrowly dodged a trap",
+    "psychology_dossier_mem_trap_mangled": "Caught in a bear trap",
+    "psychology_dossier_mem_corpse": "Stumbled onto a body",
+    "psychology_dossier_mem_corpse_smashed": "Destroyed a body",
+    "psychology_dossier_mem_animal_corpse": "Found a dead creature",
+    "psychology_dossier_mem_animal_corpse_smashed": "Smashed a dead creature",
+    "psychology_dossier_mem_hostile_killed": "Killed an attacker",
+    "psychology_dossier_mem_clone_fratricide": "Saw another Sawian die",
+    "psychology_dossier_mem_trader_killed": "Killed a trader",
+    "psychology_dossier_mem_meal": "Ate a meal",
+    "psychology_dossier_mem_injury": "Took a bad injury",
+    "psychology_dossier_mem_horror": "Encountered something horrific",
+    "psychology_dossier_mem_social_trade": "Traded with someone",
+    "psychology_dossier_mem_crafting_pos": "Crafted useful gear",
+    "psychology_dossier_mem_crafting_neg": "Messed up crafting",
+    "psychology_dossier_mem_combat_kill": "Killed a creature",
+    "psychology_dossier_mem_item_lost": "Lost a valuable item",
+    "psychology_dossier_mem_item_recovered": "Recovered lost gear",
+    "psychology_dossier_mem_breather": "Caught a breather",
+    "psychology_dossier_mem_rough": "Rough encounter",
+    "psychology_char_quirk_milky": "\n[PSYCHOLOGY: INTELLECTUAL FACADE] - High baseline cognitive composure and restful sleep; emotionally reserved and prone to dietary distress.",
+    "psychology_char_quirk_dune": "\n[PSYCHOLOGY: UNFEELING STOIC] - Immune to corpse trauma and meat disgust; blunted pain sensitivity and dampened panic volatility."
   }
 }

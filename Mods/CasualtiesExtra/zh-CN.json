@@ -88,7 +88,7 @@
     "xl:bloodnoodlesdsc": "",
     "xl:breadcrumbs": "面包屑",
     "xl:breadcrumbsdsc": "",
-    "xl:candiedgeofruit": "糖渍地果",
+    "xl:candiedgeofruit": "糖渍地菱果",
     "xl:candiedgeofruitdsc": "",
     "xl:cremeofmushroomsoup": "奶油蘑菇汤",
     "xl:cremeofmushroomsoupdsc": "",
@@ -104,7 +104,7 @@
     "xl:gexplushiedsc": "",
     "xl:lumalgaebroth": "发光藻汤",
     "xl:lumalgaebrothdsc": "",
-    "xl:marceburger": "Marce 汉堡",
+    "xl:marceburger": "Marce汉堡",
     "xl:marceburgerdsc": "",
     "xl:meatstock": "肉高汤",
     "xl:meatstockdsc": "",
@@ -120,7 +120,7 @@
     "xl:roseteadsc": "",
     "xl:sauteedmeat": "嫩煎肉",
     "xl:sauteedmeatdsc": "",
-    "xl:searedmushpear": "炙烤香菇梨",
+    "xl:searedmushpear": "炙烤水芦莓",
     "xl:searedmushpeardsc": "",
     "xl:searedmushtail": "炙烤菇尾",
     "xl:searedmushtailsc": "",
@@ -279,7 +279,7 @@
       "你—*呼哧* 有没有什么我能—*噗呼* 靠一靠的？",
       "你太瘦了...你该多吃点，像我一样！",
       "我、我需要缓一下...*呼—*",
-      "你身上有...比如一整桶冰淇淋吗？没有？唉..."
+      "你身上有...比如一整桶冰激凌吗？没有？唉..."
     ],
     "0:full|2": [
       "天哪，好多...",
@@ -395,7 +395,7 @@
       "我的胃...空得吓人...",
       "我...怎么都吃不饱...这、这可不妙。",
       "我不是...不是刚吃过吗...？我怎么这么饿？",
-      "我感觉我能吃掉一整小桶冰淇淋，然后还想再来一份！",
+      "我感觉我能吃掉一整小桶冰激凌，然后还想再来一份！",
       "我需要食物！",
       "...好饿...好虚...得...吃点东西！"
     ],

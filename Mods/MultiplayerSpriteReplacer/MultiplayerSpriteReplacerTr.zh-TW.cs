@@ -2,7 +2,7 @@ internal static class MultiplayerSpriteReplacerTrTw
 {
     public static readonly (string En, string Zh)[] Commands =
     {
-        ("Multiplayer Sprite Replacer controls.", "【多人皮膚替換器】多人皮膚替換器控制命令。"),
+        ("Multiplayer Sprite Replacer controls.", "【多人皮膚替換器】控制命令。"),
         ("action", "操作"),
         ("value", "值"),
         ("slot, player, or setting value", "槽位、玩家或設置值"),

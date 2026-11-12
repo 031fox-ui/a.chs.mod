@@ -1,5 +1,6 @@
 {
   "other": {
-    "casualtiestogether_chat_keybind": "按「{0}」聊天"
+    "casualtiestogether_chat_keybind": "按「{0}」聊天",
+    "casualtiestogether_mainmenu_mainbutton": "打開多人聯機模組菜單"
   }
 }

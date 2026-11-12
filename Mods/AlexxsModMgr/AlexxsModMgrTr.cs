@@ -8,7 +8,7 @@ internal static class AlexxsModMgrTr
     {
         (" *unsaved", " *未保存"),
         ("Alexx's Mod Manager", "Alexx 的模组管理器"),
-        ("Restart (apply changes)", "应用＆重启"),
+        ("Restart (apply changes)", "重启（应用更改）"),
         ("Mod Manager", "模组管理器"),
         ("Group Manager", "分组管理器"),
         ("Manage your groups here!", "在这里管理你的分组！"),

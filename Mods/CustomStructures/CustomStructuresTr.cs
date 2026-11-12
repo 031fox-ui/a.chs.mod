@@ -1,4 +1,4 @@
-namespace A.Multi_Mod.Chinese.Localization.Mods.CustomStructures;
+namespace Mods.Chinese.Translation.Mods.CustomStructures;
 internal static class CustomStructuresTr
 {
     public static readonly (string En, string Zh)[] CommandDescs =
@@ -37,6 +37,7 @@ internal static class CustomStructuresTr
         ("Catalog cache loaded: {0} entries. Scroll down or refresh for more.", "目录缓存已加载：{0} 个条目。向下滚动或刷新查看更多。"),
         ("Catalog cache loaded: {0} entries.", "目录缓存已加载：{0} 个条目。"),
         ("Catalog search matched {0} structure(s).", "目录搜索匹配到 {0} 个结构。"),
+        ("Installed '{0}' as '{1}'. Loaded structures: {2}.", "已安装「{0}」为「{1}」。已加载建筑：{2}。"),
     };
     public static readonly (string En, string Zh)[] Alerts =
     {
@@ -110,31 +111,39 @@ internal static class CustomStructuresTr
         ("Catalog search parse failed: ", "目录搜索解析失败："),
         ("Catalog search failed: ", "目录搜索失败："),
         ("Search", "搜索"),
+        ("Download failed for '", "下载失败：'"),
+        ("Could not parse structure '", "无法解析结构 '"),
+        ("Structure '", "结构 '"),
+        ("' has no code payload.", "' 没有代码载荷。"),
+        ("Failed writing '", "写入失败：'"),
+        ("': ", "'："),
     };
     public static readonly (string En, string Zh)[] CrystalPropertyNames =
     {
         ("Irradiated", "辐射"),
-        ("Fragile", "脆弱"),
-        ("Gravity", "重力扭曲"),
-        ("Electric", "电击"),
-        ("Burning", "燃烧"),
-        ("Temperature", "温度"),
-        ("Septic", "感染"),
+        ("Fragile", "易碎"),
+        ("Gravity", "引力异常"),
+        ("Electric", "电涌"),
+        ("Burning", "灼燃"),
+        ("Temperature", "温度异常"),
+        ("Septic", "腐瘴"),
         ("Unstable", "不稳定"),
-        ("Mimic", "拟态"),
-        ("Teleport", "位置错乱"),
-        ("Dripping", "融化"),
-        ("Kinetic", "动能"),
+        ("Mimic", "恶怨寄宿"),
+        ("Teleport", "传送"),
+        ("Dripping", "渗液"),
+        ("Kinetic", "弹射"),
         ("EMP", "电磁脉冲"),
-        ("Blinding", "强光"),
-        ("Metamorphic", "蜕变"),
-        ("Healing", "治疗"),
-        ("Shy", "怯生"),
+        ("Blinding", "光幕"),
+        ("Metamorphic", "造物"),
+        ("Healing", "治愈"),
+        ("Shy", "诡诈"),
     };
     public static readonly (string En, string Zh)[] Settings =
     {
-        ("Enable custom structures", "启用自定义结构"),
-        ("Whether to enable the Custom Structures mod during world generation. Requires a new game/layer to be loaded to take effect.", "是否在世界生成期间启用自定义结构模组。需要加载新游戏/新层级才能生效。"),
+        ("morestructures.enabled", "启用自定义结构"),
+        ("morestructures.enableddsc", "是否在世界生成期间启用自定义结构模组。需要加载新游戏/新层级才能生效。"),
+        ("morestructures.hideMenuButton", "隐藏主菜单的结构浏览器按钮"),
+        ("morestructures.hideMenuButtondsc", "从主菜单背景中移除自适应的结构浏览器按钮。如果该按钮挡住了其他菜单界面的点击，这个选项会很有用。"),
     };
     public static readonly (string En, string Zh)[] Ui =
     {

@@ -4,14 +4,14 @@ internal static class CasualtiesExtraTrTw
     {
         ("Milder/Stream Safe (Hides+disables extra-NSFW options)", "溫和/直播安全模式（隱藏並禁用額外的 NSFW 選項）"),
         ("Gameplay Tweaks", "玩法調整"),
-        ("Speech Options", "語音選項"),
+        ("Speech Options", "說話選項"),
         ("Adjustments for how speaking is affected by weight and brainrot.", "調整體重與腦腐對說話方式的影響。"),
         ("Bloating Options", "脹氣選項"),
         ("Misc Options", "雜項選項"),
         ("Food Weight Gain Multiplier", "食物增重倍率"),
         ("Food Crate Spawn Rate", "食物箱生成率"),
         ("Weight Movement Penalty", "體重移動懲罰"),
-        ("Weight Stamina Penalty", "體重耐力懲罰"),
+        ("Weight Stamina Penalty", "體重體力懲罰"),
         ("Cardiovascular Protection", "心血管保護"),
         ("Overheat Protection", "過熱保護"),
         ("Overfilled Sickness Protection", "過飽致病保護"),
@@ -24,7 +24,7 @@ internal static class CasualtiesExtraTrTw
         ("Feeder Plants", "餵食植物"),
         ("Feeder Plants Spawn on All Floors", "餵食植物生成於所有樓層"),
         ("Weight Limits Minimum Happiness", "體重限制最低心情"),
-        ("Weight Limits Maximum Consciousness", "體重限制最高意識"),
+        ("Weight Limits Maximum Consciousness", "體重限制最高意識清醒度"),
         ("Eating Happiness Bonus", "進食心情加成"),
         ("Weight Stage-related Dialogue", "體重階段相關臺詞"),
         ("Blobspeech Stuttering", "肉團語結巴"),
@@ -86,7 +86,7 @@ internal static class CasualtiesExtraTrTw
     public static readonly (string En, string Zh)[] CommandDescs =
     {
         ("Sets a variable in the C:XL data class.", "【XL】設置 C:XL 數據類中的變量。"),
-        ("The field you want to set", "你想設置的字段"),
-        ("Value to set the field to", "要寫入該字段的值"),
+        ("The field you want to set", "要設置的字段"),
+        ("Value to set the field to", "要設置的值"),
     };
 }

@@ -16,7 +16,7 @@ internal static class NewFirearmsTrTw
     };
     public static readonly (string En, string Zh)[] Alerts =
     {
-        ("Denied gun suicide", "槍械自殺請求被拒絕"),
+        ("Denied gun suicide", "槍械自殺被拒絕"),
         ("Denied shoot\nGun is not registred!", "操作「射擊」被拒絕：槍械未註冊！"),
         ("Denied shoot\nThis is not a gun?!", "操作「射擊」被拒絕：這不是槍？！"),
         ("Denied shoot\nYou dont have a body, whaaa??!!", "操作「射擊」被拒絕：你沒有身體？！"),
@@ -61,7 +61,7 @@ internal static class NewFirearmsTrTw
         ("Denied stop shooting\nYou can't reach that mag.", "操作「停止射擊」被拒絕：你夠不到那個彈匣。"),
         ("Denied unknown gun action", "槍械操作被拒絕：未知操作"),
         ("Denied unknown mag action", "彈匣操作被拒絕：未知操作"),
-        ("Denied chamber load\nRound is not registred!", "裝填被拒絕：彈藥未註冊！"),
+        ("Denied chamber load\nRound is not registred!", "操作「上膛」被拒絕：彈藥未註冊！"),
         ("Denied chamber load\nYou can't reach that round.", "裝填被拒絕：你夠不到那發彈藥。"),
         ("Denied load round\nRound is not registred!", "裝彈被拒絕：彈藥未註冊！"),
         ("Denied load round\nYou can't reach that round.", "裝彈被拒絕：你夠不到那發彈藥。"),
@@ -75,10 +75,10 @@ internal static class NewFirearmsTrTw
         ("<color=yellow>[GunMinigame] Target magazine doesnt implement IMinigameMag!; {0}", "<color=yellow>[GunMinigame] 目標彈匣未實現 IMinigameMag！; {0}"),
         ("<color=yellow>[GunMinigame] Expected item doesnt have a AmmoScript :tourniqet:; {0}", "<color=yellow>[GunMinigame] 目標物品沒有 AmmoScript :tourniqet:; {0}"),
         ("<color=yellow>[GunMinigame-NewFirearms] Expected item doesnt have a RshMag :tourniqet:; {0}", "<color=yellow>[GunMinigame-NewFirearms] 目標物品沒有 RshMag :tourniqet:; {0}"),
-        ("<color=yellow>[NewFirearms] Magazine {0} doesnt have a ammo fillup for {1}; {2}", "<color=yellow>[NewFirearms] 彈匣 {0} 沒有適用於 {1} 的彈藥裝填 ; {2}"),
+        ("<color=yellow>[NewFirearms] Magazine {0} doesnt have a ammo fillup for {1}; {2}", "<color=yellow>[NewFirearms] 彈匣 {0} 沒有適用於 {1} 的彈藥裝填; {2}"),
         ("<color=red>[GunMinigame] Gunsaw Genetics integration failed! Send a bug report.; {0}", "<color=red>[GunMinigame] 與 Gunsaw Genetics 的集成失敗！請提交錯誤報告。; {0}"),
         ("<color=red>[NewFirearms] Gunsaw Genetics integration failed! Send a bug report.; {0}", "<color=red>[NewFirearms] 與 Gunsaw Genetics 的集成失敗！請提交錯誤報告。; {0}"),
-        ("<color=red>[NewFirearms] Can not rack as item doesnt have any gun behaviour!; {0}", "<color=red>[NewFirearms] 無法拉槍機：該物品沒有任何槍械行為！; {0}"),
+        ("<color=red>[NewFirearms] Can not rack as item doesnt have any gun behaviour!; {0}", "<color=red>[NewFirearms] 無法拉栓：該物品沒有任何槍械行為！; {0}"),
         ("<color=red>[NewFirearms] Can not eject mag as item doesnt have any gun behaviour!; {0}", "<color=red>[NewFirearms] 無法退出彈匣：該物品沒有任何槍械行為！; {0}"),
         ("<color=yellow>[NewFirearms] Recived shoot notify for non-registred item! Are you missing addon?; {0}", "<color=yellow>[NewFirearms] 收到未註冊物品的射擊通知！是否缺少前置插件？; {0}"),
         ("<color=yellow>[NewFirearms] {0}: {1}; {2}", "<color=yellow>[NewFirearms] {0}：{1}; {2}"),

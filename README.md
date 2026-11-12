@@ -2,7 +2,7 @@
 
 一个“未知伤亡（Casualties Unknown）”的多模组汉化
 
-> **当前版本 1.2.5**（2158 KB）· 已汉化 **36** 个模组 + 游戏本体
+> **当前版本 1.2.7**（2422 KB）· 已汉化 **38** 个模组 + 游戏本体
 
 > **本仓库有 AI 协助**：AI 接管提交、Release。
 
@@ -22,55 +22,57 @@
 | 渠道          | 链接                                                                                                           | 备注         |
 | :---------- | :----------------------------------------------------------------------------------------------------------- | :--------- |
 | **N 网**（推荐） | [Multi-Mod Chinese Localization](https://www.nexusmods.com/scavprototype/mods/516)                           | Nexus Mods |
-| **GitHub**  | [直接下载](https://github.com/031fox-ui/a.chs.mod/releases/latest/download/A.Multi_Mod.Chinese.Localization.dll) | 比较吃网络      |
-| **蓝奏云**     | [蓝奏云下载](https://wwann.lanzout.com/iTWkP4bih6vi)                                                              | 密码：e2ts    |
+| **GitHub**  | [直接下载](https://github.com/031fox-ui/a.chs.mod/releases/latest/download/%E5%A4%9A%E6%A8%A1%E7%BB%84%E6%B1%89%E5%8C%96.dll) | 比较吃网络      |
+| **蓝奏云**     | [蓝奏云下载](https://wwann.lanzout.com/ixmYM4fq4mli)                                                              | 密码：5uoy    |
 
 ## 安装
 
-把下载好的 `.dll` 文件放入游戏的 `Casualties Unknown Demo\BepInEx\plugins` 文件夹即可。
+把下载好的 `.dll` 文件放入游戏的 `Casualties Unknown\BepInEx\plugins` 文件夹即可（试玩版同理，换对应目录）。
 
 ## 支持的模组
 
-支持 **36** 个被汉化模组（按模组名称 A–Z 排序）。**模组版本**：为汉化时使用的版本；**翻译版本**：为本汉化模组一侧的更新版本。
+支持 **38** 个被汉化模组（按模组名称 A–Z 排序）。**模组版本**：为汉化时使用的版本；**翻译版本**：为本汉化模组一侧的更新版本。
 
-| 汉化模组                                                                                   | 模组版本             | 翻译版本       |
-| :------------------------------------------------------------------------------------- | :--------------- | :--------- |
-| [Alexx\_'s Medical Brutalism](https://www.nexusmods.com/scavprototype/mods/452)        | 4.7.10           | 1.2.5      |
-| [Alexx\_'s Mod Manager](https://www.nexusmods.com/scavprototype/mods/31)               | 1.1.12           | 1.2.4      |
-| [Auto's Arsenal](https://www.nexusmods.com/scavprototype/mods/81)                      | 2.1.1            | 1.1.0      |
-| [Better Crafting Logic](https://www.nexusmods.com/scavprototype/mods/344)              | 1.0.4            | 1.1.0      |
-| [Casualties Consumed](https://example.com/)                                            | 1.3.0.0          | 1.2.4      |
-| [Casualties Together](https://www.nexusmods.com/scavprototype/mods/67)                 | 5.1.5            | 1.2.5      |
-| [Casualties XL](https://example.com/)                                                  | experimental-1   | 1.1.0      |
-| [Casualty Psychology](https://www.nexusmods.com/scavprototype/mods/730)                | 0.6.2            | 1.2.5      |
-| [Casualty Vitals](https://www.nexusmods.com/scavprototype/mods/388)                    | 1.5.4            | 1.2.4      |
-| [CatPatch](https://www.nexusmods.com/scavprototype/mods/69)                            | 1.0.7            | 1.2.5      |
-| [CUCoreLib](https://www.nexusmods.com/scavprototype/mods/341)                          | 1.0.7.1          | 1.2.5      |
-| [More Amputation](https://www.nexusmods.com/scavprototype/mods/407)                 | 0.4.2            | 1.2.5 新增   |
-| [Custom Structures](https://www.nexusmods.com/scavprototype/mods/9)                    | 1.2.5            | 1.2.5      |
-| [extraDialogues](https://www.nexusmods.com/scavprototype/mods/432)                     | 1.0.1            | 1.2.4      |
-| [Extra Medicaments](https://www.nexusmods.com/scavprototype/mods/448)                  | 0.3              | 1.1.0      |
-| [Gunsaw Genetics](https://www.nexusmods.com/scavprototype/mods/324)                    | 2.0.0            | 1.2.5      |
-| [Killer's Clothing and Armor](https://www.nexusmods.com/scavprototype/mods/59)         | —                | 1.1.0      |
-| [Killer's Guns](https://www.nexusmods.com/scavprototype/mods/68)                       | —                | 1.1.0      |
-| [Mod Settings](https://www.nexusmods.com/scavprototype/mods/333)                       | 1.0.2.1          | 1.1.0      |
-| [Multiplayer Sprite Replacer](https://www.nexusmods.com/scavprototype/mods/74)         | 1.2.0            | 1.1.0      |
-| [NeurotraumaModik](https://www.nexusmods.com/scavprototype/mods/440)                   | 2.4.1            | 1.2.5      |
-| [New Clothing](https://www.nexusmods.com/scavprototype/mods/43)                        | 1.6.3            | 1.1.0      |
-| [New Descents](https://www.nexusmods.com/scavprototype/mods/662)                       | 1.0.4.1          | 1.2.5      |
-| [New Firearms](https://www.nexusmods.com/scavprototype/mods/122)                       | 1.6.5            | 1.2.5      |
-| [New Gun Loader (super beta)](https://www.nexusmods.com/scavprototype/mods/57)         | 2.0.1            | 1.1.0      |
-| [Over The Top Realism](https://www.nexusmods.com/scavprototype/mods/330)               | 1.0.1            | 1.1.0      |
-| [Performance Unknown](https://www.nexusmods.com/scavprototype/mods/342)                | 1.1.0            | 1.1.0      |
-| [Pi's Food Overhaul](https://www.nexusmods.com/scavprototype/mods/560)                 | 1.2              | 1.2.5      |
-| [Prosthetics](https://www.nexusmods.com/scavprototype/mods/40)                         | 1.0.6            | 1.2.5      |
-| [QoL Unknown](https://www.nexusmods.com/scavprototype/mods/7)                          | 1.0.5.2          | 1.2.5      |
-| [Re-Growth Serums](https://www.nexusmods.com/scavprototype/mods/38)                    | 1.7.2            | 1.1.0      |
-| [RshLib](https://www.nexusmods.com/scavprototype/mods/32)                              | 3.1.1            | 1.2.4      |
-| [Say Again - hearing protection](https://www.nexusmods.com/scavprototype/mods/532)     | 0.1.1            | 1.1.0      |
-| [ScavSetLib](https://www.nexusmods.com/scavprototype/mods/338)                         | 1.0.1            | 1.1.0      |
-| [Simple QoL](https://www.nexusmods.com/scavprototype/mods/320)                         | 15               | 1.2.4      |
-| [Thigh Highs](https://www.nexusmods.com/scavprototype/mods/33)                         | —                | 1.1.0      |
+| 汉化模组                                                                               | 模组版本           | 翻译版本     |
+| :--------------------------------------------------------------------------------- | :------------- | :------- |
+| [Alexx\_'s Medical Brutalism](https://www.nexusmods.com/scavprototype/mods/452)    | 5.9.11         | 1.2.7    |
+| [Alexx\_'s Mod Manager](https://www.nexusmods.com/scavprototype/mods/31)           | 1.1.12         | 1.2.7    |
+| [Auto's Arsenal](https://www.nexusmods.com/scavprototype/mods/81)                  | 2.1.1          | 1.1.0    |
+| [Better Crafting Logic](https://www.nexusmods.com/scavprototype/mods/344)          | 1.0.4          | 1.2.7    |
+| [Casualties Consumed](https://example.com/)                                        | 1.3.0.0        | 1.2.7    |
+| [Casualties Inside (Organs Mod)](https://www.nexusmods.com/scavprototype/mods/819) | 0.19.15        | 1.2.7 新增 |
+| [Casualties Together](https://www.nexusmods.com/scavprototype/mods/67)             | 5.5.0          | 1.2.7    |
+| [Casualties XL](https://example.com/)                                              | experimental-1 | 1.2.7    |
+| [Casualty Psychology](https://www.nexusmods.com/scavprototype/mods/730)            | 0.8.1          | 1.2.7    |
+| [Casualty Vitals](https://www.nexusmods.com/scavprototype/mods/388)                | 1.5.4          | 1.2.7    |
+| [CatPatch](https://www.nexusmods.com/scavprototype/mods/69)                        | 1.1.0          | 1.2.7    |
+| [Crafting Tweaks](https://www.nexusmods.com/scavprototype/mods/370)                | 0.3.4          | 1.2.7 新增 |
+| [CUCoreLib](https://www.nexusmods.com/scavprototype/mods/341)                      | 1.1            | 1.2.7    |
+| [More Amputation](https://www.nexusmods.com/scavprototype/mods/407)                | 0.4.2          | 1.2.5 新增 |
+| [Custom Structures](https://www.nexusmods.com/scavprototype/mods/9)                | 1.3.0          | 1.2.7    |
+| [extraDialogues](https://www.nexusmods.com/scavprototype/mods/432)                 | 1.0.1          | 1.2.7    |
+| [Extra Medicaments](https://www.nexusmods.com/scavprototype/mods/448)              | 0.3            | 1.1.0    |
+| [Gunsaw Genetics](https://www.nexusmods.com/scavprototype/mods/324)                | 2.0.0          | 1.2.7    |
+| [Killer's Clothing and Armor](https://www.nexusmods.com/scavprototype/mods/59)     | —              | 1.2.7    |
+| [Killer's Guns](https://www.nexusmods.com/scavprototype/mods/68)                   | —              | 1.1.0    |
+| [Mod Settings](https://www.nexusmods.com/scavprototype/mods/333)                   | 1.0.2.1        | 1.1.0    |
+| [Multiplayer Sprite Replacer](https://www.nexusmods.com/scavprototype/mods/74)     | 1.2.0          | 1.2.7    |
+| [NeurotraumaModik](https://www.nexusmods.com/scavprototype/mods/440)               | 2.4.1          | 1.2.7    |
+| [New Clothing](https://www.nexusmods.com/scavprototype/mods/43)                    | 1.6.3          | 1.2.7    |
+| [New Descents](https://www.nexusmods.com/scavprototype/mods/662)                   | 1.0.4.1        | 1.2.7    |
+| [New Firearms](https://www.nexusmods.com/scavprototype/mods/122)                   | 1.6.5          | 1.2.7    |
+| [New Gun Loader (super beta)](https://www.nexusmods.com/scavprototype/mods/57)     | 2.0.1          | 1.1.0    |
+| [Over The Top Realism](https://www.nexusmods.com/scavprototype/mods/330)           | 1.0.1          | 1.1.0    |
+| [Performance Unknown](https://www.nexusmods.com/scavprototype/mods/342)            | 1.1.0          | 1.1.0    |
+| [Pi's Food Overhaul](https://www.nexusmods.com/scavprototype/mods/560)             | 1.2            | 1.2.5    |
+| [Prosthetics](https://www.nexusmods.com/scavprototype/mods/40)                     | 1.0.9          | 1.2.7    |
+| [QoL Unknown](https://www.nexusmods.com/scavprototype/mods/7)                      | 1.1.2          | 1.2.7    |
+| [Re-Growth Serums](https://www.nexusmods.com/scavprototype/mods/38)                | 1.7.2          | 1.2.7    |
+| [RshLib](https://www.nexusmods.com/scavprototype/mods/32)                          | 3.1.1          | 1.2.7    |
+| [Say Again - hearing protection](https://www.nexusmods.com/scavprototype/mods/532) | 0.1.1          | 1.1.0    |
+| [ScavSetLib](https://www.nexusmods.com/scavprototype/mods/338)                     | 1.0.1          | 1.1.0    |
+| [Simple QoL](https://www.nexusmods.com/scavprototype/mods/320)                     | 19             | 1.2.7    |
+| [Thigh Highs](https://www.nexusmods.com/scavprototype/mods/33)                     | 3.0.1          | 1.1.0    |
 
 > **[Casualties Together](https://www.nexusmods.com/scavprototype/mods/67)** 建议配合使用：[KrokMP Chinese Supplement - Simplified Chinese Translation](https://www.nexusmods.com/scavprototype/mods/183)（10月16日，后续会内置中文）
 
@@ -78,7 +80,7 @@
 
 ## 设置项
 
-配置文件：`BepInEx\config\A.Multi_Mod.Chinese.Localization.cfg`
+配置文件：`BepInEx\config\Mods.Chinese.Translation.cfg`
 
 ### [General] 通用设置
 
@@ -122,7 +124,7 @@ Mods/SayAgain/
 
 发现 QoL 的 fallback 可以减轻游戏计算 unifont 字体的性能消耗，但是字体会变成 1.0 倍大小，游戏默认 1.3 倍——默认 1.3 倍对于中文阅读非常友好。如果其他模组字非常多，或你想看游戏剧情，推荐保持默认，这是游戏原汁原味的卡顿、原始的字体显示。
 
-如果你想流畅些，可以前往 `BepInEx\config\A.Multi_Mod.Chinese.Localization.cfg` 关闭此设置。如果你安装了 [QoL Unknown](https://www.nexusmods.com/scavprototype/mods/7) 的话。
+如果你想流畅些，可以前往 `BepInEx\config\Mods.Chinese.Translation.cfg` 关闭此设置。如果你安装了 [QoL Unknown](https://www.nexusmods.com/scavprototype/mods/7) 的话。
 
 <details>
 <summary>旧记录：第一次打开制作界面 / 鼠标指向物品时会小卡一下（点击展开）</summary>
@@ -139,6 +141,7 @@ Mods/SayAgain/
 
 | 版本        | 内容                                                                                                                                                                                                                                        |
 | :-------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1.2.7** | **新增 2 个模组汉化**：Casualties Inside (Organs Mod)、Crafting Tweaks。**插件改名为「多模组汉化.dll」**，GUID 与命名空间变更，配置文件名变为 `Mods.Chinese.Translation.cfg`（旧配置不继承，设置需重调）。同步更新 24 个模组的翻译，其中 Medical Brutalism 跨大版本适配 v5.9.11（状况分级体系重写、新增 CO₂/O₃ 中毒等）；修复 Alexx's Mod Manager 主界面按钮在点击前保持英文的问题 |
 | **1.2.5** | **新增 1 个模组汉化**：[More Amputation](https://www.nexusmods.com/scavprototype/mods/407)。更新翻译 12 个模组：CUCoreLib v1.0.6.1、Casualty Psychology v0.4.13、CatPatch v1.0.6、Custom Structures v1.2.5、Casualties Together v5.0.2、Medical Brutalism v4.7.10、Gunsaw Genetics v2.0.0、NeurotraumaModik v2.4.1、New Firearms v1.6.5、Pi's Food Overhaul v1.2、Prosthetics v1.0.5、QoL Unknown v1.0.5.0 |
 | **1.2.4** | **新增 1 个模组汉化**：Casualty Psychology。**联机框架模组改名为 Together**，适配 Casualties Together v5.0.0；修复：窗口标题梗后缀翻译漏掉多数随机标题形态的问题；模组改名后旧配置键自动迁移，玩家设置不再重置。更新翻译 14 个模组：Casualties Together v5.0.0、Gunsaw Genetics v2.0.0、Medical Brutalism v4.6.9、New Firearms v1.6.5、CatPatch v1.0.4、CUCoreLib v1.0.6、Custom Structures v1.2.4、Casualty Vitals v1.5.4、RshLib v3.1.1、Simple QoL v13、Casualties Consumed v1.3.0.0、Alexx's Mod Manager v1.1.12、extraDialogues v1.0.1、QoL Unknown v1.0.4.8 |
 | **1.1.0** | **更新弹窗新增更新说明**（模组本体更新内容 + 本次更新翻译的模组列表）。**新增 3 个模组汉化**：Casualties Consumed、Casualties XL、Pi's Food Overhaul。**重大更新：每个模组的汉化都有独立开关**（见上方[设置项](#设置项)）。更新翻译 Casualties Together v5.0.0、Prosthetics v1.0.4、Medical Brutalism v4.4.9、Casualty Vitals v1.5.3、Custom Structures v1.2.4、New Firearms v1.6.4、New Descents v1.0.3.2、Say Again v0.1.1；统一术语（废弃燃料、棕菌盖、地菱树等）；添加 QoL Unknown 的下载失败提示漏翻；新增 KrokMP 窗口标题梗后缀翻译（开关默认开） |
