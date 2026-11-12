@@ -29,7 +29,7 @@
 
 把下载好的 `.dll` 放入游戏的 `Casualties Unknown\BepInEx\plugins` 文件夹即可（试玩版同理，换对应目录）。
 
-> GitHub 下载到的文件名是 `Mods.Chinese.Translation.dll`，N 网包内是 `多模组汉化.dll`，两者内容完全相同，放哪个都行；**但不要同时放两个**（同名插件会被重复加载）。
+> 所有渠道的文件名统一为 `Mods.Chinese.Translation.dll`（与插件 GUID 一致）。若你之前装过旧版 `多模组汉化.dll` 或 `A.Multi_Mod.Chinese.Localization.dll`，**请先删除旧文件再放新版**，避免重复加载。
 
 ## 支持的模组
 
