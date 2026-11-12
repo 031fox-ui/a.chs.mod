@@ -1,4 +1,4 @@
-# 多模组汉化 A.Multi-Mod.Chinese.Localization
+# 多模组汉化 Mods Chinese Translation
 
 一个“未知伤亡（Casualties Unknown）”的多模组汉化
 
@@ -143,7 +143,7 @@ Mods/SayAgain/
 
 | 版本        | 内容                                                                                                                                                                                                                                        |
 | :-------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1.2.7** | **新增 2 个模组汉化**：Casualties Inside (Organs Mod)、Crafting Tweaks。**插件改名为「多模组汉化.dll」**，GUID 与命名空间变更，配置文件名变为 `Mods.Chinese.Translation.cfg`（旧配置不继承，设置需重调）。同步更新 24 个模组的翻译，其中 Medical Brutalism 跨大版本适配 v5.9.11（状况分级体系重写、新增 CO₂/O₃ 中毒等）；修复 Alexx's Mod Manager 主界面按钮在点击前保持英文的问题 |
+| **1.2.7** | **新增 2 个模组汉化**：Casualties Inside (Organs Mod)、Crafting Tweaks。**插件改名为「Mods.Chinese.Translation.dll」**，GUID 与命名空间变更，配置文件名变为 `Mods.Chinese.Translation.cfg`（旧配置不继承，设置需重调）。同步更新 24 个模组的翻译，其中 Medical Brutalism 跨大版本适配 v5.9.11（状况分级体系重写、新增 CO₂/O₃ 中毒等）；修复 Alexx's Mod Manager 主界面按钮在点击前保持英文的问题 |
 | **1.2.5** | **新增 1 个模组汉化**：[More Amputation](https://www.nexusmods.com/scavprototype/mods/407)。更新翻译 12 个模组：CUCoreLib v1.0.6.1、Casualty Psychology v0.4.13、CatPatch v1.0.6、Custom Structures v1.2.5、Casualties Together v5.0.2、Medical Brutalism v4.7.10、Gunsaw Genetics v2.0.0、NeurotraumaModik v2.4.1、New Firearms v1.6.5、Pi's Food Overhaul v1.2、Prosthetics v1.0.5、QoL Unknown v1.0.5.0 |
 | **1.2.4** | **新增 1 个模组汉化**：Casualty Psychology。**联机框架模组改名为 Together**，适配 Casualties Together v5.0.0；修复：窗口标题梗后缀翻译漏掉多数随机标题形态的问题；模组改名后旧配置键自动迁移，玩家设置不再重置。更新翻译 14 个模组：Casualties Together v5.0.0、Gunsaw Genetics v2.0.0、Medical Brutalism v4.6.9、New Firearms v1.6.5、CatPatch v1.0.4、CUCoreLib v1.0.6、Custom Structures v1.2.4、Casualty Vitals v1.5.4、RshLib v3.1.1、Simple QoL v13、Casualties Consumed v1.3.0.0、Alexx's Mod Manager v1.1.12、extraDialogues v1.0.1、QoL Unknown v1.0.4.8 |
 | **1.1.0** | **更新弹窗新增更新说明**（模组本体更新内容 + 本次更新翻译的模组列表）。**新增 3 个模组汉化**：Casualties Consumed、Casualties XL、Pi's Food Overhaul。**重大更新：每个模组的汉化都有独立开关**（见上方[设置项](#设置项)）。更新翻译 Casualties Together v5.0.0、Prosthetics v1.0.4、Medical Brutalism v4.4.9、Casualty Vitals v1.5.3、Custom Structures v1.2.4、New Firearms v1.6.4、New Descents v1.0.3.2、Say Again v0.1.1；统一术语（废弃燃料、棕菌盖、地菱树等）；添加 QoL Unknown 的下载失败提示漏翻；新增 KrokMP 窗口标题梗后缀翻译（开关默认开） |
