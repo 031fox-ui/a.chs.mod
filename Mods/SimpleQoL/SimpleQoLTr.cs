@@ -48,7 +48,7 @@ internal static class SimpleQoLTr
         ("gameseteqprapidhandcrank", "手摇快速充电"),
         ("gameseteqprapidhandcrankdsc", "手摇充电更快，并保留 50% 体力值。"),
         ("gameseteqpceilingturretrange", "顶置炮塔侦测预览"),
-        ("gameseteqpceilingturretrangedsc", "显示附近顶置炮塔的射击扇形与侦测进度条。边缘颜色渐淡，但并非安全距离界限。"),
+        ("gameseteqpceilingturretrangedsc", "显示附近顶置炮塔的射击扇形与进度条。颜色渐淡的边缘并非安全距离界限。在 Together 联机中，主机的进度条只显示累计侦测时间，客户端仅在炮塔开火时才能看到。"),
         ("gameseteqpcrystalhoverproperties", "悬停显示水晶属性"),
         ("gameseteqpcrystalhoverpropertiesdsc", "无需仔细检查，悬停时即可在提示框中看到水晶的实际属性。"),
         ("gameseteqpsuppresscrystalflash", "隐藏治愈与造物水晶的闪光"),

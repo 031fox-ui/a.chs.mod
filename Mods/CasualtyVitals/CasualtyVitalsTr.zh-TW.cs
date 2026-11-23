@@ -101,13 +101,13 @@ internal static class CasualtyVitalsTrTw
         ("CV injected {0} mL Amiodarone.", "CV 已注射胺碘酮 {0} 毫升。"),
         ("CV injected {0} mL Vasopressin.", "CV 已注射血管加壓素 {0} 毫升。"),
         ("CV Electrolytes set: K+ = {0} mEq/L, Ca2+ = {1} mg/dL (locked for {2}s)", "CV 電解質已設置：K+ = {0} mEq/L，Ca2+ = {1} mg/dL（鎖定 {2} 秒）"),
-        ("Could not parse \"{0}\" as a float.", "無法將「{0}」解析為浮點數。"),
-        ("Unknown CV body field \"{0}\". Use cvlistbodyfields.", "未知的 CV 身體字段「{0}」。使用 cvlistbodyfields。"),
-        ("Unknown or write-only CV body field \"{0}\". Use cvlistbodyfields.", "未知或只寫入的 CV 身體字段「{0}」。使用 cvlistbodyfields。"),
-        ("Unknown rhythm \"{0}\". Use cvhelp or tab-completion.", "未知節律「{0}」。使用 cvhelp 或按 Tab 補全。"),
-        ("Unknown respiratory pattern \"{0}\".", "未知呼吸模式「{0}」。"),
-        ("Unknown murmur type \"{0}\". Options: none, systolic, diastolic, continuous.", "未知雜音類型「{0}」。選項：none、systolic、diastolic、continuous。"),
-        ("Unknown drug \"{0}\". Use cvhelp.", "未知藥物「{0}」。使用 cvhelp。"),
+        ("Could not parse \"{0}\" as a float.", "無法將“{0}”解析為浮點數。"),
+        ("Unknown CV body field \"{0}\". Use cvlistbodyfields.", "未知的 CV 身體字段“{0}”。使用 cvlistbodyfields。"),
+        ("Unknown or write-only CV body field \"{0}\". Use cvlistbodyfields.", "未知或只寫入的 CV 身體字段“{0}”。使用 cvlistbodyfields。"),
+        ("Unknown rhythm \"{0}\". Use cvhelp or tab-completion.", "未知節律“{0}”。使用 cvhelp 或按 Tab 補全。"),
+        ("Unknown respiratory pattern \"{0}\".", "未知呼吸模式“{0}”。"),
+        ("Unknown murmur type \"{0}\". Options: none, systolic, diastolic, continuous.", "未知雜音類型“{0}”。選項：none、systolic、diastolic、continuous。"),
+        ("Unknown drug \"{0}\". Use cvhelp.", "未知藥物“{0}”。使用 cvhelp。"),
     };
     public static readonly (string En, string Zh)[] Ui =
     {

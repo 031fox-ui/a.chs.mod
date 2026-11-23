@@ -13,8 +13,8 @@ internal static class GameReleaseTrTw
         ("Index of the character", "角色序號"),
         ("The dunepocalypse is already ongoing.", "沙丘末日正在持續。"),
         ("The dunepocalypse has begun. This is irreversible until the program is restarted.", "沙丘末日已經降臨。在重啟程序之前無法逆轉。"),
-        ("Cannot save the game at WHERE WE MUST REACH and beyond!", "在「必 須 抵 達 之 地」及更深處無法保存遊戲！"),
-        ("Welcome to the console! You can safely use any command in the sandbox. Press (~) to exit.", "歡迎來到控制檯！在沙盒中可以安全使用任何命令。按「~」退出。"),
+        ("Cannot save the game at WHERE WE MUST REACH and beyond!", "在“必 須 抵 達 之 地”及更深處無法保存遊戲！"),
+        ("Welcome to the console! You can safely use any command in the sandbox. Press (~) to exit.", "歡迎來到控制檯！在沙盒中可以安全使用任何命令。按“~”退出。"),
         ("<color=#ff006a>WARNING: You used a cheat command. Achievements are disabled until you restart the game.</color>", "<color=#ff006a>警告：你使用了作弊命令。在重啟遊戲之前成就將被禁用。</color>"),
         ("<color=#ff006a>WARNING: This save was previously cheated. Achievements are disabled until you restart the game.</color>", "<color=#ff006a>警告：此存檔此前被作弊修改過。在重啟遊戲之前成就將被禁用。</color>"),
         ("Cannot find minibarrel on player..?", "在玩家身上找不到小型桶……？"),
@@ -36,7 +36,7 @@ internal static class GameReleaseTrTw
     };
     public static readonly (string En, string Zh)[] Formats =
     {
-        ("Created \"{0}\" at {1}.", "已在 {1} 處創建「{0}」。"),
+        ("Created \"{0}\" at {1}.", "已在 {1} 處創建“{0}”。"),
         ("There are only {0} modifiers available, index {1} is invalid!", "可用的地層隨機效果僅有 {0} 個，索引 {1} 無效！"),
     };
     public static readonly (string En, string Zh)[] ReleaseUi =

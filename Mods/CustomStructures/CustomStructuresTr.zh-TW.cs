@@ -23,20 +23,20 @@ internal static class CustomStructuresTrTw
     };
     public static readonly (string En, string Zh)[] LogFormats =
     {
-        ("Requested host spawn for '{0}' at {1} ({2})", "已請求主機在 {1}（{2}）生成「{0}」"),
-        ("Spawned '{0}' at {1} ({2})", "已在 {1}（{2}）生成「{0}」"),
-        ("Teleported to nearest '{0}' at {1} ({2}m away).", "已傳送到最近的「{0}」，位於 {1}（距離 {2} 米）。"),
+        ("Requested host spawn for '{0}' at {1} ({2})", "已請求主機在 {1}（{2}）生成“{0}”"),
+        ("Spawned '{0}' at {1} ({2})", "已在 {1}（{2}）生成“{0}”"),
+        ("Teleported to nearest '{0}' at {1} ({2}m away).", "已傳送到最近的“{0}”，位於 {1}（距離 {2} 米）。"),
         ("More Structures set to: {0}. (Changes apply on next generation/restart)", "更多結構已設為：{0}。（下次生成/重啟後生效）"),
         ("Reloaded {0} structures and {1} World layer files from disk.", "已從磁盤重新加載 {0} 個建築和 {1} 個世界層級文件。"),
         ("Structure spawn multiplier set to {0}x. (e.g., 16 spawns -> ~{1} spawns, changes apply on next generation)", "建築生成倍率已設為 {0}x。（例如：16 次生成 → 約 {1} 次，下次生成時生效）"),
-        ("Signal '{0}' dispatched to {1} listener(s).", "信號「{0}」已派發給 {1} 個監聽器。"),
+        ("Signal '{0}' dispatched to {1} listener(s).", "信號“{0}”已派發給 {1} 個監聽器。"),
         ("dumpcontainercaps complete. found={0}, missing={1}", "dumpcontainercaps 完成。找到={0}，缺失={1}"),
-        ("Disabled '{0}' by removing {1} file(s). Loaded structures: {2}.", "已通過移除 {1} 個文件禁用「{0}」。已加載建築：{2}。"),
+        ("Disabled '{0}' by removing {1} file(s). Loaded structures: {2}.", "已通過移除 {1} 個文件禁用“{0}”。已加載建築：{2}。"),
         ("Showing {0} of {1} loaded structure(s).{2}", "正在顯示已加載的 {0}/{1} 個建築。{2}"),
         ("Catalog cache loaded: {0} entries. Scroll down or refresh for more.", "目錄緩存已加載：{0} 個條目。向下滾動或刷新查看更多。"),
         ("Catalog cache loaded: {0} entries.", "目錄緩存已加載：{0} 個條目。"),
         ("Catalog search matched {0} structure(s).", "目錄搜索匹配到 {0} 個結構。"),
-        ("Installed '{0}' as '{1}'. Loaded structures: {2}.", "已安裝「{0}」為「{1}」。已加載建築：{2}。"),
+        ("Installed '{0}' as '{1}'. Loaded structures: {2}.", "已安裝“{0}”為“{1}”。已加載建築：{2}。"),
     };
     public static readonly (string En, string Zh)[] Alerts =
     {
@@ -52,8 +52,8 @@ internal static class CustomStructuresTrTw
     };
     public static readonly (string En, string Zh)[] AlertFormats =
     {
-        ("Host spawned '{0}'.", "主機已生成「{0}」。"),
-        ("Host could not register structure '{0}'.", "主機無法註冊結構「{0}」。"),
+        ("Host spawned '{0}'.", "主機已生成“{0}”。"),
+        ("Host could not register structure '{0}'.", "主機無法註冊結構“{0}”。"),
     };
     public static readonly (string En, string Zh)[] Literals =
     {

@@ -174,7 +174,7 @@ internal static class OrganModTrTw
     };
     public static readonly (string En, string Zh)[] Logs =
     {
-        ("Unknown organ. Use the 'organs' command to see the list.", "未知器官。可用「organs」命令查看列表。"),
+        ("Unknown organ. Use the 'organs' command to see the list.", "未知器官。可用“organs”命令查看列表。"),
         ("Expected an organ name and an HP value.", "需要器官名與生命值數值。"),
         ("HP must be a non-negative number.", "生命值必須是非負數。"),
         ("Damage amount must be a positive number. ", "傷害數值必須為正數。"),
@@ -234,8 +234,8 @@ internal static class OrganModTrTw
         ("Healed Kidney: +{0} HP; now {1}/{2}.", "已治療腎臟：+{0} 生命值；當前 {1}/{2}。"),
         ("Healed Intestine: +{0} HP; now {1}/{2}.", "已治療腸道：+{0} 生命值；當前 {1}/{2}。"),
         ("Healed Spleen: +{0} HP; now {1}/{2}.", "已治療脾臟：+{0} 生命值；當前 {1}/{2}。"),
-        ("Unknown organ '{0}'. Valid names: {1}, all. ", "未知器官「{0}」。有效名稱：{1}、all。"),
-        ("Unknown organ '{0}'. Valid names: {1}, all.", "未知器官「{0}」。有效名稱：{1}、all。"),
+        ("Unknown organ '{0}'. Valid names: {1}, all. ", "未知器官“{0}”。有效名稱：{1}、all。"),
+        ("Unknown organ '{0}'. Valid names: {1}, all.", "未知器官“{0}”。有效名稱：{1}、all。"),
     };
     public static readonly (string En, string Zh)[] Ui =
     {

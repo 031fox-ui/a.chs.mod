@@ -1,8 +1,20 @@
 {
   "other": {
+    "gamesetmarksmanrack": "神射手：操作槍機",
+    "gamesetmarksmanrackdsc": "以神射手手法操作手持槍械的槍機。",
+    "gamesetmarksmanunload": "神射手：取出彈匣",
+    "gamesetmarksmanunloaddsc": "以神射手手法取下手持槍械的彈匣。",
+    "gamesetgunminigame.togglewindow": "【Gun Minigame】開關槍械小遊戲窗口",
+    "gamesetgunminigame.togglewindowdsc": "打開或關閉槍械小遊戲窗口。",
     "gamesetgunminigame.useminigame": "槍械小遊戲",
     "gamesetgunminigame.useminigamedsc": "使用小遊戲進行槍械操作？",
     "runsetgunminigame.alwaysmarksman": "總是神射手",
-    "runsetgunminigame.alwaysmarksmandsc": "（開發中）"
+    "runsetgunminigame.alwaysmarksmandsc": "始終啟用槍械的鍵位操作。",
+    "gunminigame.command.visualize.description": "開關已配置槍械小遊戲座標處的藍色標記。",
+    "gunminigame.command.visualize.enabled": "槍械小遊戲座標標記已開啟。",
+    "gunminigame.command.visualize.disabled": "槍械小遊戲座標標記已關閉。",
+    "gunminigame.command.coordinate.description": "開關按槍械小遊戲 JSON 單位顯示的鼠標座標。",
+    "gunminigame.command.coordinate.enabled": "槍械小遊戲鼠標座標已開啟。",
+    "gunminigame.command.coordinate.disabled": "槍械小遊戲鼠標座標已關閉。"
   }
 }

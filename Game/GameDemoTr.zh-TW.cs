@@ -6,8 +6,8 @@ internal static class GameDemoTrTw
         ("Set the max framerate of the game. Might not work in build.", "設置遊戲的最大幀率。在發佈版本中可能不生效。"),
         ("Instantly skips any fullscreen lore text.", "立即跳過任何全屏劇情文本。"),
         ("Instantly dismembers a limb. Irreversibly.", "立即截斷一個肢體。不可逆。"),
-        ("Welcome to the console! Press (~) to exit.", "歡迎來到控制檯！按「~」退出。"),
-        ("Continue", "繼續前進"),
+        ("Welcome to the console! Press (~) to exit.", "歡迎來到控制檯！按“~”退出。"),
+        ("Continue", "繼續探險"),
         ("You aren't in the tutorial!", "你不在教程中！"),
     };
     public static readonly (string En, string Zh)[] ArgLong =
@@ -16,7 +16,7 @@ internal static class GameDemoTrTw
     };
     public static readonly (string En, string Zh)[] Formats =
     {
-        ("Set max framerate to \"{0}\".", "已將最大幀率設為「{0}」。"),
+        ("Set max framerate to \"{0}\".", "已將最大幀率設為“{0}”。"),
     };
     public static readonly (string En, string Zh)[] Warnings =
     {

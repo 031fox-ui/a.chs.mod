@@ -72,7 +72,7 @@ internal static class QoLUnknownTrTw
         ("qol.video.camerazoom", "啟用鏡頭縮放"),
         ("qol.video.camerazoomdsc", "按住 + 或 - 平滑縮放鏡頭（支持小鍵盤）。會關閉像素對齊。"),
         ("qol.game.achievementswithcheats", "控制檯命令下仍可解鎖成就"),
-        ("qol.game.achievementswithcheatsdsc", "使用控制檯／作弊命令後仍可繼續解鎖成就，而不是在本局剩餘時間內禁用成就。"),
+        ("qol.game.achievementswithcheatsdsc", "使用控制檯 / 作弊命令後仍可繼續解鎖成就，而不是在本局剩餘時間內禁用成就。"),
         ("qol.game.preventcreaturegriefing", "阻止生物破壞地形"),
         ("qol.game.preventcreaturegriefingdsc", "阻止特定生物對地形造成破壞（棘背獸長老除外）。"),
         ("qol.game.preventcreaturegriefingoff", "關閉"),
@@ -83,10 +83,12 @@ internal static class QoLUnknownTrTw
         ("qol.game.stackliquidcontainersdsc", "把同類型的瓶子與水壺歸入同一格，即使剩餘量不同。懸停可查看每個容器。"),
         ("qol.game.stackexpand", "按住按鍵展開堆疊"),
         ("qol.game.stackexpanddsc", "新增一個勾選框與一個按鍵綁定。勾選後，只有按住該鍵才會展開堆疊，單純懸停不再展開。"),
-        ("qol.game.favouriteautocolor", "自動為收藏物品著色"),
-        ("qol.game.favouriteautocolordsc", "收藏物品時同時套用黃色的分類描邊。"),
         ("qol.game.categorytint", "按物品類型自動染色"),
         ("qol.game.categorytintdsc", "按物品分類（工具、藥品、食物等）給物品欄槽位染上淺色。手動著色與收藏顏色不受影響。"),
+        ("qol.game.nanotechrealtime", "實時納米科技掃描儀"),
+        ("qol.game.nanotechrealtimedsc", "讓納米科技掃描儀的箭頭從你的位置指向芯片，越過芯片後自動翻轉。"),
+        ("qol.game.safespawn", "安全地層出生點"),
+        ("qol.game.safespawndsc", "進入新地層時，為你尋找一處安全、開闊的出生點。"),
     };
     public static readonly (string En, string Zh)[] ModuleDefs =
     {
@@ -124,12 +126,10 @@ internal static class QoLUnknownTrTw
         ("qol_ui_ctrlitemlabelsdsc", "按住 Ctrl 時物品標籤保持穩定，附近顯示數量由 16 提升到 64。"),
         ("qol_craft_uncrafted", "額外配方選項"),
         ("qol_craft_uncrafteddsc", "在製作菜單中顯示收藏與未製作配方按鈕。"),
-        ("qol_ui_tradertooltips", "倖存者物品詳情"),
-        ("qol_ui_tradertooltipsdsc", "在倖存者物品上按住展開鍵，可查看其內容物、效果與屬性。"),
-        ("qol_craft_ingredient_lookup", "配料配方查找"),
-        ("qol_craft_ingredient_lookupdsc", "在配方面板點擊某個配料，可跳轉到製作它的配方；按住 Shift 點擊則列出所有用到它的配方。"),
         ("qol_game_soundcannon_indicator", "音波炮指示器"),
         ("qol_game_soundcannon_indicatordsc", "以語音播報和箭頭提示正在充能的音波炮。"),
+        ("qol_save_indepth", "深度存檔"),
+        ("qol_save_indepthdsc", "保存世界改動*。實驗性功能。"),
     };
     public static readonly (string En, string Zh)[] LangNames =
     {
@@ -353,7 +353,7 @@ internal static class QoLUnknownTrTw
         ("MP save bundle is missing or corrupt.", "多人存檔包缺失或損壞。"),
         ("Could not stage QoL save for multiplayer host.", "無法為多人主機暫存 QoL 存檔。"),
         ("Client reconnect clicked!", "已點擊客戶端重連！"),
-        ("Client Connect clicked!", "已點擊「客戶端連接」！"),
+        ("Client Connect clicked!", "已點擊“客戶端連接”！"),
         ("No active world on host.", "主機上沒有活躍的世界。"),
         ("Discord Presence editor unavailable: canvas not found.", "Discord 狀態編輯器不可用：找不到畫布。"),
         ("Autocraft cancelled. An already-sent craft may still finish.", "自動製作已取消。已經發出的製作請求仍可能完成。"),
@@ -439,7 +439,7 @@ internal static class QoLUnknownTrTw
         ("Lists the custom commands you added with addcustomcommand.", "【QoL】列出你用 addcustomcommand 添加的自定義命令。"),
         ("Mod name or BepInEx plugin GUID", "模組名稱或 BepInEx 插件 GUID"),
         ("(if adding) Commands to run, separated by ; and spaces replaced by _", "（若添加綁定）要執行的命令，用 ; 分隔，空格用 _ 代替"),
-        ("(if adding/removing) Keyboard button to bind", "（添加／移除時）要綁定的鍵盤按鍵"),
+        ("(if adding/removing) Keyboard button to bind", "（添加 / 移除時）要綁定的鍵盤按鍵"),
         ("keycode", "按鍵碼"),
         ("Runs a specified series of commands a specified amount of times with a delay. Optional name allows control via controlrepeat.", "【QoL】按指定次數與間隔重複執行一串命令。可選名稱用於通過 controlrepeat 控制。"),
         ("Pauses, unpauses, stops or lists active repeat commands by name.", "【QoL】按名稱暫停、繼續、停止或列出正在運行的重複命令。"),
@@ -450,7 +450,7 @@ internal static class QoLUnknownTrTw
         ("(if not listing) Name of the repeat command", "（非列出時）重複命令的名稱"),
         ("The field you want to read", "你想讀取的字段"),
         ("(multiplayer) Name of the player to read from", "（多人）要讀取的玩家名稱"),
-        ("pause, unpause, stop or list", "pause、unpause、stop 或 list（暫停／繼續／停止／列出）"),
+        ("pause, unpause, stop or list", "pause、unpause、stop 或 list（暫停 / 繼續 / 停止 / 列出）"),
     };
     public static readonly (string En, string Zh)[] Ui =
     {
@@ -463,8 +463,8 @@ internal static class QoLUnknownTrTw
         ("Reset", "重置"),
         ("Apply", "應用"),
         ("SAVE SLOTS", "存 檔 欄"),
-        ("Continue", "繼續前進"),
-        ("Continue MP Host", "繼續前進 多人主機"),
+        ("Continue", "繼續探險"),
+        ("Continue MP Host", "繼續探險 多人主機"),
         ("MP Client Save", "多人客戶端 存檔"),
         ("Start a deterministic seeded run", "開始確定性種子對局"),
         ("Corrupt", "損壞"),
@@ -578,8 +578,6 @@ internal static class QoLUnknownTrTw
         ("Parched of water!", "口渴難耐！"),
         ("Feeling very thirsty", "非常口渴"),
         ("Feeling a bit thirsty", "有點口渴"),
-        ("Search settings...", "搜索設置…"),
-        ("No settings match this search.", "沒有匹配此搜索的設置。"),
         ("Click to load, right click to save current list as preset", "點擊載入，右鍵把當前列表存為預設"),
         ("Packs loose items into the lightest containers. Hold Shift to also sort hands and mouth.", "把散落物品裝進最輕的容器。按住 Shift 可同時整理手部和口部。"),
         ("Sort", "整理"),
@@ -601,6 +599,21 @@ internal static class QoLUnknownTrTw
         ("Rename", "重命名"),
         ("Uncrafted only", "僅未製作"),
         ("Displays only items that have not been crafted before.", "只顯示此前從未製作過的物品。"),
+        ("No settings in this tab match.", "此頁籤中沒有匹配的設置。"),
+        ("Click again to confirm save.", "再點一次確認保存。"),
+        ("Could not save the layer transition. Descent was cancelled to protect your save.", "無法保存地層切換。為保護你的存檔，下降已取消。"),
+        ("Hide Visibility", "隱藏可見性"),
+        ("Hidden items will not show on the player character when worn on the body.", "隱藏的物品穿在身上時不會顯示在角色身上。"),
+        ("Add color", "添加顏色"),
+        ("Pick a new label color.", "為標籤挑選一種新顏色。"),
+        ("Remove this color. Items using it lose their tint.", "移除此顏色，使用它的物品將失去染色。"),
+        ("Right-click to edit.", "右鍵編輯。"),
+        ("Close without adding.", "關閉且不添加。"),
+        ("Custom color", "自定義顏色"),
+        ("Confirm?", "確認？"),
+        ("No active character to swap.", "沒有可切換的角色。"),
+        ("Switch your character type mid-game.", "在遊戲中途切換角色類型。"),
+        ("Search...", "搜索…"),
     };
     public static readonly (string En, string Zh)[] Talks =
     {
@@ -608,12 +621,12 @@ internal static class QoLUnknownTrTw
     };
     public static readonly (string En, string Zh)[] Formats =
     {
-        ("<color=orange>\"{0}\" is not a valid position for spawn forwarding.</color>", "<color=orange>「{0}」不是轉發生成命令的有效位置。</color>"),
-        ("\"{0}\" became craftable after waiting.", "等待後「{0}」變為可製作。"),
-        ("\"{0}\" never became craftable.", "「{0}」始終未能變為可製作。"),
-        ("Waiting for \"{0}\" to become craftable.", "正在等待「{0}」變為可製作。"),
-        ("Waiting for final recipe \"{0}\" to become craftable.", "正在等待最終配方「{0}」變為可製作。"),
-        ("\"{0}\" is not a valid position for spawn forwarding.", "「{0}」不是有效的生成轉發位置。"),
+        ("<color=orange>\"{0}\" is not a valid position for spawn forwarding.</color>", "<color=orange>“{0}”不是轉發生成命令的有效位置。</color>"),
+        ("\"{0}\" became craftable after waiting.", "等待後“{0}”變為可製作。"),
+        ("\"{0}\" never became craftable.", "“{0}”始終未能變為可製作。"),
+        ("Waiting for \"{0}\" to become craftable.", "正在等待“{0}”變為可製作。"),
+        ("Waiting for final recipe \"{0}\" to become craftable.", "正在等待最終配方“{0}”變為可製作。"),
+        ("\"{0}\" is not a valid position for spawn forwarding.", "“{0}”不是有效的生成轉發位置。"),
     };
     public static readonly (string En, string Zh)[] AlertFormats =
     {
@@ -621,9 +634,9 @@ internal static class QoLUnknownTrTw
         ("Saved MP client snapshot to Slot {0}", "已將多人客戶端快照保存到存檔 {0}"),
         ("Saved to Slot {0}", "已保存到存檔 {0}"),
         ("Returning {0} client{1} to the main menu before host save load.", "在主機進入存檔前，正在將 {0} 名聯機玩家返回至主菜單。"),
-        ("\"{0}\" is not a valid condition value.", "「{0}」不是有效的耐久值。"),
-        ("\"{0}\" is not a valid amount value.", "「{0}」不是有效的數量值。"),
-        ("Could not find entity \"{0}\".", "找不到實體「{0}」。"),
+        ("\"{0}\" is not a valid condition value.", "“{0}”不是有效的耐久值。"),
+        ("\"{0}\" is not a valid amount value.", "“{0}”不是有效的數量值。"),
+        ("Could not find entity \"{0}\".", "找不到實體“{0}”。"),
     };
     public static readonly (string En, string Zh)[] LogFormats =
     {
@@ -632,11 +645,11 @@ internal static class QoLUnknownTrTw
         ("Saved start commands: {0}", "已保存啟動命令：{0}"),
         ("<color=green>Bound {0} to {1}</color>", "<color=green>已將 {0} 綁定到 {1}</color>"),
         ("<color=red>Failed to bind {0} to {1}</color>", "<color=red>綁定 {0} 到 {1} 失敗</color>"),
-        ("Unknown action '{0}'. Use change, list, remove, or clear.", "未知操作「{0}」。請使用 change、list、remove 或 clear。"),
-        ("Removed override for \"{0}\".", "已移除「{0}」的覆蓋。"),
-        ("No override found for \"{0}\".", "沒有找到「{0}」的覆蓋。"),
-        ("Set volume for \"{0}\" to {1} ({2}%).", "已將「{0}」的音量設為 {1}（{2}%）。"),
-        (" - \"{0}\": {1}%", " - 「{0}」：{1}%"),
+        ("Unknown action '{0}'. Use change, list, remove, or clear.", "未知操作“{0}”。請使用 change、list、remove 或 clear。"),
+        ("Removed override for \"{0}\".", "已移除“{0}”的覆蓋。"),
+        ("No override found for \"{0}\".", "沒有找到“{0}”的覆蓋。"),
+        ("Set volume for \"{0}\" to {1} ({2}%).", "已將“{0}”的音量設為 {1}（{2}%）。"),
+        (" - \"{0}\": {1}%", " - “{0}”：{1}%"),
         ("<color=green>Seed: {0} ({1})</color>", "<color=green>種子：{0}（{1}）</color>"),
         ("X: {0} px from the left, Y : {1} px from the top", "X：距左側 {0} 像素，Y：距頂部 {1} 像素"),
         ("Controller source: {0} | Device: {1} | Profile: {2} | Active: {3}", "控制器源：{0} | 設備：{1} | 配置：{2} | 活動：{3}"),
@@ -644,26 +657,26 @@ internal static class QoLUnknownTrTw
         ("<color=red>[LocaleDownloader] Parse error: {0}", "<color=red>[LocaleDownloader] 語言列表解析錯誤：{0}"),
         ("<color=red>[LocaleDownloader] Failed download: {0}", "<color=red>[LocaleDownloader] 語言下載失敗：{0}"),
         ("<color=red>[LocaleDownloader] Write error: {0}", "<color=red>[LocaleDownloader] 語言文件寫入錯誤：{0}"),
-        ("<color=green>Repeat \"{0}\" started: {1}x \"{2}\" every {3}s.</color>", "<color=green>重複命令「{0}」已啟動：執行 {1} 次「{2}」，間隔 {3} 秒。</color>"),
-        ("<color=yellow>Paused repeat \"{0}\".</color>", "<color=yellow>已暫停重複命令「{0}」。</color>"),
-        ("<color=green>Unpaused repeat \"{0}\".</color>", "<color=green>已繼續重複命令「{0}」。</color>"),
-        ("<color=orange>Stopped repeat \"{0}\".</color>", "<color=orange>已停止重複命令「{0}」。</color>"),
+        ("<color=green>Repeat \"{0}\" started: {1}x \"{2}\" every {3}s.</color>", "<color=green>重複命令“{0}”已啟動：執行 {1} 次“{2}”，間隔 {3} 秒。</color>"),
+        ("<color=yellow>Paused repeat \"{0}\".</color>", "<color=yellow>已暫停重複命令“{0}”。</color>"),
+        ("<color=green>Unpaused repeat \"{0}\".</color>", "<color=green>已繼續重複命令“{0}”。</color>"),
+        ("<color=orange>Stopped repeat \"{0}\".</color>", "<color=orange>已停止重複命令“{0}”。</color>"),
         ("<color=green>Active repeat commands ({0}):</color>", "<color=green>正在運行的重複命令（{0}）：</color>"),
         ("<color=yellow>{0}</color> - <color=orange>paused</color>, {1}/{2} repeats done, every {3}s <color=#888888>[{4}]</color>", "<color=yellow>{0}</color> - <color=orange>已暫停</color>，已完成 {1}/{2} 次，每 {3} 秒一次 <color=#888888>[{4}]</color>"),
         ("<color=yellow>{0}</color> - <color=green>running</color>, {1}/{2} repeats done, every {3}s <color=#888888>[{4}]</color>", "<color=yellow>{0}</color> - <color=green>運行中</color>，已完成 {1}/{2} 次，每 {3} 秒一次 <color=#888888>[{4}]</color>"),
-        ("<color=orange>No player matches \"{0}\".</color> <color=grey>Players: {1}</color>", "<color=orange>沒有匹配「{0}」的玩家。</color> <color=grey>玩家：{1}</color>"),
-        ("<color=orange>\"{0}\" matches {1} players: {2}.</color> <color=grey>Be more specific.</color>", "<color=orange>「{0}」匹配到 {1} 名玩家：{2}。</color> <color=grey>請寫得更具體些。</color>"),
-        ("<color=orange>\"{0}\" is not a valid limb!</color> <color=grey>Limbs: {1}</color>", "<color=orange>「{0}」不是有效的肢體！</color> <color=grey>肢體：{1}</color>"),
-        ("<color=orange>Nothing on {0} named \"{1}\".</color>", "<color=orange>{0} 上沒有名為「{1}」的成員。</color>"),
-        ("<color=orange>Nothing on {0} named \"{1}\".</color> <color=grey>Try: {2}</color>", "<color=orange>{0} 上沒有名為「{1}」的成員。</color> <color=grey>試試：{2}</color>"),
+        ("<color=orange>No player matches \"{0}\".</color> <color=grey>Players: {1}</color>", "<color=orange>沒有匹配“{0}”的玩家。</color> <color=grey>玩家：{1}</color>"),
+        ("<color=orange>\"{0}\" matches {1} players: {2}.</color> <color=grey>Be more specific.</color>", "<color=orange>“{0}”匹配到 {1} 名玩家：{2}。</color> <color=grey>請寫得更具體些。</color>"),
+        ("<color=orange>\"{0}\" is not a valid limb!</color> <color=grey>Limbs: {1}</color>", "<color=orange>“{0}”不是有效的肢體！</color> <color=grey>肢體：{1}</color>"),
+        ("<color=orange>Nothing on {0} named \"{1}\".</color>", "<color=orange>{0} 上沒有名為“{1}”的成員。</color>"),
+        ("<color=orange>Nothing on {0} named \"{1}\".</color> <color=grey>Try: {2}</color>", "<color=orange>{0} 上沒有名為“{1}”的成員。</color> <color=grey>試試：{2}</color>"),
         ("<color=orange>Could not read {0}.{1}: {2}</color>", "<color=orange>無法讀取 {0}.{1}：{2}</color>"),
-        ("A repeat command named \"{0}\" is already active!", "已存在同名的重複命令「{0}」！"),
-        ("\"{0}\" is not a valid controlrepeat action! (pause, unpause, stop, list)", "「{0}」不是有效的 controlrepeat 操作！（pause、unpause、stop、list）"),
-        ("\"{0}\" is not a valid float value! (2, 0.7, 14.1, etc)", "「{0}」不是有效的浮點數值！（2、0.7、14.1 等）"),
-        ("\"{0}\" is not a valid integer value! (0, 1, 5, etc)", "「{0}」不是有效的整數值！（0、1、5 等）"),
-        ("Expected a repeat command name after \"{0}\".", "「{0}」後面應跟重複命令的名稱。"),
+        ("A repeat command named \"{0}\" is already active!", "已存在同名的重複命令“{0}”！"),
+        ("\"{0}\" is not a valid controlrepeat action! (pause, unpause, stop, list)", "“{0}”不是有效的 controlrepeat 操作！（pause、unpause、stop、list）"),
+        ("\"{0}\" is not a valid float value! (2, 0.7, 14.1, etc)", "“{0}”不是有效的浮點數值！（2、0.7、14.1 等）"),
+        ("\"{0}\" is not a valid integer value! (0, 1, 5, etc)", "“{0}”不是有效的整數值！（0、1、5 等）"),
+        ("Expected a repeat command name after \"{0}\".", "“{0}”後面應跟重複命令的名稱。"),
         ("Expected at least {0} arguments, but got {1}.", "至少需要 {0} 個參數，實際只給了 {1} 個。"),
-        ("No active repeat command named \"{0}\". Use controlrepeat list to see active repeats.", "沒有名為「{0}」的正在運行的重複命令。用 controlrepeat list 查看正在運行的重複命令。"),
+        ("No active repeat command named \"{0}\". Use controlrepeat list to see active repeats.", "沒有名為“{0}”的正在運行的重複命令。用 controlrepeat list 查看正在運行的重複命令。"),
     };
     public static readonly (string En, string Zh)[] UiFormats =
     {
@@ -721,6 +734,7 @@ internal static class QoLUnknownTrTw
         ("Mod Presets {0}", "模組預設 {0}"),
         ("Click to load, right click to save current list as preset\nSaved: {0} enabled / {1} mods", "點擊載入，右鍵把當前列表存為預設\n已保存：啟用 {0} / 共 {1} 個模組"),
         ("Slot {0}", "存檔 {0}"),
+        ("Default ({0})", "默認（{0}）"),
     };
     public static readonly (string En, string Zh)[] ModRowFragments =
     {
@@ -823,5 +837,27 @@ internal static class QoLUnknownTrTw
     public static readonly (string En, string Zh)[] DepthUnit =
     {
         ("m", "米"),
+    };
+    public static readonly (string En, string Zh)[] WorldUi =
+    {
+        ("World Size", "世界尺寸"),
+        ("Layer chunks (width)", "地層區塊（寬）"),
+        ("Layer chunks (height)", "地層區塊（高）"),
+        ("Number of 64-tile chunks per layer for this run. Leave empty for the normal world size. Clamped to 4-4x normal.", "本次遊玩每層包含多少個 64 格區塊。留空即使用常規世界尺寸。限制為常規規模的 4-4 倍。"),
+        ("Quickstart", "快速開始"),
+        ("Starts a new run on the chosen layer, with weighted random equipment and experience scaled to the depth.", "從所選地層開始新的一局，隨機裝備按權重發放，經驗按深度縮放。"),
+        ("Default", "默認"),
+        ("Off", "關閉"),
+        ("1. Gravel lands", "1. 礫石荒原"),
+        ("2. Deeper gravel lands", "2. 深層礫石帶"),
+        ("3. Dried desert", "3. 乾旱沙漠"),
+        ("4. Wasteland", "4. 輻射廢土"),
+        ("5. Overgrown depths", "5. 深林叢淵"),
+        ("6. Frozen chasm", "6. 覆冰斷崖"),
+        ("7. Fungal pools", "7. 真菌窪地"),
+        ("8. Crystalline hollow", "8. 晶蝕空穴"),
+        ("9. Geothermal vents", "9. 地熱噴口"),
+        ("10. WHERE WE MUST REACH", "10. 必 須 抵 達 之 地"),
+        ("11. CRIMSON ASCENT", "11. 猩紅長階"),
     };
 }

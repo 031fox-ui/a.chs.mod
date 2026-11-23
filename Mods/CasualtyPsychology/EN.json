@@ -1005,24 +1005,56 @@
         "Body feels like lead. Can barely keep moving.",
         "Why am I even trying? Everything feels cold.",
         "Heavy. So damn heavy.",
-        "I'm exhausted. I don't know how much longer I can keep going."
+        "I'm exhausted. I don't know how much longer I can keep going.",
+        "Every breath feels like dragging wet sand.",
+        "Just numb... I can't even remember feeling warm.",
+        "Feels like I'm sinking right through the ground.",
+        "What's the point? It's just more corridors and more dirt.",
+        "Stomach feels hollow. Not hungry, just empty.",
+        "Legs are aching all the way into the bone.",
+        "Hard to care about making it out when it hurts to stand.",
+        "I don't think I have much left in the tank."
       ],
       "psychology_unchipped_inspection_high_arousal": [
-        "Chest feels tight... heart won't stop pounding against my ribs.",
-        "Hands won't stop shaking... need to breathe.",
-        "Everything's moving too fast. Can't steady myself.",
-        "I can't calm down. Something feels terribly wrong."
+        "Chest feels tight... my fucking heart won't stop pounding against my ribs.",
+        "Hands won't stop shaking... I need to breathe.",
+        "Everything's moving too fast. I Can't... I can't steady myself.",
+        "I can't calm down. Something's terribly wrong...",
+        "It feels like hammers against my throat... slow down, please...",
+        "My fingers won't stop twitching.",
+        "Can't focus my eyes, everything's going too fast!",
+        "Every little noise it's... it's too much for me.",
+        "My teeth are grinding so hard they're going to crack. Ugh.",
+        "...inhale, hold, exhale... *shiver*",
+        "I'm too overstimulated... *incoherent muttering*",
+        "Feel like I'm going to jump straight outta my skin."
       ],
       "psychology_unchipped_inspection_low_agency": [
-        "I'm trapped. Nothing I can do.",
+        "I'm trapped. I'm so fucking trapped.",
         "Out of my hands. Completely out of my hands.",
         "What was I even supposed to do coming here?",
-        "Can the scientists hear me? I need some instructions...!"
+        "Can theose coats hear me? I need some instructions...! Anything!",
+        "Whatever happens down here... I don't get a say, do I?",
+        "Just getting pushed from one mess right into another.",
+        "No map, no orders, no way to turn back. *sigh*",
+        "I'm just a pawn they tossed into a hole.",
+        "Doesn't matter which turn I take. It's all the same trap. Over and over again.",
+        "Nobody's steering this ship. Certainly not me.",
+        "Stuck between a rock wall and whatever's haunting me.",
+        "If someone has a plan, speak up now... please."
       ],
       "psychology_unchipped_inspection_calm": [
-        "Breathing is steady. One step at a time.",
-        "Holding it together. Keep moving.",
-        "I'm alright. Just keep doing what I know."
+        "One step at a time.",
+        "Gotta keep moving.",
+        "Just keep doing what I know.",
+        "Still got my bearings.",
+        "We can manage this, come on.",
+        "Slow and steady wins the race.",
+        "No need to be rushing much.",
+        "Not dead yet. Nope.",
+        "Just keep your head on your shoulders.",
+        "I'm still standing. That's something.",
+        "*inhale*... *exhale*... Alright."
       ],
       "psychology_memory_trade": [
         "That trader wasn't so bad.",
@@ -1231,12 +1263,29 @@
       ],
       "psychology_solitary_mutter": [
         "...Just gotta keep moving.",
-        "Check the pack, check the footing. One step at a time.",
+        "One foot after another... just don't stumble.",
         "Quiet down here. Too quiet.",
         "...Focus on what's ahead. Don't drift.",
         "Steady now...",
         "Keep a move on...",
-        "Just keep focused."
+        "Just keep focused.",
+        "Just me and these dripping rocks.",
+        "Can't even tell how long I've been walking.",
+        "Don't stop now. If you stop, you'll just sit here and freeze.",
+        "Tunnel has to lead somewhere... come on.",
+        "God, I'd give anything for a warm bed right now.",
+        "Just keep moving... come on, feet, work with me.",
+        "Nothing ahead... nothing behind. Just keep walking.",
+        "Wish I knew what time it was. Day or night even.",
+        "Keep your head down and keep moving.",
+        "Hear that? No... just the caves... *sigh*... keep walking.",
+        "Don't think about it. Just keep moving.",
+        "The cold air on my neck again... I hate this.",
+        "Just focus on the next turn.",
+        "Still alive. Still walking. That's something, right?",
+        "Quiet... way too damn quiet.",
+        "...Need to find a way out of this hole.",
+        "*quiet sigh* Just another turn..."
       ],
       "psychology_solitary_schizoid": [
         "Did you hear that? Shh. Don't answer.",
@@ -1299,12 +1348,21 @@
       ],
       "psychology_darkness_wandering": [
         "Did something just move out there? Keep moving...",
-        "Eyes straining... can't see five feet ahead.",
+        "Eyes straining... can't see shit.",
         "Every shadow feels like it's creeping closer...",
         "Need a torch or a campfire... anything with a flame.",
-        "Just keep one hand on the rock. Don't lose your balance.",
+        "Just keep one hand on the rock. It'll be fine",
         "Sounded like breathing... No, just the wind through the cracks.",
-        "*whistling*"
+        "*whistling*",
+        "Near pitch black... I hate this place.",
+        "Don't step into open air... That'd be a bad idea",
+        "Wish I had even a lick of light right now.",
+        "Just stone and cold air... Grrreaaatt...",
+        "My own footsteps sound way too loud in the dark.",
+        "Can't tell if the ceiling is ten feet up or a hundred.",
+        "Bumping into jagged rocks--... owie...",
+        "*quiet humming*",
+        "If I stop moving, it feels like the darkness is closing in. Eugh."
       ],
       "psychology_trap_sonar_angry": [
         "Is that all you've got?! Ears are ringing, piece of scrap!",
@@ -1587,19 +1645,35 @@
       ],
       "psychology_darkness_paranoid": [
         "...Something shifted in the dark.",
-        "...Hear that? Scraping in the pipes...",
-        "...Too quiet. Don't look away.",
-        "...Those aren't just shadows moving.",
-        "...Stay facing out. Don't blink.",
-        "...Something is breathing out there."
+        "Do you hear that?...",
+        "...nghh... Too quiet.",
+        "Those aren't just shadows moving, I think.",
+        "Don't blink...",
+        "Something is out there.",
+        "...I heard a click right behind me...",
+        "I swear I saw a reflection. Nevermind I suppose.",
+        "...What was that? I... hrmnn...",
+        "...It's waiting for me to take one more step.",
+        "The air is shifting... I can feel it.",
+        "Is... Someone out there...?",
+        "These shadows feel wrong somehow.",
+        "...Stop breathing so loud...",
+        "!... hnnngh...?",
+        "I don't like any of this."
       ],
       "psychology_isolation_exhausted": [
         "How long have I been down here...?",
         "Just the hum of the caves.",
-        "Cold sand forever.",
+        "Cold dirt forever.",
         "Nobody is coming down here.",
-        "Days or weeks? Does it even matter?",
-        "Just me and these dripping walls."
+        "Hours or days? Does it even matter?",
+        "Just me and these walls.",
+        "My legs feel like dead weight.",
+        "I don't think anyone even knows I'm still alive here.",
+        "So tired of this place... so damn tired.",
+        "Can barely keep my eyes open.",
+        "Just want to lie down on the dirt and sleep.",
+        "Every corner looks exactly the same. It's so fucking boring."
       ],
       "psychology_craft_mutilation_panic": [
         "...Ah! My <limb>! It chewed right through!",
@@ -2408,6 +2482,65 @@
         "...Can't do it. Just let me lie here.",
         "...No. I don't care anymore. Just leave it."
       ],
+      "psychology_amputation_aversion_peo": [
+        "The PEO's right here. Just... need to do it clean.",
+        "One clean cut. Come on, you can do this",
+        "Don't panic... need to keep my hand steady...",
+        "Take a breath... It'll be fine, it'll be fine...",
+        "I am so not ready and ready at the same time.",
+        "I swear if this is a fucking scam...",
+        "It's a bit too good to be true... but...",
+        "*sigh* ...guess it's time."
+      ],
+      "psychology_amputation_aversion_steel": [
+        "It'll balance out... at least.",
+        "This should do well as a replacement... I hope.",
+        "Just get it over with, I'm gonna need some time to get adjusted.",
+        "Ain't loosing it for nothin'.",
+        "Breathe... In and out... it'll be fine."
+      ],
+      "psychology_prosthetic_attach": [
+        "Let's see if it holds.",
+        "Well this is quite nice...",
+        "Oughhh... That feels weird...",
+        "Tad uncomfortable but I can't complain."
+      ],
+      "psychology_prosthetic_attach_peglimb": [
+        "...it beats crawling around I suppose.",
+        "I'm so gonna get a splinter... at least I can limp on it.",
+        "Bit rough but... it's back.",
+        "Functional... *mumbling*."
+      ],
+      "psychology_prosthetic_attach_steel": [
+        "It's heavy, but it'll work nicely.",
+        "Better than having nothing.",
+        "There we go... a bit stiff, but I can work with it."
+      ],
+      "psychology_prosthetic_attach_peo": [
+        "It actually moves quite smoothly. Nice.",
+        "Hard to believe this is mine now... it's almost completely silent.",
+        "Feels weird having a bionic limb, but... I feel even stronger!",
+        "Whoa... It's weird feeling... but so cool!"
+      ],
+      "psychology_prosthetic_full_peo": [
+        "What's next? Heart of steel?",
+        "More machine than sawian...",
+        "I feel unstoppable...",
+        "Haha! Try me now!",
+        "Tssh. I'm practically unbreakable!"
+      ],
+      "psychology_autopump_discard": [
+        "Get this off me...",
+        "I don't want this buzzing against my ribs anymore.",
+        "Just... let it stop.",
+        "Quit it... I'm done."
+      ],
+      "psychology_epinephrine_refusal": [
+        "Don't... don't inject that.",
+        "Just let it stop...",
+        "I'm done fighting it...",
+        "Leave it alone..."
+      ],
       "psychology_amputation_infected": [
         "*retching* ...God, the smell... I'm gonna throw up...",
         "Get it away from me... just throw it away, please...",
@@ -2551,180 +2684,6 @@
         "Put that back. I'm fine.",
         "*shakes head*.",
         "No. Leave it."
-      ],
-      "cui_drunk_low": [
-        "Ooh... Du-ne he-ad feel buz-zy like ba-by bug.",
-        "Tummy wa-rm... nice dri-nk.",
-        "Du-ne feel loose... legs si-lly.",
-        "Hehe... took bad feel aw-ay from Du-ne.",
-        "He-ad feel lig-ht like... air!"
-      ],
-      "cui_drunk_slurred": [
-        "W-wait... cave floor rocking like boat!",
-        "Why two rock now...? Blink blink...",
-        "*hic!* ...Whoa, hold on rock!",
-        "Legs soft like jelly... can't walk straight!",
-        "Everything crooked... hehe...",
-        "*Semi-incoherent warbling* Du-ne go weee!"
-      ],
-      "cui_drunk_wasted": [
-        "Du-ne so crazy! Wheeee!",
-        "Hahaha... can't feel face! Numb snout!",
-        "Dirt flo-or so cozy... want sleep on rocks...",
-        "Room spin li-ke big top! Whoa-a!",
-        "Urrgh... drank too much fun-ny water...",
-        "Du-ne feel silly! Silly!"
-      ],
-      "cui_hangover": [
-        "Ughhh... mouth dry like dust...",
-        "Du-ne HEAD... ouch ouch ouch...",
-        "Never drink bad water again... promise...",
-        "Put out light! Light burn Du-ne eyes!",
-        "Hurt... whole head hurty...",
-        "*really long groan*"
-      ],
-      "cui_hangover_headache": [
-        "Big hammer pounding inside Du-ne skull!",
-        "QUIET... please stop talking so loud...",
-        "Sharp th-ing poking behind eyes...",
-        "Brain feel too big for head... ache bad...",
-        "*holding head* Du-ne want re-st..."
-      ],
-      "cui_hangover_nausea": [
-        "Urp... tummy flipping upside down...",
-        "Bluugh... don't push Dune... want lie down...",
-        "Sour juice in mouth... *gags*",
-        "Du-ne throw up...",
-        "*chittering* Du-ne feel VERY emp-ty..."
-      ],
-      "collars_wear_shock": [
-        "Zap needles poke Dune neck! Buzzing loud!",
-        "Cold metal bit-ing throat... scary buzz noise...",
-        "No jump... no run... no zap Du-ne please...",
-        "Ti-ght band on neck... hard to swallow foo-d...",
-        "Humm-ing in ears... buzzy metal..."
-      ],
-      "collars_wear_explosive": [
-        "Please no go boom... Dune nice saw-ian...",
-        "BOMB on neck! Du-ne neck have big boom!",
-        "Hear tick tick tick? One boom and head gone!",
-        "Don't trip on rocks... walk slow... breathe...",
-        "Tick tick on neck... *whimpering*"
-      ],
-      "collars_wear_healthcare": [
-        "Cold needle poke at Du-ne neck...",
-        "Smell like lab medi-cine... sharp pokey...",
-        "Hea-vy box on throat. Hope go-od juice inside...",
-        "Don't twit-ch or sharp needle jab neck!",
-        "Thing on neck... give Dune good medicine?"
-      ],
-      "collars_wear_plain": [
-        "Du-ne can't pr-y lock off ne-ck...",
-        "Pinch Du-ne neck! Hate iron band!",
-        "Heavy iron ring... chokes Dune...",
-        "Won't budge..."
-      ],
-      "collars_shocked_pain": [
-        "GAAAH! DU-NE NECK BURNING!",
-        "Can't bre-athe! Whole bo-dy shak-ing!",
-        "AAGHH! DU-NE NECK HURT!",
-        "AGGHHH! OWW!",
-        "STOP ZAPPING DUNE! PLEASE! GAAHH!"
-      ],
-      "collars_wear_refusal_depressed": [
-        "Put on ne-ck... what-ever... Du-ne no care.",
-        "Just another ca-ge for Du-ne... doesn't mat-ter.",
-        "Du-ne too tir-ed to fi-ght.",
-        "Nothing mat-ters any-way...",
-        "Do what-ever... Dune just lie here."
-      ],
-      "collars_trader_embarrassment": [
-        "Stop STAR-ING at Du-ne neck...",
-        "Look-ing rig-ht at lock... *whine*",
-        "Please no sta-re at Dune...",
-        "Dune fee-l like pet bug... just trade items...",
-        "Can't look in ey-es... so shy...",
-        "No lau-gh at col-lar... please..."
-      ],
-      "collars_trader_masochist": [
-        "Look all you want! Dune neck strong!",
-        "Tight iron pin-ch a lit-tle... Du-ne don't care! Tough saw-ian!",
-        "Stare at collar? Yeah, Dune wear hea-vy metal! Mean bug!",
-        "Band squee-ze hard... but Du-ne can ta-ke it!",
-        "Think coll-ar hurt Du-ne? Ha! Shell too hard!",
-        "Dune wear big iron ring! Dune stron-ger than lit-tle collar!"
-      ],
-      "subex_smoke_cravings": [
-        "Need smoky stick... want smoke!",
-        "Du-ne claws twit-ching hard... ne-ed puff...",
-        "Du-ne trade shiny rocks for smo-ke right now...",
-        "Fingers sha-ke... want warm smo-ke...",
-        "Got fire spark? Dune ne-ed little puff..."
-      ],
-      "subex_smoke_calm": [
-        "Puff... ahh... shakes go a-way.",
-        "Warm gl-ow stick... much bet-ter...",
-        "Claws steady now.",
-        "Quiet ca-ve... nice smoky tas-te.",
-        "Warm smo-ke in chest... he-ad feel good."
-      ],
-      "subex_trip_wonder": [
-        "Whoa... ca-ve breath-ing like sleep-ing bug...",
-        "Pretty colors dancing in dark! Shiny!",
-        "Wind sing-ing mu-sic! Hear it, friend?",
-        "Everything glow-ing like shiny beet-les...",
-        "Floor look like water waves!"
-      ],
-      "subex_trip_dissociation": [
-        "Can't fee-l claws... are these Du-ne claws?",
-        "Du-ne seeing self wa-lk from high up in cave!...",
-        "Float-ing in air... nu-mb all ov-er...",
-        "Where bug body go...? Du-ne ghost...?",
-        "Nothing re-al right now... all dre-am... heh..."
-      ],
-      "subex_dmt_breakthrough": [
-        "Walls mel-ted away... gone!",
-        "No more da-rk cave... just big bright light!",
-        "Du-ne out of deep pit... finally free...",
-        "All bugs, all ro-cks, all one thing... so quiet...",
-        "Bri-ght wa-rm light... no more hurt..."
-      ],
-      "subex_mdma_rolling": [
-        "Chest so wa-rm! Tingles every-where!",
-        "Teeth clack-ing! Clen-ch jaw hard!",
-        "Everything so SOFT... rock feel like pill-ow...",
-        "No more shiv-ering... warm li-ke fire!",
-        "Mmm... whole body buzzing happy...",
-        "*happy chittering*"
-      ],
-      "subex_cannabinoid_chill": [
-        "Hurts went sleepy... nice...",
-        "Head float like balloon...",
-        "Walk slow slow... don't care at all...",
-        "DUNE SO HUNGRY! Oughhh...",
-        "Breathing nice and slow... happy bug...",
-        "Du-ne feel go-od..."
-      ],
-      "subex_sedated_heavy": [
-        "Du-ne eyes hea-vy like ro-cks... so sleepy...",
-        "Du-ne no hold hea-vy stu-ff...",
-        "Head stuff-ed with big met-al...",
-        "Drift-ing off... sleep com-ing...",
-        "Du-ne... must li-e down in di-rt..."
-      ],
-      "subex_benzo_withdrawal": [
-        "Du-ne shak-ing all over! Can't stop sha-kes!",
-        "Heart hammering on ribs! BOOM BOOM BOOM!",
-        "Du-ne sweat-ing... where little pills?!",
-        "Du-ne fe-el like ticks bit-ing inside!",
-        "Los-ing mind! DUNE NE-ED MEDI-CINE!"
-      ],
-      "subex_steroid_rage": [
-        "GET OUT OF DUNE WAY! GRRRR!",
-        "*extremely angry hissing*",
-        "Dune sma-sh through with big cla-ws!",
-        "Du-ne will rip he-ad off!",
-        "Du-ne tear any-thing in half!"
       ]
     },
     {
@@ -3336,24 +3295,56 @@
         "*gasps desperately* An exit... now!"
       ],
       "psychology_unchipped_inspection_low_valence": [
-        "Progress feels pointless.",
-        "Heavy. I can barely maintain momentum.",
-        "The mental toll is becoming unsustainable."
+        "Progress feels utterly pointless.",
+        "Heavy... I can scarcely maintain my composure.",
+        "The mental strain is becoming rather intolerable.",
+        "A thoroughly dreary, godforsaken existence.",
+        "Every limb feels weighed down by sheer misery.",
+        "Hardly see the purpose in enduring another corridor of this filth.",
+        "My patience has worn remarkably thin.",
+        "Exhausted down to the marrow. How dreadfully tiresome.",
+        "I would give a small fortune for a moment's peace.",
+        "Nothing but damp stone and misery. Simply wretched.",
+        "Dreadfully tedious... I can barely summon the will to stand."
       ],
       "psychology_unchipped_inspection_high_arousal": [
-        "Adrenaline spike. Heart hammering against the sternum.",
-        "My focus has been compromised.",
-        "Every fiber of my being is on edge."
+        "My heart is pounding far too vigorously. How unbecoming of me.",
+        "Hands shaking... this is embarrassing.",
+        "Everything is moving too quickly... I must retain my composure.",
+        "Confound it... my pulse is racing out of control.",
+        "Take a measured breath. One must never lose control like this.",
+        "I need a moment to steady myself.",
+        "Every little sound is putting my nerves on high alert.",
+        "Unsettled. Deeply, deeply unsettled. *groaning*",
+        "My nerves are frayed to absolute ribbons.",
+        "Steady, now. Panicking is for the weak.",
+        "This is suboptimal, emphasis on the 'sub'.",
+        "I refuse to be undone by nerves in a place as vulgar as this."
       ],
       "psychology_unchipped_inspection_low_agency": [
-        "I am cornered by circumstance. Very little leverage.",
-        "Entirely out of my control. Quite the infuriating predicament.",
-        "What did the scientists expect sending me down here?"
+        "Cornered by circumstances beyond my control. This is utterly infuriating.",
+        "I have virtually no say in this wretched charade.",
+        "What did those insolent coats expect sending me down into this sewer?",
+        "Tossed about by blind luck. This is beyond appalling.",
+        "I am quite tired of having my itinerary dictated to me by outside forces.",
+        "I lack the agency to influence my current circumstances, this is unacceptable.",
+        "I seem to have lost all control of this dreadful situation.",
+        "Treated like common garbage tossed down a bin.",
+        "No options, no courtesy, not even half decent luck.",
+        "Completely at the mercy of this barbaric hole. *groaning*",
+        "To whoever is titulary in charge: your competence is laughably absent for such an appalling situation."
       ],
       "psychology_unchipped_inspection_calm": [
-        "My respiration is steady.",
-        "I am still in control.",
-        "Moving on."
+        "My breathing is steady.",
+        "I remain entirely in control of myself.",
+        "Moving along. Decorum intact.",
+        "A calm demeanor solves most inconveniences.",
+        "Composed, upright, and reasonably presentable.",
+        "Nothing a little poise and patience cannot handle.",
+        "Steady as a rock.",
+        "We shall proceed with dignity.",
+        "No reason to lose one's head over mere cave.",
+        "Let us see what comes next."
       ],
       "psychology_memory_trade": [
         "That merchant was surprisingly civilized.",
@@ -3558,18 +3549,29 @@
         "My motor control slipping... must act immediately."
       ],
       "psychology_solitary_mutter": [
-        "Maintain route. Check inventory. Proceed.",
-        "Endless silence.",
+        "Endless silence... rather uncivilized.",
         "Step by step. Do not let the mind wander.",
-        "One foot in front of the other. Stay sharp.",
+        "One foot in front of the other.",
+        "Stay frosty.",
         "*whistling*",
-        "These caves sure are quiet. Too quiet.",
+        "These caves sure are quiet. Too quiet for my liking.",
         "I am not alone down here. I must remain vigilant.",
         "Hmm... how quaint.",
         "This experience sure is lonely. I am not used to it.",
         "The wind's echo is quite unnerving I must say.",
         "*looks around curiously*",
-        "I say, this place is rather empty sometimes. I do not like it."
+        "I say, this place is rather empty sometimes.",
+        "Not a soul in sight. Truly appalling company.",
+        "Walking in circles in a subterranean graveyard. Charming.",
+        "I suppose asking for decent conversation down here is too much.",
+        "Silence... just the charming sound of dripping stalactites.",
+        "I do wish someone would offer an umbrella or something to shield me from the dripping.",
+        "One must keep up appearances, even when wandering a ditch.",
+        "Tch. This cave is damper than I thought.",
+        "A solitary promenade through the bowels of nowhere.",
+        "Do pick up the pace, Milky. Sitting still won't fetch dinner.",
+        "Just me and my thoughts. Dreadfully dangerous company.",
+        "A rather dreary walk, wouldn't you say? Ah, right. Nobody there..."
       ],
       "psychology_solitary_schizoid": [
         "Who is whispering? Cease it!",
@@ -3618,14 +3620,25 @@
         "Loss of illumination. Better be careful now."
       ],
       "psychology_darkness_wandering": [
-        "Eyes straining against the void. Highly hazardous.",
-        "Every shadow mimics hostile movement.",
-        "Keep one hand against the cavern wall. Maintain equilibrium.",
-        "Auditory cues are my only navigation now.",
-        "Don't loose your footing now.",
-        "It's just shadows. Keep moving.",
-        "I can feel the walls. Keep moving.",
-        "Stay alert. The darkness is not your friend."
+        "My eyes have adapted quite nicely to the gloom, thankfully.",
+        "I can see adequately enough. Very nice.",
+        "These shadows conceal very little from my eyes.",
+        "A fortunate thing I can see thru this gloom.",
+        "Navigating this dark is hardly an obstacle for me.",
+        "I can see the silhouettes clearly enough. Still unnerving",
+        "Others would be breaking their necks in this dark. How fortunate I am not 'others'.",
+        "The dimness is almost soothing to my eyes, truth be told.",
+        "I can see the contours of the rock quite clearly.",
+        "A dark corridor is scarcely a hindrance when one can actually see.",
+        "My vision remains impeccable.",
+        "This cave structure is quite fascinating",
+        "Quite more visible than at I would've thought at first.",
+        "Not so smart now hiding in the dark.",
+        "I can navigate this gloom with reasonable ease.",
+        "This gloomy cave is quite the cake walk, if pride be allowed.",
+        "Not going to be deceived by mere subtle movement now.",
+        "Gloomy, certainly, but my vision serves me splendidly.",
+        "A bit of shadows never troubled my sight."
       ],
       "psychology_trap_sonar_angry": [
         "Quit rattling my head you infernal machine!",
@@ -3911,13 +3924,28 @@
         "An auditory shift in the shadows. Something stalked past.",
         "Scraping in the conduits. Do not turn your back.",
         "Those silhouettes are moving with intent.",
-        "I feel watched."
+        "I feel watched.",
+        "There is something dreadful lurking just out of sight.",
+        "That scraping sound was decidedly deliberate. Come out, coward.",
+        "I felt that draft. Something rather large just moved past.",
+        "I am not fond of voyeurs in the dark. Show yourself.",
+        "Footfalls matching my own. How excessively rude.",
+        "A presence in the shadows... and it certainly lacks manners.",
+        "I can hear breathing. And it is not my own.",
+        "Something is stalking my flank. I shall not make it easy for you.",
+        "Do not test me in the dark, beast. I am quite armed.",
+        "I sense eyes upon my neck. Spine tingling... ghastly feeling."
       ],
       "psychology_isolation_exhausted": [
         "How many cycles have elapsed? Just dripping stone.",
         "Nobody is deploying a team to extract me from here.",
         "Endless cold sand. A solitary confinement without bars.",
-        "This is oddly reminiscent to prision."
+        "This is oddly reminiscent to prision.",
+        "Left to rot in a dark hole. How monumentally rude.",
+        "Nobody is coming. A rather bitter pill to swallow.",
+        "My legs ache, my pride is battered, and I am dreadfully tired.",
+        "A prolonged sentence in solitary. Utterly barbaric.",
+        "I am growing exceedingly weary of this gloomy scenery."
       ],
       "psychology_craft_mutilation_panic": [
         "Agh! It chewed into my <limb>!",
@@ -4665,6 +4693,58 @@
         "...Futile. It is finished regardless.",
         "...I have no will left to butcher myself."
       ],
+      "psychology_amputation_aversion_peo": [
+        "This is quite the calculated sacrifice.",
+        "Need to maintain composure...",
+        "Steady now. A superior limb awaits me.",
+        "An unpleasant necessity, but the replacement is vastly preferable over the original."
+      ],
+      "psychology_amputation_aversion_steel": [
+        "...Proceed.",
+        "Serviceable...",
+        "A necessary trade...",
+        "Endure it. Utility shall be preserved."
+      ],
+      "psychology_prosthetic_attach": [
+        "Secured properly. It shall suffice.",
+        "It is adjusted. I can bear weight upon it now.",
+        "Adequately aligned. It'll hold."
+      ],
+      "psychology_prosthetic_attach_peglimb": [
+        "A wretched piece of timber, though preferable to dragging oneself along.",
+        "Thoroughly undignified... but functional.",
+        "Hardly flattering, but one must walk."
+      ],
+      "psychology_prosthetic_attach_steel": [
+        "It is reasonably well-balanced for what it is.",
+        "A rather austere prosthetic, though it serves its purpose.",
+        "Solid enough. Mobility restored without undue complication."
+      ],
+      "psychology_prosthetic_attach_peo": [
+        "Remarkable craftsmanship. The kinetic calibration is seamless.",
+        "An exceptionally refined piece of engineering. It responds quite effortlessly.",
+        "Hardly a modest replacement... the articulation is extraordinary.",
+        "I feel remarkably empowered by this new acquisition."
+      ],
+      "psychology_prosthetic_full_peo": [
+        "Quite an astonishing transformation.",
+        "Virtually all mechanical now. Unyielding, if somewhat surreal.",
+        "Quite the extraordinary state of preservation.",
+        "Not so weak now."
+      ],
+      "psychology_autopump_discard": [
+        "Unhook this dreadful contraption...",
+        "I have no desire to endure this mechanical rattling any longer.",
+        "Let things take their natural course.",
+        "I am finished sustaining this further.",
+        "Enough..."
+      ],
+      "psychology_epinephrine_refusal": [
+        "I refuse.",
+        "Please, allow the silence to remain.",
+        "I am quite resolved.",
+        "Put that away. I am done."
+      ],
       "psychology_amputation_infected": [
         "*gagging* ...Ugh, the stench of necrosis... repulsive...",
         "Discard it immediately! Get it out of my sight!",
@@ -5387,24 +5467,57 @@
         "*gasps* Let Du-ne bre-athe...!"
       ],
       "psychology_unchipped_inspection_low_valence": [
-        "Ev-ery-thing hea-vy. Du-ne bare-ly move.",
+        "Every-thing hea-vy. Du-ne bare-ly move.",
         "Why try? Co-ld and da-rk ev-ery-where.",
-        "Du-ne ex-haos-ted. No en-er-gy left."
+        "Du-ne ex-haos-ted. No en-er-gy left.",
+        "Fe-et fee-l stu-ck in di-rt... Du-ne ti-red.",
+        "No li-ght... no wa-rmth... on-ly ro-cks.",
+        "Du-ne want to cur-l up and sle-ep.",
+        "Bo-dy so sad. Du-ne head hu-rts.",
+        "Wh-at the poi-nt? Ro-ck after rock.",
+        "Du-ne so cold in-side...",
+        "Du-ne le-gs feel like sto-nes.",
+        "Du-ne no hap-py..."
       ],
       "psychology_unchipped_inspection_high_arousal": [
-        "He-art poun-ding hard a-gainst ribs!",
-        "Hands sha-king... Du-ne cannot stea-dy.",
-        "Ba-d fee-ling in-side... dan-ge-rous here."
+        "Du-ne chest so tight... du-ne heart bashing a-gainst ribs!",
+        "Pa-ws won't stop sha-king... Du-ne need to bre-athe.",
+        "Every-thing mo-ving too fast! Du-ne can't... ca-n't calm down!",
+        "Du-ne can't calm... some-thing is wro-ng...",
+        "Fe-els like rocks ham-mering at du-ne neck... slow dow-n, plea-se...",
+        "Du-ne fin-gers won't stop twit-ching.",
+        "Ca-n't see we-ll, every-thing go-ing too fast...",
+        "Eve-ry noi-se... too mu-ch for Du-ne.",
+        "...brea-the in, hold, brea-the out... *shi-ver*",
+        "*incoherent chittering* nRgfhghh..."
       ],
       "psychology_unchipped_inspection_low_agency": [
-        "Du-ne tra-pped. No-thi-ng Du-ne can do.",
-        "Out of Du-ne hands com-plete-ly.",
-        "Where lab peo-ple go? Du-ne need help..."
+        "Du-ne feel bad-ly tra-pped.",
+        "nrghhgh... Du-ne have no con-trol",
+        "What Du-ne even sup-posed to do co-ming he-re?",
+        "He-ar Du-ne...? Ne-ed in-struc-tions...! Any-thing!",
+        "Du-ne no get a sa-y...",
+        "Du-ne just get push-ed into b-ad...",
+        "Nrghgh... Du-ne lost... *sad chittering*",
+        "Th-ey just th-row Du-ne in hole...",
+        "All same! All same! Du-ne no want sa-me!.",
+        "No-body hel-ping Du-ne out...",
+        "Du-ne stuck...",
+        "Du-ne ne-ed plan... now..."
       ],
       "psychology_unchipped_inspection_calm": [
-        "Bre-a-thing stea-dy. One step, then a-no-ther.",
-        "Du-ne hol-ding to-ge-ther. Keep mo-ving.",
-        "Du-ne al-right for now."
+        "Du-ne fee-l okay... pa-w no hurt.",
+        "Du-ne pa-t tum-my. Still here, still alive!",
+        "He-art go thump-thump slo-w. Du-ne safe.",
+        "No ba-d wounds. Du-ne strong saw-ian!",
+        "Du-ne take bi-g bre-ath... *soft chitter* Good.",
+        "Cla-ws ready. Paws on ground. Du-ne okay.",
+        "No mo-nster biting Du-ne. Just walking.",
+        "Du-ne a-live! Still stan-ding!",
+        "Ears lis-ten... all qui-et. Du-ne calm.",
+        "Du-ne pat own head. Good Du-ne.",
+        "All par-ts sti-ll the-re! No bits mis-sing.",
+        "*happy snort* Du-ne do-ing good."
       ],
       "psychology_memory_trade": [
         "That tra-der per-son was nice!",
@@ -5560,13 +5673,27 @@
         "Heart slow down... Du-ne must run!"
       ],
       "psychology_solitary_mutter": [
-        "Du-ne keep walking. One foot, two foot.",
-        "So qui-et. Just dripping wa-ter.",
-        "Check bag, check rocks. Keep go-ing.",
-        "Cave so qui-et...",
+        "Du-ne keep walking. One paw, two paw.",
+        "So qui-et... on-ly dripping wa-ter.",
+        "Cave so bi-g and qui-et...",
         "*chittering silently*",
         "Woh...",
-        "Du-ne lone-ly..."
+        "Du-ne lone-ly... wish had fri-end.",
+        "Du-ne tap wall... tap tap... echoes come back!",
+        "Du-ne kick small peb-ble. Clink clink.",
+        "*soft chitter hum* Du-ne hum little song.",
+        "Walk, walk, walk... when Du-ne find warm spot to rest?",
+        "Hello ro-ck! ...Ro-ck no say hello back.",
+        "Cold draft tickle Du-ne ears. *twitch*",
+        "Big dark cave... little Du-ne.",
+        "*sniff sniff* Smell like old dirt and wet moss.",
+        "Du-ne claws scratch floor. Scritch scritch.",
+        "Du-ne walk and walk... where tunnel go?",
+        "Paws make squish sound in mud. Hehe.",
+        "Du-ne tum-my go grrr. Want food...",
+        "*clicks tongue* Clack clack. Hear it boun-ce off walls.",
+        "Du-ne still here. Good saw-ian.",
+        "Drip... drop... wa-ter fall on Du-ne nose! *snorts*"
       ],
       "psychology_solitary_schizoid": [
         "Who whis-per in dark? Shh!",
@@ -5613,12 +5740,25 @@
       ],
       "psychology_darkness_wandering": [
         "Du-ne touch co-ld floor... walk slow in da-rk.",
-        "Hear breathing... mo-nster in da-rk?!",
-        "Sha-dows creeping close to Du-ne...",
+        "Hear brea-thing...",
+        "Sha-dows cree-ping close to Du-ne...",
         "Du-ne no like sha-dows...",
-        "*sporadic chitters*",
-        "Whoh...",
-        "Du-ne see... du-ne no see..."
+        "*sporadic nervous chitters*",
+        "Whoh... so black...",
+        "Du-ne see... no, Du-ne see no-thing.",
+        "Du-ne pa-w on wall... cold ro-ck.",
+        "Bumped on sto-ne! Ow-ch... bad rock!",
+        "Ears twi-tch... draft co-ming from some-where.",
+        "Whe-re floor go? Du-ne test with claw first...",
+        "*sniff sniff* Smell damp di-rt... no light here.",
+        "Claw-s scritch on wall so Du-ne no fall in hole.",
+        "Is that shi-ny bug or ba-d in dark...?",
+        "Wi-sh had ti-ny flame to warm paws.",
+        "Du-ne in dark... *soft scared whistle*",
+        "Cold air tou-ching Du-ne...",
+        "Du-ne brave saw-ian... but cave so bi-g and black...",
+        "*tiny chitter* ...Echo come back slow.",
+        "Du-ne walk and touch... walk and touch..."
       ],
       "psychology_trap_sonar_angry": [
         "LOUD NOISE IN EARS! AAGH! Bad thing scream at Du-ne!",
@@ -5885,12 +6025,30 @@
         "Something breathing in black corners...",
         "Du-ne hear thing...",
         "Du-ne hear bad thing...",
-        "Du-ne scared of thing..."
+        "Du-ne scared of thing...",
+        "Clo-w scritch-ing on ce-iling! Du-ne he-ar it!",
+        "So-me-thing bi-g brea-thing on Du-ne ne-ck!",
+        "Re-d eyes in sha-dow?! Du-ne saw th-em!",
+        "Bad thi-ng sna-pp-ing tee-th in da-rk!",
+        "Du-ne ho-ld sti-ck ti-ght! Don't co-me clo-se!",
+        "It wa-tching Du-ne... it sm-ells Du-ne...",
+        "Sha-dows ha-ve sha-rp han-ds!",
+        "Du-ne fe-el bre-ath in co-ld ro-ck!",
+        "Don't mo-ve... bad mo-nster is lis-ten-ing...",
+        "S-scra-pe... scra-pe... bad thi-ng co-ming!"
       ],
       "psychology_isolation_exhausted": [
         "How long Du-ne down here...?",
         "Nobody coming down to save Du-ne.",
-        "Just cold sa-nd and drip-ping walls forever..."
+        "Just cold sa-nd and drip-ping walls forever...",
+        "Du-ne so sleepy... eyelids feel like stones.",
+        "Du-ne paws heavy... cannot lift up.",
+        "Nobody call Du-ne name. Cave too quiet.",
+        "Du-ne want warm hug... only cold rocks here.",
+        "All alone... Du-ne tired of walking alone.",
+        "Du-ne sit in dirt... rest paws a bit...",
+        "Why cave no let Du-ne find warm bed...?",
+        "Cold rock under tummy... Du-ne want sleep..."
       ],
       "psychology_craft_mutilation_panic": [
         "OUCH! Sharp parts bite Du-ne <limb>!",
@@ -6628,6 +6786,56 @@
         "...Can't do it. Just lea-ve Du-ne on dirt.",
         "...No care anymore. Let bad win."
       ],
+      "psychology_amputation_aversion_peo": [
+        "Whi-te shi-ny paw is rea-dy! *chittering* Saw bad li-mb off, put shi-ny on!",
+        "Du-ne got new smoo-th limb! So qui-et... Cut quick, swa-p fa-st!",
+        "Good shi-ny claw wai-ting! *eager chitter* Du-ne ho-ld veeeeery st-ill!",
+        "Old limb hurt too mu-ch. Shi-ny paw bet-ter!"
+      ],
+      "psychology_amputation_aversion_steel": [
+        "Du-ne got heav-y met-al claw in pack! Met-al don't rot!",
+        "Met-al leg rea-dy. *clacking* Saw throu-gh bad limb, put met-al on!",
+        "Du-ne got me-tal pa-w!",
+        "Met-al wai-ting. Saw clea-n, Du-ne be stro-ng!"
+      ],
+      "psychology_prosthetic_attach": [
+        "Met-al sn-apped on! Du-ne str-ong!",
+        "Li-mb clicked! *happy chitter* It ho-lds!",
+        "Fa-stened do-wn good! Du-ne ba-ck aga-in!",
+        "Du-ne strong saw-ian now!"
+      ],
+      "psychology_prosthetic_attach_peglimb": [
+        "Jus-t a wo-ody sti-ck... *chitter* Bu-t Du-ne no li-mp!",
+        "Lum-py bran-ch... Du-ne sti-ll li-mps a li-ttle!",
+        "Rou-gh wo-od poking Du-ne... bu-t bet-ter than dra-gging!"
+      ],
+      "psychology_prosthetic_attach_steel": [
+        "Heav-y met-al bo-lted ti-ght! *tapping prosthethic* Won't bre-ak!",
+        "So-lid met-al! Heav-y st-ep, bu-t Du-ne   stro-ng!",
+        "Cla-nk! Good ha-rd me-tal cla-w! Make fun-ny noise!"
+      ],
+      "psychology_prosthetic_attach_peo": [
+        "Shi-ny pa-w cli-cked in! *happy chitter* so qui-et!",
+        "New shi-ny leg so fas-t! Du-ne go fas-t no-w!",
+        "So smoo-th... *soft chitter* Good shi-ny cla-w!"
+      ],
+      "psychology_prosthetic_full_peo": [
+        "All fo-ur lim-b shi-ny and! *chitter* Du-ne is shi-ny saw-ian!",
+        "No mo-re wea-k Du-ne! Du-ne all stro-ng! *playful snarl*",
+        "Cla-ck cla-ck! All par-ts ha-rd me-tal now! Du-ne ca-n't be bro-ken!"
+      ],
+      "psychology_autopump_discard": [
+        "Ta-ke badbo-x off! *angry chitter*",
+        "Che-st no wa-nt box...",
+        "Du-ne ti-red... let Du-ne res-t...",
+        "No wa-nt th-ing bea-ting che-st... Lea-ve it..."
+      ],
+      "psychology_epinephrine_refusal": [
+        "No nee-dle! *hiss* No poke!",
+        "Du-ne wa-nt he-art qu-iet...",
+        "Du-ne wa-nts to st-op...",
+        "Du-ne He-art ti-red... let sl-eep..."
+      ],
       "psychology_amputation_infected": [
         "*gags loudly* Stink so bad! Smell like rotten meat!",
         "Throw it away! Get black meat away from Dune!",
@@ -7230,6 +7438,8 @@
     "psychology_trait_nihilism_desc": "Indifferent to corpses and death; low motivation.",
     "psychology_trait_stoicism": "Stoicism",
     "psychology_trait_stoicism_desc": "Suppresses emotion and keeps steady composure.",
+    "psychology_trait_transhumanism": "Transhumanism",
+    "psychology_trait_transhumanism_desc": "Embraces body modification; less averse to limb loss when replacement prosthetics exist.",
     "psychology_menu_credits_title": "CASUALTY PSYCHOLOGY",
     "psychology_menu_credits_subtitle": "Affective simulation & character profiling for Casualties Unknown",
     "psychology_menu_credits_sec_concept": "ORIGINAL CONCEPT",
@@ -7280,6 +7490,30 @@
     "psychology_dossier_mem_breather": "Caught a breather",
     "psychology_dossier_mem_rough": "Rough encounter",
     "psychology_char_quirk_milky": "\n[PSYCHOLOGY: INTELLECTUAL FACADE] - High baseline cognitive composure and restful sleep; emotionally reserved and prone to dietary distress.",
-    "psychology_char_quirk_dune": "\n[PSYCHOLOGY: UNFEELING STOIC] - Immune to corpse trauma and meat disgust; blunted pain sensitivity and dampened panic volatility."
+    "psychology_char_quirk_dune": "\n[PSYCHOLOGY: UNFEELING STOIC] - Immune to corpse trauma and meat disgust; blunted pain sensitivity and dampened panic volatility.",
+    "psychology_dossier_lbl_conditions": "- Conditions: ",
+    "psychology_neuro_tip_title": "Brain Status",
+    "psychology_neuro_tier_intact": "Clear",
+    "psychology_neuro_tier_light": "Dazed",
+    "psychology_neuro_tier_moderate": "Foggy",
+    "psychology_neuro_tier_heavy": "Slipping",
+    "psychology_neuro_tier_critical": "Fading",
+    "psychology_neuro_normal": "Nothing feels off.",
+    "psychology_neuro_distant_heavy": "Hard to focus... everything feels far away.",
+    "psychology_neuro_distant_critical": "Things aren't connecting... where was...",
+    "psychology_neuro_status_ok": "Fine",
+    "psychology_neuro_status_strain": "Off",
+    "psychology_neuro_status_impaired": "Bad",
+    "psychology_neuro_status_deficit": "Broken",
+    "psychology_neuro_zone_brow": "Brow",
+    "psychology_neuro_zone_temples": "Temples",
+    "psychology_neuro_zone_occiput": "Back of head",
+    "psychology_neuro_zone_crown": "Crown",
+    "psychology_neuro_def_brow": "Slurred words, blanking",
+    "psychology_neuro_def_temples": "Words sound wrong",
+    "psychology_neuro_def_occiput": "Blurry text, misreading",
+    "psychology_neuro_def_crown": "Clumsy hands, weird pain",
+    "psychology_neuro_bias_hardened": "Numb to stress pain",
+    "psychology_neuro_bias_sensitized": "Extra sensitive to pain"
   }
 }

@@ -1,7 +1,7 @@
 {
   "moodle": {
     "bloatingBar": "Stomach Contents",
-    "bloatingBardsc": "A measure of how full your stomach is. Currently holding 1 Liters.",
+    "bloatingBardsc": "A measure of how full your stomach is. Currently holding {0} Liters. Max capacity is {1} Liters.",
     "superOverweight": "Super obese",
     "superOverweightdsc": "Had there been a study on this, you would be, by far, the fattest experiment to date. Your further journey into extremes of obesity further constrict your movement and health, even walking is now exhausting...",
     "barelyMobile": "Barely mobile",
@@ -51,11 +51,11 @@
     "xl:stickofbutterdsc1": "Fattening, and most find it sickening to eat it by itself... why do you feel strangely compelled to eat it?",
     "xl:stickofbutterdsc2": "So tasty, you feel like you could eat this for every meal!",
     "xl:stickofbutterdsc3": "Decent as a snack, but you feel like you'd need a few more of these for a nice, round meal.",
-    "xl:stickofbutterdsc4": "Greasy, filling, delicous. Your mouth is watering just looking at it.",
+    "xl:stickofbutterdsc4": "Greasy, filling, delicious. Your mouth is watering just looking at it.",
     "xl:liposyringe": "Lipohyperplastic syringe",
     "xl:liposyringedsc": "A generic looking graduated syringe that can inject fluid subcutaneously. A small yellow label reads 'FOR RESEARCH USE ONLY.'",
     "xl:liposerum": "Lipohyperplastic serum",
-    "xl:liposerumdsc": "An experimental drug made by the Coporation in an attempt to help people who are underweight. Effects proved unpredictable. The question is why did it get sent here...?",
+    "xl:liposerumdsc": "An experimental drug made by the Corporation in an attempt to help people who are underweight. Effects proved unpredictable. The question is why did it get sent here...?",
     "xl:zabkahotdog": "Żabka hotdog",
     "xl:zabkahotdogdsc": "A piece of sausage, wrapped in bread, and stuffed with cheese. Very good.",
     "xl:pills": "Pills",
@@ -131,7 +131,9 @@
     "xl:vegetablebroth": "Vegetable broth",
     "xl:vegetablebrothdsc": "",
     "xl:wastelandsalad": "Wasteland salad",
-    "xl:wastelandsaladdsc": ""
+    "xl:wastelandsaladdsc": "",
+    "xl:bellows": "Bellows",
+    "xl:bellowsdsc": "Accordian style manual pump that has existed since ancient times. Can be used to pump air into things."
   },
   "character": {
     "0:horny": [
@@ -443,9 +445,7 @@
       "Where did that sound come from...?",
       "Ogh. That smells bad.",
       "Hnnng... why am I so gassy...?",
-      "There's no way that could've been me, I would've felt that...",
       "Ugh, I feel so bloated right now...",
-      "I shouldn't have consumed so much that quickly...",
       "I think that my insides are rotten.",
       "Why was that so loud...",
       "This is so embarassing...",
@@ -453,6 +453,15 @@
       "Why is my face so red...?",
       "Felt... good?",
       "At least that helps with the bloating..."
+    ],
+    "0:usedairpump": [
+      "Nngh...",
+      "Mmph...",
+      "Uungh... is this a good idea?",
+      "Huff...",
+      "Oughh...",
+      "Hah...",
+      "Oof..."
     ],
     "0:afterburp": [
       "That was a big one!",

@@ -192,7 +192,7 @@ internal static class ProstheticsTr
     };
     public static readonly (string En, string Zh)[] CommandDescs =
     {
-        ("Prosthetics debug tool. Args: scrap|wood|titanium  - amputate limbs and install that kind. eye  - set bothEyesGone and equip two fully-charged prosthetic eyes. jaw  - set disfigured and equip the copper jaw. torso  - open all 3 torso implant slots with RTG (charged large battery), Regeneration and AGX-Field. No arg  - strip all prosthetics. MP (host + sv_cheats): optional last arg targets another player by name.", "【假肢】赛博改造调试工具。参数：scrap|wood|titanium - 截肢并安装对应假肢。eye - 标记双眼缺失并装备两枚满电义眼。jaw - 标记毁容并装备铜制下颌。torso - 打开全部3个躯干强化槽（RTG充能大型电池、再生、AGX力场）。无参数 - 移除所有假肢。多人模式（主机+作弊开关）：可选最后一个参数指定目标玩家名称"),
+        ("Prosthetics debug tool. Args: scrap|wood|titanium  - amputate limbs and install that kind. eye  - set bothEyesGone and equip two fully-charged prosthetic eyes. jaw  - set disfigured and equip the copper jaw. torso  - open all 3 torso implant slots with RTG, Regeneration and AGX-Field. No arg  - strip all prosthetics. MP (host + sv_cheats): optional last arg targets another player by name.", "【假肢】赛博改造调试工具。参数：scrap|wood|titanium - 截肢并安装对应假肢。eye - 标记双眼缺失并装备两枚满电义眼。jaw - 标记毁容并装备铜制下颌。torso - 打开全部3个躯干强化槽（RTG、再生、AGX力场）。无参数 - 移除所有假肢。多人模式（主机+作弊开关）：可选最后一个参数指定目标玩家名称"),
         ("kind [limb] [player]", "种类 [肢体] [玩家]"),
         ("scrap | wood | titanium | eye | jaw | torso. Optional limb: armF | armB | legF | legB. MP (host + sv_cheats): optional player name targets another player.", "scrap废料、wood木制、titanium钛合金、eye眼、jaw下颌、torso躯干。可选肢体：armF前臂、armB后臂、legF前腿、legB后腿。多人模式（主机+作弊开关）：可选玩家名称以指定目标"),
         ("Toggle the cybernetics panel", "【假肢】切换赛博改造面板"),
@@ -280,7 +280,7 @@ internal static class ProstheticsTr
         ("<b>D3f1anc3</b>  —  Scrap prosthetic sprites, ui and minigames.", "<b>D3f1anc3</b>  —  废料假肢的贴图、界面和小游戏。"),
         ("<b>Il_Disabile</b>  —  Wooden sprites for Minigames", "<b>Il_Disabile</b>  —  小游戏的木制贴图。"),
         ("<b>HpDz</b>  —  Many in game and ui sprites, also the welding sprites, never gona add neon nails bro", "<b>HpDz</b>  —  大量游戏内和界面贴图，还有焊接贴图。兄弟，我是永远不会加霓虹指甲的。"),
-        ("<b>RushellXYZ</b>  —  for making RshLib and more awesome mods, check out New Firearms", "<b>RushellXYZ</b>  —  制作了 RshLib 和更多超棒模组，去看看 New Firearms（新枪械）吧。"),
+        ("<b>RushellXYZ</b>  —  for making RshLib and more awesome mods, check out New Firearms", "<b>RushellXYZ</b>  —  制作了 RshLib 和更多超棒模组，去看看 New Firearms 吧。"),
         ("<b>artik1304</b>  —  spritework", "<b>artik1304</b>  —  贴图绘制。"),
         ("<b>Nullrot</b>  —  cool temperature moodle sprite, welding goggles", "<b>Nullrot</b>  —  温度状态图标贴图、焊接护目镜。"),
         ("<b>TheMagicDragon7</b>  —  singlehandedly finds most bugs I fix", "<b>TheMagicDragon7</b>  —  一个人找到了我修复的大部分 Bug。"),

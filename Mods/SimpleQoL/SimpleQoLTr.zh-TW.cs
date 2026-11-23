@@ -48,7 +48,7 @@ internal static class SimpleQoLTrTw
         ("gameseteqprapidhandcrank", "手搖快速充電"),
         ("gameseteqprapidhandcrankdsc", "手搖充電更快，並保留 50% 體力值。"),
         ("gameseteqpceilingturretrange", "頂置炮塔偵測預覽"),
-        ("gameseteqpceilingturretrangedsc", "顯示附近頂置炮塔的射擊扇形與偵測進度條。邊緣顏色漸淡，但並非安全距離界限。"),
+        ("gameseteqpceilingturretrangedsc", "顯示附近頂置炮塔的射擊扇形與進度條。顏色漸淡的邊緣並非安全距離界限。在 Together 聯機中，主機的進度條只顯示累計偵測時間，客戶端僅在炮塔開火時才能看到。"),
         ("gameseteqpcrystalhoverproperties", "懸停顯示水晶屬性"),
         ("gameseteqpcrystalhoverpropertiesdsc", "無需仔細檢查，懸停時即可在提示框中看到水晶的實際屬性。"),
         ("gameseteqpsuppresscrystalflash", "隱藏治癒與造物水晶的閃光"),

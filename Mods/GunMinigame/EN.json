@@ -1,8 +1,20 @@
 {
   "other": {
+    "gamesetmarksmanrack": "Marksman: operate bolt",
+    "gamesetmarksmanrackdsc": "Operate the held gun's bolt using marksman handling.",
+    "gamesetmarksmanunload": "Marksman: eject magazine",
+    "gamesetmarksmanunloaddsc": "Remove the held gun's magazine using marksman handling.",
+    "gamesetgunminigame.togglewindow": "Toggle gun minigame window",
+    "gamesetgunminigame.togglewindowdsc": "Open or close the gun minigame window.",
     "gamesetgunminigame.useminigame": "Gun minigame",
     "gamesetgunminigame.useminigamedsc": "Use minigame for gun handling?",
     "runsetgunminigame.alwaysmarksman": "Always marksman",
-    "runsetgunminigame.alwaysmarksmandsc": "(W.I.P.)"
+    "runsetgunminigame.alwaysmarksmandsc": "Always have gun keybinds",
+    "gunminigame.command.visualize.description": "Toggle blue markers at configured gun-minigame coordinates.",
+    "gunminigame.command.visualize.enabled": "Gun minigame coordinate markers enabled.",
+    "gunminigame.command.visualize.disabled": "Gun minigame coordinate markers disabled.",
+    "gunminigame.command.coordinate.description": "Toggle mouse coordinates in gun-minigame JSON units.",
+    "gunminigame.command.coordinate.enabled": "Gun minigame mouse coordinates enabled.",
+    "gunminigame.command.coordinate.disabled": "Gun minigame mouse coordinates disabled."
   }
 }

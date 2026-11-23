@@ -45,14 +45,14 @@ internal static class NeurotraumaTr
     };
     public static readonly (string En, string Zh)[] LogFormats =
     {
-        ("Player/body not found for '{0}'. Online: {1}", "未找到玩家/身体「{0}」。在线：{1}"),
+        ("Player/body not found for '{0}'. Online: {1}", "未找到玩家/身体“{0}”。在线：{1}"),
         ("limb index {0} out of range (0..{1})", "肢体索引 {0} 超出范围（0..{1}）"),
-        ("no limb matches '#{0}' (try nt_limbs)", "没有与「#{0}」匹配的肢体（试试 nt_limbs）"),
-        ("cleared '{0}'", "已清除「{0}」"),
-        ("unknown affliction '{0}'. Try nt_list.", "未知病症「{0}」。试试 nt_list。"),
+        ("no limb matches '#{0}' (try nt_limbs)", "没有与“#{0}”匹配的肢体（试试 nt_limbs）"),
+        ("cleared '{0}'", "已清除“{0}”"),
+        ("unknown affliction '{0}'. Try nt_list.", "未知病症“{0}”。试试 nt_list。"),
         ("Registered afflictions ({0}):", "已注册病症（{0}）："),
         ("blood type: {0}  (set with nt_bloodtype A+|B+|O+|AB+|… or nt_bloodtype random)", "血型：{0}（用 nt_bloodtype A+|B+|O+|AB+|… 或 nt_bloodtype random 设置）"),
-        ("unknown blood type '{0}'. Use: {1}, or random.", "未知血型「{0}」。可用：{1} 或 random。"),
+        ("unknown blood type '{0}'. Use: {1}, or random.", "未知血型“{0}”。可用：{1} 或 random。"),
         ("skip {0}: netId=0", "跳过 {0}：netId=0"),
         ("{0}  (target={1}, netId={2}){3}", "{0}（目标={1}，netId={2}）{3}"),
         ("blood type rerolled → {0}", "血型已重掷 → {0}"),

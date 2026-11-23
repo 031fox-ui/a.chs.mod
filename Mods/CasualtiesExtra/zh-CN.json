@@ -1,7 +1,7 @@
 {
   "moodle": {
     "bloatingBar": "胃内容物",
-    "bloatingBardsc": "衡量你的胃有多满。当前容纳 1 升。",
+    "bloatingBardsc": "衡量你的胃有多满。当前容纳 {0} 升。最大容量 {1} 升。",
     "superOverweight": "超级肥胖",
     "superOverweightdsc": "若真有关于此的研究，你无疑会是迄今为止最胖的试验体。在极端肥胖的路上越走越远，你的行动与健康被进一步压迫，就连走路都变得疲惫不堪...",
     "barelyMobile": "几乎无法行动",
@@ -53,7 +53,7 @@
     "xl:stickofbutterdsc3": "当零食还行，但你觉得得再来几条才算一顿像样的饱餐。",
     "xl:stickofbutterdsc4": "油腻、饱腹、美味。光是看着就让你流口水。",
     "xl:liposyringe": "脂肪增生注射器",
-    "xl:liposyringedsc": "一支外观普通的刻度注射器，可皮下注射液体。一张小小的黄色标签上写着「仅供研究使用」。",
+    "xl:liposyringedsc": "一支外观普通的刻度注射器，可皮下注射液体。一张小小的黄色标签上写着“仅供研究使用”。",
     "xl:liposerum": "脂肪增生血清",
     "xl:liposerumdsc": "公司为帮助体重不足者而研制的实验性药物。效果被证明难以预测。问题是，它为什么会被送到这里...？",
     "xl:zabkahotdog": "Żabka热狗",
@@ -61,7 +61,7 @@
     "xl:pills": "药片",
     "xl:pillsdsc": "没有标签的药瓶，里面有些药片；但你不知道它们有什么作用。",
     "xl:pillsgainerforeign": "一瓶药片",
-    "xl:pillsgainerforeigndsc": "一个略高的、带标签的药瓶。你看不懂标签上的字，那串文字写着「misikeke pi kama suli」，是什么意思完全超出你的理解。",
+    "xl:pillsgainerforeigndsc": "一个略高的、带标签的药瓶。你看不懂标签上的字，那串文字写着“misikeke pi kama suli”，是什么意思完全超出你的理解。",
     "xl:fries": "薯条",
     "xl:friesdsc": "相当咸的酥脆薯条；考虑到它们可能在这儿放了多久，这么新鲜有点出人意料。",
     "xl:electricgrill": "电烤架",
@@ -131,7 +131,9 @@
     "xl:vegetablebroth": "蔬菜汤",
     "xl:vegetablebrothdsc": "",
     "xl:wastelandsalad": "废土沙拉",
-    "xl:wastelandsaladdsc": ""
+    "xl:wastelandsaladdsc": "",
+    "xl:bellows": "风箱",
+    "xl:bellowsdsc": "自古就存在的手风琴式手动气泵。可用来向物体中充气。"
   },
   "character": {
     "0:horny": [
@@ -443,9 +445,7 @@
       "那声音是从哪儿来的...？",
       "呃。好难闻。",
       "唔嗯...我怎么这么多气...？",
-      "那绝不可能是我，不然我肯定有感觉...",
       "呃，我现在胀得难受...",
-      "我不该那么快吃下那么多的...",
       "我觉得我的内脏都烂了。",
       "怎么会这么响...",
       "这也太丢人了...",
@@ -453,6 +453,15 @@
       "我的脸怎么这么红...？",
       "感觉...还不错？",
       "至少那对胀气有点用..."
+    ],
+    "0:usedairpump": [
+      "唔嗯...",
+      "唔姆...",
+      "唔嗯...这真是个好主意吗？",
+      "呼...",
+      "呃啊...",
+      "哈...",
+      "哎哟..."
     ],
     "0:afterburp": [
       "这一下可真够大的！",
