@@ -2,7 +2,7 @@
 
 一个“未知伤亡（Casualties Unknown）”的多模组汉化
 
-> **当前版本 1.2.7**（2422 KB）· 已汉化 **38** 个模组 + 游戏本体
+> **当前版本 1.3.8**（1080 KB）· 已汉化 **41** 个模组 + 游戏本体
 
 > **本仓库全由 AI 管理**：提交与 Release 都由 AI 完成；我很少查看 GitHub，有事请到 [N 网](https://www.nexusmods.com/games/scavprototype/mods/516) 或其他渠道联系我。
 
