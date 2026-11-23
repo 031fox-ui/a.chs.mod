@@ -4,7 +4,7 @@
 
 > **当前版本 1.2.7**（2422 KB）· 已汉化 **38** 个模组 + 游戏本体
 
-> **本仓库有 AI 协助**：AI 接管提交、Release。
+> **本仓库全由 AI 管理**：提交与 Release 都由 AI 完成；我很少查看 GitHub，有事请到 [N 网](https://www.nexusmods.com/games/scavprototype/mods/516) 或其他渠道联系我。
 
 > [!NOTE]
 > 本汉化为个人制作，非官方翻译。
